@@ -265,7 +265,7 @@ Summary of preprocessing steps [@esteban2018]
 </footer>
 
 ::: notes
-The data quality of modern scanners is typically good enough to skip this step, if your subject is compliant. But it is nevertheless very much advisable and is ALWAYS performed. We will therefore dedicate a whole session to preprocessing. See [course schedule](index.qmd#tbl-schedule) for the date.
+The data quality of modern scanners is typically good enough to skip this step, if your subject is compliant. But it is nevertheless very much advisable and is ALWAYS performed. We will therefore dedicate a whole session to preprocessing. See [course schedule](syllabus.qmd#tbl-schedule) for the date.
 :::
 
 ## Analysis
