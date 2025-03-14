@@ -1,0 +1,511 @@
+# Introduction to fMRI
+
+![](images/claus_7TCOR_activity_website.png)
+
+<footer style="font-size: 0.4em; color: gray;">
+
+Visual activity in the human claustrum [@coates2024]
+
+</footer>
+
+::: notes
+fMRI is a method that allows to non-invasively measure brain activity.
+:::
+
+## fMRI in comparison
+
+![](images/clipboard-2571024653.png)
+
+<footer style="font-size: 0.4em; color: gray;">
+
+Source: Gazzaniga 5th edition, Figure 3.45
+
+</footer>
+
+::: notes
+:::
+
+## MRI scanner: 3 Tesla
+
+![](images/B2EFA5A5-4C48-420B-B1D7-6B4D7314DE12.JPG)
+
+<footer style="font-size: 0.4em; color: gray;">
+
+<https://mri-lab.uni-graz.at/>
+
+</footer>
+
+::: notes
+:::
+
+## MRI scanner: 7 Tesla
+
+![](images/clipboard-2316814449.png)
+
+<footer style="font-size: 0.4em; color: gray;">
+
+Image source: Medical University of Vienna
+
+</footer>
+
+::: notes
+:::
+
+## MRI scanner: 9.4 Tesla
+
+![](images/20121211_MRT_MaxPlanck.jpg)
+
+<footer style="font-size: 0.4em; color: gray;">
+
+Image source: Max-Planck Institute for Biological Cybernetics, Tübingen
+
+</footer>
+
+::: notes
+:::
+
+## Types of MRI contrasts
+
+![](images/clipboard-4250173212.png)
+
+<footer style="font-size: 0.4em; color: gray;">
+
+Image source: <https://en.wikipedia.org/wiki/Magnetic_resonance_imaging>
+
+</footer>
+
+## T1w in cognitive neuroscience
+
+![](images/clipboard-69158076.png)
+
+<footer style="font-size: 0.4em; color: gray;">
+
+Full Segmentation of a T1-weighted scan [@zaretskaya2018]
+
+</footer>
+
+::: notes
+-   Displaying activity on a high-resolution anatomical scan
+
+-   Quantitative morphometry
+
+    -   Aging
+
+    -   Neurodegeneration
+
+    -   Plasticity
+:::
+
+## The principle of fMRI
+
+![](images/clipboard-1690626376.png)
+
+<footer style="font-size: 0.4em; color: gray;">
+
+Image source: <https://www.nature.com/scitable/blog/brain-metrics/what_does_fmri_measure>
+
+</footer>
+
+::: notes
+Hemodynamic changes: - increase in blood flow - increase in blood volume - increase in tissue CMRO_2
+:::
+
+## Hemodynamic response
+
+::: {.content-visible unless-format="pdf"}
+![](images/ezgif.com-add-text-2.gif)
+:::
+
+::: {.content-visible when-format="pdf"}
+![](images/ezgif.com-add-text-2.png)
+:::
+
+<footer style="font-size: 0.4em; color: gray;">
+
+Source: Visual Neuroscience Lab
+
+</footer>
+
+::: notes
+:::
+
+## BOLD signal
+
+blood-oxygen-level-dependent signal
+
+![](images/clipboard-1557735976.png)
+
+<footer style="font-size: 0.4em; color: gray;">
+
+Hemodynamics leading to the BOLD signal [@interpre2009]
+
+</footer>
+
+::: notes
+:::
+
+## T2\*-weighted contrast
+
+![](images/clipboard-1399733517.png)
+
+## Hemodynamic response function
+
+![](images/clipboard-1679437843.png)
+
+::: notes
+This curve describes the measured signal in response to a brief stimulus.
+
+The response is heavily delayed, and has a relatively complex temporal structure, described by the so called hemodynamic response function (HRF).
+
+After just a brief stimulus that lasts less than a second, the response lasts for seconds. It has a delayed rise phase, a peak, and a subsequent undershoot. The fact that the response is so slow is the main constraint of the temporal resolution of fMRI. It constrains the kind of questions you can ask in your experiment and also puts some constraints on your experimental design.
+:::
+
+## Neural activity and BOLD
+
+![](images/clipboard-2104563483.png)
+
+<footer style="font-size: 0.4em; color: gray;">
+
+BOLD signal correlates better with LFP than with MUA [@logothetis2001a]
+
+</footer>
+
+::: notes
+LFP = Local Field Potentials (dendritic currents)
+
+MUA = Multiunit Activity (action potentials)
+
+SDF = Spike-density function (action potentials)
+:::
+
+## Image acquisition
+
+![](images/clipboard-1936163497.png)
+
+::: notes
+The functional volume is usually acquired slice-by-slice; this is why when you are acquiring the data you see an image like this on the monitor. A functional sequence is characterized by the in-plane matrix size and resolution, as well as by the slice thickness.
+:::
+
+## Experimental design
+
+![](images/clipboard-3076195966.png)
+
+::: notes
+In contrast to e.g. fNIRS, the BOLD-fMRI does not measure the deoxyhemoglobin concentration directly. It is a measure that is weighted by the deoxyhemoglobin concentration, but depends on many other factors like scanner, sequence, participant, and brain area.
+
+This is why any measure of fMRI experiment has to contain at least two conditions, a baseline, and condition of interest. The activation is always computed relative to some baseline. For instance a checkerboard vs gray background, finger tapping versus rest; faces versus houses, etc. And a typical analysis will compare the BOLD signal during condition of interest with rest.
+:::
+
+## First fMRI experiment
+
+![](images/clipboard-2455011416.png)
+
+<footer style="font-size: 0.4em; color: gray;">
+
+Brain images and statistical analysis [@belliveau1991]
+
+</footer>
+
+::: notes
+The first experiment was not a BOLD, but a blood volume signal measurement.
+:::
+
+## First fMRI experiment
+
+![](images/clipboard-460283216.png)
+
+<footer style="font-size: 0.4em; color: gray;">
+
+Cover of the science magazine where the paper was published [@belliveau1991]
+
+</footer>
+
+::: notes
+This rendering was produced specifically for the cover
+:::
+
+## The truly first fMRI experiment
+
+![](images/clipboard-2371383352.png)
+
+<footer style="font-size: 0.4em; color: gray;">
+
+Experimental setup of Angelo Mosso [@sandrone2013]
+
+</footer>
+
+## A typical experiment
+
+![](images/clipboard-2847001828.png)
+
+::: notes
+To help us better understand the analysis steps, let’s use an example. Let’s say we have conducted a classical experiment in the visual system, a flickering checkerboard. In this experiment, we want to find out which brain areas are active when subjects view a flickering checkerboard compared to when they view a gray background. We have shown to every volunteer a checkerboard for e.g. 20 second interleaved with a 20 s rest, and we will measure a whole brain volume every 2 seconds, for e.g. to minutes or so.
+
+Matlab code to generate stimulus, BOLD and shifted BOLD X = \[1 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 1 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 1 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0\]; bf = spm_get_bf; % indicated a tr of 2.5 Y = conv(X,bf.bf); Ye = Y+randn(size(Y)).\*0.2;
+:::
+
+## 4D dataset
+
+![](images/clipboard-531340901.png)
+
+::: notes
+In a functional experiment we usually measure brain activity across the whole volume over extended periods of time, so it is comfortable to think about each functional dataset that we acquire as a 4D dataset, which consists of 3D brain volumes and time as a 4th dimension. This is how the data is typically stored.
+
+A further important parameter is the repetition time (TR). It is the time passes between the acquisition times of two adjacent volumes.
+:::
+
+## Preprocessing
+
+![](images/clipboard-3600520399.png)
+
+<footer style="font-size: 0.4em; color: gray;">
+
+Summary of preprocessing steps [@esteban2018]
+
+</footer>
+
+::: notes
+The data quality of modern scanners is typically good enough to skip this step, if your subject is compliant. But it is nevertheless very much advisable and is ALWAYS performed. We will therefore dedicate a whole session to preprocessing. See [course schedule](index.qmd#tbl-schedule) for the date.
+:::
+
+## Analysis
+
+-   Single-subject - first level - fixed effects analysis (FFX)
+
+-   Group - second-level - random effects analysis (RFX)
+
+::: notes
+This is equivalent to e.g. conducting many trials per subject to measure reaction time, and then compute a subject-specific mean per condition, after which you would perform the actual statistical inference
+
+Multilevel modelling is also possible (for small datasets), but less frequent.
+:::
+
+## Single-subject (first-level) analysis
+
+Univariate/voxel-wise analysis
+
+![](images/clipboard-3043522045.png)
+
+Question: Which areas are activated by the flickering checkerboard?
+
+::: notes
+Remember that an image is 4d and consists of little 3D cubes called voxels, with the 4th dimension being time. A classical analysis is done over time for every voxel in the brain independently.
+:::
+
+## Stimulus function
+
+![](images/clipboard-1888338078.png)
+
+::: notes
+Let’s recall our checkerboard experiment where participants viewed either a checkerboard or a gray screen. Let’s also create a function, called "stimulus function", which is one where the checkerboard was on, and zero where the checkerboard was off
+:::
+
+## Side-note on terminology
+
+### Trial
+
+Continuous presentation of 1 experimental condition, usually 1-20 seconds
+
+### Run
+
+Block of trials separated by interruption of a scanner acquisition, usually 5-10 minutes
+
+### Session
+
+Block of runs, separated by subject going out of the scanner and going in again, usually at least one day
+
+## Voxel time course
+
+![](images/clipboard-1165528043.png)
+
+::: notes
+Let’s now look at the time course of a voxel in the visual cortex. You see that it is noisy and delayed, but it kind of follows the stimulus.
+:::
+
+## Simplest analysis: temporal alignment
+
+![](images/clipboard-62469843.png)
+
+::: notes
+The simplest analysis would be to realign the BOLD time course with the stimulus time course
+:::
+
+## Simplest analysis: statistical inference
+
+![](images/clipboard-3483010198.png)
+
+::: notes
+Then labael each value according to when it was acquired, stimulus or baseline Collect two types of data points into two big piles and do a statistical comparison via a t-test
+:::
+
+## Simplest analysis: statistical map
+
+![](images/clipboard-969426715.png)
+
+::: notes
+If you do it for every voxel, you can get a new volume, which consists of t-statistics
+:::
+
+## General Linear Model (GLM)
+
+Multiple regression with ingredients:
+
+-   Predictor(s): stimulus function convolved with the HRF (see [Buidling regressors])
+
+-   Nuissance regressors
+
+-   ![](images/sub-P01_task-localizer_run-1_design.png)
+
+## Buidling regressors
+
+![](images/clipboard-4230244420.png)
+
+<footer style="font-size: 0.4em; color: gray;">
+
+Some convolution examples can be found here [@lindquist2008]
+
+</footer>
+
+## General linear model
+
+![](images/clipboard-3283349145.png)
+
+## Statistical inference in whole-brain analysis
+
+![](images/clipboard-3973626449.png)
+
+::: notes
+How do we get from beta estimates to making statistical inference? As in a typical regression, beta estimate divided by its standard error is a t-statistic with a t-distribution. So to know whether an activation in one voxel is significant is relatively straightforward.
+
+If we had just one voxel, we would have computed the t-statistic, and then depending on the degrees of freedom determined if it exceeds the critical value. However, we are doing the same statistical test for MANY voxels. SO the probability that we find a significant voxel simply by chance increases. This is the multiple comparison problem that is encountered anywhere in statistics. In fMRI it is particularly prominent, because the number if singe tests is enormous. There are several ways and philosophies for dealing with it, I won’t go into details right now. The important thing is that any voxel-wise analysis MUST deal with this problem in some way.
+:::
+
+## Two conditions
+
+![](images/clipboard-3643081170.png)
+
+## General linear model with two conditions
+
+![](images/clipboard-632029715.png)
+
+## Contrast
+
+A linear combination of beta estimates
+
+![](images/clipboard-3240858118.png)
+
+## GLM advantages
+
+::::: columns
+::: {.column width="60%"}
+![](images/clipboard-4292960842.png)
+:::
+
+::: {.column width="40%"}
+-   Complex experimental designs
+
+-   Discounting uninteresting effects/confounds
+
+-   HRF shape estimation
+:::
+:::::
+
+## Group analysis
+
+![](images/clipboard-1995917989.png)
+
+## Region-of-interest (ROI) analysis
+
+![](images/clipboard-2858615543.png)
+
+Question: Does the primary visual cortex respond to flickering checkerboards?
+
+<footer style="font-size: 0.4em; color: gray;">
+
+HCP cortical parcellation ("Glasser atlas") [@glasser2016]
+
+</footer>
+
+::: notes
+ROI analysis is a way to deal with multiple comparison problem. But it requires an a priory and independent definition of an ROI.
+
+There are two ways to define ROIs:
+
+-   From an anatomical scan
+
+-   From an additional (separate) functional experiment
+:::
+
+## Subcortical ROIs
+
+![](images/next_brain_coronal.png)
+
+<footer style="font-size: 0.4em; color: gray;">
+
+NextBrain parcellation containing 333 anatomical structures [@casamitjana2024]
+
+</footer>
+
+::: notes
+This is the state-of-the-art for anatomically-based ROI definition based on deep learning
+:::
+
+## Multivariate pattern analysis
+
+![](images/clipboard-3955080845.png)
+
+Question: Is the voxel response *pattern* different in condition A and B?
+
+::: notes
+Remember that an image is 4d and consists of little 3d cubes called voxels, with the 4th dimension being time. A classical analysis is done over time for every voxel in the brain independently. In a multivariate analysis we first perform a univariate analysis and then look at response patterns of multiple voxels at a time.
+
+In this example, both coca cola and pepsi activate the same 6 voxels in the visual cortex. But the red ones are activated more by cola then by pepsi, and the blue ones the other way around. If you just look at the average response over 6 voxels, you will not see a difference.
+:::
+
+## Searchlight analysis
+
+![](images/clipboard-137996085.png)
+
+::: notes
+MVPA can be done for a region of interest, or for the entire brain. In the latter case, the brain is subdivided into multiple ROIs, and the relevant analysis is performed for each of them. This procedure is called "searchlight". In this case, MCC is as relevant as it is in a univariate analysis.
+:::
+
+## First MVPA paper
+
+![](images/clipboard-1666315153.png)
+
+<footer style="font-size: 0.4em; color: gray;">
+
+Representation similarity analysis [@haxby2001]
+
+</footer>
+
+## Machine learning
+
+::::: columns
+::: {.column width="50%"}
+![](images/clipboard-3573273781.png)
+:::
+
+::: {.column width="50%"}
+![](images/clipboard-2352405043.png)
+:::
+:::::
+
+<footer style="font-size: 0.4em; color: gray;">
+
+First MVPA papers, both appeared in 2005 [@haynes2005; @kamitani2005]
+
+</footer>
+
+## SVM classifier
+
+![](images/clipboard-845253526.png)
+
+<footer style="font-size: 0.4em; color: gray;">
+
+Toy example for 2D feature space. Further reading in e.g. Cohen et al. [-@cohen2017]
+
+</footer>
+
+## References {.smaller}

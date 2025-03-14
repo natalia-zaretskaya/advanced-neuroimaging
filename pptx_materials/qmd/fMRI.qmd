@@ -1,0 +1,308 @@
+## Functional MRI
+
+::: {.notes}
+
+:::
+
+## © Centre for Integrative Neuroscience, University of Tübingen
+
+3 Tesla
+
+![Slide Image](images/slide_2_img.png)
+
+::: {.notes}
+Nichtdestotrotz sind MRT und fMRT unter NeurowissenschaftlerInnen sehr beliebt und entwickeln sich rasch. Momentan ist MRT eine der Methoden mit dem groesstem Potenzial. Wir koennen immer schneller, immer genauer, und immer zuverlaessiger sowohl die Struktur als auch Aktivitaet des Gehirns messen. 
+Eine der wichtigsten technologischen Entwicklungen, die dahinter Steckt, ist die Entwickling der Magneten mit immer hoeheren Magnetstaerken.
+Je hoehe die Magnetstaerke, desto Staerke ist das Signal. Speziell fuer fMRT heisst es auch: desto hoeher ist die raumliche Aufloesung, die wir erreichen koennen. 
+Hier auf dem Bild ist ein typischer Scanner mit Magnetfeldstaerke von 3 Tesla abgebildet. Er ist vor ein paar Jahren noch am Max Planck Institut fuer Biologische Kybernetik in Tuebingen gestanden, wo ich frueher gearbeitet habe. Mittlerweile ist er durch ein neueres Modell ersetzt worden, aber die Magnetfeldstaerke ist gleich geblieben.
+:::
+
+## The principle of fMRI
+
+Rest
+
+Activation
+
+Huettel et al., 2004
+
+::: {.notes}
+HIRES
+Wenn die Nervenzellen sich im Ruhezustand befinden, sind sie trotzdem Aktiv, und verbrauchen Sauerstoff aus dem Blut. Oxyhemoglobin wird zu Deoxyhemoglobin. Wenn die Zellen aktiv werden, wie hier rechts abgebildet, brauchen sie mehr Sauerstoff. Deshalb wird mehr Sauerstoff der Stelle, wo die Gehirnaktivitaet statt findet, zugefuehrt, und die Menge von Deoxyhemoglobin sinkt. Diese Aenderungen im Blut koennen im Magnetfeld des MRT-Scanners festegstellt werden.
+:::
+
+## Hemodynamic response function (hrf)
+
+Brief stimulus
+
+::: {.notes}
+Right, the signal is heavily delayed. But this is not all. 
+The hemodynamic signal has a relatively complex tempral structure, described by the so call ed hemodynamic response function (HRF). First, the response lasts for seconds, after just a brief stimulus that lasts less then a second. It has a delayed rise phase, a peak, and a subsequent undershoot.
+The fact that the response is so slow is the main constraint of the temporal resolution of fMRI
+It constrains the kind of questions you can ask in your experiment and on your experimental design
+:::
+
+## Neural activity and BOLD
+
+Logothetis et al., 2001, Nature
+
+![Slide Image](images/slide_5_img.png)
+
+![Slide Image](images/slide_5_img.png)
+
+![Slide Image](images/slide_5_img.png)
+
+::: {.notes}
+
+:::
+
+## Image acquisition
+
+In-plane resolution 3x3mm
+Slice thickness 3mm
+
+Voxel size
+
+3x3x3mm
+
+![Slide Image](images/slide_6_img.png)
+
+![Slide Image](images/slide_6_img.png)
+
+::: {.notes}
+The functional volume is usually acquired slice-by-slice; this is why when you are acuiring the data you see an image like this on the monitor.
+A functial sequence is characterised by the in-plane matrix size and resoulution, and the slice thickness
+:::
+
+## Experimental design
+
+![Slide Image](images/slide_7_img.png)
+
+![Slide Image](images/slide_7_img.png)
+
+![Slide Image](images/slide_7_img.png)
+
+![Slide Image](images/slide_7_img.png)
+
+![Slide Image](images/slide_7_img.png)
+
+![Slide Image](images/slide_7_img.png)
+
+![Slide Image](images/slide_7_img.png)
+
+::: {.notes}
+The BOLD does not measure the deoxyhemoglobin concentration directly. It is a measure that is weighted by the deoxyhemoglobin concentration, but depends on many other factors like scaneer, sequence, particiapnt, and brain area.
+
+This is why any measrure of fMRI experiment has to contain at least two conditions, a baseline, and condition of interest. The activation is always ocmputed realteive to some baseline.
+For instance a cehckerboard vs gray background, finger tapping versus rest; faces versus houses, etc.
+And a typical analysis will compare the BOLD signal during condition of interest with rest.
+:::
+
+## A typical experiment
+
+TR
+
+20 s on
+
+20 s off
+
+![Slide Image](images/slide_8_img.png)
+
+![Slide Image](images/slide_8_img.png)
+
+![Slide Image](images/slide_8_img.png)
+
+![Slide Image](images/slide_8_img.png)
+
+::: {.notes}
+To help us better understand the analysis steps, let’s use an example.
+Let’s say we have conducted a calssical experiment in the visual system, a flickerign checkerboard.
+In this experiment, we want to find out which brain areas are active when subjects view a flickering checkerboard compared to when they view a gray background.
+We have shown to every volunteer a checkerboard for e.g. 20 second interleaved with a 20 s rest, and we will measure a whole brain volume every 2 seconds, for e.g. to minutes or so.
+
+
+Matlab code to generate stimulus, BOLD and shifted BOLDX = [1 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 1 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 1 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0];
+bf = spm_get_bf; % indicated a tr of 2.5
+Y = conv(X,bf.bf);
+Ye = Y+randn(size(Y)).*0.2;
+:::
+
+## 4D functional dataset
+
+time
+
+3D
+
+Repetition time (TR)
+
+![Slide Image](images/slide_9_img.png)
+
+![Slide Image](images/slide_9_img.png)
+
+![Slide Image](images/slide_9_img.png)
+
+![Slide Image](images/slide_9_img.png)
+
+![Slide Image](images/slide_9_img.png)
+
+![Slide Image](images/slide_9_img.png)
+
+![Slide Image](images/slide_9_img.png)
+
+![Slide Image](images/slide_9_img.png)
+
+![Slide Image](images/slide_9_img.png)
+
+![Slide Image](images/slide_9_img.png)
+
+![Slide Image](images/slide_9_img.png)
+
+![Slide Image](images/slide_9_img.png)
+
+::: {.notes}
+And, in a functional experiment we usually measure brain activity across the whole volume over extended perionds of time, so it is comfortalbe to think about each functional dataset that we acquire as a 4D dataset, which consists of 3D brain volumes and time as a 4th dimension
+:::
+
+## Single-subject (first-level) analysis
+
+Univariate/voxel-wise analysis
+
+Question: Which areas are activated by the flickering checkerboard?
+
+![Slide Image](images/slide_10_img.png)
+
+::: {.notes}
+Remember that an image is 4d and consists of little 3d cubes called voxels, with the 4th diemtion being time.
+A calssical analysis is done over tiem for every voxel in the brain independelty
+:::
+
+## Checkerboard experiment
+
+![Slide Image](images/slide_11_img.png)
+
+![Slide Image](images/slide_11_img.png)
+
+::: {.notes}
+Let’s recall our checkerboard experiment where particients viewed either a checkerboard or a gray screen. Let’s also creata a function, called the stimulsu function, which is one where the checkerboard was on, and zero where the checkerboard was off
+:::
+
+## Checkerboard experiment
+
+![Slide Image](images/slide_12_img.png)
+
+![Slide Image](images/slide_12_img.png)
+
+::: {.notes}
+Let’s now look at the time course of a voxel in the visual coretx. You see that it is noisy and delayed, but it kind of follows the stimulus.
+:::
+
+## Simplest analysis
+
+![Slide Image](images/slide_13_img.png)
+
+![Slide Image](images/slide_13_img.png)
+
+::: {.notes}
+The simplest analysis would be to realign the BOLD time course with the stimulus time course
+:::
+
+## Simplest analysis
+
+![Slide Image](images/slide_14_img.png)
+
+![Slide Image](images/slide_14_img.png)
+
+![Slide Image](images/slide_14_img.png)
+
+::: {.notes}
+Then labael each value according to when it iwas acquired, stimulus or baseline
+Collect two types of data points into two big piles and do a statistical comparison via a t-test
+:::
+
+## Simplest analysis
+
+![Slide Image](images/slide_15_img.png)
+
+![Slide Image](images/slide_15_img.png)
+
+![Slide Image](images/slide_15_img.png)
+
+![Slide Image](images/slide_15_img.png)
+
+::: {.notes}
+If you do it for every voxel, you can get a new volume, which consists of t-statistcs
+:::
+
+## Statistical inference (t-test) in GLM
+
+t = β/SE(β)
+
+Thresholding:
+deal with multiple comparison problem!
+
+72,221 voxels
+
+![Slide Image](images/slide_16_img.png)
+
+![Slide Image](images/slide_16_img.png)
+
+![Slide Image](images/slide_16_img.png)
+
+::: {.notes}
+How do we get from beta estimates to making statistical inference? Rejecting the null hypothesis? 
+The good thing is that beta estimated devided by its standard eroor is a t-statistic with a t-distribution. So to know wheter an activation in one voxel is significant is relatively straifhtforward.
+If we had just one voxel, we would have computed the t-statistic, and then depending on the degrees of freedom determined if it exceeds the critical value. 
+However, we are doing the same statistical test for MANY voxels. SO the probability that we find a significant voxel simply by chance increases. This is the multiple comparison problem that is encountered anywhere in statistics. In fMRI it is particularly prominent, because the number if singe tests is enormous. 
+There are several ways and philosophies for dealign with it, I won’t go into details right now. The important thing is that any voxel wise analysis MUST deal with this problem in some way.
+:::
+
+## Single-subject (first-level) analysis
+
+Multivariate pattern analysis
+
+Question: Is the voxel response pattern different in condition A and B?
+
+![Slide Image](images/slide_17_img.png)
+
+![Slide Image](images/slide_17_img.png)
+
+![Slide Image](images/slide_17_img.png)
+
+::: {.notes}
+Remember that an image is 4d and consists of little 3d cubes called voxels, with the 4th diemtion being time.
+A calssical analysis is done over tiem for every voxel in the brain independelty
+:::
+
+## Region of Interest analysis
+
+Multivariate pattern analysis
+
+Question: Is the voxel response pattern different in condition A and B?
+
+![Slide Image](images/slide_18_img.png)
+
+![Slide Image](images/slide_18_img.png)
+
+![Slide Image](images/slide_18_img.png)
+
+::: {.notes}
+Remember that an image is 4d and consists of little 3d cubes called voxels, with the 4th diemtion being time.
+A calssical analysis is done over tiem for every voxel in the brain independelty
+:::
+
+## Searchlight analysis
+
+Multivariate pattern analysis
+
+Question: Is the voxel response pattern different in condition A and B?
+
+![Slide Image](images/slide_19_img.png)
+
+![Slide Image](images/slide_19_img.png)
+
+![Slide Image](images/slide_19_img.png)
+
+::: {.notes}
+Remember that an image is 4d and consists of little 3d cubes called voxels, with the 4th diemtion being time.
+A calssical analysis is done over tiem for every voxel in the brain independelty
+:::
+

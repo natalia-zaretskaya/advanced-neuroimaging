@@ -1,0 +1,45 @@
+# Course overview {#chap-overview .unnumbered}
+
+## Stages of an fMRI study
+
+1.  Idea/research question
+
+2.  Experimental implementation
+
+3.  Data acquisition
+
+4.  Data analysis
+
+5.  Paper writing
+
+## Implementation
+
+![](images/clipboard-1610561421.png)
+
+<https://www.psychopy.org/>
+
+## Data acquisition
+
+![](images/clipboard-3490487988.png)
+
+<https://mri-lab.uni-graz.at/en/>
+
+[**Kopernikusgasse 24**](https://mri-lab.uni-graz.at/en/participants/location-information/) (Graz University of Technology - "Neue Technik")
+
+## Data analysis
+
+![](images/clipboard-1980018438.png)
+
+<https://www.neurodesk.org/>
+
+## Neurodesk access on Visual Neuroscience Server
+
+![](images/03D496AA-63F7-4FB7-A2C5-806960A1E9D2.JPG){width="400"}
+
+Universitätsplatz 2, Top floor
+
+<https://psychologie.uni-graz.at/en/>
+
+## Neurodesktop
+
+![](images/clipboard-2345171133.png)

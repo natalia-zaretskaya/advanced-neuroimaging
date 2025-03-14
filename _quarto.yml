@@ -1,0 +1,44 @@
+# todo: insert HRF as code
+# try using aside as class instead of html 
+project:
+  type: book
+  output-dir: _output
+
+book:
+  title: "Advanced Neuroimaging"
+  subtitle: "PSY.842"
+  author: "Natalia Zaretskaya"
+  date: "2025"
+  date-format: "SS YYYY"
+  chapters:
+    - index.qmd
+    - syllabus.qmd
+    - overview.qmd
+    - fmri-intro.qmd
+
+format:
+  html:
+    theme: cosmo
+    number-depth: 0
+  revealjs:
+    theme: simple
+    incremental: true
+    scrollable: true
+    slide-number: true
+    chalkboard: true
+  typst: 
+    toc: false
+    columns: 1
+    number-sections: false
+  pdf:
+    documentclass: report
+
+quarto:
+  crossref: true
+  
+metadata:
+  email: "natalia.zaretskaya@uni-graz.at"
+
+bibliography: references.bib
+  
+editor: visual

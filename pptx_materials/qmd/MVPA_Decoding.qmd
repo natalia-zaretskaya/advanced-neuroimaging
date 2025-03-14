@@ -1,0 +1,116 @@
+## MVPA
+
+Multivariate Pattern Analysis
+aka multivoxel pattern analsysis
+aka SVM (Support Vector Machine), aka classifier
+
+::: {.notes}
+
+:::
+
+## A widely used method in neuroscience
+
+fMRI
+EEG
+MEG
+Single-cell recordings
+Etc., etc.
+
+Analysis of multiple dependent variables (brain signals) simultaneously
+
+::: {.notes}
+
+:::
+
+## First MVPA paper
+
+Haxby et al., Science 2001
+
+::: {.notes}
+
+:::
+
+## First MVPA paper
+
+Haxby et al., Science 2001
+
+::: {.notes}
+
+:::
+
+## First SVM paper(s): year 2005
+
+::: {.notes}
+
+:::
+
+## Main principle: 2D
+
+https://eight2late.wordpress.com/2017/02/07/a-gentle-introduction-to-support-vector-machines-using-r/
+
+Electrode 2
+Voxel 2
+Time point 2
+Neuron 2
+
+Electrode 1
+Voxel 1
+Time point 1
+Neuron 1
+
+::: {.notes}
+
+:::
+
+## Main principle
+
+https://eight2late.wordpress.com/2017/02/07/a-gentle-introduction-to-support-vector-machines-using-r/
+
+Electrode 2
+Voxel 2
+Time point 2
+Neuron 2
+
+Electrode 1
+Voxel 1
+Time point 1
+Neuron 1
+
+::: {.notes}
+
+:::
+
+## Main principle
+
+https://en.wikipedia.org/wiki/Support-vector_machine
+
+Electrode 2
+Voxel 2
+Time point 2
+Neuron 2
+
+Electrode 1
+Voxel 1
+Time point 1
+Neuron 1
+
+::: {.notes}
+
+:::
+
+## Simplified example
+
+After multiple trials, a classifier learns the differences in neural activity between the face and the vase trials:
+
+Every time a new trial (the one it did not learn from) is presented, a classifier makes a binary decision about the trial type based on what it previously learned:
+
+The classifier categorizes this as a face trial, and the researcher compares it against ground truth (actual subject’s response). If this procedure is repeated many times, you can determine classifier accuracy and compare it with chance level (50%) in our case
+
+![Slide Image](images/slide_9_img.png)
+
+![Slide Image](images/slide_9_img.png)
+
+::: {.notes}
+
+:::
+

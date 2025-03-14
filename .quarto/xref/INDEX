@@ -1,0 +1,112 @@
+{
+  "index.qmd": {
+    "index.html": "bc63f674",
+    "index.pptx": "91556d8b",
+    "index.tex": "3d4757a3"
+  },
+  "topics/intro.qmd": {
+    "intro.html": "5511afb0"
+  },
+  "topics/01_introduction.qmd": {
+    "01_introduction.html": "4266c419"
+  },
+  "01_introduction.qmd": {
+    "01_introduction.html": "82517f31",
+    "01_introduction.tex": "656cb055",
+    "01_introduction.pptx": "66147a24"
+  },
+  "summary.qmd": {
+    "summary.html": "996496b6",
+    "summary.tex": "f7a91a24",
+    "summary.pptx": "7ae912e3"
+  },
+  "references.qmd": {
+    "references.html": "c19a657b",
+    "references.tex": "7724279b",
+    "references.pptx": "deb95df8"
+  },
+  "presentation.qmd": {
+    "presentation.html": "601fae3b",
+    "presentation.tex": "1de0f649"
+  },
+  "assignments.qmd": {
+    "assignments.html": "2d5fc725",
+    "assignments.tex": "a6d072c6"
+  },
+  "report.qmd": {
+    "report.html": "97d3f1a6",
+    "report.tex": "67c93577"
+  },
+  "introduction.qmd": {
+    "introduction.html": "82fcf756",
+    "introduction.tex": "af0f299c"
+  },
+  "reading.qmd": {
+    "reading.html": "f12084a4",
+    "reading.tex": "5ee9c542"
+  },
+  "articles.qmd": {
+    "articles.html": "4968769d"
+  },
+  "overview.qmd": {
+    "overview.tex": "49104ec8",
+    "overview.html": "5a7e3ceb",
+    "overview.typ": "8829d840"
+  },
+  "fmri-intro.qmd": {
+    "fmri-intro.html": "0fe4ad50",
+    "fmri-intro.tex": "6656cf8e",
+    "fmri-intro.typ": "753a16fe"
+  },
+  "slide.qmd": {
+    "slide.html": "867b3310",
+    "slide.tex": "4c69172a"
+  },
+  "pptx_materials/qmd/MVPA_Decoding.qmd": {
+    "MVPA_Decoding.html": "6aaff2a1",
+    "MVPA_Decoding.typ": "289b653e",
+    "MVPA_Decoding.tex": "12a9bbca"
+  },
+  "pptx_materials/qmd/Introduction to MRI in cognitive neuroscience.qmd": {
+    "Introduction to MRI in cognitive neuroscience.html": "871a88e5"
+  },
+  "pptx_materials/qmd/5_MVPA.qmd": {
+    "5_MVPA.html": "703480cc"
+  },
+  "pptx_materials/qmd/Multiple_comparisons_correction.qmd": {
+    "Multiple_comparisons_correction.html": "c3e1970a"
+  },
+  "pptx_materials/qmd/02_Allgemeine1_Methoden_Teil1.qmd": {
+    "02_Allgemeine1_Methoden_Teil1.html": "fe36bdc1"
+  },
+  "pptx_materials/qmd/4_rsFMRI.qmd": {
+    "4_rsFMRI.html": "7ddfa1da"
+  },
+  "pptx_materials/qmd/Preprocessing_short.qmd": {
+    "Preprocessing_short.html": "802eb555"
+  },
+  "pptx_materials/qmd/fMRI.qmd": {
+    "fMRI.html": "99b69167"
+  },
+  "pptx_materials/qmd/Resting-state fMRI and MVPA.qmd": {
+    "Resting-state fMRI and MVPA.html": "c9b59f8d"
+  },
+  "pptx_materials/qmd/03_Allgemeine1_Methoden_Teil2.qmd": {
+    "03_Allgemeine1_Methoden_Teil2.html": "a3d2c813"
+  },
+  "pptx_materials/qmd/1_Linux_server_plus_group1.qmd": {
+    "1_Linux_server_plus_group1.html": "b5254eba"
+  },
+  "pptx_materials/qmd/Preprocessing.qmd": {
+    "Preprocessing.html": "056773a2"
+  },
+  "pptx_materials/qmd/T1-weighted MRI and myelin.qmd": {
+    "T1-weighted MRI and myelin.html": "2b26e367"
+  },
+  "pptx_materials/pptx_to_qmd.ipynb": {
+    "pptx_to_qmd.html": "d983f554"
+  },
+  "syllabus.qmd": {
+    "syllabus.html": "ec71081e"
+  }
+}

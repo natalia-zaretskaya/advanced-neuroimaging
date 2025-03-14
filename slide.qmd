@@ -1,0 +1,47 @@
+## Slide 1
+
+content
+
+<footer style="font-size: 0.4em; color: gray;">
+
+text
+
+</footer>
+
+::: notes
+text
+:::
+
+## Columns
+:::: {.columns}
+
+::: {.column width="40%"}
+Left column
+:::
+
+::: {.column width="60%"}
+Right column
+:::
+
+::::
+
+
+## Hemodynamic response
+
+::: {.content-visible unless-format="pdf"}
+![](images/ezgif.com-add-text-2.gif)
+:::
+
+::: {.content-visible when-format="pdf"}
+![](images/ezgif.com-add-text-2.png)
+:::
+
+
+<footer style="font-size: 0.4em; color: gray;">
+
+Source: Visual Neuroscience Lab
+
+</footer>
+
+::: notes
+:::

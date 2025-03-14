@@ -1,0 +1,19 @@
+# Color scheme — bold, professional, with standout accents
+color:
+  palette:
+    primary: "#1A73E8"      # Google Blue
+    secondary: "#5F6368"    # Soft Charcoal
+    foreground: "#202124"   # Near Black
+    accent: "#FF6D00"       # Vibrant Orange
+
+# Logo — ensure the path to your logo is correct
+logo:
+  small: logo/logo.png
+    
+# Typography — modern fonts with proper Google Fonts syntax
+typography:
+  fonts:
+    - family: "Arial"
+      source: google
+  base: "Arial"
+  headings: "Arial"

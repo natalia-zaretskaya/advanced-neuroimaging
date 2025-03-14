@@ -1,0 +1,588 @@
+## PPB.02204UBAllgemeine Psychologie I03 – Methoden, Teil 2
+
+Natalia Zaretskaya
+
+![Slide Image](images/slide_1_img.png)
+
+![Slide Image](images/slide_1_img.png)
+
+![Slide Image](images/slide_1_img.png)
+
+::: {.notes}
+
+:::
+
+## Q&A ist offen!
+
+https://ars.uni-graz.at/p/90007026
+
+![Slide Image](images/slide_2_img.png)
+
+::: {.notes}
+Fragen vom letzten Mal:
+- Unterschied zwischen den korrelativen und kausalen Methoden – das warden wir heute noch besprechen.
+- Kalibrierung des Eyetrackers – zu diesem Zeitpunkt nicht wesentlich zu Wissen; Interessierte Studierende können es hier anschauen: https://www.youtube.com/watch?v=CnXuZSCd11Q
+:::
+
+## Letzte Sitzung
+
+::: {.notes}
+
+:::
+
+## Warum MEG?
+
+Sensoren: 2D
+
+Gehirn: 3D
+
+Gazzaniga 2019, Figure 3.27e
+
+::: {.notes}
+Wir haben letztes mal darübe gesprochen, dass bei EEG und MEG das Signal in 2D verteilt ist und dass wir nicht genau sagen können, aus welcher Gehirnregion das Signal kommt.
+:::
+
+## Funktionelle Magnetresonanztomographie (MRT)
+
+Bildquelle: https://forschungsinfrastruktur.bmbwf.gv.at/de/fi/mrt-scanner_4461
+
+https://psychologie.uni-graz.at/de/mri-lab/
+
+![Slide Image](images/slide_5_img.png)
+
+::: {.notes}
+Das kann die Methode der funktionellen Magnetresonanztomographie (kurz MRT). 
+Das ist unser MRT-Gerat, das für Forschung genutzt wird. Vielleicht waren einige von Ihnen schon drin, oder in einem ähnlichen Gerät für medizinische Diagnostik.
+Es Besteht aus einer großen Röhre, in die die StudienteilnehmerInnen liegend hineingeschoben werden. Diese Röhre ist ein Magnet.
+:::
+
+## Grundlagen
+
+https://www.nature.com/scitable/blog/brain-metrics/what_does_fmri_measure/
+
+Blood oxygenation level-dependent (BOLD) signal
+
+::: {.notes}
+Wenn die Nervenzellen sich im Ruhezustand befinden, sind sie trotzdem Aktiv, und verbrauchen Sauerstoff aus dem Blut. Oxyhämoglobin wird zu Deoxyhämoglobin. Wenn die Zellen aktiv werden, wie hier rechts abgebildet, brauchen sie mehr Sauerstoff. Deshalb wird mehr Sauerstoff der Stelle, wo die Gehirnaktivität statt findet, zugeführt, und die Menge von Deoxyhämoglobin sinkt. Diese Änderungen im Blut können im Magnetfeld des MRT-Scanners festgestellt werden.
+:::
+
+## Funktionale Bildgebung: MRT
+
+https://neurovision.uni-graz.at/de/demonstrationen/gehirne/
+
+![Slide Image](images/slide_7_img.png)
+
+::: {.notes}
+Bildgebende Verfahren, unter anderem fMRT, haben eine gute räumliche Auflösung, aber dafür keine allzu gute zeitliche Auflösung. Das können Sie anhand dieser kurzen Demonstration sehen. Sie zeigt, wie sich das gemessene fMRT-Signal über Sekunden nach der Reizdarbietung entwickelt. Das ist ganz anders als beim EKP, das innerhalb von einigen Hunderten Millisekunden vorbei ist.
+:::
+
+## Hemodynamic response function (hrf)
+
+Brief stimulus
+
+![Slide Image](images/slide_8_img.png)
+
+::: {.notes}
+Hier rechts ist die Signalentwicklung über die Zeit an einer Stelle im Gehirn abgebildet. Das ist die sogenannte Hemodynamische Antwortsfunktion. Wie Sie sehen, selbst nach eine ganz kurzen Reiz dauert es bis zu 32 Sekunden, bis die Reaktion abklingt. Also sehr sehr langsam im Vergleich zum neuronalen Signal.
+:::
+
+## Neuronale Aktivität und BOLD
+
+Logothetis et al., 2001 https://doi.org/10.1038/35084005
+
+LFP = Local Field Potentials (dendritic currents)
+MUA = Multiunit Aktivity (action potentials)
+SDF = Spike-density function (action potentials)
+
+Lange Reizdauer
+
+Mittlere Reizdauer
+
+Kurze Reizdauer
+
+![Slide Image](images/slide_9_img.png)
+
+![Slide Image](images/slide_9_img.png)
+
+![Slide Image](images/slide_9_img.png)
+
+::: {.notes}
+Erinnern Sie sich daran, dass elektrische Aktivität in Neuronen sowohl in Synapsen und Dendriten, als auch in den Axonen (in Form von Aktionspotenzialen) vorhanden ist. Es gab eine lange Debatte darüber, welche Aspekte der neuronalen Aktivität die fMRT wiederspiegelt. In dieser prominenten Studie wurde gezeigt, dass das BOLD-Signal vor allem bei längeren Reizen die synaptische Aktivität wiederspiegelt.
+:::
+
+## Image acquisition
+
+In-plane resolution 3x3mm
+Slice thickness 3mm
+
+Voxel size
+
+3x3x3mm
+
+![Slide Image](images/slide_10_img.png)
+
+![Slide Image](images/slide_10_img.png)
+
+::: {.notes}
+Die funtionelle Aktivität des Gehirns wird typischerweise Schicht für Schicht aufgenommen (links). Jede Schicht ist ein 2D-Bild des Gehirns, das – wie jedes Bild - aus Pixeln besteht. 
+Die Schichten zusammen mit Pixeln formen Voxeln (volumetrische Pixeln). Das sind die Units der MRT-Aufnahmen. Es ensteht also ein 3D-Bild der Aktivität im Gehirn.
+:::
+
+## 4D Datensatz
+
+time
+
+3D
+
+Repetition time (TR)
+
+![Slide Image](images/slide_11_img.png)
+
+![Slide Image](images/slide_11_img.png)
+
+![Slide Image](images/slide_11_img.png)
+
+![Slide Image](images/slide_11_img.png)
+
+![Slide Image](images/slide_11_img.png)
+
+![Slide Image](images/slide_11_img.png)
+
+![Slide Image](images/slide_11_img.png)
+
+![Slide Image](images/slide_11_img.png)
+
+![Slide Image](images/slide_11_img.png)
+
+![Slide Image](images/slide_11_img.png)
+
+![Slide Image](images/slide_11_img.png)
+
+![Slide Image](images/slide_11_img.png)
+
+::: {.notes}
+Man nimmt ein ganzes Volumen alle paar Sekunden auf. So entsteht ein 4-dimensionaler Datensatz, mit 3 Gehirndmimensionen und Zeit als 4. Dimension. Jeder Voxel hat also einen gewissen zeitlichen Ablauf.
+:::
+
+## Experimentelles Design
+
+Rot Blau Grün Gelb Rot Grün Grün Blau Gelb
+
+Rot Blau Grün Gelb Rot Grün Grün Blau Gelb
+
+![Slide Image](images/slide_12_img.png)
+
+![Slide Image](images/slide_12_img.png)
+
+![Slide Image](images/slide_12_img.png)
+
+![Slide Image](images/slide_12_img.png)
+
+![Slide Image](images/slide_12_img.png)
+
+::: {.notes}
+fMRT misst nicht die Konzentration des Deoxyhämoglobins direkt. Die absoluten Werte, die aus dem Scanner kommen, hängen von vielen Faktoren ab und sind somit Bedeutungslos. 
+Aus diesem Grund sind in typischen fMRT-Experimenten zwei Bedingungen miteinander verglichen, und die Aktivität in einer Bedingung wird in Relation zur anderen Bedingung berichtet. Zum Beispiel: Schachbrettmuster versus grauer Hintergrund, Gesichter versus Häuser, usw.
+:::
+
+## Einfachste Analyze: Statistik
+
+![Slide Image](images/slide_13_img.png)
+
+![Slide Image](images/slide_13_img.png)
+
+![Slide Image](images/slide_13_img.png)
+
+::: {.notes}
+Die Analyze besteht meistens darin, dass man den zeitlichen Verlauf der Voxelaktivität mit dem zeitlichen Verlauf der Stimuli abgleicht, und die Aktivität während zwei Bedingungen statistisch vergleicht.
+:::
+
+## Einfachste Analyze: Statistik pro Voxel
+
+![Slide Image](images/slide_14_img.png)
+
+![Slide Image](images/slide_14_img.png)
+
+![Slide Image](images/slide_14_img.png)
+
+![Slide Image](images/slide_14_img.png)
+
+::: {.notes}
+Das macht man in jedem Voxel.
+:::
+
+## Einfachste Analyze: Aktivierungskarte
+
+Thresholding
+
+72,221 voxels
+
+![Slide Image](images/slide_15_img.png)
+
+![Slide Image](images/slide_15_img.png)
+
+![Slide Image](images/slide_15_img.png)
+
+::: {.notes}
+So entsteht eine Karte der Aktivität in Bedingung A im vergleich zur Bedingung B.
+:::
+
+## + Gehirnbilder
+
+Mehr Studien in 2024!
+
+![Slide Image](images/slide_16_img.png)
+
+![Slide Image](images/slide_16_img.png)
+
+![Slide Image](images/slide_16_img.png)
+
+::: {.notes}
+Werbung für Leon‘s Studie
+:::
+
+## Funtionelle Nahinfrarotspektroskopie (fNIRS)
+
+https://psylab.uni-graz.at/de/
+
+::: {.notes}
+Was wir noch am Institut haben ist die funktionelle Nahinfrarotspektroskopie. 
+Das ist eine mit MRT-Verwandte Methode, obwohl sie eher nach EEG aussieht. 
+Das sind keine Elektroden, das sind die sogenannte Optoden auf dem Kopf: in Rot sind die Infrarotquellen, in Blau sind die Detektoren.
+:::
+
+## Grundlage
+
+https://doi.org/10.1111/nyas.13948
+
+![Slide Image](images/slide_18_img.png)
+
+::: {.notes}
+fNIRS misst ebenfalls nicht die neuronale Aktivität selbst, sondern damit verbundene Änderungen im Blut. Es die Quellen schicken infrarotes Licht, das bis in die Gehirnoberfläche durchdringt, und die Detektoren messen, wie viel vom gesendeten Licht angekommen ist. Daraus kann man die Konzentrationen von Oxyhämoglobin und Deoxyhämoglobin berechnen, und zwar nicht relativ, sondern absolut.
+:::
+
+## Warum fNIRS?
+
+https://doi.org/10.1016/j.cobme.2017.09.011
+
+::: {.notes}
+Die fNIRS methode hat keine besonders gute räumliche Auflösung, aber sie wird trotzdem, besonders in angewandten Studien genutzt. Der größte Vorteil von fNIRS im Gegensatz zu EEG und fMRI ist, dass das Signal nicht durch Bewegung gestört wird.
+:::
+
+## Q&A zu diesem Teil
+
+https://ars.uni-graz.at/p/90007026
+
+![Slide Image](images/slide_20_img.png)
+
+::: {.notes}
+
+:::
+
+## Strukturelle Methoden
+
+Bildquelle: https://en.wikipedia.org/wiki/File:Einstein_brain_-_T.Harvey.png
+
+https://doi.org/10.1093/brain/aws295
+
+::: {.notes}
+Es gibt auch Ansätze, die sich nicht die Aktivität, sondern die Struktur des Gehirns, und deren Zusammenhang mit kognitiven Funktionen anschauen. Das berühmteste Beispiel ist die Untersuchungen des Gehirns von Albert Einstein. Die kognitiven Funktionen von Einstein waren natürlich außergewöhnlich, und deshalb wollte man herausfinden, ob das in der Struktur seines Gehirns wiederspiegelte.
+:::
+
+## MRT-basierte Methode
+
+(c) Visual Neuroscience Lab
+
+::: {.notes}
+Wan man solche Untersuchungen nichtinvasiv durchführen möchte, brauch man meistens MRT, das nicht nur funktionelle Aktivität, sondern auch Struktur des Gehirns messen kann. Diese Bilder werden dann mittels Computer ausgewertet. Was kann man anhand solcher Bilder sagen? Man kann sagen, ob man z.B. mehr grauer Substanz in bestimmten Gehirnregionen hat.
+:::
+
+## Korrelation Anatomie - Psychologie
+
+Maguire et al., 2000 https://doi.org/10.1073/pnas.070039597
+
+::: {.notes}
+Das ist das berühmteste Beispiel dafür. In dieser Studie wurde festgestellt, dass die Taxifahrer in London mehr grauer Substanz im Hippocampus – die Gehirnstruktur, die für räumliche Orientierung und Gedächtnis verantwortlich ist – haben. Hinweis: Diese Studie wurde im Jahr 2000 veröffentlicht, also vor der Zeit der GPS-Navigatoren. Heutzutage hätte es wahrscheinlich nicht mehr do gut geklappt. Sie haben auch gezeigt, dass die Menge der grauen Substanz im  Hippocampus mit den Jahren, die Menschen als TaxifahrerInnen verbracht haben, korreliert.
+:::
+
+## Voxel-based morphometry
+
+Group A
+
+Group B
+
+::: {.notes}
+Wenn wir z.B. zwei Gruppen von Versuchspersonen hätten, eine, die besonders schlecht im Stroop-test ist, und andere, die besonders gut, können wir Gehirne in diesen zwei Gruppen an indentischen Stellen in Bezug auf die Menge der grauen Substanz vergleichen.
+:::
+
+## Voxel-based morphometry
+
+Group A
+
+Group B
+
+::: {.notes}
+Wir werden z.B. sehen, dass die „gute“ Gruppe mehr grauer Substanz hier links und unten hat.
+:::
+
+## Gray matter density
+
+Group A
+
+Group B
+
+::: {.notes}
+Oder, wir können beobachte, dass die „gute“ Gruppe nicht mehr, aber dichtere graue Substanz hat.
+:::
+
+## Volumen
+
+Hippocampus 
+Amygdala 
+Putamen 
+Caudate nucleus 
+Thalamus
+
+Bild generiert mit FreeSurfer: https://surfer.nmr.mgh.harvard.edu
+
+::: {.notes}
+Moderne Computerprogramme erlauben ganz autom atisch Volumen verschiedener Gehirnregionen zu bestimmen. Man muss also nicht Gehirne mit Lineal abmessen.
+:::
+
+## NextBrain (2024)
+
+333 anatomical structures
+
+https://doi.org/10.1101/2024.02.05.579016
+
+![Slide Image](images/slide_28_img.png)
+
+::: {.notes}
+Und eine ganz neue, deep learning-basierte Software kann 333 verschieden Gehirnregionen automatisch abmessen.
+:::
+
+## Cortical thickness
+
+Cortical thickness
+
+::: {.notes}
+Man kann außerdem aus den Strukturscans des Gehirns ein mathematisches Modell der Gehirnoberfläche erstellen, und die Dicke der Hirnrinde/cortical thickness automatisch messen.
+:::
+
+## 3D cortical surface modelling
+
+Anleitung zum 3D-Drucken https://github.com/nimaid/mri2stl
+
+![Slide Image](images/slide_30_img.png)
+
+::: {.notes}
+Übrigens können diese Modelle auch zum Spaß verwendet werden. Sie sind für 3D-Druck geeignet, und wer ein MRT-Scan vom eigenen Gehirn hat, kann es im Grunde als Modell aus Plastik drucken lassen.
+:::
+
+## Diffusion-weighted imaging (DWI)
+
+Gazzaniga 2019, FIGURE 3.18
+
+::: {.notes}
+MRT kann nicht nur für die Untersuchung der grauen Substanz, sondern auch für die Untersuchung der weißen Substanz im Gehirn genutzt werden. Was ist die weiße Substanz? Das sind ganz ganz viele Axonen, die nebeneinander in gleiche Richtung verlaufen. Und sie können sehr sehr lang sein. Wir können anhand von MRT-Bildern etwas über die Qualität bzw. Zustand dieser Fasern sagen, und diese Qualität mit den Aspekten der Kognition korrelieren.
+:::
+
+## Grundlagen
+
+Bildquelle: http://surfer.nmr.mgh.harvard.edu/pub/docs/dmri,fs.ppt
+
+::: {.notes}
+Die Grundlage der Methode ist die Diffusion der Wassermoleküle, darum heißt die Methode „Diffusionsgewichtete Bildgebung“. In den Nervenzellen der grauen Substanz können die Wassermoleküle sich gleich viel in verschiedene Richtungen bewegen. In den Axonen, die hier gezeigt sind, kann das Wasser gut am Axon entlang wandern, aber weniger gut durch die Wände durchdringen. Mittels MRT können für jeden Voxel quantifizieren, wie viel Diffusion es in welche Richtung gibt. So wird die Orientierung und die Integrität der Fasern bestimmt.
+:::
+
+## Q&A zu diesem Teil
+
+https://ars.uni-graz.at/p/90007026
+
+![Slide Image](images/slide_33_img.png)
+
+::: {.notes}
+
+:::
+
+## Kausale Methoden
+
+![Slide Image](images/slide_34_img.png)
+
+![Slide Image](images/slide_34_img.png)
+
+![Slide Image](images/slide_34_img.png)
+
+::: {.notes}
+Bis jetzt haben wir uns mit den korrelativen Methoden befasst. Bei solchen Methoden ist die Gehirnaktivität oder eine Struktureingenschaft des gehirns die abhängige Variable, so wie Reaktionszeit oder Augenbewegungen. 
+Kausale Methoden unterscheiden sich ganz wesentlich darin, das hier das Gehirn manipuliert wird, und wir die Auswirkungen auf das Verhalten messen.
+:::
+
+## Läsionsstudien
+
+Gazzaniga 2019, FIGURE 3.5
+
+Husain and Roden, 2003 https://doi.org/10.1038/nrn1005
+
+::: {.notes}
+Die älteste kausale Methode sind die Läsionstudien. Es kann passieren, dass durch einen Schlaganfall, ein Gehirntumor oder eine Schusswunde eine begrenzte Region des Gehirns beschädigt wird. Das könnte zum Ausfall einer oder mehreren kognitiven Funktionen führen. Lähmung ist die häufigste Folge des Schlaganfalls, aber verschiedene Aspekte der Sprache oder Wahrnehmung können beeinträchtigt werden. Der Zusammenhang zwischen der Stelle der Läsion und der beeinträchtigten kognitiven Funktion wird zusammengestellt. Läsionsstudien gelten als kausale Methode, weil die Gehirnaktivität bzw. deren Verlust zu den Änderungen der Kognition führt.
+:::
+
+## Transkranielle elektrische Stimulation (TES)
+
+(c) NeuroConn
+
+::: {.notes}
+Da die Läsionen meistens große Gehirnbereiche ausschalten und nicht unter unserer experimentellen Kontrolle sind, gibt es verschiedene nichtinvasive Neurostimulationsmethoden, die Aktivität des Gehirns von aussen beeinflussen. Typischerweise nachdem wir schon eine Idee haben, welche Areale in der Verarbeitung der Aufgabe involviert sind.
+Die Einfachste davon ist die transkranielle elektrische Stimulation (TES). Hier werden zwei Elektroden auf der Kopfoberfläche plaziert, Anode (blau) und Kathode (rot), und der Strom fließt von Anode zur Kathode.
+:::
+
+## Grundlagen
+
+https://doi.org/10.3758/s13414-016-1224-2
+
+Angeregt
+
+Inhibiert
+
+Anode-
+
+Cathode+
+
+https://doi.org/10.1016/j.clinph.2017.06.001
+
+::: {.notes}
+Warum hat das Einfluss auf die Gehirnaktivität? Es hängt wieder mit Pyramidalneuronen der Hirnride zusammen, die orthogonal zur Hirnride orientiert sind. Dort, wo der Strom von der Anode fließt, werden die Dendriten noch negativer geladen, aber dafür der Zellenkörber positiver. Das Ruhepotential der Neuronen ist negativ, und wenn das Membranpotential in die positive Richtung wechselt, ist es wahrscheinlicher, dass ein Aktionspotenzial ensteht. Umgekehrt ist das bei der Kathothe: bei Pyramidalzellen in der Näher sind die Aktionspotenziale weniger wahrscheinlich.
+Auf dem Bild rechts sehen Sie die Verteilung der Ladungen im Gehirn. Mann sieht, dass große Gehirnbereiche unterhalb der Kathode positiv sind. Diese Methode hat also, ähnlich wie Läsionsstudien, keine besonders gute räumliche Auflösung.
+:::
+
+## Gleichstrom und Wechselstrom
+
+https://www.frontiersin.org/articles/10.3389/fnins.2017.00052/full
+
+½ cycle
+
+½ cycle
+
+::: {.notes}
+Man kann mit zwei Elektroden noch etwas spannendes machen. Erinnern Sie sich an das Thema ”Oszillazionen” – Frequenzen im EEG? Man kann die Richtung des Stromflußess immer wieder wechseln. So enstehen künstliche Oscillazionen im Gehirn. Diese Oszillazionen werden die naürlichen Oszillazionen beeinflußen. Leider kann man so nieman aus dem Coma erwecken, aber man kann trotzdem die Rolle der Oszillazionen in verschiedenen kognitiven Aufgaben feststellen.
+:::
+
+## See also: https://psylab.uni-graz.at/de/labore/tms/
+
+Transkranielle Magnetstimulation (TMS)
+
+![Slide Image](images/slide_39_img.png)
+
+::: {.notes}
+Als methode mit relativ guter räumlicher Aufkösung gilt die Transkranielle Magnetstimulation – kurz TMS. Hier wird eine Spule an der Kopfoberfläche angelegt, und damit kann man Neuronen unterhalb der Spule anregen. Wenn mein eine anatomische MRT-Aufnahme des Gehirns hat, kann man sogar im Komputer genau beobhachten, auf welche Gehirnregion man gerade ziehlt.
+:::
+
+## Das faradaysche Induktionsgesetz
+
+https://en.wikipedia.org/wiki/Faraday%27s_law_of_induction#/media/File:Electromagnetic_induction_-_solenoid_to_loop_-_animation.gif
+
+CC BY-SA 4.0
+
+![Slide Image](images/slide_40_img.png)
+
+::: {.notes}
+Die Grundlage der TMS-Methode ist das faradaysche Indkutinsgesetz, das sie aus der Schule wahrscheintlich noch kennen. Wenn Strohm durch eine Spule fließt, wird drumherum ein Magnetfeld generiert. Dieses Magnetfeld kan dann in leitenden Stoffen, wie z.B. ein Draht, Strom generieren. Weil die Axonen der Neuronen sowas wie Drähte sind – sie sind gut isoliert und leiten Srohm im Form von Aktionspotenzialen, können auch so mittels TMS Ströhme in den Dendriten und Aktionspotenziale induziert werden.
+:::
+
+## Mögliche Protokolle
+
+Online: Millisekunden-genau
+
+Offline
+
+GREEN
+
+Zeit
+
+Zeit
+
+Anregende oder Hemmende Effekte
+
+GREEN
+
+GREEN
+
+GREEN
+
+GREEN
+
+![Slide Image](images/slide_41_img.png)
+
+![Slide Image](images/slide_41_img.png)
+
+![Slide Image](images/slide_41_img.png)
+
+![Slide Image](images/slide_41_img.png)
+
+![Slide Image](images/slide_41_img.png)
+
+![Slide Image](images/slide_41_img.png)
+
+![Slide Image](images/slide_41_img.png)
+
+![Slide Image](images/slide_41_img.png)
+
+::: {.notes}
+TMS ist auch zeitlich sehr Präzise, ein Puls – ein Durchgang des Stroms durch die Spule – dauert 1 Millisekunde. Darum kann man zeitlich genau verschiedene Phasen der Informationsverarbeitung stören. Das ist das sogenannte Online-TMS Protokoll. Man kann aber auch mehrere Pulse über eine gewisse Zeit ins Gehirn schicken, und je nach abstand zwischen den Pulsen anregende oder hemmende Effekte in der spontanen Aktivität der Neuronen bewirken. So kann man z.B. messen, ob durch Veränderung der Aktivität in einer Region Leute besser oder schlechter bei der Stroop-Aufgabe.
+:::
+
+## TMS vs. tDCS in einzelnen Neuronen
+
+https://de.wiktionary.org/wiki/neuron#/media/Datei:Neuron.svg
+
+![Slide Image](images/slide_42_img.png)
+
+![Slide Image](images/slide_42_img.png)
+
+::: {.notes}
+TMS verursacht also haupsächlich Aktionspotenziale in Axonen, während tDCS ändert das Membranpotenzial und macht die Aktionspotenziale mehr oder weniger wahrscheinlich.
+:::
+
+## Invasive Methoden
+
+Therapie
+
+Therapie/Grundlagenforschung
+
+http://journal.frontiersin.org/article/10.3389/fnins.2016.00173/full
+
+https://www.jneurosci.org/content/32/43/14915#media-1
+
+::: {.notes}
+Es gibt auch invasive Gehirnstimulationsmethoden, aber sie werden hauptsächlich für therapeutische Zwecke verwendet. Links ist das berühmteste Beispiel, die Therapie für Parkisonsche Krankheit, abgebilded. Hier wird eine Stimulationselektrode tief ins Gehirn implantiert, um eine ganz kleine tiefligende Region zu stimulieren. Ganz selten kann invasive Stimulation für Grundlagenforschung verwendet werden. Das sind wieder die Fälle von EpilepsiepatientInnen, die solche Stimulationselektroden brauchen, damit das Team vor der Operation bestimmen kann, welche Areale für wesentliche kognitive Funktionen wichtig sind. Rechts ist ein Beispiel so einer Studie. Hier wurden Areale, die für Gesichtswahrnehmung zuständig sind, stimuliert. Das hat halluzinatorische Änderungen der Gesichtswahrnehmung in PatientInnen hervorgerufen.
+:::
+
+## Gazzaniga, 2019 FIGURE 3.45
+
+![Slide Image](images/slide_44_img.png)
+
+::: {.notes}
+Alle neurowissenschaftlichen Methoden haben Vorteile und Nachteile, besonders in Bezug auf die räumliche und zeitliche Auflösung. Auf diesem Bild sind mehr Methoden abgebildet, als die, die wir Besprochen haben, also möchte ich nur einige hervorheben. 
+Die Läsionsstudien sind hier ganz schlecht, sowohl was räumliche als auch was zeitliche Auflösung angeht. Die Einzelzellableitungen sind in beiden Aspekten ganz gut. Aber die letzteren sind invasive Methoden und bei den Untersuchungen des menschlichen Gehirns (fast) nicht verfügbar.
+Die fMRT-Methode galt bis vor kurzem als Methode mit guter räumlicher Auflösung, aber in den letzten Jahren ist die Auflösung noch viel besser geworden, so dass sie mit invasiven Methoden vergleichbar ist.
+:::
+
+## Es gibt viel mehr Methoden!
+
+Kapitel 3
+
+::: {.notes}
+Lesempfehlung zum Thema
+:::
+
+## Abschlussfragen
+
+https://ars.uni-graz.at/p/90007026
+
+![Slide Image](images/slide_46_img.png)
+
+::: {.notes}
+
+:::
+
