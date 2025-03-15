@@ -4,7 +4,7 @@
     "href": "index.html",
     "title": "Advanced Neuroimaging",
     "section": "",
-    "text": "Welcome!\n\n\nThis practice-oriented seminar provides an introduction into the modern methods of MRI-based neuroimaging for cognitive neuroscience.\nIt will take students through all stages of a functional MRI study:\n- planning and programming an experiment,\n- acquiring the data\n- data preprocessing\n- data analysis and interpretation\nIn addition to theoretical input, the course will have a strong practical component. Students will first present their project ideas in class. After this, the class will select the best project, which will be implemented into a computer program. Together with the lecturer we will conduct an fMRI experiment with one volunteer. The students will get access to a server, and each person will go through all stages of data preprocessing and analysis.\nOpen science practices in the field of neuroimaging will also be introduced.",
+    "text": "Welcome!\n\nCitation from UGOnline:\n\nThis practice-oriented seminar provides an introduction into the modern methods of MRI-based neuroimaging for cognitive neuroscience.\nIt will take students through all stages of a functional MRI study:\n- planning and programming an experiment,\n- acquiring the data\n- data preprocessing\n- data analysis and interpretation\nIn addition to theoretical input, the course will have a strong practical component. Students will first present their project ideas in class. After this, the class will select the best project, which will be implemented into a computer program. Together with the lecturer we will conduct an fMRI experiment with one volunteer. The students will get access to a server, and each person will go through all stages of data preprocessing and analysis.\nOpen science practices in the field of neuroimaging will also be introduced.",
     "crumbs": [
       "Welcome!"
     ]
@@ -14,7 +14,7 @@
     "href": "syllabus.html",
     "title": "Course Syllabus",
     "section": "",
-    "text": "Lecturer\nNatalia Zaretskaya\nGroup Leader of the “Visual Neuroscience Lab”",
+    "text": "Lecturer\nCitation from UGOnline:\nNatalia Zaretskaya\nGroup Leader of the “Visual Neuroscience Lab”",
     "crumbs": [
       "Course Syllabus"
     ]
