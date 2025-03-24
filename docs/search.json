@@ -708,5 +708,65 @@
     "crumbs": [
       "<span class='chapter-number'>1</span>  <span class='chapter-title'>Introduction to fMRI</span>"
     ]
+  },
+  {
+    "objectID": "paradigm.html",
+    "href": "paradigm.html",
+    "title": "Experimental paradigm",
+    "section": "",
+    "text": "Runs\nIn PsychoPy",
+    "crumbs": [
+      "Experimental paradigm"
+    ]
+  },
+  {
+    "objectID": "paradigm.html#runs",
+    "href": "paradigm.html#runs",
+    "title": "Experimental paradigm",
+    "section": "",
+    "text": "chunks of 5-10 minute length\none run - one start of the PsychoPy script",
+    "crumbs": [
+      "Experimental paradigm"
+    ]
+  },
+  {
+    "objectID": "paradigm.html#start-screen",
+    "href": "paradigm.html#start-screen",
+    "title": "Experimental paradigm",
+    "section": "Start screen",
+    "text": "Start screen\n\nThe script should start by showing a welcome message or instruction reminder\nIt should be waiting for key “5” (scanner “trigger”)\nThis is needed to synchronize the fMRI signal acquisition with your paradigm\nAfter the start screen, there should be a period of ca. 10 seconds of nothing happening; this is needed to discard initial artifacts",
+    "crumbs": [
+      "Experimental paradigm"
+    ]
+  },
+  {
+    "objectID": "paradigm.html#subject-responses",
+    "href": "paradigm.html#subject-responses",
+    "title": "Experimental paradigm",
+    "section": "Subject responses",
+    "text": "Subject responses\nSubject keys: 1, 2, 3, 4, [], 6, 7, 8, 9\n1",
+    "crumbs": [
+      "Experimental paradigm"
+    ]
+  },
+  {
+    "objectID": "paradigm.html#bids-pluginparadigm-2-for-psychopy",
+    "href": "paradigm.html#bids-pluginparadigm-2-for-psychopy",
+    "title": "Experimental paradigm",
+    "section": "BIDS plugin2 for PsychoPy",
+    "text": "BIDS plugin2 for PsychoPy\nShould be installed and enabled to save events (conditions and button presses) in a comprehensive and standardized manner\n\nThis will also make our data analysis easier",
+    "crumbs": [
+      "Experimental paradigm"
+    ]
+  },
+  {
+    "objectID": "paradigm.html#footnotes",
+    "href": "paradigm.html#footnotes",
+    "title": "Experimental paradigm",
+    "section": "",
+    "text": "Current Designs https://www.curdes.com/mainforp/responsedevices/buttonboxes/hhsc-1x4-l.html↩︎\nhttps://psychopy-bids.readthedocs.io/en/stable/↩︎",
+    "crumbs": [
+      "Experimental paradigm"
+    ]
   }
 ]

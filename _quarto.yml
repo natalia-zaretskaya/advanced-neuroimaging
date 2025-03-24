@@ -15,6 +15,7 @@ book:
     - syllabus.qmd
     - overview.qmd
     - fmri-intro.qmd
+    - paradigm.qmd
 
 format:
   html:

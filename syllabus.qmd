@@ -82,7 +82,7 @@ WS 2025
 
 ::: {style="font-size: 70%;"}
 | **Activity** | **Hours per week** | **Total hours** | **Cumulative sum** |
-|-----------------|-----------------|---------------------|-----------------|
+|----|----|----|----|
 | Classroom | 14 x 1.5 hours | 21 | 21 |
 | Individual/group work | 14 x 4 | 56 | 77 |
 | Report writing |  | 23 hours ⁓ 3 full work days! | 100 |

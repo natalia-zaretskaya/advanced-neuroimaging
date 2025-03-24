@@ -1,0 +1,37 @@
+# Experimental paradigm {.unnumbered}
+
+In PsychoPy
+
+## Runs
+
+-   chunks of 5-10 minute length
+
+-   one run - one start of the PsychoPy script
+
+## Start screen
+
+-   The script should start by showing a welcome message or instruction reminder
+
+-   It should be waiting for key "5" (scanner "trigger")
+
+-   This is needed to synchronize the fMRI signal acquisition with your paradigm
+
+-   After the start screen, there should be a period of ca. 10 seconds of nothing happening; this is needed to discard initial artifacts
+
+## Subject responses
+
+Subject keys: 1, 2, 3, 4, \[\], 6, 7, 8, 9
+
+![](images/clipboard-4146499127.png){width="50%"}[^paradigm-1]
+
+[^paradigm-1]: Current Designs <https://www.curdes.com/mainforp/responsedevices/buttonboxes/hhsc-1x4-l.html>
+
+## BIDS plugin[^paradigm-2] for PsychoPy
+
+[^paradigm-2]: <https://psychopy-bids.readthedocs.io/en/stable/>
+
+Should be installed and enabled to save events (conditions and button presses) in a comprehensive and standardized manner
+
+![](images/clipboard-4271384204.png)
+
+This will also make our data analysis easier
