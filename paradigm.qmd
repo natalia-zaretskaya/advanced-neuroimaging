@@ -1,4 +1,4 @@
-# Experimental paradigm {.unnumbered}
+# Experimental paradigm
 
 In PsychoPy
 

@@ -22,7 +22,7 @@ format:
     theme: cosmo
     number-depth: 0
   revealjs:
-    theme: simple
+    theme: [clean.scss]
     incremental: true
     scrollable: true
     slide-number: true

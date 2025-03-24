@@ -2,6 +2,7 @@
 .Rhistory
 .RData
 .Ruserdata
+.DS_Store
 TeilnehmerInnenliste.xlsx
 /.quarto/
 pptx_materials/
