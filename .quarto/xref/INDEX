@@ -110,6 +110,18 @@
     "syllabus.html": "ec71081e"
   },
   "paradigm.qmd": {
-    "paradigm.html": "dfe16c5e"
+    "paradigm.html": "dfe16c5e",
+    "paradigm.tex": "1a9a3ef9"
+  },
+  "data_management.qmd": {
+    "data_management.html": "c0cc247c",
+    "data_management.typ": "ab082c7d",
+    "data_management.tex": "c40f14aa"
+  },
+  "science-slam.qmd": {
+    "science-slam.html": "7a039a09"
+  },
+  "schedule.qmd": {
+    "schedule.html": "889c86f9"
   }
 }

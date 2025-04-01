@@ -105,7 +105,7 @@ WS 2025
 
 -   25%: Result visualization presentation (individual or group)
 
--   50 %: Final [report](#chap-report) (individual)
+-   50 %: Final report (individual)
 
     -   After the deadline the grade decreases by 1 point per 24 hours
 

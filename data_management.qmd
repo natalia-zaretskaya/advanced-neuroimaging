@@ -1,0 +1,292 @@
+# Data management
+
+In neuroimaging
+
+## General
+
+![](images/clipboard-3125101888.png)
+
+::: aside
+[@juavinett2022]
+:::
+
+## State in 2022
+
+![](images/clipboard-572345686.png)
+
+::: aside
+Image credit: [@juavinett2022]
+:::
+
+## BIDS
+
+::: {.content-visible unless-format="pdf"}
+```{=html}
+<iframe width="780" height="500" src="https://bids.neuroimaging.io/index.html" title="BIDS official website"></iframe>
+```
+:::
+
+::: {.content-visible format="pdf"}
+![](images/clipboard-4264973894.png)
+:::
+
+# 1. Psychopy
+
+## BIDS plugin for PsychoPy
+
+Should be installed and enabled to save events (conditions and button presses) in a comprehensive and standardized manner.
+
+![](images/clipboard-4271384204.png)
+
+This will also make our data analysis easier
+
+::: aside
+<https://psychopy-bids.readthedocs.io/en/stable/>
+:::
+
+## Installation
+
+![](images/clipboard-3969700235.png)
+
+::: notes
+Open psychopy and press "Get more" on the right side. Alternatively you can open "plugin/pachages manager" via "Tools" menue. Psychopy-plugin should be listed among the available plugins.
+
+On the university computers, bids plugin is available through software center.
+:::
+
+# Experiment adjustment[^data_management-1]
+
+[^data_management-1]: valid for PsychoPy v2024.2.4
+
+## Thanks to
+
+![](images/clipboard-3961870448.png)
+
+Lukas currently took over the BIDS plugin development.
+
+## Properties
+
+![](images/clipboard-3648775932.png)
+
+::: notes
+1.  Experiment name will correspond to the task-\[taskname\] properety in the bids dataset. It is therefore useful to have a short name without capital letters. This did not work on my mac, but maybe this is an OS issue?
+2.  Participant: switched from random code generator to 001. Since we keep the naming consistent with the MRI dataset, and have multiple runs, it is not useful to generate a new code on every run repetition
+3.  Session: changed from 001 to 1. This is just our naming convention. Nobody has hundreds of sessions, so we do not expect a number with more than two digits.
+:::
+
+## Renaming?
+
+### File
+
+![](images/clipboard-2219598044.png)
+
+### Project folder
+
+![](images/clipboard-1865608280.png)
+
+::: notes
+For the task label to work properly in the BIDS plugin, I also tried renaming the experiment file and the folder, but this did not help. Gambling is still spelled out with a capital "G" no mater what I do. Let's stay tuned for the psychopy-bids updates.
+:::
+
+## Research question
+
+### What information do we actually need for analysis?
+
+![](images/clipboard-1090987086.png)
+
+::: notes
+We should keep the research question in mind.
+
+H1 is formulated as a one-way ANOVA with three pairwise post-hoc tests
+
+H2 is formulated as 2x2 two-way ANOVA (at least we will simplify it to that)
+:::
+
+## Unique conditions
+
+-   small win
+
+-   small loss
+
+-   large win
+
+-   large loss
+
+-   pass
+
+## trials.xlsx
+
+![](images/clipboard-752105472.png)
+
+::: notes
+For every trial, we should be able to identify whether it is win, loss or pass.
+
+For every win or loss trial, we need to know if it is a win/loss with high stakes or with low stakes.
+
+Note: right now we are not taking the win probability into account, but we know that it is always low for large stakes, and large for low stakes, so it is redundant.
+:::
+
+## Side note:
+
+### Ideal paradigm
+
+-   Each trial type appears the same number of times
+
+-   Carryover counterbalancing - each condition is equally likely to be preceded by each other condition [@brooks2012]
+
+## Events of interest in a trial
+
+### gamble_trial or gamble_outcome?
+
+![](images/clipboard-3778340065.png)
+
+### Do we need key presses?
+
+## Adding bids events
+
+### Scanner trigger
+
+![](images/clipboard-3535149556.png)
+
+I am not sure if it is needed after all, but I added a bids component to a routine that waits 10 seconds after the scanner trigger and logged its onset.
+
+## Linking to a routine \# 1
+
+![](images/clipboard-2395359737.png)
+
+::: notes
+In the BIDS Event Type field you can choose between TaskEvent and BehEvent. For now the difference does not matter much, let's choose task event.
+:::
+
+## Linking to a routine #2
+
+![](images/clipboard-674558866.png)
+
+Right now time 0 in our experiment is the start of the welcome screen. We want time 0 to be the scanner trigger. Will take care of it later.
+
+## Adding bids events of interest
+
+### New variable outcome_trial
+
+We need one variable to take 3 possible outcomes: win, loss or pass. Therefore, I adjusted the code, adding a variable "outcome_trial" for this purpose.
+
+![](images/clipboard-347898199.png)
+
+## points_text
+
+![](images/clipboard-182415314.png)
+
+::: notes
+We are creating a bids event and linking it to points_text within the trial (because this routine appears on every loop interation).
+:::
+
+## Time stamp
+
+### Time 0 - scanning onset
+
+![](images/clipboard-3405507570.png)
+
+::: notes
+Now we want to adjust the onset time to the scanner trigger arrival. This is done by ticking "Manually set values" and putting the difference between the onset of the current routine and the start of the blank period.
+
+It would have been better and more accurate to subtract the actually key press time, but I ran out of time.
+:::
+
+## Other events
+
+![](images/clipboard-3834157527.png)
+
+::: notes
+Here I added two other bids events that may or may not be useful, just in case: Trial onset and key press, including reaction times.
+:::
+
+## BIDS export
+
+![](images/clipboard-1613912465.png)
+
+It is important to add the bidsExport routine at the end of the experiment.
+
+1.  For fMRI, the data type should be "func"
+2.  Choose. your favourite license
+3.  Tick the box "Add Run Nubmers" - this should attach run numbers to the file names in bids format for every new run. I did not get it to work properly on mac (it was always run 1, overwriting the previous file). But supposedly it works on windows and linux.
+
+## Complete BIDS dataset
+
+### Example
+
+![](images/clipboard-806437960.png)
+
+::: notes
+This is how a complete dataset for fmri analysis should look like. You should have functional \_bold.nii.gz files and \_events.tsv files in one func/ folder.
+:::
+
+# 2. DICOM to BIDS
+
+## Neurodesk
+
+![](images/clipboard-3392567157.png)
+
+## MRI data formats
+
+-   DICOM - medical image format
+
+    -   .dcm .ima or nothing at all
+
+-   NIFTI - neuroimaging format we work with
+
+    -   .nii or .nii.gz
+
+## bidscoin
+
+![](images/clipboard-404437105.png)
+
+## Shell commands
+
+![](images/clipboard-1623492321.png)
+
+``` bash
+#!/bin/bash
+
+# define directories
+sourceFolder=/home/jovyan/completion2/dcm
+targetFolder=/home/jovyan/completion2/dcm_sorted
+
+# check the output of the source folder
+ls -l $sourceFolder
+
+# make the target directory with subdirectories
+mkdir -p $targetFolder
+
+# change to the script folder
+cd /home/jovyan/dicomsort/
+
+# run the script
+./DICOMsort.sh $sourceFolder $targetFolder
+
+# check the output of the target folder
+ls -l $targetFolder
+
+# run bidsmapper
+bidsmapper $sourceFolder /home/jovyan/completion/bids
+
+# once you are happy with the mapping, run bidscoiner
+bidscoiner $sourceFolder /home/jovyan/completion/bids
+```
+
+## View files
+
+![](images/clipboard-3124758617.png)
+
+## MRICron
+
+![](images/clipboard-2244027224.png)
+
+# Quality assurance
+
+## MRIQC
+
+### Used for quality assurance of large datasets
+
+![](images/clipboard-1260990723.png)
+
+## References

@@ -1,5 +1,6 @@
 # todo: insert HRF as code
 # try using aside as class instead of html 
+# set to book for website
 project:
   type: book
   output-dir: docs
@@ -16,6 +17,7 @@ book:
     - overview.qmd
     - fmri-intro.qmd
     - paradigm.qmd
+    - data_management.qmd
 
 format:
   html:
@@ -27,10 +29,10 @@ format:
     scrollable: true
     slide-number: true
     chalkboard: true
-  typst: 
-    toc: false
-    columns: 1
-    number-sections: false
+#  typst: 
+#    toc: false
+#    columns: 1
+#    number-sections: false
   pdf:
     documentclass: report
 
