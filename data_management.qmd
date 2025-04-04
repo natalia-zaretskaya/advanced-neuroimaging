@@ -247,31 +247,68 @@ This is how a complete dataset for fmri analysis should look like. You should ha
 ``` bash
 #!/bin/bash
 
+# you can copypaste the following commands into the terminal window that is opened by BIDSCOINER
+
 # define directories
 sourceFolder=/home/jovyan/completion2/dcm
-targetFolder=/home/jovyan/completion2/dcm_sorted
+sortedFolder=/home/jovyan/completion2/dcm_sorted
 
 # check the output of the source folder
 ls -l $sourceFolder
 
 # make the target directory with subdirectories
-mkdir -p $targetFolder
+mkdir -p $sortedFolder
 
 # change to the script folder
 cd /home/jovyan/dicomsort/
 
 # run the script
-./DICOMsort.sh $sourceFolder $targetFolder
+./DICOMsort.sh $sourceFolder $sortedFolder
 
 # check the output of the target folder
-ls -l $targetFolder
+ls -l $sortedFolder
 
 # run bidsmapper
-bidsmapper $sourceFolder /home/jovyan/completion/bids
+bidsmapper $sortedFolder /home/jovyan/completion2/bids
+# note: in the intendedFor of the fieldmap, add func/sub-001_ses-1_xxx_bold.*
 
 # once you are happy with the mapping, run bidscoiner
-bidscoiner $sourceFolder /home/jovyan/completion/bids
+bidscoiner $sortedFolder /home/jovyan/completion2/bids
 ```
+
+## bismapper
+
+![](images/clipboard-3995624064.png){width="32%"}
+
+Currently, to discover the data we need to delete the content of the "subprefix" field and then save the bids map in the default location. After this, run the same bidsmapper command again.
+
+## Subject and session
+
+![](images/clipboard-325791456.png){width="50%"}
+
+Now the bidsmapper discovered everything, but the files are not named correctly.
+
+Edit subject and session first.
+
+Now we need to rename the files by clicking "Edit" next to every file.
+
+## Editing file names: anatomical
+
+![](images/clipboard-1483139836.png){width="50%"}
+
+anatmprage -\> mprage in the "acq" filed
+
+## Editing file names: functional
+
+![](images/clipboard-103624418.png){width="50%"}
+
+Edit the task name and acq field
+
+Do this for every functional file
+
+In the intendedFor of the fieldmap, add "func/sub-999_ses-1_task-completion_acq–noise_bold.\*" with a wildcard. This will select all respective functional runs
+
+Once you are happy, run bidscoiner to do the actual conversion
 
 ## View files
 
@@ -279,14 +316,30 @@ bidscoiner $sourceFolder /home/jovyan/completion/bids
 
 ## MRICron
 
-![](images/clipboard-2244027224.png)
+![](images/clipboard-2244027224.png){width="446"}
 
-# Quality assurance
+Now you can view the nifti files with any suitable software
+
+# 3. Quality assurance
 
 ## MRIQC
 
-### Used for quality assurance of large datasets
+MRIQC is a tool used for quality assurance of bids-valid datasets
 
 ![](images/clipboard-1260990723.png)
+
+## Run
+
+### Command line
+
+``` bash
+bids_folder=/home/jovyan/completion2/bids/
+mriqc_folder=/home/jovyan/completion2/bids/derivatives/mriqc/
+mriqc $bids_folder $mriqc_folder participant --participant-label 999
+```
+
+### Output
+
+![](images/clipboard-659925537.png)
 
 ## References

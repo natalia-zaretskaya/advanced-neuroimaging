@@ -268,14 +268,20 @@ div.csl-indent {
   <li><a href="#mri-data-formats" id="toc-mri-data-formats" class="nav-link" data-scroll-target="#mri-data-formats">MRI data formats</a></li>
   <li><a href="#bidscoin" id="toc-bidscoin" class="nav-link" data-scroll-target="#bidscoin">bidscoin</a></li>
   <li><a href="#shell-commands" id="toc-shell-commands" class="nav-link" data-scroll-target="#shell-commands">Shell commands</a></li>
+  <li><a href="#bismapper" id="toc-bismapper" class="nav-link" data-scroll-target="#bismapper">bismapper</a></li>
+  <li><a href="#subject-and-session" id="toc-subject-and-session" class="nav-link" data-scroll-target="#subject-and-session">Subject and session</a></li>
+  <li><a href="#editing-file-names-anatomical" id="toc-editing-file-names-anatomical" class="nav-link" data-scroll-target="#editing-file-names-anatomical">Editing file names: anatomical</a></li>
+  <li><a href="#editing-file-names-functional" id="toc-editing-file-names-functional" class="nav-link" data-scroll-target="#editing-file-names-functional">Editing file names: functional</a></li>
   <li><a href="#view-files" id="toc-view-files" class="nav-link" data-scroll-target="#view-files">View files</a></li>
   <li><a href="#mricron" id="toc-mricron" class="nav-link" data-scroll-target="#mricron">MRICron</a></li>
   </ul></li>
-  <li><a href="#quality-assurance" id="toc-quality-assurance" class="nav-link" data-scroll-target="#quality-assurance">Quality assurance</a>
+  <li><a href="#quality-assurance" id="toc-quality-assurance" class="nav-link" data-scroll-target="#quality-assurance">3. Quality assurance</a>
   <ul class="collapse">
-  <li><a href="#mriqc" id="toc-mriqc" class="nav-link" data-scroll-target="#mriqc">MRIQC</a>
+  <li><a href="#mriqc" id="toc-mriqc" class="nav-link" data-scroll-target="#mriqc">MRIQC</a></li>
+  <li><a href="#run" id="toc-run" class="nav-link" data-scroll-target="#run">Run</a>
   <ul class="collapse">
-  <li><a href="#used-for-quality-assurance-of-large-datasets" id="toc-used-for-quality-assurance-of-large-datasets" class="nav-link" data-scroll-target="#used-for-quality-assurance-of-large-datasets">Used for quality assurance of large datasets</a></li>
+  <li><a href="#command-line" id="toc-command-line" class="nav-link" data-scroll-target="#command-line">Command line</a></li>
+  <li><a href="#output" id="toc-output" class="nav-link" data-scroll-target="#output">Output</a></li>
   </ul></li>
   <li><a href="#references" id="toc-references" class="nav-link" data-scroll-target="#references">References</a></li>
   </ul></li>
@@ -529,30 +535,58 @@ div.csl-indent {
 <p><img src="images/clipboard-1623492321.png" class="img-fluid"></p>
 <div class="sourceCode" id="cb1"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="co">#!/bin/bash</span></span>
 <span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a><span class="co"># define directories</span></span>
-<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a><span class="va">sourceFolder</span><span class="op">=</span>/home/jovyan/completion2/dcm</span>
-<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a><span class="va">targetFolder</span><span class="op">=</span>/home/jovyan/completion2/dcm_sorted</span>
-<span id="cb1-6"><a href="#cb1-6" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-7"><a href="#cb1-7" aria-hidden="true" tabindex="-1"></a><span class="co"># check the output of the source folder</span></span>
-<span id="cb1-8"><a href="#cb1-8" aria-hidden="true" tabindex="-1"></a><span class="fu">ls</span> <span class="at">-l</span> <span class="va">$sourceFolder</span></span>
-<span id="cb1-9"><a href="#cb1-9" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-10"><a href="#cb1-10" aria-hidden="true" tabindex="-1"></a><span class="co"># make the target directory with subdirectories</span></span>
-<span id="cb1-11"><a href="#cb1-11" aria-hidden="true" tabindex="-1"></a><span class="fu">mkdir</span> <span class="at">-p</span> <span class="va">$targetFolder</span></span>
-<span id="cb1-12"><a href="#cb1-12" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-13"><a href="#cb1-13" aria-hidden="true" tabindex="-1"></a><span class="co"># change to the script folder</span></span>
-<span id="cb1-14"><a href="#cb1-14" aria-hidden="true" tabindex="-1"></a><span class="bu">cd</span> /home/jovyan/dicomsort/</span>
-<span id="cb1-15"><a href="#cb1-15" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-16"><a href="#cb1-16" aria-hidden="true" tabindex="-1"></a><span class="co"># run the script</span></span>
-<span id="cb1-17"><a href="#cb1-17" aria-hidden="true" tabindex="-1"></a><span class="ex">./DICOMsort.sh</span> <span class="va">$sourceFolder</span> <span class="va">$targetFolder</span></span>
-<span id="cb1-18"><a href="#cb1-18" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-19"><a href="#cb1-19" aria-hidden="true" tabindex="-1"></a><span class="co"># check the output of the target folder</span></span>
-<span id="cb1-20"><a href="#cb1-20" aria-hidden="true" tabindex="-1"></a><span class="fu">ls</span> <span class="at">-l</span> <span class="va">$targetFolder</span></span>
-<span id="cb1-21"><a href="#cb1-21" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-22"><a href="#cb1-22" aria-hidden="true" tabindex="-1"></a><span class="co"># run bidsmapper</span></span>
-<span id="cb1-23"><a href="#cb1-23" aria-hidden="true" tabindex="-1"></a><span class="ex">bidsmapper</span> <span class="va">$sourceFolder</span> /home/jovyan/completion/bids</span>
-<span id="cb1-24"><a href="#cb1-24" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-25"><a href="#cb1-25" aria-hidden="true" tabindex="-1"></a><span class="co"># once you are happy with the mapping, run bidscoiner</span></span>
-<span id="cb1-26"><a href="#cb1-26" aria-hidden="true" tabindex="-1"></a><span class="ex">bidscoiner</span> <span class="va">$sourceFolder</span> /home/jovyan/completion/bids</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a><span class="co"># you can copypaste the following commands into the terminal window that is opened by BIDSCOINER</span></span>
+<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a><span class="co"># define directories</span></span>
+<span id="cb1-6"><a href="#cb1-6" aria-hidden="true" tabindex="-1"></a><span class="va">sourceFolder</span><span class="op">=</span>/home/jovyan/completion2/dcm</span>
+<span id="cb1-7"><a href="#cb1-7" aria-hidden="true" tabindex="-1"></a><span class="va">sortedFolder</span><span class="op">=</span>/home/jovyan/completion2/dcm_sorted</span>
+<span id="cb1-8"><a href="#cb1-8" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-9"><a href="#cb1-9" aria-hidden="true" tabindex="-1"></a><span class="co"># check the output of the source folder</span></span>
+<span id="cb1-10"><a href="#cb1-10" aria-hidden="true" tabindex="-1"></a><span class="fu">ls</span> <span class="at">-l</span> <span class="va">$sourceFolder</span></span>
+<span id="cb1-11"><a href="#cb1-11" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-12"><a href="#cb1-12" aria-hidden="true" tabindex="-1"></a><span class="co"># make the target directory with subdirectories</span></span>
+<span id="cb1-13"><a href="#cb1-13" aria-hidden="true" tabindex="-1"></a><span class="fu">mkdir</span> <span class="at">-p</span> <span class="va">$sortedFolder</span></span>
+<span id="cb1-14"><a href="#cb1-14" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-15"><a href="#cb1-15" aria-hidden="true" tabindex="-1"></a><span class="co"># change to the script folder</span></span>
+<span id="cb1-16"><a href="#cb1-16" aria-hidden="true" tabindex="-1"></a><span class="bu">cd</span> /home/jovyan/dicomsort/</span>
+<span id="cb1-17"><a href="#cb1-17" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-18"><a href="#cb1-18" aria-hidden="true" tabindex="-1"></a><span class="co"># run the script</span></span>
+<span id="cb1-19"><a href="#cb1-19" aria-hidden="true" tabindex="-1"></a><span class="ex">./DICOMsort.sh</span> <span class="va">$sourceFolder</span> <span class="va">$sortedFolder</span></span>
+<span id="cb1-20"><a href="#cb1-20" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-21"><a href="#cb1-21" aria-hidden="true" tabindex="-1"></a><span class="co"># check the output of the target folder</span></span>
+<span id="cb1-22"><a href="#cb1-22" aria-hidden="true" tabindex="-1"></a><span class="fu">ls</span> <span class="at">-l</span> <span class="va">$sortedFolder</span></span>
+<span id="cb1-23"><a href="#cb1-23" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-24"><a href="#cb1-24" aria-hidden="true" tabindex="-1"></a><span class="co"># run bidsmapper</span></span>
+<span id="cb1-25"><a href="#cb1-25" aria-hidden="true" tabindex="-1"></a><span class="ex">bidsmapper</span> <span class="va">$sortedFolder</span> /home/jovyan/completion2/bids</span>
+<span id="cb1-26"><a href="#cb1-26" aria-hidden="true" tabindex="-1"></a><span class="co"># note: in the intendedFor of the fieldmap, add func/sub-001_ses-1_xxx_bold.*</span></span>
+<span id="cb1-27"><a href="#cb1-27" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-28"><a href="#cb1-28" aria-hidden="true" tabindex="-1"></a><span class="co"># once you are happy with the mapping, run bidscoiner</span></span>
+<span id="cb1-29"><a href="#cb1-29" aria-hidden="true" tabindex="-1"></a><span class="ex">bidscoiner</span> <span class="va">$sortedFolder</span> /home/jovyan/completion2/bids</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</section>
+<section id="bismapper" class="level2">
+<h2 class="anchored" data-anchor-id="bismapper">bismapper</h2>
+<p><img src="images/clipboard-3995624064.png" class="img-fluid" style="width:32.0%"></p>
+<p>Currently, to discover the data we need to delete the content of the “subprefix” field and then save the bids map in the default location. After this, run the same bidsmapper command again.</p>
+</section>
+<section id="subject-and-session" class="level2">
+<h2 class="anchored" data-anchor-id="subject-and-session">Subject and session</h2>
+<p><img src="images/clipboard-325791456.png" class="img-fluid" style="width:50.0%"></p>
+<p>Now the bidsmapper discovered everything, but the files are not named correctly.</p>
+<p>Edit subject and session first.</p>
+<p>Now we need to rename the files by clicking “Edit” next to every file.</p>
+</section>
+<section id="editing-file-names-anatomical" class="level2">
+<h2 class="anchored" data-anchor-id="editing-file-names-anatomical">Editing file names: anatomical</h2>
+<p><img src="images/clipboard-1483139836.png" class="img-fluid" style="width:50.0%"></p>
+<p>anatmprage -&gt; mprage in the “acq” filed</p>
+</section>
+<section id="editing-file-names-functional" class="level2">
+<h2 class="anchored" data-anchor-id="editing-file-names-functional">Editing file names: functional</h2>
+<p><img src="images/clipboard-103624418.png" class="img-fluid" style="width:50.0%"></p>
+<p>Edit the task name and acq field</p>
+<p>Do this for every functional file</p>
+<p>In the intendedFor of the fieldmap, add “func/sub-999_ses-1_task-completion_acq–noise_bold.*” with a wildcard. This will select all respective functional runs</p>
+<p>Once you are happy, run bidscoiner to do the actual conversion</p>
 </section>
 <section id="view-files" class="level2">
 <h2 class="anchored" data-anchor-id="view-files">View files</h2>
@@ -560,16 +594,28 @@ div.csl-indent {
 </section>
 <section id="mricron" class="level2">
 <h2 class="anchored" data-anchor-id="mricron">MRICron</h2>
-<p><img src="images/clipboard-2244027224.png" class="img-fluid"></p>
+<p><img src="images/clipboard-2244027224.png" class="img-fluid" width="446"></p>
+<p>Now you can view the nifti files with any suitable software</p>
 </section>
 </section>
 <section id="quality-assurance" class="level1">
-<h1>Quality assurance</h1>
+<h1>3. Quality assurance</h1>
 <section id="mriqc" class="level2">
 <h2 class="anchored" data-anchor-id="mriqc">MRIQC</h2>
-<section id="used-for-quality-assurance-of-large-datasets" class="level3">
-<h3 class="anchored" data-anchor-id="used-for-quality-assurance-of-large-datasets">Used for quality assurance of large datasets</h3>
+<p>MRIQC is a tool used for quality assurance of bids-valid datasets</p>
 <p><img src="images/clipboard-1260990723.png" class="img-fluid"></p>
+</section>
+<section id="run" class="level2">
+<h2 class="anchored" data-anchor-id="run">Run</h2>
+<section id="command-line" class="level3">
+<h3 class="anchored" data-anchor-id="command-line">Command line</h3>
+<div class="sourceCode" id="cb2"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="va">bids_folder</span><span class="op">=</span>/home/jovyan/completion2/bids/</span>
+<span id="cb2-2"><a href="#cb2-2" aria-hidden="true" tabindex="-1"></a><span class="va">mriqc_folder</span><span class="op">=</span>/home/jovyan/completion2/bids/derivatives/mriqc/</span>
+<span id="cb2-3"><a href="#cb2-3" aria-hidden="true" tabindex="-1"></a><span class="ex">mriqc</span> <span class="va">$bids_folder</span> <span class="va">$mriqc_folder</span> participant <span class="at">--participant-label</span> 999</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</section>
+<section id="output" class="level3">
+<h3 class="anchored" data-anchor-id="output">Output</h3>
+<p><img src="images/clipboard-659925537.png" class="img-fluid"></p>
 </section>
 </section>
 <section id="references" class="level2">

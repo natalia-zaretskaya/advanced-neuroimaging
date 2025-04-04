@@ -4,7 +4,7 @@
     "href": "index.html",
     "title": "Advanced Neuroimaging",
     "section": "",
-    "text": "Welcome!\n\n\n\n\n\nTable 5.1: Course schedule\n\n\n\n\n\n\n\n\n\n\n\n\n\nSession #\nDate and time\nSpecific topic\nTODO for this class\nEstimated workload (h)\n\n\n\n1\n04.03.2025 | 13:30 | SR 02.31 (0002030122)\nOrganization and introduction\nnone\n0\n\n\n\n2\n11.03.2025 | 13:30 | SR 02.31 (0002030122)\nIntroduction to fMRI\nMake groups, start thinking of a project;\nInstall PsychoPy\n4\n\n\n\n3\n18.03.2025 | 13:30 | SR 02.31 (0002030122)\nProject slam and public vote\n(Winner does not need to write an interoduction)\nPrepare a presentation of your project (See Presentation Guidelines and Presentation Evaluation Criteria)\n4\n\n\n\n4\n25.03.2025 | 13:30 | SR 02.31 (0002030122)\nImplementation slam and second public vote\n(Winner does not need to write the experiment description)\nGo through the PsychoPy intro.\nImplement your project in PsychoPy, show it to the class\n8\n\n\n\n5\n01.04.2025 | 13:30 | SR 02.31 (0002030122)\nPiloting the selected experiment\nEvery course participant performs one round of the experiment and gives feedback\n4\n\n\n\n6\n08.04.2025 | 13:30 | SR 02.31 (0002030122)\nData acquisition in the MRI lab [date and time TBA]\nDecide on the paradigm timing\n1\n\n\n\n7\n29.04.2025 | 13:30 | SR 02.31 (0002030122)\nIntroduction to Neurodesk, data formats and BIDS\n-\n0\n\n\n\n8\n06.05.2025 | 13:30 | SR 02.31 (0002030122)\nPreprocessing\nDCM to NIFTI conversion, BIDS validation\n4\n\n\n\n9\n13.05.2025 | 13:30 | SR 02.31 (0002030122)\nAnalysis: General linear model\nStart preprocessing\n4\n\n\n\n10\n20.05.2025 | 13:30 | SR 02.31 (0002030122)\nAnalysis: Other analyses types\nFinish preprocessing, start data analysis\n4\n\n\n\n11\n27.05.2025 | 13:30 | SR 02.31 (0002030122)\nResult visualization and reporting\nFinish data analysis\n4\n\n\n\n12\n03.06.2025 | 13:30 | SR 02.31 (0002030122)\nResult presentation slam, public vote\n(winner does not need to write a results section)\nPrepare a poster with images\n4\n\n\n\n13\n17.06.2025 | 13:30 | SR 02.31 (0002030122)\nWriting an fMRI article\nReport draft: Results section\n4\n\n\n\n14\n24.06.2025 | 13:30 | SR 02.31 (0002030122)\nFinal session, course evaluation\nReport deadline\nReport draft\n4",
+    "text": "Welcome!\n\n\n\n\n\nTable 5.1: Course schedule\n\n\n\n\n\n\n\n\n\n\n\n\n\nSession #\nDate and time\nSpecific topic\nTODO for this class\nEstimated workload (h)\n\n\n\n1\n04.03.2025 | 13:30 | SR 02.31 (0002030122)\nOrganization and introduction\nnone\n0\n\n\n\n2\n11.03.2025 | 13:30 | SR 02.31 (0002030122)\nIntroduction to fMRI\nMake groups, start thinking of a project;\nInstall PsychoPy\n4\n\n\n\n3\n18.03.2025 | 13:30 | SR 02.31 (0002030122)\nProject slam and public vote\n(Winner does not need to write an interoduction)\nPrepare a presentation of your project (See Presentation Guidelines and Presentation Evaluation Criteria)\n4\n\n\n\n4\n25.03.2025 | 13:30 | SR 02.31 (0002030122)\nImplementation slam and second public vote\n(Winner does not need to write the experiment description)\nGo through the PsychoPy intro.\nImplement your project in PsychoPy, show it to the class\n8\n\n\n\n5\n01.04.2025 | 13:30 | SR 02.31 (0002030122)\nData management I\nNeurodesk registration\n4\n\n\n\n6\n08.04.2025 | 13:30 | SR 02.31 (0002030122)\nExperiment feedback, data management II;\nData acquisition in the MRI lab 9.04.2025\nEvery course participant performs 3 rounds of the experiment and gives feedback\n1\n\n\n\n7\n29.04.2025 | 13:30 | SR 02.31 (0002030122)\nPreprocessing\nDCM to NIFTI conversion, BIDS validation\n0\n\n\n\n8\n06.05.2025 | 13:30 | SR 02.31 (0002030122)\nAnalysis: General linear model\nPreprocessing\n4\n\n\n\n9\n13.05.2025 | 13:30 | SR 02.31 (0002030122)\nAnalysis: Other analyses types\nData analysis\n4\n\n\n\n10\n20.05.2025 | 13:30 | SR 02.31 (0002030122)\nResult visualization and reporting\nFinish data analysis\n4\n\n\n\n11\n27.05.2025 | 13:30 | SR 02.31 (0002030122)\nResult presentation slam, public vote\n(winner does not need to write a results section)\nPrepare a poster with images\n4\n\n\n\n12\n03.06.2025 | 13:30 | SR 02.31 (0002030122)\nWriting an fMRI article\nReport draft: Results section\n4\n\n\n\n13\n17.06.2025 | 13:30 | SR 02.31 (0002030122)\nFinal session, course evaluation\nReport draft\n4\n\n\n\n14\n24.06.2025 | 13:30 | SR 02.31 (0002030122)\nReport deadline\n\n4",
     "crumbs": [
       "Welcome!"
     ]
@@ -154,7 +154,7 @@
     "href": "syllabus.html#course-schedule",
     "title": "Course Syllabus",
     "section": "Course schedule",
-    "text": "Course schedule\n\n\n\n\nTable 5.1: Course schedule\n\n\n\n\n\n\n\n\n\n\n\n\n\nSession #\nDate and time\nSpecific topic\nTODO for this class\nEstimated workload (h)\n\n\n\n1\n04.03.2025 | 13:30 | SR 02.31 (0002030122)\nOrganization and introduction\nnone\n0\n\n\n\n2\n11.03.2025 | 13:30 | SR 02.31 (0002030122)\nIntroduction to fMRI\nMake groups, start thinking of a project;\nInstall PsychoPy\n4\n\n\n\n3\n18.03.2025 | 13:30 | SR 02.31 (0002030122)\nProject slam and public vote\n(Winner does not need to write an interoduction)\nPrepare a presentation of your project (See Presentation Guidelines and Presentation Evaluation Criteria)\n4\n\n\n\n4\n25.03.2025 | 13:30 | SR 02.31 (0002030122)\nImplementation slam and second public vote\n(Winner does not need to write the experiment description)\nGo through the PsychoPy intro.\nImplement your project in PsychoPy, show it to the class\n8\n\n\n\n5\n01.04.2025 | 13:30 | SR 02.31 (0002030122)\nPiloting the selected experiment\nEvery course participant performs one round of the experiment and gives feedback\n4\n\n\n\n6\n08.04.2025 | 13:30 | SR 02.31 (0002030122)\nData acquisition in the MRI lab [date and time TBA]\nDecide on the paradigm timing\n1\n\n\n\n7\n29.04.2025 | 13:30 | SR 02.31 (0002030122)\nIntroduction to Neurodesk, data formats and BIDS\n-\n0\n\n\n\n8\n06.05.2025 | 13:30 | SR 02.31 (0002030122)\nPreprocessing\nDCM to NIFTI conversion, BIDS validation\n4\n\n\n\n9\n13.05.2025 | 13:30 | SR 02.31 (0002030122)\nAnalysis: General linear model\nStart preprocessing\n4\n\n\n\n10\n20.05.2025 | 13:30 | SR 02.31 (0002030122)\nAnalysis: Other analyses types\nFinish preprocessing, start data analysis\n4\n\n\n\n11\n27.05.2025 | 13:30 | SR 02.31 (0002030122)\nResult visualization and reporting\nFinish data analysis\n4\n\n\n\n12\n03.06.2025 | 13:30 | SR 02.31 (0002030122)\nResult presentation slam, public vote\n(winner does not need to write a results section)\nPrepare a poster with images\n4\n\n\n\n13\n17.06.2025 | 13:30 | SR 02.31 (0002030122)\nWriting an fMRI article\nReport draft: Results section\n4\n\n\n\n14\n24.06.2025 | 13:30 | SR 02.31 (0002030122)\nFinal session, course evaluation\nReport deadline\nReport draft\n4",
+    "text": "Course schedule\n\n\n\n\nTable 5.1: Course schedule\n\n\n\n\n\n\n\n\n\n\n\n\n\nSession #\nDate and time\nSpecific topic\nTODO for this class\nEstimated workload (h)\n\n\n\n1\n04.03.2025 | 13:30 | SR 02.31 (0002030122)\nOrganization and introduction\nnone\n0\n\n\n\n2\n11.03.2025 | 13:30 | SR 02.31 (0002030122)\nIntroduction to fMRI\nMake groups, start thinking of a project;\nInstall PsychoPy\n4\n\n\n\n3\n18.03.2025 | 13:30 | SR 02.31 (0002030122)\nProject slam and public vote\n(Winner does not need to write an interoduction)\nPrepare a presentation of your project (See Presentation Guidelines and Presentation Evaluation Criteria)\n4\n\n\n\n4\n25.03.2025 | 13:30 | SR 02.31 (0002030122)\nImplementation slam and second public vote\n(Winner does not need to write the experiment description)\nGo through the PsychoPy intro.\nImplement your project in PsychoPy, show it to the class\n8\n\n\n\n5\n01.04.2025 | 13:30 | SR 02.31 (0002030122)\nData management I\nNeurodesk registration\n4\n\n\n\n6\n08.04.2025 | 13:30 | SR 02.31 (0002030122)\nExperiment feedback, data management II;\nData acquisition in the MRI lab 9.04.2025\nEvery course participant performs 3 rounds of the experiment and gives feedback\n1\n\n\n\n7\n29.04.2025 | 13:30 | SR 02.31 (0002030122)\nPreprocessing\nDCM to NIFTI conversion, BIDS validation\n0\n\n\n\n8\n06.05.2025 | 13:30 | SR 02.31 (0002030122)\nAnalysis: General linear model\nPreprocessing\n4\n\n\n\n9\n13.05.2025 | 13:30 | SR 02.31 (0002030122)\nAnalysis: Other analyses types\nData analysis\n4\n\n\n\n10\n20.05.2025 | 13:30 | SR 02.31 (0002030122)\nResult visualization and reporting\nFinish data analysis\n4\n\n\n\n11\n27.05.2025 | 13:30 | SR 02.31 (0002030122)\nResult presentation slam, public vote\n(winner does not need to write a results section)\nPrepare a poster with images\n4\n\n\n\n12\n03.06.2025 | 13:30 | SR 02.31 (0002030122)\nWriting an fMRI article\nReport draft: Results section\n4\n\n\n\n13\n17.06.2025 | 13:30 | SR 02.31 (0002030122)\nFinal session, course evaluation\nReport draft\n4\n\n\n\n14\n24.06.2025 | 13:30 | SR 02.31 (0002030122)\nReport deadline\n\n4",
     "crumbs": [
       "Course Syllabus"
     ]
@@ -1034,7 +1034,47 @@
     "href": "data_management.html#shell-commands",
     "title": "3  Data management",
     "section": "Shell commands",
-    "text": "Shell commands\n\n#!/bin/bash\n\n# define directories\nsourceFolder=/home/jovyan/completion2/dcm\ntargetFolder=/home/jovyan/completion2/dcm_sorted\n\n# check the output of the source folder\nls -l $sourceFolder\n\n# make the target directory with subdirectories\nmkdir -p $targetFolder\n\n# change to the script folder\ncd /home/jovyan/dicomsort/\n\n# run the script\n./DICOMsort.sh $sourceFolder $targetFolder\n\n# check the output of the target folder\nls -l $targetFolder\n\n# run bidsmapper\nbidsmapper $sourceFolder /home/jovyan/completion/bids\n\n# once you are happy with the mapping, run bidscoiner\nbidscoiner $sourceFolder /home/jovyan/completion/bids",
+    "text": "Shell commands\n\n#!/bin/bash\n\n# you can copypaste the following commands into the terminal window that is opened by BIDSCOINER\n\n# define directories\nsourceFolder=/home/jovyan/completion2/dcm\nsortedFolder=/home/jovyan/completion2/dcm_sorted\n\n# check the output of the source folder\nls -l $sourceFolder\n\n# make the target directory with subdirectories\nmkdir -p $sortedFolder\n\n# change to the script folder\ncd /home/jovyan/dicomsort/\n\n# run the script\n./DICOMsort.sh $sourceFolder $sortedFolder\n\n# check the output of the target folder\nls -l $sortedFolder\n\n# run bidsmapper\nbidsmapper $sortedFolder /home/jovyan/completion2/bids\n# note: in the intendedFor of the fieldmap, add func/sub-001_ses-1_xxx_bold.*\n\n# once you are happy with the mapping, run bidscoiner\nbidscoiner $sortedFolder /home/jovyan/completion2/bids",
+    "crumbs": [
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Data management</span>"
+    ]
+  },
+  {
+    "objectID": "data_management.html#bismapper",
+    "href": "data_management.html#bismapper",
+    "title": "3  Data management",
+    "section": "bismapper",
+    "text": "bismapper\n\nCurrently, to discover the data we need to delete the content of the “subprefix” field and then save the bids map in the default location. After this, run the same bidsmapper command again.",
+    "crumbs": [
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Data management</span>"
+    ]
+  },
+  {
+    "objectID": "data_management.html#subject-and-session",
+    "href": "data_management.html#subject-and-session",
+    "title": "3  Data management",
+    "section": "Subject and session",
+    "text": "Subject and session\n\nNow the bidsmapper discovered everything, but the files are not named correctly.\nEdit subject and session first.\nNow we need to rename the files by clicking “Edit” next to every file.",
+    "crumbs": [
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Data management</span>"
+    ]
+  },
+  {
+    "objectID": "data_management.html#editing-file-names-anatomical",
+    "href": "data_management.html#editing-file-names-anatomical",
+    "title": "3  Data management",
+    "section": "Editing file names: anatomical",
+    "text": "Editing file names: anatomical\n\nanatmprage -&gt; mprage in the “acq” filed",
+    "crumbs": [
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Data management</span>"
+    ]
+  },
+  {
+    "objectID": "data_management.html#editing-file-names-functional",
+    "href": "data_management.html#editing-file-names-functional",
+    "title": "3  Data management",
+    "section": "Editing file names: functional",
+    "text": "Editing file names: functional\n\nEdit the task name and acq field\nDo this for every functional file\nIn the intendedFor of the fieldmap, add “func/sub-999_ses-1_task-completion_acq–noise_bold.*” with a wildcard. This will select all respective functional runs\nOnce you are happy, run bidscoiner to do the actual conversion",
     "crumbs": [
       "<span class='chapter-number'>3</span>  <span class='chapter-title'>Data management</span>"
     ]
@@ -1054,7 +1094,7 @@
     "href": "data_management.html#mricron",
     "title": "3  Data management",
     "section": "MRICron",
-    "text": "MRICron",
+    "text": "MRICron\n\nNow you can view the nifti files with any suitable software",
     "crumbs": [
       "<span class='chapter-number'>3</span>  <span class='chapter-title'>Data management</span>"
     ]
@@ -1064,7 +1104,17 @@
     "href": "data_management.html#mriqc",
     "title": "3  Data management",
     "section": "MRIQC",
-    "text": "MRIQC\n\nUsed for quality assurance of large datasets",
+    "text": "MRIQC\nMRIQC is a tool used for quality assurance of bids-valid datasets",
+    "crumbs": [
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Data management</span>"
+    ]
+  },
+  {
+    "objectID": "data_management.html#run",
+    "href": "data_management.html#run",
+    "title": "3  Data management",
+    "section": "Run",
+    "text": "Run\n\nCommand line\nbids_folder=/home/jovyan/completion2/bids/\nmriqc_folder=/home/jovyan/completion2/bids/derivatives/mriqc/\nmriqc $bids_folder $mriqc_folder participant --participant-label 999\n\n\nOutput",
     "crumbs": [
       "<span class='chapter-number'>3</span>  <span class='chapter-title'>Data management</span>"
     ]
