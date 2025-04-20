@@ -333,8 +333,14 @@ MRIQC is a tool used for quality assurance of bids-valid datasets
 ### Command line
 
 ``` bash
-bids_folder=/home/jovyan/completion2/bids/
-mriqc_folder=/home/jovyan/completion2/bids/derivatives/mriqc/
+# define relevant paths
+bids_folder=/home/jovyan/gambling/bids/
+mriqc_folder=/home/jovyan/gambling/bids/derivatives/mriqc/
+
+# create mriqc directory
+mkdir -p $mriqc_doler
+
+# run mriqc
 mriqc $bids_folder $mriqc_folder participant --participant-label 999
 ```
 
