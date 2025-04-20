@@ -2,7 +2,7 @@
 # try using aside as class instead of html 
 # set to book for website
 project:
-  type: website
+  type: book
   output-dir: docs
 
 book:

@@ -68,10 +68,12 @@
     "MVPA_Decoding.tex": "12a9bbca"
   },
   "pptx_materials/qmd/Introduction to MRI in cognitive neuroscience.qmd": {
-    "Introduction to MRI in cognitive neuroscience.html": "871a88e5"
+    "Introduction to MRI in cognitive neuroscience.html": "871a88e5",
+    "Introduction-to-MRI-in-cognitive-neuroscience.tex": "0081e2e1"
   },
   "pptx_materials/qmd/5_MVPA.qmd": {
-    "5_MVPA.html": "703480cc"
+    "5_MVPA.html": "703480cc",
+    "5_MVPA.tex": "95986f1d"
   },
   "pptx_materials/qmd/Multiple_comparisons_correction.qmd": {
     "Multiple_comparisons_correction.html": "c3e1970a"
@@ -119,7 +121,8 @@
     "data_management.tex": "c40f14aa"
   },
   "science-slam.qmd": {
-    "science-slam.html": "7a039a09"
+    "science-slam.html": "7a039a09",
+    "science-slam.tex": "996d7142"
   },
   "schedule.qmd": {
     "schedule.html": "889c86f9"
