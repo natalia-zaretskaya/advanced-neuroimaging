@@ -1114,7 +1114,7 @@
     "href": "data_management.html#run",
     "title": "3  Data management",
     "section": "Run",
-    "text": "Run\n\nCommand line\n# define relevant paths\nbids_folder=/home/jovyan/gambling/bids/\nmriqc_folder=/home/jovyan/gambling/bids/derivatives/mriqc/\n\n# create mriqc directory\nmkdir -p $mriqc_doler\n\n# run mriqc\nmriqc $bids_folder $mriqc_folder participant --participant-label 999\n\n\nOutput",
+    "text": "Run\n\nCommand line\n# define relevant paths\nbids_folder=/home/jovyan/gambling/bids/\nmriqc_folder=/home/jovyan/gambling/bids/derivatives/mriqc/\n\n# create mriqc directory\nmkdir -p $mriqc_folder\n\n# run mriqc\nmriqc $bids_folder $mriqc_folder participant --participant-label 999\n\n\nOutput",
     "crumbs": [
       "<span class='chapter-number'>3</span>  <span class='chapter-title'>Data management</span>"
     ]

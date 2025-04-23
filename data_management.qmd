@@ -338,7 +338,7 @@ bids_folder=/home/jovyan/gambling/bids/
 mriqc_folder=/home/jovyan/gambling/bids/derivatives/mriqc/
 
 # create mriqc directory
-mkdir -p $mriqc_doler
+mkdir -p $mriqc_folder
 
 # run mriqc
 mriqc $bids_folder $mriqc_folder participant --participant-label 999
