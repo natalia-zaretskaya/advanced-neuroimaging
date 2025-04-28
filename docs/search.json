@@ -4,7 +4,7 @@
     "href": "index.html",
     "title": "Advanced Neuroimaging",
     "section": "",
-    "text": "Welcome!\n\n\n\n\n\nTable 5.1: Course schedule\n\n\n\n\n\n\n\n\n\n\n\n\n\nSession #\nDate and time\nSpecific topic\nTODO for this class\nEstimated workload (h)\n\n\n\n1\n04.03.2025 | 13:30 | SR 02.31 (0002030122)\nOrganization and introduction\nnone\n0\n\n\n\n2\n11.03.2025 | 13:30 | SR 02.31 (0002030122)\nIntroduction to fMRI\nMake groups, start thinking of a project;\nInstall PsychoPy\n4\n\n\n\n3\n18.03.2025 | 13:30 | SR 02.31 (0002030122)\nProject slam and public vote\n(Winner does not need to write an interoduction)\nPrepare a presentation of your project (See Presentation Guidelines and Presentation Evaluation Criteria)\n4\n\n\n\n4\n25.03.2025 | 13:30 | SR 02.31 (0002030122)\nImplementation slam and second public vote\n(Winner does not need to write the experiment description)\nGo through the PsychoPy intro.\nImplement your project in PsychoPy, show it to the class\n8\n\n\n\n5\n01.04.2025 | 13:30 | SR 02.31 (0002030122)\nData management I\nNeurodesk registration\n4\n\n\n\n6\n08.04.2025 | 13:30 | SR 02.31 (0002030122)\nExperiment feedback, data management II;\nData acquisition in the MRI lab 9.04.2025\nEvery course participant performs 3 rounds of the experiment and gives feedback\n1\n\n\n\n7\n29.04.2025 | 13:30 | SR 02.31 (0002030122)\nPreprocessing\nDCM to NIFTI conversion, BIDS validation\n0\n\n\n\n8\n06.05.2025 | 13:30 | SR 02.31 (0002030122)\nAnalysis: General linear model\nPreprocessing\n4\n\n\n\n9\n13.05.2025 | 13:30 | SR 02.31 (0002030122)\nAnalysis: Other analyses types\nData analysis\n4\n\n\n\n10\n20.05.2025 | 13:30 | SR 02.31 (0002030122)\nResult visualization and reporting\nFinish data analysis\n4\n\n\n\n11\n27.05.2025 | 13:30 | SR 02.31 (0002030122)\nResult presentation slam, public vote\n(winner does not need to write a results section)\nPrepare a poster with images\n4\n\n\n\n12\n03.06.2025 | 13:30 | SR 02.31 (0002030122)\nWriting an fMRI article\nReport draft: Results section\n4\n\n\n\n13\n17.06.2025 | 13:30 | SR 02.31 (0002030122)\nFinal session, course evaluation\nReport draft\n4\n\n\n\n14\n24.06.2025 | 13:30 | SR 02.31 (0002030122)\nReport deadline\n\n4",
+    "text": "Welcome!\n\n\n\n\n\nTable 5.1: Course schedule\n\n\n\n\n\n\n\n\n\n\n\n\nSession #\nDate and time\nSpecific topic\nTODO for this class\nEstimated workload (h)\n\n\n1\n04.03.2025 | 13:30 | SR 02.31 (0002030122)\nOrganization and introduction\nnone\n0\n\n\n2\n11.03.2025 | 13:30 | SR 02.31 (0002030122)\nIntroduction to fMRI\nMake groups, start thinking of a project;\nInstall PsychoPy\n4\n\n\n3\n18.03.2025 | 13:30 | SR 02.31 (0002030122)\nProject slam and public vote\n(Winner does not need to write an interoduction)\nPrepare a presentation of your project (See Presentation Guidelines and Presentation Evaluation Criteria)\n4\n\n\n4\n25.03.2025 | 13:30 | SR 02.31 (0002030122)\nImplementation slam and second public vote\n(Winner does not need to write the experiment description)\nGo through the PsychoPy intro.\nImplement your project in PsychoPy, show it to the class\n8\n\n\n5\n01.04.2025 | 13:30 | SR 02.31 (0002030122)\nData management I\nNeurodesk registration\n4\n\n\n6\n08.04.2025 | 13:30 | SR 02.31 (0002030122)\nExperiment feedback, data management II;\nData acquisition in the MRI lab 9.04.2025\nEvery course participant performs 3 rounds of the experiment and gives feedback\n1\n\n\n7\n29.04.2025 | 13:30 | SR 02.31 (0002030122)\nPreprocessing\nMRIQC\n0\n\n\n8\n06.05.2025 | 13:30 | SR 02.31 (0002030122)\nAnalysis: General linear model\nPreprocessing\n4\n\n\n9\n13.05.2025 | 13:30 | SR 02.31 (0002030122)\nAnalysis: Other analyses types\nData analysis\n4\n\n\n10\n20.05.2025 | 13:30 | SR 02.31 (0002030122)\nResult visualization and reporting\nFinish data analysis\n4\n\n\n11\n27.05.2025 | 13:30 | SR 02.31 (0002030122)\nResult presentation slam, public vote\n(winner does not need to write a results section)\nPrepare a poster with images\n4\n\n\n12\n03.06.2025 | 13:30 | SR 02.31 (0002030122)\nWriting an fMRI article\nReport draft: Results section\n4\n\n\n13\n17.06.2025 | 13:30 | SR 02.31 (0002030122)\nFinal session, course evaluation\nReport draft\n4\n\n\n14\n24.06.2025 | 13:30 | SR 02.31 (0002030122)\nReport deadline\n\n4",
     "crumbs": [
       "Welcome!"
     ]
@@ -154,7 +154,7 @@
     "href": "syllabus.html#course-schedule",
     "title": "Course Syllabus",
     "section": "Course schedule",
-    "text": "Course schedule\n\n\n\n\nTable 5.1: Course schedule\n\n\n\n\n\n\n\n\n\n\n\n\n\nSession #\nDate and time\nSpecific topic\nTODO for this class\nEstimated workload (h)\n\n\n\n1\n04.03.2025 | 13:30 | SR 02.31 (0002030122)\nOrganization and introduction\nnone\n0\n\n\n\n2\n11.03.2025 | 13:30 | SR 02.31 (0002030122)\nIntroduction to fMRI\nMake groups, start thinking of a project;\nInstall PsychoPy\n4\n\n\n\n3\n18.03.2025 | 13:30 | SR 02.31 (0002030122)\nProject slam and public vote\n(Winner does not need to write an interoduction)\nPrepare a presentation of your project (See Presentation Guidelines and Presentation Evaluation Criteria)\n4\n\n\n\n4\n25.03.2025 | 13:30 | SR 02.31 (0002030122)\nImplementation slam and second public vote\n(Winner does not need to write the experiment description)\nGo through the PsychoPy intro.\nImplement your project in PsychoPy, show it to the class\n8\n\n\n\n5\n01.04.2025 | 13:30 | SR 02.31 (0002030122)\nData management I\nNeurodesk registration\n4\n\n\n\n6\n08.04.2025 | 13:30 | SR 02.31 (0002030122)\nExperiment feedback, data management II;\nData acquisition in the MRI lab 9.04.2025\nEvery course participant performs 3 rounds of the experiment and gives feedback\n1\n\n\n\n7\n29.04.2025 | 13:30 | SR 02.31 (0002030122)\nPreprocessing\nDCM to NIFTI conversion, BIDS validation\n0\n\n\n\n8\n06.05.2025 | 13:30 | SR 02.31 (0002030122)\nAnalysis: General linear model\nPreprocessing\n4\n\n\n\n9\n13.05.2025 | 13:30 | SR 02.31 (0002030122)\nAnalysis: Other analyses types\nData analysis\n4\n\n\n\n10\n20.05.2025 | 13:30 | SR 02.31 (0002030122)\nResult visualization and reporting\nFinish data analysis\n4\n\n\n\n11\n27.05.2025 | 13:30 | SR 02.31 (0002030122)\nResult presentation slam, public vote\n(winner does not need to write a results section)\nPrepare a poster with images\n4\n\n\n\n12\n03.06.2025 | 13:30 | SR 02.31 (0002030122)\nWriting an fMRI article\nReport draft: Results section\n4\n\n\n\n13\n17.06.2025 | 13:30 | SR 02.31 (0002030122)\nFinal session, course evaluation\nReport draft\n4\n\n\n\n14\n24.06.2025 | 13:30 | SR 02.31 (0002030122)\nReport deadline\n\n4",
+    "text": "Course schedule\n\n\n\n\nTable 5.1: Course schedule\n\n\n\n\n\n\n\n\n\n\n\n\nSession #\nDate and time\nSpecific topic\nTODO for this class\nEstimated workload (h)\n\n\n1\n04.03.2025 | 13:30 | SR 02.31 (0002030122)\nOrganization and introduction\nnone\n0\n\n\n2\n11.03.2025 | 13:30 | SR 02.31 (0002030122)\nIntroduction to fMRI\nMake groups, start thinking of a project;\nInstall PsychoPy\n4\n\n\n3\n18.03.2025 | 13:30 | SR 02.31 (0002030122)\nProject slam and public vote\n(Winner does not need to write an interoduction)\nPrepare a presentation of your project (See Presentation Guidelines and Presentation Evaluation Criteria)\n4\n\n\n4\n25.03.2025 | 13:30 | SR 02.31 (0002030122)\nImplementation slam and second public vote\n(Winner does not need to write the experiment description)\nGo through the PsychoPy intro.\nImplement your project in PsychoPy, show it to the class\n8\n\n\n5\n01.04.2025 | 13:30 | SR 02.31 (0002030122)\nData management I\nNeurodesk registration\n4\n\n\n6\n08.04.2025 | 13:30 | SR 02.31 (0002030122)\nExperiment feedback, data management II;\nData acquisition in the MRI lab 9.04.2025\nEvery course participant performs 3 rounds of the experiment and gives feedback\n1\n\n\n7\n29.04.2025 | 13:30 | SR 02.31 (0002030122)\nPreprocessing\nMRIQC\n0\n\n\n8\n06.05.2025 | 13:30 | SR 02.31 (0002030122)\nAnalysis: General linear model\nPreprocessing\n4\n\n\n9\n13.05.2025 | 13:30 | SR 02.31 (0002030122)\nAnalysis: Other analyses types\nData analysis\n4\n\n\n10\n20.05.2025 | 13:30 | SR 02.31 (0002030122)\nResult visualization and reporting\nFinish data analysis\n4\n\n\n11\n27.05.2025 | 13:30 | SR 02.31 (0002030122)\nResult presentation slam, public vote\n(winner does not need to write a results section)\nPrepare a poster with images\n4\n\n\n12\n03.06.2025 | 13:30 | SR 02.31 (0002030122)\nWriting an fMRI article\nReport draft: Results section\n4\n\n\n13\n17.06.2025 | 13:30 | SR 02.31 (0002030122)\nFinal session, course evaluation\nReport draft\n4\n\n\n14\n24.06.2025 | 13:30 | SR 02.31 (0002030122)\nReport deadline\n\n4",
     "crumbs": [
       "Course Syllabus"
     ]
@@ -254,7 +254,17 @@
     "href": "fmri-intro.html",
     "title": "1  Introduction to fMRI",
     "section": "",
-    "text": "fMRI in comparison",
+    "text": "fMRI study examples",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Introduction to fMRI</span>"
+    ]
+  },
+  {
+    "objectID": "fmri-intro.html#fmri-study-examples",
+    "href": "fmri-intro.html#fmri-study-examples",
+    "title": "1  Introduction to fMRI",
+    "section": "",
+    "text": "Many crazy studies have been performed with fMRI. Not all of the research questions really make sense!",
     "crumbs": [
       "<span class='chapter-number'>1</span>  <span class='chapter-title'>Introduction to fMRI</span>"
     ]
@@ -263,8 +273,8 @@
     "objectID": "fmri-intro.html#fmri-in-comparison",
     "href": "fmri-intro.html#fmri-in-comparison",
     "title": "1  Introduction to fMRI",
-    "section": "",
-    "text": "Source: Gazzaniga 5th edition, Figure 3.45",
+    "section": "fMRI in comparison",
+    "text": "fMRI in comparison\n\n\n\nSource: Gazzaniga 5th edition, Figure 3.45",
     "crumbs": [
       "<span class='chapter-number'>1</span>  <span class='chapter-title'>Introduction to fMRI</span>"
     ]
@@ -274,7 +284,7 @@
     "href": "fmri-intro.html#mri-scanner-3-tesla",
     "title": "1  Introduction to fMRI",
     "section": "MRI scanner: 3 Tesla",
-    "text": "MRI scanner: 3 Tesla\n\n\nhttps://mri-lab.uni-graz.at/",
+    "text": "MRI scanner: 3 Tesla\n\n\n\nhttps://mri-lab.uni-graz.at/",
     "crumbs": [
       "<span class='chapter-number'>1</span>  <span class='chapter-title'>Introduction to fMRI</span>"
     ]
@@ -284,7 +294,7 @@
     "href": "fmri-intro.html#mri-scanner-7-tesla",
     "title": "1  Introduction to fMRI",
     "section": "MRI scanner: 7 Tesla",
-    "text": "MRI scanner: 7 Tesla\n\n\nImage source: Medical University of Vienna",
+    "text": "MRI scanner: 7 Tesla\n\n\n\nImage source: Medical University of Vienna",
     "crumbs": [
       "<span class='chapter-number'>1</span>  <span class='chapter-title'>Introduction to fMRI</span>"
     ]
@@ -294,7 +304,7 @@
     "href": "fmri-intro.html#mri-scanner-9.4-tesla",
     "title": "1  Introduction to fMRI",
     "section": "MRI scanner: 9.4 Tesla",
-    "text": "MRI scanner: 9.4 Tesla\n\n\nImage source: Max-Planck Institute for Biological Cybernetics, Tübingen",
+    "text": "MRI scanner: 9.4 Tesla\n\n\n\nImage source: Max-Planck Institute for Biological Cybernetics, Tübingen",
     "crumbs": [
       "<span class='chapter-number'>1</span>  <span class='chapter-title'>Introduction to fMRI</span>"
     ]
@@ -304,7 +314,7 @@
     "href": "fmri-intro.html#types-of-mri-contrasts",
     "title": "1  Introduction to fMRI",
     "section": "Types of MRI contrasts",
-    "text": "Types of MRI contrasts\n\n\nImage source: https://en.wikipedia.org/wiki/Magnetic_resonance_imaging",
+    "text": "Types of MRI contrasts\n\n\n\nImage source: https://en.wikipedia.org/wiki/Magnetic_resonance_imaging",
     "crumbs": [
       "<span class='chapter-number'>1</span>  <span class='chapter-title'>Introduction to fMRI</span>"
     ]
@@ -314,7 +324,7 @@
     "href": "fmri-intro.html#t1w-in-cognitive-neuroscience",
     "title": "1  Introduction to fMRI",
     "section": "T1w in cognitive neuroscience",
-    "text": "T1w in cognitive neuroscience\n\n\nFull Segmentation of a T1-weighted scan (Zaretskaya et al. 2018)\n\n\n\nDisplaying activity on a high-resolution anatomical scan\nQuantitative morphometry\n\nAging\nNeurodegeneration\nPlasticity",
+    "text": "T1w in cognitive neuroscience\n\n\n\nFull Segmentation of a T1-weighted scan (Zaretskaya et al. 2018)\n\n\nDisplaying activity on a high-resolution anatomical scan\nQuantitative morphometry\n\nAging\nNeurodegeneration\nPlasticity",
     "crumbs": [
       "<span class='chapter-number'>1</span>  <span class='chapter-title'>Introduction to fMRI</span>"
     ]
@@ -324,7 +334,7 @@
     "href": "fmri-intro.html#the-principle-of-fmri",
     "title": "1  Introduction to fMRI",
     "section": "The principle of fMRI",
-    "text": "The principle of fMRI\n\n\nImage source: https://www.nature.com/scitable/blog/brain-metrics/what_does_fmri_measure\n\n\nHemodynamic changes: - increase in blood flow - increase in blood volume - increase in tissue CMRO_2",
+    "text": "The principle of fMRI\n\n\n\nImage source: https://www.nature.com/scitable/blog/brain-metrics/what_does_fmri_measure\n\nHemodynamic changes: - increase in blood flow - increase in blood volume - increase in tissue CMRO_2",
     "crumbs": [
       "<span class='chapter-number'>1</span>  <span class='chapter-title'>Introduction to fMRI</span>"
     ]
@@ -334,7 +344,7 @@
     "href": "fmri-intro.html#hemodynamic-response",
     "title": "1  Introduction to fMRI",
     "section": "Hemodynamic response",
-    "text": "Hemodynamic response\n\n\nSource: Visual Neuroscience Lab",
+    "text": "Hemodynamic response\n\n\n\nSource: Visual Neuroscience Lab",
     "crumbs": [
       "<span class='chapter-number'>1</span>  <span class='chapter-title'>Introduction to fMRI</span>"
     ]
@@ -344,7 +354,7 @@
     "href": "fmri-intro.html#bold-signal",
     "title": "1  Introduction to fMRI",
     "section": "BOLD signal",
-    "text": "BOLD signal\nblood-oxygen-level-dependent signal\n\n\nHemodynamics leading to the BOLD signal (“Interpreting the BOLD Response” 2009)",
+    "text": "BOLD signal\nblood-oxygen-level-dependent signal\n\n\n\nHemodynamics leading to the BOLD signal (“Interpreting the BOLD Response” 2009)",
     "crumbs": [
       "<span class='chapter-number'>1</span>  <span class='chapter-title'>Introduction to fMRI</span>"
     ]
@@ -374,7 +384,7 @@
     "href": "fmri-intro.html#neural-activity-and-bold",
     "title": "1  Introduction to fMRI",
     "section": "Neural activity and BOLD",
-    "text": "Neural activity and BOLD\n\n\nBOLD signal correlates better with LFP than with MUA (Logothetis et al. 2001)\n\n\nLFP = Local Field Potentials (dendritic currents)\nMUA = Multiunit Activity (action potentials)\nSDF = Spike-density function (action potentials)",
+    "text": "Neural activity and BOLD\n\n\n\nBOLD signal correlates better with LFP than with MUA (Logothetis et al. 2001)\n\nLFP = Local Field Potentials (dendritic currents)\nMUA = Multiunit Activity (action potentials)\nSDF = Spike-density function (action potentials)",
     "crumbs": [
       "<span class='chapter-number'>1</span>  <span class='chapter-title'>Introduction to fMRI</span>"
     ]
@@ -404,7 +414,7 @@
     "href": "fmri-intro.html#first-fmri-experiment",
     "title": "1  Introduction to fMRI",
     "section": "First fMRI experiment",
-    "text": "First fMRI experiment\n\n\nBrain images and statistical analysis (Belliveau et al. 1991)\n\n\nThe first experiment was not a BOLD, but a blood volume signal measurement.",
+    "text": "First fMRI experiment\n\n\n\nBrain images and statistical analysis (Belliveau et al. 1991)\n\nThe first experiment was not a BOLD, but a blood volume signal measurement.",
     "crumbs": [
       "<span class='chapter-number'>1</span>  <span class='chapter-title'>Introduction to fMRI</span>"
     ]
@@ -414,7 +424,7 @@
     "href": "fmri-intro.html#first-fmri-experiment-1",
     "title": "1  Introduction to fMRI",
     "section": "First fMRI experiment",
-    "text": "First fMRI experiment\n\n\nCover of the science magazine where the paper was published (Belliveau et al. 1991)\n\n\nThis rendering was produced specifically for the cover",
+    "text": "First fMRI experiment\n\n\n\nCover of the science magazine where the paper was published (Belliveau et al. 1991)\n\nThis rendering was produced specifically for the cover",
     "crumbs": [
       "<span class='chapter-number'>1</span>  <span class='chapter-title'>Introduction to fMRI</span>"
     ]
@@ -424,7 +434,7 @@
     "href": "fmri-intro.html#the-truly-first-fmri-experiment",
     "title": "1  Introduction to fMRI",
     "section": "The truly first fMRI experiment",
-    "text": "The truly first fMRI experiment\n\n\nExperimental setup of Angelo Mosso (Sandrone et al. 2013)",
+    "text": "The truly first fMRI experiment\n\n\n\nExperimental setup of Angelo Mosso (Sandrone et al. 2013)",
     "crumbs": [
       "<span class='chapter-number'>1</span>  <span class='chapter-title'>Introduction to fMRI</span>"
     ]
@@ -454,7 +464,7 @@
     "href": "fmri-intro.html#preprocessing",
     "title": "1  Introduction to fMRI",
     "section": "Preprocessing",
-    "text": "Preprocessing\n\n\nSummary of preprocessing steps (Esteban et al. 2018)\n\n\nThe data quality of modern scanners is typically good enough to skip this step, if your subject is compliant. But it is nevertheless very much advisable and is ALWAYS performed. We will therefore dedicate a whole session to preprocessing. See course schedule for the date.",
+    "text": "Preprocessing\n\n\n\nSummary of preprocessing steps (Esteban et al. 2018)\n\nThe data quality of modern scanners is typically good enough to skip this step, if your subject is compliant. But it is nevertheless very much advisable and is ALWAYS performed. We will therefore dedicate a whole session to preprocessing. See course schedule for the date.",
     "crumbs": [
       "<span class='chapter-number'>1</span>  <span class='chapter-title'>Introduction to fMRI</span>"
     ]
@@ -554,7 +564,7 @@
     "href": "fmri-intro.html#buidling-regressors",
     "title": "1  Introduction to fMRI",
     "section": "Buidling regressors",
-    "text": "Buidling regressors\n\n\nSome convolution examples can be found here (Lindquist 2008)",
+    "text": "Buidling regressors\n\n\n\nSome convolution examples can be found here (Lindquist 2008)",
     "crumbs": [
       "<span class='chapter-number'>1</span>  <span class='chapter-title'>Introduction to fMRI</span>"
     ]
@@ -634,7 +644,7 @@
     "href": "fmri-intro.html#region-of-interest-roi-analysis",
     "title": "1  Introduction to fMRI",
     "section": "Region-of-interest (ROI) analysis",
-    "text": "Region-of-interest (ROI) analysis\n\nQuestion: Does the primary visual cortex respond to flickering checkerboards?\n\nHCP cortical parcellation (“Glasser atlas”) (Glasser et al. 2016)\n\n\nROI analysis is a way to deal with multiple comparison problem. But it requires an a priory and independent definition of an ROI.\nThere are two ways to define ROIs:\n\nFrom an anatomical scan\nFrom an additional (separate) functional experiment",
+    "text": "Region-of-interest (ROI) analysis\n\nQuestion: Does the primary visual cortex respond to flickering checkerboards?\n\n\nHCP cortical parcellation (“Glasser atlas”) (Glasser et al. 2016)\n\nROI analysis is a way to deal with multiple comparison problem. But it requires an a priory and independent definition of an ROI.\nThere are two ways to define ROIs:\n\nFrom an anatomical scan\nFrom an additional (separate) functional experiment",
     "crumbs": [
       "<span class='chapter-number'>1</span>  <span class='chapter-title'>Introduction to fMRI</span>"
     ]
@@ -644,7 +654,7 @@
     "href": "fmri-intro.html#subcortical-rois",
     "title": "1  Introduction to fMRI",
     "section": "Subcortical ROIs",
-    "text": "Subcortical ROIs\n\n\nNextBrain parcellation containing 333 anatomical structures (Casamitjana et al. 2024)\n\n\nThis is the state-of-the-art for anatomically-based ROI definition based on deep learning",
+    "text": "Subcortical ROIs\n\n\n\nNextBrain parcellation containing 333 anatomical structures (Casamitjana et al. 2024)\n\nThis is the state-of-the-art for anatomically-based ROI definition based on deep learning",
     "crumbs": [
       "<span class='chapter-number'>1</span>  <span class='chapter-title'>Introduction to fMRI</span>"
     ]
@@ -674,7 +684,7 @@
     "href": "fmri-intro.html#first-mvpa-paper",
     "title": "1  Introduction to fMRI",
     "section": "First MVPA paper",
-    "text": "First MVPA paper\n\n\nRepresentation similarity analysis (Haxby et al. 2001)",
+    "text": "First MVPA paper\n\n\n\nRepresentation similarity analysis (Haxby et al. 2001)",
     "crumbs": [
       "<span class='chapter-number'>1</span>  <span class='chapter-title'>Introduction to fMRI</span>"
     ]
@@ -684,7 +694,7 @@
     "href": "fmri-intro.html#machine-learning",
     "title": "1  Introduction to fMRI",
     "section": "Machine learning",
-    "text": "Machine learning\n\n\n\n\n\n\n\n\nFirst MVPA papers, both appeared in 2005 (Haynes and Rees 2005; Kamitani and Tong 2005)",
+    "text": "Machine learning\n\n\n\n\n\n\n\n\n\nFirst MVPA papers, both appeared in 2005 (Haynes and Rees 2005; Kamitani and Tong 2005)",
     "crumbs": [
       "<span class='chapter-number'>1</span>  <span class='chapter-title'>Introduction to fMRI</span>"
     ]
@@ -694,7 +704,7 @@
     "href": "fmri-intro.html#svm-classifier",
     "title": "1  Introduction to fMRI",
     "section": "SVM classifier",
-    "text": "SVM classifier\n\n\nToy example for 2D feature space. Further reading in e.g. Cohen et al. (2017)",
+    "text": "SVM classifier\n\n\n\nToy example for 2D feature space. Further reading in e.g. Cohen et al. (2017)",
     "crumbs": [
       "<span class='chapter-number'>1</span>  <span class='chapter-title'>Introduction to fMRI</span>"
     ]
@@ -1104,17 +1114,47 @@
     "href": "data_management.html#mriqc",
     "title": "3  Data management",
     "section": "MRIQC",
-    "text": "MRIQC\nMRIQC is a tool used for quality assurance of bids-valid datasets",
+    "text": "MRIQC\nMRIQC (Esteban et al. 2017)is a tool used for quality assurance of bids-valid datasets. It is a bids app, meaning that it works on bids-conform data.",
     "crumbs": [
       "<span class='chapter-number'>3</span>  <span class='chapter-title'>Data management</span>"
     ]
   },
   {
-    "objectID": "data_management.html#run",
-    "href": "data_management.html#run",
+    "objectID": "data_management.html#running-mriqc",
+    "href": "data_management.html#running-mriqc",
     "title": "3  Data management",
-    "section": "Run",
-    "text": "Run\n\nCommand line\n# define relevant paths\nbids_folder=/home/jovyan/gambling/bids/\nmriqc_folder=/home/jovyan/gambling/bids/derivatives/mriqc/\n\n# create mriqc directory\nmkdir -p $mriqc_folder\n\n# run mriqc\nmriqc $bids_folder $mriqc_folder participant --participant-label 999\n\n\nOutput",
+    "section": "Running MRIQC",
+    "text": "Running MRIQC\nShould take around 10 minutes\n\nCommand line\n# define relevant paths\nbids_folder=/home/jovyan/gambling/bids/\nmriqc_folder=/home/jovyan/gambling/bids/derivatives/mriqc/\n\n# create mriqc directory\nmkdir -p $mriqc_folder\n\n# run mriqc\nmriqc $bids_folder $mriqc_folder participant --participant-label 001\n\n\nOutput\n\n\nYou will see that there are html outputs for anatomical and functional scans. They can be viewed in a browser, without actually loading the images.",
+    "crumbs": [
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Data management</span>"
+    ]
+  },
+  {
+    "objectID": "data_management.html#anatomical",
+    "href": "data_management.html#anatomical",
+    "title": "3  Data management",
+    "section": "Anatomical",
+    "text": "Anatomical\n\n\nNoise\n\n\n\n\n\nActual image\n\n\n\n\n\nThis is useful to quickly identify problems with the data. A rating widget is also available, which is useful for large datasets.",
+    "crumbs": [
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Data management</span>"
+    ]
+  },
+  {
+    "objectID": "data_management.html#functional",
+    "href": "data_management.html#functional",
+    "title": "3  Data management",
+    "section": "Functional",
+    "text": "Functional\n\n\n\n\n\n\n\n\n\n\nFor functional data, in addition to spatial noise (middle) and average image over time (right), there is a section showing temporal noise over time. Note how the values are highest in the eyes (due to eye movements) and in the center of the brain, due to blood pulsation.",
+    "crumbs": [
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Data management</span>"
+    ]
+  },
+  {
+    "objectID": "data_management.html#carpet-plots-for-functional-data",
+    "href": "data_management.html#carpet-plots-for-functional-data",
+    "title": "3  Data management",
+    "section": "Carpet plots for functional data",
+    "text": "Carpet plots for functional data\n\n\nCarpet plot shows signal fluctuations over time (x-axis) for each voxel (y-axis). Note how there are some patterns initially and at the end. There should be no clear pattern during the experiment, this speaks for good signal quality.",
     "crumbs": [
       "<span class='chapter-number'>3</span>  <span class='chapter-title'>Data management</span>"
     ]
@@ -1124,7 +1164,7 @@
     "href": "data_management.html#references",
     "title": "3  Data management",
     "section": "References",
-    "text": "References\n\n\n\n\nBrooks, Joseph L. 2012. “Counterbalancing for Serial Order Carryover Effects in Experimental Condition Orders.” Psychological Methods 17 (4): 600–614. https://doi.org/10.1037/a0029310.\n\n\nJuavinett, Ashley L. 2022. “The Next Generation of Neuroscientists Needs to Learn How to Code, and We Need New Ways to Teach Them.” Neuron 110 (4): 576–78. https://doi.org/10.1016/j.neuron.2021.12.001.",
+    "text": "References\n\n\n\n\nBrooks, Joseph L. 2012. “Counterbalancing for Serial Order Carryover Effects in Experimental Condition Orders.” Psychological Methods 17 (4): 600–614. https://doi.org/10.1037/a0029310.\n\n\nEsteban, Oscar, Daniel Birman, Marie Schaer, Oluwasanmi O. Koyejo, Russell A. Poldrack, and Krzysztof J. Gorgolewski. 2017. “MRIQC: Advancing the Automatic Prediction of Image Quality in MRI from Unseen Sites.” Edited by Boris C Bernhardt. PLOS ONE 12 (9): e0184661. https://doi.org/10.1371/journal.pone.0184661.\n\n\nJuavinett, Ashley L. 2022. “The Next Generation of Neuroscientists Needs to Learn How to Code, and We Need New Ways to Teach Them.” Neuron 110 (4): 576–78. https://doi.org/10.1016/j.neuron.2021.12.001.",
     "crumbs": [
       "<span class='chapter-number'>3</span>  <span class='chapter-title'>Data management</span>"
     ]
@@ -1137,6 +1177,436 @@
     "text": "valid for PsychoPy v2024.2.4↩︎",
     "crumbs": [
       "<span class='chapter-number'>3</span>  <span class='chapter-title'>Data management</span>"
+    ]
+  },
+  {
+    "objectID": "preprocessing.html",
+    "href": "preprocessing.html",
+    "title": "4  Preprocessing",
+    "section": "",
+    "text": "Reminder: a typical experiment\nof an fMRI dataset",
+    "crumbs": [
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Preprocessing</span>"
+    ]
+  },
+  {
+    "objectID": "preprocessing.html#reminder-a-typical-experiment",
+    "href": "preprocessing.html#reminder-a-typical-experiment",
+    "title": "4  Preprocessing",
+    "section": "",
+    "text": "To help us better understand the preprocessing steps, let’s remind ourselves about a typical fMRI experiment with a flickering checkerboard. In this experiment, we want to find out which brain areas are active when subjects view a flickering checkerboard compared to when they view a gray background. We have shown to every volunteer a checkerboard for e.g. 20 second interleaved with a 20 s rest, and we will measure a whole brain volume every 2 seconds, for e.g. to minutes or so.\nMatlab code to generate stimulus, BOLD and shifted BOLD\u000bX = [1 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 1 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 1 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0]; bf = spm_get_bf; % indicated a tr of 2.5 Y = conv(X,bf.bf); Ye = Y+randn(size(Y)).*0.2;",
+    "crumbs": [
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Preprocessing</span>"
+    ]
+  },
+  {
+    "objectID": "preprocessing.html#d-functional-dataset",
+    "href": "preprocessing.html#d-functional-dataset",
+    "title": "4  Preprocessing",
+    "section": "4D functional dataset",
+    "text": "4D functional dataset\n\n\nAnd, in a functional experiment we usually measure brain activity across the whole volume over extended perionds of time, so it is comfortable to think about each functional dataset that we acquire as a 4D dataset, which consists of 3D brain volumes and time as a 4th dimension.",
+    "crumbs": [
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Preprocessing</span>"
+    ]
+  },
+  {
+    "objectID": "preprocessing.html#major-software",
+    "href": "preprocessing.html#major-software",
+    "title": "4  Preprocessing",
+    "section": "Major software",
+    "text": "Major software\n\n\n\n\n\n\n\n\n\nSince 1994 http://www.fil.ion.ucl.ac.uk/spm/\n\n\n\n\n\n\n\nSince 1994 http://afni.nimh.nih.gov/afni/\n\n\n\n\n\n\n\n\n\nSince 2000 http://fsl.fmrib.ox.ac.uk/fsl/fslwiki/\n\n\n\n\n\n\n\nhttps://freesurfer.net/\n\n\n\n\n\n\nPreprocessing used to be integrated into the software used for the actual analysis. And there are many software for this. On this slide I just put a few of them. Each of them has a slightly different phylosophy behind it, but all of them do roughly the same thing, so at the end it should not matter much which of them you use.\nOne of the oldest ones are:\n\nSPM – statistical parameteric mapping from UCL. It is a free MATLAB-based toolbox. However, it depends on the MATLAB licence, and has not been updated for a long time. The new update just came out which spans the gab from 2012 to 2025 (Tierney et al. 2025).\nAFNI - from NIH\nFSL from Oxford – a set of linux tools, also free and independent of MATLAB, which is an advantage, but requires Linux.\nFreeSurfer/FSFAST form the Martinos center - it is Linux based, and was originally conceived as a tool for structural data analysis, but has an fMRI module\n\nHistorical software\n\nbroccolli, that can utilize GPU computing and can process the same dataset n times faster\n\nWith the awareness of open science, and with the trend towards reproducibility and transparency, and with the release of fMRIprep software, the preprocessing got detached from the actual data analysis.",
+    "crumbs": [
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Preprocessing</span>"
+    ]
+  },
+  {
+    "objectID": "preprocessing.html#fmriprep",
+    "href": "preprocessing.html#fmriprep",
+    "title": "4  Preprocessing",
+    "section": "fMRIprep",
+    "text": "fMRIprep\n\n\n\nImage source (Esteban et al. 2018)\n\nfMRIprep has evolved to combine best practices in fmri preprocessing and also to unify and standardize analysis steps. It is currently dominating the field and is the state-of-the-art way to do preprocessing.\nAll the steps we will talk about are implemented in fMRIprep.",
+    "crumbs": [
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Preprocessing</span>"
+    ]
+  },
+  {
+    "objectID": "preprocessing.html#bias-field-correction",
+    "href": "preprocessing.html#bias-field-correction",
+    "title": "4  Preprocessing",
+    "section": "Bias field correction",
+    "text": "Bias field correction\n\n# gambling: view the before and after images by typing\nml freesurfer\nfreeview \\\n/home/jovyan/gambling/bids/sub-001/ses-1/anat/sub-001_ses-1_acq-mprage_T1w.nii.gz \\\n/home/jovyan/gambling/bids/derivatives/fmriprep/sub-001/ses-1/anat/sub-001_ses-1_acq-mprage_desc-preproc_T1w.nii.gz\n\nVarying intensities across the image will confuse subsequent steps.",
+    "crumbs": [
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Preprocessing</span>"
+    ]
+  },
+  {
+    "objectID": "preprocessing.html#surface-reconstruction",
+    "href": "preprocessing.html#surface-reconstruction",
+    "title": "4  Preprocessing",
+    "section": "Surface reconstruction",
+    "text": "Surface reconstruction\n\n# gambling: view the reconstructed surfaces by typing\nml freesurfer\nfreeview \\\n/home/jovyan/gambling/bids/derivatives/fmriprep/sourcedata/freesurfer/sub-001/mri/orig.mgz \\\n-f /home/jovyan/gambling/bids/derivatives/fmriprep/sourcedata/freesurfer/sub-001/surf/*h.white \\\n/home/jovyan/gambling/bids/derivatives/fmriprep/sourcedata/freesurfer/sub-001/surf/*h.pial\n\nRelatively lengthy (some hours) multistage fully automatic process",
+    "crumbs": [
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Preprocessing</span>"
+    ]
+  },
+  {
+    "objectID": "preprocessing.html#normalization",
+    "href": "preprocessing.html#normalization",
+    "title": "4  Preprocessing",
+    "section": "Normalization",
+    "text": "Normalization\nWill be discussed in the section on functional data",
+    "crumbs": [
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Preprocessing</span>"
+    ]
+  },
+  {
+    "objectID": "preprocessing.html#non-steady-state-artifacts",
+    "href": "preprocessing.html#non-steady-state-artifacts",
+    "title": "4  Preprocessing",
+    "section": "Non-steady-state artifacts",
+    "text": "Non-steady-state artifacts\n\nAka T1 equilibration artifacts\n\n# gambling\nfile:///home/jovyan/gambling/bids/derivatives/mriqc/sub-001/figures/sub-001_ses-1_task-gambling_acq-Fs2_run-1_desc-carpet_bold.svg\n\nI could not really spot this artifact in the scans we acquired to show you. This may be due to two facts:\n\nOur scanner is quite good and modern, so these artifacts are minimal\nThe scanning protocol automatically acquires two volumes with those artifacts that are discarded\n\nPerhaps these large intensity fluctuations on the left (in the beginning) in this carpet plot reflect this.\nBut non-steady-state artifacts are actually the reason why I asked to include a 10-second period where nothing is happening into the experimental paradigm. Non-steady-state volumes should not overlap with the actual experimental paradigm. In the past, we waited for 4-5 volumes before the actual paradigm started, and then discarded these volumes during preprocessing, so that data and paradigm are temporally aligned. But the non-steady-state volumes have an advantage of having good gray-white matter contrast. Therefore, fMRIprep tries to automatically identify them for each run and use them to produce a “reference scan”, which is used in the subsequent steps.",
+    "crumbs": [
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Preprocessing</span>"
+    ]
+  },
+  {
+    "objectID": "preprocessing.html#motion-correction",
+    "href": "preprocessing.html#motion-correction",
+    "title": "4  Preprocessing",
+    "section": "Motion correction",
+    "text": "Motion correction\n\nPurpose: compensate for subject movement\n\n\nOne of the first preprocessign steps is motion correction. Why do we need motion correction? During the fMRI experiment the subject is supposed to lay still inside the scanner, and they usually do so. However, even your best volunteer won’t be perfect. And in fMRI, even a few millimeters screw up your experiment. Here is an example. Let’s say we are measuring a voxel located on the left hemisphere, and the subject suddenly moved. As a result, the same voxel will be now recording activity from the empty space between the hemispheres, or even form the opposite hemisphere.",
+    "crumbs": [
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Preprocessing</span>"
+    ]
+  },
+  {
+    "objectID": "preprocessing.html#motion-correction-1",
+    "href": "preprocessing.html#motion-correction-1",
+    "title": "4  Preprocessing",
+    "section": "Motion correction",
+    "text": "Motion correction\n6 parameter “rigid body” transform\n\n\nUsually, motion is much smaller, but we still want to correct it. How do we do this? Luckily there are special algorithms that can estimate the amount of motion from one volume to the next. This is usually done using 6 degrees of freedom: translation in x, y, and z and rotation in x, y, and z. This is called the “rigid body transform”, because you do not change the size and shape of the volume, but simply rotate it in space. After the amount of motion has been calculated, it can be applied to every image to align it back to the necessary position.",
+    "crumbs": [
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Preprocessing</span>"
+    ]
+  },
+  {
+    "objectID": "preprocessing.html#plot-motion-parameters",
+    "href": "preprocessing.html#plot-motion-parameters",
+    "title": "4  Preprocessing",
+    "section": "Plot motion parameters",
+    "text": "Plot motion parameters\n\n\nWarning: package 'ggplot2' was built under R version 4.4.3",
+    "crumbs": [
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Preprocessing</span>"
+    ]
+  },
+  {
+    "objectID": "preprocessing.html#slice-time-correction",
+    "href": "preprocessing.html#slice-time-correction",
+    "title": "4  Preprocessing",
+    "section": "Slice-time correction",
+    "text": "Slice-time correction\n\nPurpose: compensate for the lag in slice acquisition\n\n\n\n\n\n\n \n\n\n \n\n\n\n\nThe next preprocessing step is slice-time correction. What is slice time correction and why do we need it? Remember that typically a functional volume is acquired not all at once, but slice-by-slice, as illustrated here. There are different ways in which the scanner can acquire the slices: it can bie botton-to top (ascending), decending, interleaved. There are also more complex slice acquisition patterns. Remember that the time it takes to acquire one volume is relatively long, in this our example it is 2 seconds. Let’s say a stimulus activates two areas, here and here in the same manner. If we acquire the slices in an asciending manner, we will measure a small signal amplitude in the frist area. By the time we arrive to the second area, the signal amplitude will increase in both areas, so we will measure a highre signal amplitude in the second area.",
+    "crumbs": [
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Preprocessing</span>"
+    ]
+  },
+  {
+    "objectID": "preprocessing.html#slice-time-correction-1",
+    "href": "preprocessing.html#slice-time-correction-1",
+    "title": "4  Preprocessing",
+    "section": "Slice-time correction",
+    "text": "Slice-time correction\n\n\nHere is another way of illustrating the same issue. The purpose of the slice-time correction realigns signals from all slices in time as if they were acquired at the same time.\nMostly relevant for event-related designs or timing comparisons Can be substituted by modeling HRF derivatives if you are not interested in timing/time course analysis.",
+    "crumbs": [
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Preprocessing</span>"
+    ]
+  },
+  {
+    "objectID": "preprocessing.html#slice-time-correction-before-or-after-motion-correction",
+    "href": "preprocessing.html#slice-time-correction-before-or-after-motion-correction",
+    "title": "4  Preprocessing",
+    "section": "Slice time correction: before or after motion correction?",
+    "text": "Slice time correction: before or after motion correction?",
+    "crumbs": [
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Preprocessing</span>"
+    ]
+  },
+  {
+    "objectID": "preprocessing.html#simultaneous-multislice-smsmultiband-mb-acquisitions",
+    "href": "preprocessing.html#simultaneous-multislice-smsmultiband-mb-acquisitions",
+    "title": "4  Preprocessing",
+    "section": "Simultaneous multislice (SMS)/multiband (MB) acquisitions",
+    "text": "Simultaneous multislice (SMS)/multiband (MB) acquisitions",
+    "crumbs": [
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Preprocessing</span>"
+    ]
+  },
+  {
+    "objectID": "preprocessing.html#susceptibility-distortions",
+    "href": "preprocessing.html#susceptibility-distortions",
+    "title": "4  Preprocessing",
+    "section": "Susceptibility distortions",
+    "text": "Susceptibility distortions\n\n\n\n\n\n\n\n\n\nImage source: https://mriquestions.com/susceptibility-artifact.html",
+    "crumbs": [
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Preprocessing</span>"
+    ]
+  },
+  {
+    "objectID": "preprocessing.html#field-map",
+    "href": "preprocessing.html#field-map",
+    "title": "4  Preprocessing",
+    "section": "Field map",
+    "text": "Field map\n\n\n\nImage source: https://mriquestions.com/susceptibility-artifact.html",
+    "crumbs": [
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Preprocessing</span>"
+    ]
+  },
+  {
+    "objectID": "preprocessing.html#reverse-pe-polarity",
+    "href": "preprocessing.html#reverse-pe-polarity",
+    "title": "4  Preprocessing",
+    "section": "Reverse PE polarity",
+    "text": "Reverse PE polarity\n\n\n\n\nA&gt;P vs. P&gt;A\n\n\n\n\n\n.\n\n\n\n# gambling: to view these images, type in the terminal:\nml freesurfer\nfreeview \\\n/home/jovyan/gambling/bids/sub-001/ses-1/func/sub-001_ses-1_task-gambling_acq-Fs2_run-1_bold.nii.gz \\\n/home/jovyan/gambling/bids/sub-001/ses-1/fmap/sub-001_ses-1_acq-Fs2_dir-PA_epi.nii.gz \\\n-ras 3 61 28",
+    "crumbs": [
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Preprocessing</span>"
+    ]
+  },
+  {
+    "objectID": "preprocessing.html#apply-the-deformation-field",
+    "href": "preprocessing.html#apply-the-deformation-field",
+    "title": "4  Preprocessing",
+    "section": "Apply the deformation field",
+    "text": "Apply the deformation field\n\n\n\n\nfile:///home/jovyan/gambling/bids/derivatives/fmriprep/sub-001.html\n\nHere you can see how e.g. the copmpressed inferior frontal lobe regions get unwarped (although lost signal can’t be recovered completely).",
+    "crumbs": [
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Preprocessing</span>"
+    ]
+  },
+  {
+    "objectID": "preprocessing.html#co-registration",
+    "href": "preprocessing.html#co-registration",
+    "title": "4  Preprocessing",
+    "section": "Co-registration",
+    "text": "Co-registration\n\n\n\n\n2.5 mm iso T2*w vs. 1 mm iso T1w\n\n\n\n\n\n2.5 mm iso T2*w vs. 1 mm iso T1w\n\n\n\n# gambling: \nml freesurfer\nfreeview '\n/home/jovyan/gambling/bids/sub-001/ses-1/anat/sub-001_ses-1_acq-mprage_T1w.nii.gz \\\n/home/jovyan/gambling/bids/sub-001/ses-1/func/sub-001_ses-1_task-gambling_acq-Fs2_run-1_bold.nii.gz\n\nPurpose #1: view individual activation on a high quality anatomical image\nPurpose #2: mapping to standard space (normalization)",
+    "crumbs": [
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Preprocessing</span>"
+    ]
+  },
+  {
+    "objectID": "preprocessing.html#mutual-information-maximization",
+    "href": "preprocessing.html#mutual-information-maximization",
+    "title": "4  Preprocessing",
+    "section": "Mutual information maximization",
+    "text": "Mutual information maximization\n\n\n\nCode\n# source: chatgpt\nimport numpy as np\nimport matplotlib.pyplot as plt\nfrom scipy.ndimage import shift\nfrom sklearn.metrics import mutual_info_score\n\ndef create_realistic_fish(size=100):\n    img = np.zeros((size, size))\n    cx, cy = size // 2, size // 2\n\n    # Draw backbone (slight curve)\n    for x in range(20, 80):\n        y = int(cy + 5 * np.sin((x - 20) / 60 * np.pi))  # slight wave\n        img[x, y] = 1\n\n    # Draw ribs (angled lines)\n    for x in range(25, 75, 5):\n        y = int(cy + 5 * np.sin((x - 20) / 60 * np.pi))\n        for dy in range(1, 8):\n            if 0 &lt;= y - dy &lt; size:\n                img[x, y - dy] = 1\n            if 0 &lt;= y + dy &lt; size:\n                img[x, y + dy] = 1\n\n    # Draw head (big circle)\n    for i in range(-10, 11):\n        for j in range(-10, 11):\n            if i**2 + j**2 &lt; 100:\n                xi = 20 + i\n                yj = cy + j\n                if 0 &lt;= xi &lt; size and 0 &lt;= yj &lt; size:\n                    img[xi, yj] = 1\n\n    # Draw eye (small dot)\n    img[17, cy + 5] = 0  # black eye (making a small black pixel inside head)\n\n    # Draw tail fin (V shape)\n    for d in range(10):\n        x1, y1 = 80 + d, cy - d\n        x2, y2 = 80 + d, cy + d\n        if 0 &lt;= x1 &lt; size and 0 &lt;= y1 &lt; size:\n            img[x1, y1] = 1\n        if 0 &lt;= x2 &lt; size and 0 &lt;= y2 &lt; size:\n            img[x2, y2] = 1\n\n    # Draw dorsal (top) fin\n    for d in range(10):\n        x, y = 40 - d//2, cy - 12 - d\n        if 0 &lt;= x &lt; size and 0 &lt;= y &lt; size:\n            img[x, y] = 1\n\n    # Draw ventral (bottom) fin\n    for d in range(10):\n        x, y = 60 + d//2, cy - 12 - d\n        if 0 &lt;= x &lt; size and 0 &lt;= y &lt; size:\n            img[x, y] = 1\n\n    return img\n\n# Create fixed image (realistic fish skeleton)\nfixed = create_realistic_fish()\n\n# Create moving image with inverted contrast\nmoving = 1 - fixed\n\n# Introduce a misalignment\ndef shift_image(img, dx, dy):\n    return shift(img, shift=(dx, dy), mode='constant', cval=0)\n\nmoving_misaligned = shift_image(moving, 4, 5)\n\n# Define mutual information computation\ndef compute_mi(img1, img2, bins=32):\n    img1_flat = img1.ravel()\n    img2_flat = img2.ravel()\n    c_xy = np.histogram2d(img1_flat, img2_flat, bins=bins)[0]\n    mi = mutual_info_score(None, None, contingency=c_xy)\n    return mi\n\n# Search for best alignment by shifting\ndx_range = np.arange(-10, 11)\ndy_range = np.arange(-10, 11)\nmi_matrix = np.zeros((len(dx_range), len(dy_range)))\n\nfor i, dx in enumerate(dx_range):\n    for j, dy in enumerate(dy_range):\n        shifted = shift_image(moving_misaligned, dx, dy)\n        mi_matrix[i, j] = compute_mi(fixed, shifted)\n\n# Find best shift\nbest_idx = np.unravel_index(np.argmax(mi_matrix), mi_matrix.shape)\nbest_dx = dx_range[best_idx[0]]\nbest_dy = dy_range[best_idx[1]]\n\nprint(f\"Best shift: dx = {best_dx}, dy = {best_dy}\")\n\n# Apply best shift\nmoving_corrected = shift_image(moving_misaligned, best_dx, best_dy)\n\n# Plot\nfig, axs = plt.subplots(2, 2, figsize=(10,10))\n\naxs[0,0].imshow(fixed, cmap='gray')\naxs[0,0].set_title('Fixed Image (Realistic Fish Skeleton)')\n\naxs[0,1].imshow(moving_misaligned, cmap='gray')\naxs[0,1].set_title('Moving Misaligned Image')\n\naxs[1,0].imshow(moving_corrected, cmap='gray')\naxs[1,0].set_title('Moving Corrected Image')\n\ncax = axs[1,1].imshow(mi_matrix, extent=[dy_range[0], dy_range[-1], dx_range[-1], dx_range[0]], cmap='viridis')\naxs[1,1].set_title('Mutual Information Map')\naxs[1,1].set_xlabel('dy')\naxs[1,1].set_ylabel('dx')\nfig.colorbar(cax, ax=axs[1,1])\n\nplt.tight_layout()\nplt.show()",
+    "crumbs": [
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Preprocessing</span>"
+    ]
+  },
+  {
+    "objectID": "preprocessing.html#boundary-based-registration",
+    "href": "preprocessing.html#boundary-based-registration",
+    "title": "4  Preprocessing",
+    "section": "Boundary-based registration",
+    "text": "Boundary-based registration\n\n\n\n(Greve and Fischl 2009)\n\nCurrently considered best for its purpose and is implemented in fMRIprep. Requires surface reconstruction of the anatomical scan.",
+    "crumbs": [
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Preprocessing</span>"
+    ]
+  },
+  {
+    "objectID": "preprocessing.html#coregistration-result",
+    "href": "preprocessing.html#coregistration-result",
+    "title": "4  Preprocessing",
+    "section": "Coregistration result",
+    "text": "Coregistration result\n\n\n\n\n# gambling:\nfile:///home/jovyan/gambling/bids/derivatives/fmriprep/sub-001.html",
+    "crumbs": [
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Preprocessing</span>"
+    ]
+  },
+  {
+    "objectID": "preprocessing.html#corgistration-before-vs.-after",
+    "href": "preprocessing.html#corgistration-before-vs.-after",
+    "title": "4  Preprocessing",
+    "section": "Corgistration before vs. after",
+    "text": "Corgistration before vs. after\n\n\n\n\nstruct -&gt; raw struct -&gt; coreg\n\n\n\n\n\nstruct -&gt; raw struct -&gt; coreg\n\n\n\n\n\nstruct -&gt; raw struct -&gt; coreg\n\n\n\n\n\nstruct -&gt; raw struct -&gt; coreg\n\n\n\n# gambling:\nml freesurfer\nfreeview \\\n/home/jovyan/gambling/bids/sub-001/ses-1/anat/sub-001_ses-1_acq-mprage_T1w.nii.gz \\\n/home/jovyan/gambling/bids/sub-001/ses-1/func/sub-001_ses-1_task-gambling_acq-Fs2_run-1_bold.nii.gz \\\n/home/jovyan/gambling/bids/derivatives/fmriprep/sub-001/ses-1/func/sub-001_ses-1_task-gambling_acq-Fs2_run-1_space-T1w_desc-preproc_bold.nii.gz",
+    "crumbs": [
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Preprocessing</span>"
+    ]
+  },
+  {
+    "objectID": "preprocessing.html#sec-normalization",
+    "href": "preprocessing.html#sec-normalization",
+    "title": "4  Preprocessing",
+    "section": "Normalization to template space",
+    "text": "Normalization to template space\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nImage source: https://publicdomainreview.org/collection/phrenology-diagrams-from-vaught-s-practical-character-reader-1902/\n\nFinally, if you are preforming a group study, you also need to map each individual subject into some common space. This is not a trivial task. As head shpaes of people are different, there brain shapes are also different. Here I tried to draw the approximate shape if each of these guy’s brains, and some hypothetical template brain.\nNormalization is needed to compensate for individual differences in brain shape for the group analysis.",
+    "crumbs": [
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Preprocessing</span>"
+    ]
+  },
+  {
+    "objectID": "preprocessing.html#talairach-atlas",
+    "href": "preprocessing.html#talairach-atlas",
+    "title": "4  Preprocessing",
+    "section": "Talairach atlas",
+    "text": "Talairach atlas\n\n\n\nImage source: Talairach and Tourneux, 1988 (to be confirmed)\n\nNormalization is also needed for a unified coordinate system. You will see that standard coordinates are reported in the articles.",
+    "crumbs": [
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Preprocessing</span>"
+    ]
+  },
+  {
+    "objectID": "preprocessing.html#mni-tamplate",
+    "href": "preprocessing.html#mni-tamplate",
+    "title": "4  Preprocessing",
+    "section": "MNI tamplate",
+    "text": "MNI tamplate\n\n\n\nmni_icbm152_t1_tal_nlin_asym_09c\n\n\n\n\nImage source:\nhttps://www.bic.mni.mcgill.ca/ServicesAtlases/ICBM152NLin2009\n\nFurther reading: https://imaging.mrc-cbu.cam.ac.uk/imaging/MniTalairach",
+    "crumbs": [
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Preprocessing</span>"
+    ]
+  },
+  {
+    "objectID": "preprocessing.html#mapping-to-template",
+    "href": "preprocessing.html#mapping-to-template",
+    "title": "4  Preprocessing",
+    "section": "Mapping to template",
+    "text": "Mapping to template\n\n\n\n\n\n\n\n\n\nrigid body\n\n\n\n\n\n\n\naffine\n\n\n\n\n\n\n\nnonlinear (“warp”)\n\n\n\n\n\n\nTo match each of them to the template, it is not enough to coregister them as we did for motion correction, because obviously they are of different sizes. We can add 6 more paraeters to the transform, which compensates does scaling and shearing, to better align them. However, there will still be places wehere they do not align perfectly, because one guy one has a bigger frontal lobe, and gy to a bigger parietal lobe",
+    "crumbs": [
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Preprocessing</span>"
+    ]
+  },
+  {
+    "objectID": "preprocessing.html#nonlinear-transform",
+    "href": "preprocessing.html#nonlinear-transform",
+    "title": "4  Preprocessing",
+    "section": "Nonlinear transform",
+    "text": "Nonlinear transform\n\n\nSo some software packages use a nonlinear warping algorithm to align brains. There you have to estimate a 3D deformation field and then nonlinearly warp each brain onto a template. They are called non-linear, because different parts of the volume are scaled differently.",
+    "crumbs": [
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Preprocessing</span>"
+    ]
+  },
+  {
+    "objectID": "preprocessing.html#normalization-is-done-using-a-structural-scan",
+    "href": "preprocessing.html#normalization-is-done-using-a-structural-scan",
+    "title": "4  Preprocessing",
+    "section": "Normalization is done using a structural scan",
+    "text": "Normalization is done using a structural scan\n\n\nThe mapping to common space is usually done via an anatomical scan. First, each subject functional and anatomical scans are coregistered with each other, and then each subject’s anatomical scan is mapped into a template. This is done because the anatomical scan has better quality, and hence the estimated transform is more precise. After you have done that each area in one subject corresponds to the same area in the other subject and you can perform averaging on them.",
+    "crumbs": [
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Preprocessing</span>"
+    ]
+  },
+  {
+    "objectID": "preprocessing.html#volume-based-normalization",
+    "href": "preprocessing.html#volume-based-normalization",
+    "title": "4  Preprocessing",
+    "section": "Volume-based normalization",
+    "text": "Volume-based normalization\n\nUnified segmentation\n\n\n\n(Ashburner and Friston 2005)\n\nUnified segmentation is still the best algorithm. It performs bias correction, tissue segmentation and normalization in one step.",
+    "crumbs": [
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Preprocessing</span>"
+    ]
+  },
+  {
+    "objectID": "preprocessing.html#surface-based-registration",
+    "href": "preprocessing.html#surface-based-registration",
+    "title": "4  Preprocessing",
+    "section": "Surface-based registration",
+    "text": "Surface-based registration\n\n\nFsaverage: 40 subjects; Align 39 subjects to 1; create an atlas; align 40 subjects to an atlas; re-create atlas; align 40 subject to the atlas; re-create atlas.\nUsing knolwdge from freesurfer recon, each voxel together with it’s time course is maped to one of the 3 atlas spaces: either the left cortical hemisphere, the right hemisphere or the subcrotical structures like the basal ganglia, amygldala, brainstem, etc. And the atlas spaces in this case are fsaverage. After this, the spatial smoothing is done either in 2D or in 3D depending on whether it is a surface space or a volume subcortical space, and voxels that do not belong to the space is being basked out.",
+    "crumbs": [
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Preprocessing</span>"
+    ]
+  },
+  {
+    "objectID": "preprocessing.html#spatial-smoothing",
+    "href": "preprocessing.html#spatial-smoothing",
+    "title": "4  Preprocessing",
+    "section": "Spatial smoothing",
+    "text": "Spatial smoothing\n\n\n\n\n\n\n\n\n\noriginal\n\n\n\n\n\n\n\nsmoothed\n\n\n\n\n\n\nFinally, each volume is typically smoothed with a gaussian to increase the signal and supress noise. The amount of smoothing is usally expressed by the shape of the gaussian, which, in turn, is described by it’s full withd at half maximum. Here are the examples of the original volume, the smoothed volume at 5 fwhm and 10 fwhm. You can see that the signal increase happens at the expense of the spatial resolution.",
+    "crumbs": [
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Preprocessing</span>"
+    ]
+  },
+  {
+    "objectID": "preprocessing.html#full-width-at-half-maximum",
+    "href": "preprocessing.html#full-width-at-half-maximum",
+    "title": "4  Preprocessing",
+    "section": "Full width at half maximum",
+    "text": "Full width at half maximum\n\n\nCode\n# Load library\nlibrary(ggplot2)\n\n# Define Gaussian function\ngaussian &lt;- function(x, mu = 0, sigma = 1) {\n  (1 / (sigma * sqrt(2 * pi))) * exp(- (x - mu)^2 / (2 * sigma^2))\n}\n\n# Create data\nx &lt;- seq(-5, 5, length.out = 1000)\ny &lt;- gaussian(x, mu = 0, sigma = 1)\n\n# Find half maximum\nymax &lt;- max(y)\nhalf_max &lt;- ymax / 2\n\n# Solve for FWHM points\nleft_idx &lt;- which(y &gt;= half_max)[1]\nright_idx &lt;- tail(which(y &gt;= half_max), 1)\n\nx_left &lt;- x[left_idx]\nx_right &lt;- x[right_idx]\nfwhm_value &lt;- x_right - x_left\n\n# Create data frame\ndata &lt;- data.frame(x = x, y = y)\n\n# Plot\nggplot(data, aes(x, y)) +\n  geom_line(color = \"blue\", size = 1) +\n  geom_hline(yintercept = half_max, linetype = \"dashed\", color = \"red\") +\n  geom_vline(xintercept = c(x_left, x_right), linetype = \"dotted\", color = \"darkgreen\") +\n  annotate(\"text\", x = 0, y = half_max + 0.02, label = \"Half Maximum\", color = \"red\") +\n  annotate(\"text\", x = x_left - 0.3, y = 0.1, label = sprintf(\"%.2f\", x_left), color = \"darkgreen\") +\n  annotate(\"text\", x = x_right + 0.3, y = 0.1, label = sprintf(\"%.2f\", x_right), color = \"darkgreen\") +\n  annotate(\"text\", x = 0, y = 0.15, label = paste(\"FWHM =\", round(fwhm_value, 2)), color = \"black\", size = 5) +\n  theme_minimal() +\n  labs(title = \"Gaussian Curve with FWHM\",\n       x = \"x\",\n       y = \"Amplitude\")\n\n\nWarning: Using `size` aesthetic for lines was deprecated in ggplot2 3.4.0.\nℹ Please use `linewidth` instead.\n\n\n\n\n\nGaussian curve with FWHM",
+    "crumbs": [
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Preprocessing</span>"
+    ]
+  },
+  {
+    "objectID": "preprocessing.html#spatial-smoothing-1",
+    "href": "preprocessing.html#spatial-smoothing-1",
+    "title": "4  Preprocessing",
+    "section": "Spatial smoothing",
+    "text": "Spatial smoothing\n\n\n\n\n\n\n\n\n\noriginal\n\n\n\n\n\n\n\n5 mm FWHM\n\n\n\n\n\n\n\n10 mm FWHM\n\n\n\n\n\n\nPurpose1: increase the signal and suppress the noise\nPurpose2: even better compensate for inter-individual differences\nFMRIprep does not smooth the data",
+    "crumbs": [
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Preprocessing</span>"
+    ]
+  },
+  {
+    "objectID": "preprocessing.html#critique",
+    "href": "preprocessing.html#critique",
+    "title": "4  Preprocessing",
+    "section": "Critique",
+    "text": "Critique\n\n(Stelzer et al. 2014)\n\nVolume smoothing has been heavily criticized by some influential people in the field. It has even been called “deficient approaches to human neuroimaging”. Because it does not only degrade the resolution, but also decreases the effect size. But it is still being done in many cases – it all depends on the questions you are asking",
+    "crumbs": [
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Preprocessing</span>"
+    ]
+  },
+  {
+    "objectID": "preprocessing.html#surface-based-smoothing",
+    "href": "preprocessing.html#surface-based-smoothing",
+    "title": "4  Preprocessing",
+    "section": "Surface-based smoothing",
+    "text": "Surface-based smoothing\n\n\n\nslide courtesy of Doug Greve\n\n5 mm apart in 3D\n25 mm apart on surface\nAveraging with other tissue types (WM, CSF)\nAveraging with other functional areas\nOne important feature is that fsfast allows surface-based processing, and therefore overcomes some of the difficulties caused by smoothing.\nHere is an example of how it works. Here is a piece of freesrurfer reconstructed cortical surface with yellow a white matter surface and red the the gray matter surface. The two points, on opposite banks of the sulcus, are only 5 mm apart in the volume, however, they are very far from each other on the surface. So these two points can be two completely different functional areas. However, if you smooth on the volume, as shown here, you will mix them together. Surface smoothing routines use the information from the freesurfer’s surface reconstruction and smoothe the data along the cortical surface. This allows to take advantage of smoothing procedure without mixing these two areas together.",
+    "crumbs": [
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Preprocessing</span>"
+    ]
+  },
+  {
+    "objectID": "preprocessing.html#fmriprep-1",
+    "href": "preprocessing.html#fmriprep-1",
+    "title": "4  Preprocessing",
+    "section": "fMRIprep",
+    "text": "fMRIprep\n\n\n\nPros\n\nUseful for processing many subjects, whole-brain data, standard acquisition protocols\nCollection of best practices from all software\nHPC compatibility\nUseful for “users” when knowledgeable people assist them\nAutomatic quality control\nIncreases reproducibility (?)\n\n\n\n\nCons\n\nDifficult/impossible to use for custom acquisitions\nDifficult/impossible to manually intervene\nMay not be worth it with few subjects are being processed\nRequires a Linux environment and corresponding knowledge\nNeed integration with the software you will use for your analysis\nHard to explain what you did (black box)",
+    "crumbs": [
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Preprocessing</span>"
+    ]
+  },
+  {
+    "objectID": "preprocessing.html#example-i",
+    "href": "preprocessing.html#example-i",
+    "title": "4  Preprocessing",
+    "section": "Example I",
+    "text": "Example I\n\n\n\n(Arsenovic, Ischebeck, and Zaretskaya 2022)",
+    "crumbs": [
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Preprocessing</span>"
+    ]
+  },
+  {
+    "objectID": "preprocessing.html#example-ii",
+    "href": "preprocessing.html#example-ii",
+    "title": "4  Preprocessing",
+    "section": "Example II",
+    "text": "Example II\n\n\n\n(Coates et al. 2024)",
+    "crumbs": [
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Preprocessing</span>"
+    ]
+  },
+  {
+    "objectID": "preprocessing.html#run-fmriprep",
+    "href": "preprocessing.html#run-fmriprep",
+    "title": "4  Preprocessing",
+    "section": "Run fMRIprep",
+    "text": "Run fMRIprep\nBefore running\n\nApply for a freesurfer license file: https://surfer.nmr.mgh.harvard.edu/registration.html\nDownload it and store in /home/jovyan/license.txt (or wherever you like)\n\n\n\nRun fMRIprep as follows\n# create freesurfer subject directory\nmkdir -p /home/jovyan/gambling/bids/derivatives/fmriprep/sourcedata/freesurfer/\n\n# define the path to the freesurfer subject directory\nSUBJECTS_DIR=/home/jovyan/gambling/bids/derivatives/fmriprep/sourcedata/freesurfer/\n\n# run fMRIprep with 4 output spaces: T1 native, MNI, fsnative, fsaverage\nfmriprep /home/jovyan/gambling/bids/ /home/jovyan/gambling/bids/derivatives/fmriprep/ \\\nparticipant \\\n--fs-license-file /home/jovyan/license.txt \\\n--output-spaces T1w MNI152NLin2009cAsym fsnative fsaverage \nAfter this, we need to wait for some ˜ 3-4 hours, while magic happens.",
+    "crumbs": [
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Preprocessing</span>"
+    ]
+  },
+  {
+    "objectID": "preprocessing.html#references",
+    "href": "preprocessing.html#references",
+    "title": "4  Preprocessing",
+    "section": "References",
+    "text": "References\n\n\n\n\nArsenovic, Ana, Anja Ischebeck, and Natalia Zaretskaya. 2022. “Dissociation Between Attention-Dependent and Spatially Specific Illusory Shape Responses Within the Topographic Areas of the Posterior Parietal Cortex.” The Journal of Neuroscience, September. https://doi.org/10.1523/JNEUROSCI.0723-22.2022.\n\n\nAshburner, John, and Karl J Friston. 2005. “Unified Segmentation.” NeuroImage 26 (3): 839–51. https://doi.org/10.1016/j.neuroimage.2005.02.018.\n\n\nCoates, Adam, David Linhardt, Christian Windischberger, Anja Ischebeck, and Natalia Zaretskaya. 2024. “High-Resolution 7T fMRI Reveals the Visual Zone of the Human Claustrum.” Imaging Neuroscience 2 (October): 1–15. https://doi.org/10.1162/imag_a_00327.\n\n\nEsteban, Oscar, Christopher J. Markiewicz, Ross W. Blair, Craig A. Moodie, A. Ilkay Isik, Asier Erramuzpe, James D. Kent, et al. 2018. “fMRIPrep: A Robust Preprocessing Pipeline for Functional MRI.” Nature Methods 16 (1): 111–16. https://doi.org/10.1038/s41592-018-0235-4.\n\n\nGreve, Douglas N., and Bruce Fischl. 2009. “Accurate and Robust Brain Image Alignment Using Boundary-Based Registration.” NeuroImage 48 (1): 63–72. https://doi.org/10.1016/j.neuroimage.2009.06.060.\n\n\nStelzer, Johannes, Gabriele Lohmann, Karsten Mueller, Tilo Buschmann, and Robert Turner. 2014. “Deficient Approaches to Human Neuroimaging.” Frontiers in Human Neuroscience 8 (July). https://doi.org/10.3389/fnhum.2014.00462.\n\n\nTierney, Tim M., Nicholas A. Alexander, Nicole Labra Avila, Yael Balbastre, Gareth Barnes, Yulia Bezsudnova, Mikael Brudfors, et al. 2025. “SPM 25: Open Source Neuroimaging Analysis Software.” https://doi.org/10.48550/ARXIV.2501.12081.",
+    "crumbs": [
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Preprocessing</span>"
     ]
   }
 ]

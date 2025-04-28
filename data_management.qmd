@@ -324,11 +324,13 @@ Now you can view the nifti files with any suitable software
 
 ## MRIQC
 
-MRIQC is a tool used for quality assurance of bids-valid datasets
+MRIQC [@esteban2017]is a tool used for quality assurance of bids-valid datasets. It is a bids app, meaning that it works on bids-conform data.
 
 ![](images/clipboard-1260990723.png)
 
-## Run
+## Running MRIQC
+
+Should take around 10 minutes
 
 ### Command line
 
@@ -341,11 +343,63 @@ mriqc_folder=/home/jovyan/gambling/bids/derivatives/mriqc/
 mkdir -p $mriqc_folder
 
 # run mriqc
-mriqc $bids_folder $mriqc_folder participant --participant-label 999
+mriqc $bids_folder $mriqc_folder participant --participant-label 001
 ```
 
 ### Output
 
-![](images/clipboard-659925537.png)
+![](images/clipboard-2070588200.png){width="467"}
+
+::: notes
+You will see that there are html outputs for anatomical and functional scans. They can be viewed in a browser, without actually loading the images.
+:::
+
+## Anatomical
+
+::::: columns
+### Noise
+
+::: {.column width="50%"}
+![](images/clipboard-959542348.png)
+:::
+
+::: {.column width="50%"}
+### Actual image
+
+![](images/clipboard-1251899225.png)
+:::
+:::::
+
+::: notes
+This is useful to quickly identify problems with the data. A rating widget is also available, which is useful for large datasets.
+:::
+
+## Functional
+
+:::::: columns
+::: {.column width="33.333%"}
+![](images/clipboard-2643957852.png)
+:::
+
+::: {.column width="33.333%"}
+![](images/clipboard-3526589766.png)
+:::
+
+::: {.column width="33.333%"}
+![](images/clipboard-800319650.png)
+:::
+::::::
+
+::: notes
+For functional data, in addition to spatial noise (middle) and average image over time (right), there is a section showing temporal noise over time. Note how the values are highest in the eyes (due to eye movements) and in the center of the brain, due to blood pulsation.
+:::
+
+## Carpet plots for functional data
+
+![](images/clipboard-3163786376.png)
+
+::: notes
+Carpet plot shows signal fluctuations over time (x-axis) for each voxel (y-axis). Note how there are some patterns initially and at the end. There should be no clear pattern during the experiment, this speaks for good signal quality.
+:::
 
 ## References

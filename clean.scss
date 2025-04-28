@@ -285,6 +285,10 @@ $selection-bg: #26351c !default;
   border-bottom: 2px solid #D3D3D3; /* Dark grey color for the bottom border */
 }
 
+.caption{
+   text-align: center;
+}
+
 /* Make column headers bold */
 .reveal table thead th {
   font-weight: bold;

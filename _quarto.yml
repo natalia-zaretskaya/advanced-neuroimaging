@@ -18,17 +18,20 @@ book:
     - fmri-intro.qmd
     - paradigm.qmd
     - data_management.qmd
+    - preprocessing.qmd
 
 format:
   html:
     theme: cosmo
     number-depth: 0
+    code-fold: true
   revealjs:
     theme: [clean.scss]
     incremental: true
     scrollable: true
     slide-number: true
     chalkboard: true
+    code-fold: true
 #  typst: 
 #    toc: false
 #    columns: 1

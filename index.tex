@@ -65,6 +65,46 @@
 \fi
 \makeatother
 
+\usepackage{color}
+\usepackage{fancyvrb}
+\newcommand{\VerbBar}{|}
+\newcommand{\VERB}{\Verb[commandchars=\\\{\}]}
+\DefineVerbatimEnvironment{Highlighting}{Verbatim}{commandchars=\\\{\}}
+% Add ',fontsize=\small' for more characters per line
+\usepackage{framed}
+\definecolor{shadecolor}{RGB}{241,243,245}
+\newenvironment{Shaded}{\begin{snugshade}}{\end{snugshade}}
+\newcommand{\AlertTok}[1]{\textcolor[rgb]{0.68,0.00,0.00}{#1}}
+\newcommand{\AnnotationTok}[1]{\textcolor[rgb]{0.37,0.37,0.37}{#1}}
+\newcommand{\AttributeTok}[1]{\textcolor[rgb]{0.40,0.45,0.13}{#1}}
+\newcommand{\BaseNTok}[1]{\textcolor[rgb]{0.68,0.00,0.00}{#1}}
+\newcommand{\BuiltInTok}[1]{\textcolor[rgb]{0.00,0.23,0.31}{#1}}
+\newcommand{\CharTok}[1]{\textcolor[rgb]{0.13,0.47,0.30}{#1}}
+\newcommand{\CommentTok}[1]{\textcolor[rgb]{0.37,0.37,0.37}{#1}}
+\newcommand{\CommentVarTok}[1]{\textcolor[rgb]{0.37,0.37,0.37}{\textit{#1}}}
+\newcommand{\ConstantTok}[1]{\textcolor[rgb]{0.56,0.35,0.01}{#1}}
+\newcommand{\ControlFlowTok}[1]{\textcolor[rgb]{0.00,0.23,0.31}{\textbf{#1}}}
+\newcommand{\DataTypeTok}[1]{\textcolor[rgb]{0.68,0.00,0.00}{#1}}
+\newcommand{\DecValTok}[1]{\textcolor[rgb]{0.68,0.00,0.00}{#1}}
+\newcommand{\DocumentationTok}[1]{\textcolor[rgb]{0.37,0.37,0.37}{\textit{#1}}}
+\newcommand{\ErrorTok}[1]{\textcolor[rgb]{0.68,0.00,0.00}{#1}}
+\newcommand{\ExtensionTok}[1]{\textcolor[rgb]{0.00,0.23,0.31}{#1}}
+\newcommand{\FloatTok}[1]{\textcolor[rgb]{0.68,0.00,0.00}{#1}}
+\newcommand{\FunctionTok}[1]{\textcolor[rgb]{0.28,0.35,0.67}{#1}}
+\newcommand{\ImportTok}[1]{\textcolor[rgb]{0.00,0.46,0.62}{#1}}
+\newcommand{\InformationTok}[1]{\textcolor[rgb]{0.37,0.37,0.37}{#1}}
+\newcommand{\KeywordTok}[1]{\textcolor[rgb]{0.00,0.23,0.31}{\textbf{#1}}}
+\newcommand{\NormalTok}[1]{\textcolor[rgb]{0.00,0.23,0.31}{#1}}
+\newcommand{\OperatorTok}[1]{\textcolor[rgb]{0.37,0.37,0.37}{#1}}
+\newcommand{\OtherTok}[1]{\textcolor[rgb]{0.00,0.23,0.31}{#1}}
+\newcommand{\PreprocessorTok}[1]{\textcolor[rgb]{0.68,0.00,0.00}{#1}}
+\newcommand{\RegionMarkerTok}[1]{\textcolor[rgb]{0.00,0.23,0.31}{#1}}
+\newcommand{\SpecialCharTok}[1]{\textcolor[rgb]{0.37,0.37,0.37}{#1}}
+\newcommand{\SpecialStringTok}[1]{\textcolor[rgb]{0.13,0.47,0.30}{#1}}
+\newcommand{\StringTok}[1]{\textcolor[rgb]{0.13,0.47,0.30}{#1}}
+\newcommand{\VariableTok}[1]{\textcolor[rgb]{0.07,0.07,0.07}{#1}}
+\newcommand{\VerbatimStringTok}[1]{\textcolor[rgb]{0.13,0.47,0.30}{#1}}
+\newcommand{\WarningTok}[1]{\textcolor[rgb]{0.37,0.37,0.37}{\textit{#1}}}
 
 \providecommand{\tightlist}{%
   \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}\usepackage{longtable,booktabs,array}
@@ -170,6 +210,10 @@
 \@ifpackageloaded{caption}{}{\usepackage{caption}}
 \@ifpackageloaded{subcaption}{}{\usepackage{subcaption}}
 \makeatother
+\makeatletter
+\@ifpackageloaded{sidenotes}{}{\usepackage{sidenotes}}
+\@ifpackageloaded{marginnote}{}{\usepackage{marginnote}}
+\makeatother
 
 \usepackage{bookmark}
 
@@ -217,12 +261,11 @@
 \includegraphics[width=1.04167in,height=\textheight,keepaspectratio]{images/claus_7TCOR_activity_website.png}
 
 \begin{longtable}[]{@{}
-  >{\raggedright\arraybackslash}p{(\linewidth - 10\tabcolsep) * \real{0.0900}}
-  >{\raggedright\arraybackslash}p{(\linewidth - 10\tabcolsep) * \real{0.1800}}
-  >{\raggedright\arraybackslash}p{(\linewidth - 10\tabcolsep) * \real{0.2700}}
-  >{\raggedright\arraybackslash}p{(\linewidth - 10\tabcolsep) * \real{0.2700}}
-  >{\raggedright\arraybackslash}p{(\linewidth - 10\tabcolsep) * \real{0.0900}}
-  >{\raggedright\arraybackslash}p{(\linewidth - 10\tabcolsep) * \real{0.0900}}@{}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 8\tabcolsep) * \real{0.1000}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 8\tabcolsep) * \real{0.2000}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 8\tabcolsep) * \real{0.3000}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 8\tabcolsep) * \real{0.3000}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 8\tabcolsep) * \real{0.1000}}@{}}
 \caption{Course schedule}\label{tbl-schedule}\tabularnewline
 \toprule\noalign{}
 \endfirsthead
@@ -264,13 +307,13 @@
 \addcontentsline{toc}{chapter}{Estimated workload (h)}
 
 \markboth{Estimated workload (h)}{Estimated workload (h)}
-\end{minipage} & \\
+\end{minipage} \\
 \textbf{1} &
 \href{https://online.uni-graz.at/kfu_online/pl/ui/$ctx/!wbTermin.wbEdit?pTerminNr=8700320}{\textbf{04.03.2025}}
 \textbf{\textbar{} 13:30 \textbar{}
 \href{https://online.uni-graz.at/kfu_online/pl/ui/$ctx/wbKalender.wbRessource?pResNr=12603&pDatum=04.03.2025&pOrgNr=&pSachbearbeiter=F}{SR
 02.31 (0002030122)}} & \textbf{Organization and introduction} &
-\textbf{none} & \textbf{0} & \\
+\textbf{none} & \textbf{0} \\
 \textbf{2} &
 \href{https://online.uni-graz.at/kfu_online/pl/ui/$ctx/!wbTermin.wbEdit?pTerminNr=8700319}{\textbf{11.03.2025}}
 \textbf{\textbar{} 13:30 \textbar{}
@@ -278,92 +321,94 @@
 02.31 (0002030122)}} & \href{fmri-intro.qmd}{\textbf{Introduction to
 fMRI}} & \textbf{Make groups, start thinking of a project};
 
-\textbf{Install PsychoPy} & 4 & \\
-3 &
-\href{https://online.uni-graz.at/kfu_online/pl/ui/$ctx/!wbTermin.wbEdit?pTerminNr=8700318}{18.03.2025}
-\textbar{} 13:30 \textbar{}
+\textbf{Install PsychoPy} & 4 \\
+\textbf{3} &
+\href{https://online.uni-graz.at/kfu_online/pl/ui/$ctx/!wbTermin.wbEdit?pTerminNr=8700318}{\textbf{18.03.2025}}
+\textbf{\textbar{} 13:30 \textbar{}
 \href{https://online.uni-graz.at/kfu_online/pl/ui/$ctx/wbKalender.wbRessource?pResNr=12603&pDatum=18.03.2025&pOrgNr=&pSachbearbeiter=F}{SR
-02.31 (0002030122)} & Project slam and public vote
+02.31 (0002030122)}} & \textbf{Project slam and public vote}
 
-(Winner does not need to write an interoduction) & Prepare a
-presentation of your project (See
+\textbf{(Winner does not need to write an interoduction)} &
+\textbf{Prepare a presentation of your project (See
 \hyperref[sec-presentation-guidelines]{Presentation Guidelines} and
 \hyperref[sec-presentation-evaluation]{Presentation Evaluation
-Criteria}) & 4 & \\
-4 &
-\href{https://online.uni-graz.at/kfu_online/pl/ui/$ctx/!wbTermin.wbEdit?pTerminNr=8700317}{25.03.2025}
-\textbar{} 13:30 \textbar{}
+Criteria})} & \textbf{4} \\
+\textbf{4} &
+\href{https://online.uni-graz.at/kfu_online/pl/ui/$ctx/!wbTermin.wbEdit?pTerminNr=8700317}{\textbf{25.03.2025}}
+\textbf{\textbar{} 13:30 \textbar{}
 \href{https://online.uni-graz.at/kfu_online/pl/ui/$ctx/wbKalender.wbRessource?pResNr=12603&pDatum=25.03.2025&pOrgNr=&pSachbearbeiter=F}{SR
-02.31 (0002030122)} & Implementation slam and second public vote
+02.31 (0002030122)}} & \textbf{Implementation slam and second public
+vote}
 
-(Winner does not need to write the experiment description) & Go through
-the \href{https://www.youtube.com/watch?v=GSv60zgQlB8}{PsychoPy intro}.
+\textbf{(Winner does not need to write the experiment description)} &
+\textbf{Go through the
+\href{https://www.youtube.com/watch?v=GSv60zgQlB8}{PsychoPy intro}.}
 
-Implement your project in PsychoPy, show it to the class & 8 & \\
-5 &
-\href{https://online.uni-graz.at/kfu_online/pl/ui/$ctx/!wbTermin.wbEdit?pTerminNr=8700316}{01.04.2025}
-\textbar{} 13:30 \textbar{}
+\textbf{Implement your project in PsychoPy, show it to the class} &
+\textbf{8} \\
+\textbf{5} &
+\href{https://online.uni-graz.at/kfu_online/pl/ui/$ctx/!wbTermin.wbEdit?pTerminNr=8700316}{\textbf{01.04.2025}}
+\textbf{\textbar{} 13:30 \textbar{}
 \href{https://online.uni-graz.at/kfu_online/pl/ui/$ctx/wbKalender.wbRessource?pResNr=12603&pDatum=01.04.2025&pOrgNr=&pSachbearbeiter=F}{SR
-02.31 (0002030122)} & Piloting the selected experiment & Every course
-participant performs one round of the experiment and gives feedback & 4
-& \\
-6 &
-\href{https://online.uni-graz.at/kfu_online/pl/ui/$ctx/!wbTermin.wbEdit?pTerminNr=8700315}{08.04.2025}
-\textbar{} 13:30 \textbar{}
+02.31 (0002030122)}} & \textbf{Data management I} & \textbf{Neurodesk
+registration} & \textbf{4} \\
+\textbf{6} &
+\href{https://online.uni-graz.at/kfu_online/pl/ui/$ctx/!wbTermin.wbEdit?pTerminNr=8700315}{\textbf{08.04.2025}}
+\textbf{\textbar{} 13:30 \textbar{}
 \href{https://online.uni-graz.at/kfu_online/pl/ui/$ctx/wbKalender.wbRessource?pResNr=12603&pDatum=08.04.2025&pOrgNr=&pSachbearbeiter=F}{SR
-02.31 (0002030122)} & Data acquisition in the MRI lab {[}date and time
-TBA{]} & Decide on the paradigm timing & 1 & \\
+02.31 (0002030122)}} & \textbf{Experiment feedback, data management II;}
+
+\textbf{Data acquisition in the MRI lab 9.04.2025} & \textbf{Every
+course participant performs 3 rounds of the experiment and gives
+feedback} & \textbf{1} \\
 7 &
 \href{https://online.uni-graz.at/kfu_online/pl/ui/$ctx/!wbTermin.wbEdit?pTerminNr=8700314}{29.04.2025}
 \textbar{} 13:30 \textbar{}
 \href{https://online.uni-graz.at/kfu_online/pl/ui/$ctx/wbKalender.wbRessource?pResNr=12603&pDatum=29.04.2025&pOrgNr=&pSachbearbeiter=F}{SR
-02.31 (0002030122)} & Introduction to Neurodesk, data formats and BIDS &
-- & 0 & \\
+02.31 (0002030122)} & Preprocessing & MRIQC & 0 \\
 8 &
 \href{https://online.uni-graz.at/kfu_online/pl/ui/$ctx/!wbTermin.wbEdit?pTerminNr=8700313}{06.05.2025}
 \textbar{} 13:30 \textbar{}
 \href{https://online.uni-graz.at/kfu_online/pl/ui/$ctx/wbKalender.wbRessource?pResNr=12603&pDatum=06.05.2025&pOrgNr=&pSachbearbeiter=F}{SR
-02.31 (0002030122)} & Preprocessing & DCM to NIFTI conversion, BIDS
-validation & 4 & \\
+02.31 (0002030122)} & Analysis: General linear model & Preprocessing &
+4 \\
 9 &
 \href{https://online.uni-graz.at/kfu_online/pl/ui/$ctx/!wbTermin.wbEdit?pTerminNr=8700312}{13.05.2025}
 \textbar{} 13:30 \textbar{}
 \href{https://online.uni-graz.at/kfu_online/pl/ui/$ctx/wbKalender.wbRessource?pResNr=12603&pDatum=13.05.2025&pOrgNr=&pSachbearbeiter=F}{SR
-02.31 (0002030122)} & Analysis: General linear model & Start
-preprocessing & 4 & \\
+02.31 (0002030122)} & Analysis: Other analyses types & Data analysis &
+4 \\
 10 &
 \href{https://online.uni-graz.at/kfu_online/pl/ui/$ctx/!wbTermin.wbEdit?pTerminNr=8700311}{20.05.2025}
 \textbar{} 13:30 \textbar{}
 \href{https://online.uni-graz.at/kfu_online/pl/ui/$ctx/wbKalender.wbRessource?pResNr=12603&pDatum=20.05.2025&pOrgNr=&pSachbearbeiter=F}{SR
-02.31 (0002030122)} & Analysis: Other analyses types & Finish
-preprocessing, start data analysis & 4 & \\
+02.31 (0002030122)} & Result visualization and reporting & Finish data
+analysis & 4 \\
 11 &
 \href{https://online.uni-graz.at/kfu_online/pl/ui/$ctx/!wbTermin.wbEdit?pTerminNr=8700310}{27.05.2025}
 \textbar{} 13:30 \textbar{}
 \href{https://online.uni-graz.at/kfu_online/pl/ui/$ctx/wbKalender.wbRessource?pResNr=12603&pDatum=27.05.2025&pOrgNr=&pSachbearbeiter=F}{SR
-02.31 (0002030122)} & Result visualization and reporting & Finish data
-analysis & 4 & \\
+02.31 (0002030122)} & Result presentation slam, public vote
+
+(winner does not need to write a results section) & Prepare a poster
+with images & 4 \\
 12 &
 \href{https://online.uni-graz.at/kfu_online/pl/ui/$ctx/!wbTermin.wbEdit?pTerminNr=8700309}{03.06.2025}
 \textbar{} 13:30 \textbar{}
 \href{https://online.uni-graz.at/kfu_online/pl/ui/$ctx/wbKalender.wbRessource?pResNr=12603&pDatum=03.06.2025&pOrgNr=&pSachbearbeiter=F}{SR
-02.31 (0002030122)} & Result presentation slam, public vote
-
-(winner does not need to write a results section) & Prepare a poster
-with images & 4 & \\
+02.31 (0002030122)} & Writing an fMRI article & Report draft: Results
+section & 4 \\
 13 &
 \href{https://online.uni-graz.at/kfu_online/pl/ui/$ctx/!wbTermin.wbEdit?pTerminNr=8700308}{17.06.2025}
 \textbar{} 13:30 \textbar{}
 \href{https://online.uni-graz.at/kfu_online/pl/ui/$ctx/wbKalender.wbRessource?pResNr=12603&pDatum=17.06.2025&pOrgNr=&pSachbearbeiter=F}{SR
-02.31 (0002030122)} & Writing an fMRI article & Report draft: Results
-section & 4 & \\
+02.31 (0002030122)} & Final session, course evaluation & Report draft &
+4 \\
 14 &
 \href{https://online.uni-graz.at/kfu_online/pl/ui/$ctx/!wbTermin.wbEdit?pTerminNr=8700307}{24.06.2025}
 \textbar{} 13:30 \textbar{}
 \href{https://online.uni-graz.at/kfu_online/pl/ui/$ctx/wbKalender.wbRessource?pResNr=12603&pDatum=24.06.2025&pOrgNr=&pSachbearbeiter=F}{SR
-02.31 (0002030122)} & Final session, course evaluation
-
-Report deadline & Report draft & 4 & \\
+02.31 (0002030122)} & Report deadline & & 4 \\
 \end{longtable}
 
 \bookmarksetup{startatroot}
@@ -531,10 +576,10 @@ ECTS}\label{possible-workload-for-4-ects}
 \markright{Possible workload for 4 ECTS}
 
 \begin{longtable}[]{@{}
-  >{\raggedright\arraybackslash}p{(\linewidth - 6\tabcolsep) * \real{0.2361}}
-  >{\raggedright\arraybackslash}p{(\linewidth - 6\tabcolsep) * \real{0.2361}}
-  >{\raggedright\arraybackslash}p{(\linewidth - 6\tabcolsep) * \real{0.2917}}
-  >{\raggedright\arraybackslash}p{(\linewidth - 6\tabcolsep) * \real{0.2361}}@{}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 6\tabcolsep) * \real{0.2500}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 6\tabcolsep) * \real{0.2500}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 6\tabcolsep) * \real{0.2500}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 6\tabcolsep) * \real{0.2500}}@{}}
 \caption{Example workload distribution according to 4 ECTS (100
 hours)}\label{tbl-ects}\tabularnewline
 \toprule\noalign{}
@@ -592,7 +637,7 @@ Report writing & & 23 hours ⁓ 3 full work days! & 100 \\
 \item
   25\%: Result visualization presentation (individual or group)
 \item
-  50 \%: Final \hyperref[chap-report]{report} (individual)
+  50 \%: Final report (individual)
 
   \begin{itemize}
   \tightlist
@@ -753,12 +798,11 @@ AI usage is conditional on full disclosure:
 \markright{Course schedule}
 
 \begin{longtable}[]{@{}
-  >{\raggedright\arraybackslash}p{(\linewidth - 10\tabcolsep) * \real{0.0900}}
-  >{\raggedright\arraybackslash}p{(\linewidth - 10\tabcolsep) * \real{0.1800}}
-  >{\raggedright\arraybackslash}p{(\linewidth - 10\tabcolsep) * \real{0.2700}}
-  >{\raggedright\arraybackslash}p{(\linewidth - 10\tabcolsep) * \real{0.2700}}
-  >{\raggedright\arraybackslash}p{(\linewidth - 10\tabcolsep) * \real{0.0900}}
-  >{\raggedright\arraybackslash}p{(\linewidth - 10\tabcolsep) * \real{0.0900}}@{}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 8\tabcolsep) * \real{0.1000}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 8\tabcolsep) * \real{0.2000}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 8\tabcolsep) * \real{0.3000}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 8\tabcolsep) * \real{0.3000}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 8\tabcolsep) * \real{0.1000}}@{}}
 \caption{Course schedule}\label{tbl-schedule}\tabularnewline
 \toprule\noalign{}
 \endfirsthead
@@ -800,13 +844,13 @@ AI usage is conditional on full disclosure:
 \addcontentsline{toc}{chapter}{Estimated workload (h)}
 
 \markboth{Estimated workload (h)}{Estimated workload (h)}
-\end{minipage} & \\
+\end{minipage} \\
 \textbf{1} &
 \href{https://online.uni-graz.at/kfu_online/pl/ui/$ctx/!wbTermin.wbEdit?pTerminNr=8700320}{\textbf{04.03.2025}}
 \textbf{\textbar{} 13:30 \textbar{}
 \href{https://online.uni-graz.at/kfu_online/pl/ui/$ctx/wbKalender.wbRessource?pResNr=12603&pDatum=04.03.2025&pOrgNr=&pSachbearbeiter=F}{SR
 02.31 (0002030122)}} & \textbf{Organization and introduction} &
-\textbf{none} & \textbf{0} & \\
+\textbf{none} & \textbf{0} \\
 \textbf{2} &
 \href{https://online.uni-graz.at/kfu_online/pl/ui/$ctx/!wbTermin.wbEdit?pTerminNr=8700319}{\textbf{11.03.2025}}
 \textbf{\textbar{} 13:30 \textbar{}
@@ -814,92 +858,94 @@ AI usage is conditional on full disclosure:
 02.31 (0002030122)}} & \href{fmri-intro.qmd}{\textbf{Introduction to
 fMRI}} & \textbf{Make groups, start thinking of a project};
 
-\textbf{Install PsychoPy} & 4 & \\
-3 &
-\href{https://online.uni-graz.at/kfu_online/pl/ui/$ctx/!wbTermin.wbEdit?pTerminNr=8700318}{18.03.2025}
-\textbar{} 13:30 \textbar{}
+\textbf{Install PsychoPy} & 4 \\
+\textbf{3} &
+\href{https://online.uni-graz.at/kfu_online/pl/ui/$ctx/!wbTermin.wbEdit?pTerminNr=8700318}{\textbf{18.03.2025}}
+\textbf{\textbar{} 13:30 \textbar{}
 \href{https://online.uni-graz.at/kfu_online/pl/ui/$ctx/wbKalender.wbRessource?pResNr=12603&pDatum=18.03.2025&pOrgNr=&pSachbearbeiter=F}{SR
-02.31 (0002030122)} & Project slam and public vote
+02.31 (0002030122)}} & \textbf{Project slam and public vote}
 
-(Winner does not need to write an interoduction) & Prepare a
-presentation of your project (See
+\textbf{(Winner does not need to write an interoduction)} &
+\textbf{Prepare a presentation of your project (See
 \hyperref[sec-presentation-guidelines]{Presentation Guidelines} and
 \hyperref[sec-presentation-evaluation]{Presentation Evaluation
-Criteria}) & 4 & \\
-4 &
-\href{https://online.uni-graz.at/kfu_online/pl/ui/$ctx/!wbTermin.wbEdit?pTerminNr=8700317}{25.03.2025}
-\textbar{} 13:30 \textbar{}
+Criteria})} & \textbf{4} \\
+\textbf{4} &
+\href{https://online.uni-graz.at/kfu_online/pl/ui/$ctx/!wbTermin.wbEdit?pTerminNr=8700317}{\textbf{25.03.2025}}
+\textbf{\textbar{} 13:30 \textbar{}
 \href{https://online.uni-graz.at/kfu_online/pl/ui/$ctx/wbKalender.wbRessource?pResNr=12603&pDatum=25.03.2025&pOrgNr=&pSachbearbeiter=F}{SR
-02.31 (0002030122)} & Implementation slam and second public vote
+02.31 (0002030122)}} & \textbf{Implementation slam and second public
+vote}
 
-(Winner does not need to write the experiment description) & Go through
-the \href{https://www.youtube.com/watch?v=GSv60zgQlB8}{PsychoPy intro}.
+\textbf{(Winner does not need to write the experiment description)} &
+\textbf{Go through the
+\href{https://www.youtube.com/watch?v=GSv60zgQlB8}{PsychoPy intro}.}
 
-Implement your project in PsychoPy, show it to the class & 8 & \\
-5 &
-\href{https://online.uni-graz.at/kfu_online/pl/ui/$ctx/!wbTermin.wbEdit?pTerminNr=8700316}{01.04.2025}
-\textbar{} 13:30 \textbar{}
+\textbf{Implement your project in PsychoPy, show it to the class} &
+\textbf{8} \\
+\textbf{5} &
+\href{https://online.uni-graz.at/kfu_online/pl/ui/$ctx/!wbTermin.wbEdit?pTerminNr=8700316}{\textbf{01.04.2025}}
+\textbf{\textbar{} 13:30 \textbar{}
 \href{https://online.uni-graz.at/kfu_online/pl/ui/$ctx/wbKalender.wbRessource?pResNr=12603&pDatum=01.04.2025&pOrgNr=&pSachbearbeiter=F}{SR
-02.31 (0002030122)} & Piloting the selected experiment & Every course
-participant performs one round of the experiment and gives feedback & 4
-& \\
-6 &
-\href{https://online.uni-graz.at/kfu_online/pl/ui/$ctx/!wbTermin.wbEdit?pTerminNr=8700315}{08.04.2025}
-\textbar{} 13:30 \textbar{}
+02.31 (0002030122)}} & \textbf{Data management I} & \textbf{Neurodesk
+registration} & \textbf{4} \\
+\textbf{6} &
+\href{https://online.uni-graz.at/kfu_online/pl/ui/$ctx/!wbTermin.wbEdit?pTerminNr=8700315}{\textbf{08.04.2025}}
+\textbf{\textbar{} 13:30 \textbar{}
 \href{https://online.uni-graz.at/kfu_online/pl/ui/$ctx/wbKalender.wbRessource?pResNr=12603&pDatum=08.04.2025&pOrgNr=&pSachbearbeiter=F}{SR
-02.31 (0002030122)} & Data acquisition in the MRI lab {[}date and time
-TBA{]} & Decide on the paradigm timing & 1 & \\
+02.31 (0002030122)}} & \textbf{Experiment feedback, data management II;}
+
+\textbf{Data acquisition in the MRI lab 9.04.2025} & \textbf{Every
+course participant performs 3 rounds of the experiment and gives
+feedback} & \textbf{1} \\
 7 &
 \href{https://online.uni-graz.at/kfu_online/pl/ui/$ctx/!wbTermin.wbEdit?pTerminNr=8700314}{29.04.2025}
 \textbar{} 13:30 \textbar{}
 \href{https://online.uni-graz.at/kfu_online/pl/ui/$ctx/wbKalender.wbRessource?pResNr=12603&pDatum=29.04.2025&pOrgNr=&pSachbearbeiter=F}{SR
-02.31 (0002030122)} & Introduction to Neurodesk, data formats and BIDS &
-- & 0 & \\
+02.31 (0002030122)} & Preprocessing & MRIQC & 0 \\
 8 &
 \href{https://online.uni-graz.at/kfu_online/pl/ui/$ctx/!wbTermin.wbEdit?pTerminNr=8700313}{06.05.2025}
 \textbar{} 13:30 \textbar{}
 \href{https://online.uni-graz.at/kfu_online/pl/ui/$ctx/wbKalender.wbRessource?pResNr=12603&pDatum=06.05.2025&pOrgNr=&pSachbearbeiter=F}{SR
-02.31 (0002030122)} & Preprocessing & DCM to NIFTI conversion, BIDS
-validation & 4 & \\
+02.31 (0002030122)} & Analysis: General linear model & Preprocessing &
+4 \\
 9 &
 \href{https://online.uni-graz.at/kfu_online/pl/ui/$ctx/!wbTermin.wbEdit?pTerminNr=8700312}{13.05.2025}
 \textbar{} 13:30 \textbar{}
 \href{https://online.uni-graz.at/kfu_online/pl/ui/$ctx/wbKalender.wbRessource?pResNr=12603&pDatum=13.05.2025&pOrgNr=&pSachbearbeiter=F}{SR
-02.31 (0002030122)} & Analysis: General linear model & Start
-preprocessing & 4 & \\
+02.31 (0002030122)} & Analysis: Other analyses types & Data analysis &
+4 \\
 10 &
 \href{https://online.uni-graz.at/kfu_online/pl/ui/$ctx/!wbTermin.wbEdit?pTerminNr=8700311}{20.05.2025}
 \textbar{} 13:30 \textbar{}
 \href{https://online.uni-graz.at/kfu_online/pl/ui/$ctx/wbKalender.wbRessource?pResNr=12603&pDatum=20.05.2025&pOrgNr=&pSachbearbeiter=F}{SR
-02.31 (0002030122)} & Analysis: Other analyses types & Finish
-preprocessing, start data analysis & 4 & \\
+02.31 (0002030122)} & Result visualization and reporting & Finish data
+analysis & 4 \\
 11 &
 \href{https://online.uni-graz.at/kfu_online/pl/ui/$ctx/!wbTermin.wbEdit?pTerminNr=8700310}{27.05.2025}
 \textbar{} 13:30 \textbar{}
 \href{https://online.uni-graz.at/kfu_online/pl/ui/$ctx/wbKalender.wbRessource?pResNr=12603&pDatum=27.05.2025&pOrgNr=&pSachbearbeiter=F}{SR
-02.31 (0002030122)} & Result visualization and reporting & Finish data
-analysis & 4 & \\
+02.31 (0002030122)} & Result presentation slam, public vote
+
+(winner does not need to write a results section) & Prepare a poster
+with images & 4 \\
 12 &
 \href{https://online.uni-graz.at/kfu_online/pl/ui/$ctx/!wbTermin.wbEdit?pTerminNr=8700309}{03.06.2025}
 \textbar{} 13:30 \textbar{}
 \href{https://online.uni-graz.at/kfu_online/pl/ui/$ctx/wbKalender.wbRessource?pResNr=12603&pDatum=03.06.2025&pOrgNr=&pSachbearbeiter=F}{SR
-02.31 (0002030122)} & Result presentation slam, public vote
-
-(winner does not need to write a results section) & Prepare a poster
-with images & 4 & \\
+02.31 (0002030122)} & Writing an fMRI article & Report draft: Results
+section & 4 \\
 13 &
 \href{https://online.uni-graz.at/kfu_online/pl/ui/$ctx/!wbTermin.wbEdit?pTerminNr=8700308}{17.06.2025}
 \textbar{} 13:30 \textbar{}
 \href{https://online.uni-graz.at/kfu_online/pl/ui/$ctx/wbKalender.wbRessource?pResNr=12603&pDatum=17.06.2025&pOrgNr=&pSachbearbeiter=F}{SR
-02.31 (0002030122)} & Writing an fMRI article & Report draft: Results
-section & 4 & \\
+02.31 (0002030122)} & Final session, course evaluation & Report draft &
+4 \\
 14 &
 \href{https://online.uni-graz.at/kfu_online/pl/ui/$ctx/!wbTermin.wbEdit?pTerminNr=8700307}{24.06.2025}
 \textbar{} 13:30 \textbar{}
 \href{https://online.uni-graz.at/kfu_online/pl/ui/$ctx/wbKalender.wbRessource?pResNr=12603&pDatum=24.06.2025&pOrgNr=&pSachbearbeiter=F}{SR
-02.31 (0002030122)} & Final session, course evaluation
-
-Report deadline & Report draft & 4 & \\
+02.31 (0002030122)} & Report deadline & & 4 \\
 \end{longtable}
 
 \section*{Recommended reading}\label{recommended-reading}
@@ -1460,7 +1506,543 @@ and Tong 2005)
 Toy example for 2D feature space. Further reading in e.g.~Cohen et al.
 (2017)
 
-\section*{References}\label{references}
+\section{References}\label{references}
+
+\bookmarksetup{startatroot}
+
+\chapter{Experimental paradigm}\label{experimental-paradigm}
+
+In PsychoPy
+
+\section{Runs}\label{runs}
+
+\begin{itemize}
+\item
+  chunks of 5-10 minute length
+\item
+  one run - one start of the PsychoPy script
+\end{itemize}
+
+\section{Start screen}\label{start-screen}
+
+\begin{itemize}
+\item
+  The script should start by showing a welcome message or instruction
+  reminder
+\item
+  It should be waiting for key ``5'' (scanner ``trigger'')
+\item
+  This is needed to synchronize the fMRI signal acquisition with your
+  paradigm
+\item
+  After the start screen, there should be a period of ca. 10 seconds of
+  nothing happening; this is needed to discard initial artifacts
+\end{itemize}
+
+\section{Subject responses}\label{subject-responses}
+
+Subject keys: 1, 2, 3, 4, {[}{]}, 6, 7, 8, 9
+
+\includegraphics[width=0.5\linewidth,height=\textheight,keepaspectratio]{images/clipboard-4146499127.png}\footnote{Current
+  Designs
+  \url{https://www.curdes.com/mainforp/responsedevices/buttonboxes/hhsc-1x4-l.html}}
+
+\section[BIDS plugin for PsychoPy]{\texorpdfstring{BIDS
+plugin\footnote{\url{https://psychopy-bids.readthedocs.io/en/stable/}}
+for
+PsychoPy}{BIDS plugin for PsychoPy}}\label{bids-pluginparadigm-2-for-psychopy}
+
+Should be installed and enabled to save events (conditions and button
+presses) in a comprehensive and standardized manner
+
+\pandocbounded{\includegraphics[keepaspectratio]{images/clipboard-4271384204.png}}
+
+This will also make our data analysis easier
+
+\bookmarksetup{startatroot}
+
+\chapter{Data management}\label{data-management}
+
+In neuroimaging
+
+\section{General}\label{general}
+
+\pandocbounded{\includegraphics[keepaspectratio]{images/clipboard-3125101888.png}}
+
+\marginnote{\begin{footnotesize}
+
+(Juavinett 2022)
+
+\end{footnotesize}}
+
+\section{State in 2022}\label{state-in-2022}
+
+\pandocbounded{\includegraphics[keepaspectratio]{images/clipboard-572345686.png}}
+
+\marginnote{\begin{footnotesize}
+
+Image credit: (Juavinett 2022)
+
+\end{footnotesize}}
+
+\section{BIDS}\label{bids}
+
+\pandocbounded{\includegraphics[keepaspectratio]{images/clipboard-4264973894.png}}
+
+\bookmarksetup{startatroot}
+
+\chapter{1. Psychopy}\label{psychopy}
+
+\section{BIDS plugin for PsychoPy}\label{bids-plugin-for-psychopy}
+
+Should be installed and enabled to save events (conditions and button
+presses) in a comprehensive and standardized manner.
+
+\pandocbounded{\includegraphics[keepaspectratio]{images/clipboard-4271384204.png}}
+
+This will also make our data analysis easier
+
+\marginnote{\begin{footnotesize}
+
+\url{https://psychopy-bids.readthedocs.io/en/stable/}
+
+\end{footnotesize}}
+
+\section{Installation}\label{installation}
+
+\pandocbounded{\includegraphics[keepaspectratio]{images/clipboard-3969700235.png}}
+
+Open psychopy and press ``Get more'' on the right side. Alternatively
+you can open ``plugin/pachages manager'' via ``Tools'' menue.
+Psychopy-plugin should be listed among the available plugins.
+
+On the university computers, bids plugin is available through software
+center.
+
+\bookmarksetup{startatroot}
+
+\chapter[Experiment adjustment]{\texorpdfstring{Experiment
+adjustment\footnote{valid for PsychoPy v2024.2.4}}{Experiment adjustment}}\label{experiment-adjustmentdata_management-1}
+
+\section{Thanks to}\label{thanks-to}
+
+\pandocbounded{\includegraphics[keepaspectratio]{images/clipboard-3961870448.png}}
+
+Lukas currently took over the BIDS plugin development.
+
+\section{Properties}\label{properties}
+
+\pandocbounded{\includegraphics[keepaspectratio]{images/clipboard-3648775932.png}}
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\tightlist
+\item
+  Experiment name will correspond to the task-{[}taskname{]} properety
+  in the bids dataset. It is therefore useful to have a short name
+  without capital letters. This did not work on my mac, but maybe this
+  is an OS issue?
+\item
+  Participant: switched from random code generator to 001. Since we keep
+  the naming consistent with the MRI dataset, and have multiple runs, it
+  is not useful to generate a new code on every run repetition
+\item
+  Session: changed from 001 to 1. This is just our naming convention.
+  Nobody has hundreds of sessions, so we do not expect a number with
+  more than two digits.
+\end{enumerate}
+
+\section{Renaming?}\label{renaming}
+
+\subsection{File}\label{file}
+
+\pandocbounded{\includegraphics[keepaspectratio]{images/clipboard-2219598044.png}}
+
+\subsection{Project folder}\label{project-folder}
+
+\pandocbounded{\includegraphics[keepaspectratio]{images/clipboard-1865608280.png}}
+
+For the task label to work properly in the BIDS plugin, I also tried
+renaming the experiment file and the folder, but this did not help.
+Gambling is still spelled out with a capital ``G'' no mater what I do.
+Let's stay tuned for the psychopy-bids updates.
+
+\section{Research question}\label{research-question}
+
+\subsection{What information do we actually need for
+analysis?}\label{what-information-do-we-actually-need-for-analysis}
+
+\pandocbounded{\includegraphics[keepaspectratio]{images/clipboard-1090987086.png}}
+
+We should keep the research question in mind.
+
+H1 is formulated as a one-way ANOVA with three pairwise post-hoc tests
+
+H2 is formulated as 2x2 two-way ANOVA (at least we will simplify it to
+that)
+
+\section{Unique conditions}\label{unique-conditions}
+
+\begin{itemize}
+\item
+  small win
+\item
+  small loss
+\item
+  large win
+\item
+  large loss
+\item
+  pass
+\end{itemize}
+
+\section{trials.xlsx}\label{trials.xlsx}
+
+\pandocbounded{\includegraphics[keepaspectratio]{images/clipboard-752105472.png}}
+
+For every trial, we should be able to identify whether it is win, loss
+or pass.
+
+For every win or loss trial, we need to know if it is a win/loss with
+high stakes or with low stakes.
+
+Note: right now we are not taking the win probability into account, but
+we know that it is always low for large stakes, and large for low
+stakes, so it is redundant.
+
+\section{Side note:}\label{side-note}
+
+\subsection{Ideal paradigm}\label{ideal-paradigm}
+
+\begin{itemize}
+\item
+  Each trial type appears the same number of times
+\item
+  Carryover counterbalancing - each condition is equally likely to be
+  preceded by each other condition (Brooks 2012)
+\end{itemize}
+
+\section{Events of interest in a
+trial}\label{events-of-interest-in-a-trial}
+
+\subsection{gamble\_trial or
+gamble\_outcome?}\label{gamble_trial-or-gamble_outcome}
+
+\pandocbounded{\includegraphics[keepaspectratio]{images/clipboard-3778340065.png}}
+
+\subsection{Do we need key presses?}\label{do-we-need-key-presses}
+
+\section{Adding bids events}\label{adding-bids-events}
+
+\subsection{Scanner trigger}\label{scanner-trigger}
+
+\pandocbounded{\includegraphics[keepaspectratio]{images/clipboard-3535149556.png}}
+
+I am not sure if it is needed after all, but I added a bids component to
+a routine that waits 10 seconds after the scanner trigger and logged its
+onset.
+
+\section{Linking to a routine \# 1}\label{linking-to-a-routine-1}
+
+\pandocbounded{\includegraphics[keepaspectratio]{images/clipboard-2395359737.png}}
+
+In the BIDS Event Type field you can choose between TaskEvent and
+BehEvent. For now the difference does not matter much, let's choose task
+event.
+
+\section{Linking to a routine \#2}\label{linking-to-a-routine-2}
+
+\pandocbounded{\includegraphics[keepaspectratio]{images/clipboard-674558866.png}}
+
+Right now time 0 in our experiment is the start of the welcome screen.
+We want time 0 to be the scanner trigger. Will take care of it later.
+
+\section{Adding bids events of
+interest}\label{adding-bids-events-of-interest}
+
+\subsection{New variable
+outcome\_trial}\label{new-variable-outcome_trial}
+
+We need one variable to take 3 possible outcomes: win, loss or pass.
+Therefore, I adjusted the code, adding a variable ``outcome\_trial'' for
+this purpose.
+
+\pandocbounded{\includegraphics[keepaspectratio]{images/clipboard-347898199.png}}
+
+\section{points\_text}\label{points_text}
+
+\pandocbounded{\includegraphics[keepaspectratio]{images/clipboard-182415314.png}}
+
+We are creating a bids event and linking it to points\_text within the
+trial (because this routine appears on every loop interation).
+
+\section{Time stamp}\label{time-stamp}
+
+\subsection{Time 0 - scanning onset}\label{time-0---scanning-onset}
+
+\pandocbounded{\includegraphics[keepaspectratio]{images/clipboard-3405507570.png}}
+
+Now we want to adjust the onset time to the scanner trigger arrival.
+This is done by ticking ``Manually set values'' and putting the
+difference between the onset of the current routine and the start of the
+blank period.
+
+It would have been better and more accurate to subtract the actually key
+press time, but I ran out of time.
+
+\section{Other events}\label{other-events}
+
+\pandocbounded{\includegraphics[keepaspectratio]{images/clipboard-3834157527.png}}
+
+Here I added two other bids events that may or may not be useful, just
+in case: Trial onset and key press, including reaction times.
+
+\section{BIDS export}\label{bids-export}
+
+\pandocbounded{\includegraphics[keepaspectratio]{images/clipboard-1613912465.png}}
+
+It is important to add the bidsExport routine at the end of the
+experiment.
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\tightlist
+\item
+  For fMRI, the data type should be ``func''
+\item
+  Choose. your favourite license
+\item
+  Tick the box ``Add Run Nubmers'' - this should attach run numbers to
+  the file names in bids format for every new run. I did not get it to
+  work properly on mac (it was always run 1, overwriting the previous
+  file). But supposedly it works on windows and linux.
+\end{enumerate}
+
+\section{Complete BIDS dataset}\label{complete-bids-dataset}
+
+\subsection{Example}\label{example}
+
+\pandocbounded{\includegraphics[keepaspectratio]{images/clipboard-806437960.png}}
+
+This is how a complete dataset for fmri analysis should look like. You
+should have functional \_bold.nii.gz files and \_events.tsv files in one
+func/ folder.
+
+\bookmarksetup{startatroot}
+
+\chapter{2. DICOM to BIDS}\label{dicom-to-bids}
+
+\section{Neurodesk}\label{neurodesk}
+
+\pandocbounded{\includegraphics[keepaspectratio]{images/clipboard-3392567157.png}}
+
+\section{MRI data formats}\label{mri-data-formats}
+
+\begin{itemize}
+\item
+  DICOM - medical image format
+
+  \begin{itemize}
+  \tightlist
+  \item
+    .dcm .ima or nothing at all
+  \end{itemize}
+\item
+  NIFTI - neuroimaging format we work with
+
+  \begin{itemize}
+  \tightlist
+  \item
+    .nii or .nii.gz
+  \end{itemize}
+\end{itemize}
+
+\section{bidscoin}\label{bidscoin}
+
+\pandocbounded{\includegraphics[keepaspectratio]{images/clipboard-404437105.png}}
+
+\section{Shell commands}\label{shell-commands}
+
+\pandocbounded{\includegraphics[keepaspectratio]{images/clipboard-1623492321.png}}
+
+\begin{Shaded}
+\begin{Highlighting}[]
+\CommentTok{\#!/bin/bash}
+
+\CommentTok{\# you can copypaste the following commands into the terminal window that is opened by BIDSCOINER}
+
+\CommentTok{\# define directories}
+\VariableTok{sourceFolder}\OperatorTok{=}\NormalTok{/home/jovyan/completion2/dcm}
+\VariableTok{sortedFolder}\OperatorTok{=}\NormalTok{/home/jovyan/completion2/dcm\_sorted}
+
+\CommentTok{\# check the output of the source folder}
+\FunctionTok{ls} \AttributeTok{{-}l} \VariableTok{$sourceFolder}
+
+\CommentTok{\# make the target directory with subdirectories}
+\FunctionTok{mkdir} \AttributeTok{{-}p} \VariableTok{$sortedFolder}
+
+\CommentTok{\# change to the script folder}
+\BuiltInTok{cd}\NormalTok{ /home/jovyan/dicomsort/}
+
+\CommentTok{\# run the script}
+\ExtensionTok{./DICOMsort.sh} \VariableTok{$sourceFolder} \VariableTok{$sortedFolder}
+
+\CommentTok{\# check the output of the target folder}
+\FunctionTok{ls} \AttributeTok{{-}l} \VariableTok{$sortedFolder}
+
+\CommentTok{\# run bidsmapper}
+\ExtensionTok{bidsmapper} \VariableTok{$sortedFolder}\NormalTok{ /home/jovyan/completion2/bids}
+\CommentTok{\# note: in the intendedFor of the fieldmap, add func/sub{-}001\_ses{-}1\_xxx\_bold.*}
+
+\CommentTok{\# once you are happy with the mapping, run bidscoiner}
+\ExtensionTok{bidscoiner} \VariableTok{$sortedFolder}\NormalTok{ /home/jovyan/completion2/bids}
+\end{Highlighting}
+\end{Shaded}
+
+\section{bismapper}\label{bismapper}
+
+\includegraphics[width=0.32\linewidth,height=\textheight,keepaspectratio]{images/clipboard-3995624064.png}
+
+Currently, to discover the data we need to delete the content of the
+``subprefix'' field and then save the bids map in the default location.
+After this, run the same bidsmapper command again.
+
+\section{Subject and session}\label{subject-and-session}
+
+\includegraphics[width=0.5\linewidth,height=\textheight,keepaspectratio]{images/clipboard-325791456.png}
+
+Now the bidsmapper discovered everything, but the files are not named
+correctly.
+
+Edit subject and session first.
+
+Now we need to rename the files by clicking ``Edit'' next to every file.
+
+\section{Editing file names:
+anatomical}\label{editing-file-names-anatomical}
+
+\includegraphics[width=0.5\linewidth,height=\textheight,keepaspectratio]{images/clipboard-1483139836.png}
+
+anatmprage -\textgreater{} mprage in the ``acq'' filed
+
+\section{Editing file names:
+functional}\label{editing-file-names-functional}
+
+\includegraphics[width=0.5\linewidth,height=\textheight,keepaspectratio]{images/clipboard-103624418.png}
+
+Edit the task name and acq field
+
+Do this for every functional file
+
+In the intendedFor of the fieldmap, add
+``func/sub-999\_ses-1\_task-completion\_acq--noise\_bold.*'' with a
+wildcard. This will select all respective functional runs
+
+Once you are happy, run bidscoiner to do the actual conversion
+
+\section{View files}\label{view-files}
+
+\pandocbounded{\includegraphics[keepaspectratio]{images/clipboard-3124758617.png}}
+
+\section{MRICron}\label{mricron}
+
+\includegraphics[width=4.64583in,height=\textheight,keepaspectratio]{images/clipboard-2244027224.png}
+
+Now you can view the nifti files with any suitable software
+
+\bookmarksetup{startatroot}
+
+\chapter{3. Quality assurance}\label{quality-assurance}
+
+\section{MRIQC}\label{mriqc}
+
+MRIQC (Esteban et al. 2017)is a tool used for quality assurance of
+bids-valid datasets. It is a bids app, meaning that it works on
+bids-conform data.
+
+\pandocbounded{\includegraphics[keepaspectratio]{images/clipboard-1260990723.png}}
+
+\section{Running MRIQC}\label{running-mriqc}
+
+Should take around 10 minutes
+
+\subsection{Command line}\label{command-line}
+
+\begin{Shaded}
+\begin{Highlighting}[]
+\CommentTok{\# define relevant paths}
+\VariableTok{bids\_folder}\OperatorTok{=}\NormalTok{/home/jovyan/gambling/bids/}
+\VariableTok{mriqc\_folder}\OperatorTok{=}\NormalTok{/home/jovyan/gambling/bids/derivatives/mriqc/}
+
+\CommentTok{\# create mriqc directory}
+\FunctionTok{mkdir} \AttributeTok{{-}p} \VariableTok{$mriqc\_folder}
+
+\CommentTok{\# run mriqc}
+\ExtensionTok{mriqc} \VariableTok{$bids\_folder} \VariableTok{$mriqc\_folder}\NormalTok{ participant }\AttributeTok{{-}{-}participant{-}label}\NormalTok{ 001}
+\end{Highlighting}
+\end{Shaded}
+
+\subsection{Output}\label{output}
+
+\includegraphics[width=4.86458in,height=\textheight,keepaspectratio]{images/clipboard-2070588200.png}
+
+\marginnote{\begin{footnotesize}
+
+You will see that there are html outputs for anatomical and functional
+scans. They can be viewed in a browser, without actually loading the
+images.
+
+\end{footnotesize}}
+
+\section{Anatomical}\label{anatomical}
+
+\subsection{Noise}\label{noise}
+
+\pandocbounded{\includegraphics[keepaspectratio]{images/clipboard-959542348.png}}
+
+\subsection{Actual image}\label{actual-image}
+
+\pandocbounded{\includegraphics[keepaspectratio]{images/clipboard-1251899225.png}}
+
+\marginnote{\begin{footnotesize}
+
+This is useful to quickly identify problems with the data. A rating
+widget is also available, which is useful for large datasets.
+
+\end{footnotesize}}
+
+\section{Functional}\label{functional}
+
+\pandocbounded{\includegraphics[keepaspectratio]{images/clipboard-2643957852.png}}
+
+\pandocbounded{\includegraphics[keepaspectratio]{images/clipboard-3526589766.png}}
+
+\pandocbounded{\includegraphics[keepaspectratio]{images/clipboard-800319650.png}}
+
+\marginnote{\begin{footnotesize}
+
+For functional data, in addition to spatial noise (middle) and average
+image over time (right), there is a section showing temporal noise over
+time. Note how the values are highest in the eyes (due to eye movements)
+and in the center of the brain, due to blood pulsation.
+
+\end{footnotesize}}
+
+\section{Carpet plots for functional
+data}\label{carpet-plots-for-functional-data}
+
+\pandocbounded{\includegraphics[keepaspectratio]{images/clipboard-3163786376.png}}
+
+\marginnote{\begin{footnotesize}
+
+Carpet plot shows signal fluctuations over time (x-axis) for each voxel
+(y-axis). Note how there are some patterns initially and at the end.
+There should be no clear pattern during the experiment, this speaks for
+good signal quality.
+
+\end{footnotesize}}
+
+\section*{References}\label{references-1}
 \addcontentsline{toc}{section}{References}
 
 \phantomsection\label{refs}
@@ -1471,6 +2053,11 @@ M. Weisskoff, M. S. Cohen, J. M. Vevea, T. J. Brady, and B. R. Rosen.
 1991. {``Functional Mapping of the Human Visual Cortex by Magnetic
 Resonance Imaging.''} \emph{Science} 254 (5032): 716--19.
 \url{https://doi.org/10.1126/science.1948051}.
+
+\bibitem[\citeproctext]{ref-brooks2012}
+Brooks, Joseph L. 2012. {``Counterbalancing for Serial Order Carryover
+Effects in Experimental Condition Orders.''} \emph{Psychological
+Methods} 17 (4): 600--614. \url{https://doi.org/10.1037/a0029310}.
 
 \bibitem[\citeproctext]{ref-casamitjana2024}
 Casamitjana, Adrià, Matteo Mancini, Eleanor Robinson, Loïc Peter,
@@ -1490,6 +2077,13 @@ Cohen, Jonathan D, Nathaniel Daw, Barbara Engelhardt, Uri Hasson, Kai
 Li, Yael Niv, Kenneth A Norman, et al. 2017. {``Computational Approaches
 to fMRI Analysis.''} \emph{Nature Neuroscience} 20 (3): 304--13.
 \url{https://doi.org/10.1038/nn.4499}.
+
+\bibitem[\citeproctext]{ref-esteban2017}
+Esteban, Oscar, Daniel Birman, Marie Schaer, Oluwasanmi O. Koyejo,
+Russell A. Poldrack, and Krzysztof J. Gorgolewski. 2017. {``MRIQC:
+Advancing the Automatic Prediction of Image Quality in MRI from Unseen
+Sites.''} Edited by Boris C Bernhardt. \emph{PLOS ONE} 12 (9): e0184661.
+\url{https://doi.org/10.1371/journal.pone.0184661}.
 
 \bibitem[\citeproctext]{ref-esteban2018}
 Esteban, Oscar, Christopher J. Markiewicz, Ross W. Blair, Craig A.
@@ -1520,6 +2114,12 @@ Cortex.''} \emph{Nature Neuroscience} 8 (5): 686--91.
 \bibitem[\citeproctext]{ref-interpre2009}
 {``Interpreting the BOLD Response.''} 2009. In, 400--424. Cambridge
 University Press. \url{https://doi.org/10.1017/cbo9780511605505.020}.
+
+\bibitem[\citeproctext]{ref-juavinett2022}
+Juavinett, Ashley L. 2022. {``The Next Generation of Neuroscientists
+Needs to Learn How to Code, and We Need New Ways to Teach Them.''}
+\emph{Neuron} 110 (4): 576--78.
+\url{https://doi.org/10.1016/j.neuron.2021.12.001}.
 
 \bibitem[\citeproctext]{ref-kamitani2005}
 Kamitani, Yukiyasu, and Frank Tong. 2005. {``Decoding the Visual and

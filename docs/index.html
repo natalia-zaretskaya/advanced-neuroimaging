@@ -40,7 +40,7 @@ ul.task-list li input[type="checkbox"] {
 <link href="site_libs/quarto-html/quarto-syntax-highlighting-2f5df379a58b258e96c21c0638c20c03.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-626149efe8f5d16e1d391ba177679bf0.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-8da5b4427184b79ecddefad3d342027e.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "sidebar",
   "copy-button": false,
@@ -145,6 +145,12 @@ ul.task-list li input[type="checkbox"] {
  <span class="menu-text"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">Data management</span></span></a>
   </div>
 </li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./preprocessing.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">4</span>&nbsp; <span class="chapter-title">Preprocessing</span></span></a>
+  </div>
+</li>
     </ul>
     </div>
 </nav>
@@ -206,12 +212,11 @@ Table&nbsp;5.1: Course schedule
 <div aria-describedby="tbl-schedule-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 <table class="caption-top table">
 <colgroup>
-<col style="width: 9%">
-<col style="width: 18%">
-<col style="width: 27%">
-<col style="width: 27%">
-<col style="width: 9%">
-<col style="width: 9%">
+<col style="width: 10%">
+<col style="width: 20%">
+<col style="width: 30%">
+<col style="width: 30%">
+<col style="width: 10%">
 </colgroup>
 <tbody>
 <tr class="odd">
@@ -220,7 +225,6 @@ Table&nbsp;5.1: Course schedule
 <td><h1 id="specific-topic">Specific topic</h1></td>
 <td><h1 id="todo-for-this-class">TODO for this class</h1></td>
 <td><h1 id="estimated-workload-h">Estimated workload (h)</h1></td>
-<td></td>
 </tr>
 <tr class="even">
 <td><strong>1</strong></td>
@@ -228,7 +232,6 @@ Table&nbsp;5.1: Course schedule
 <td><strong>Organization and introduction</strong></td>
 <td><strong>none</strong></td>
 <td><strong>0</strong></td>
-<td></td>
 </tr>
 <tr class="odd">
 <td><strong>2</strong></td>
@@ -237,51 +240,45 @@ Table&nbsp;5.1: Course schedule
 <td><p><strong>Make groups, start thinking of a project</strong>;</p>
 <p><strong>Install PsychoPy</strong></p></td>
 <td>4</td>
-<td></td>
 </tr>
 <tr class="even">
-<td>3</td>
-<td><a href="https://online.uni-graz.at/kfu_online/pl/ui/$ctx/!wbTermin.wbEdit?pTerminNr=8700318" title="Detailansicht">18.03.2025</a> | 13:30 | <a href="https://online.uni-graz.at/kfu_online/pl/ui/$ctx/wbKalender.wbRessource?pResNr=12603&amp;pDatum=18.03.2025&amp;pOrgNr=&amp;pSachbearbeiter=F" title="Zum Terminkalender von SR 02.31 (0002030122)">SR 02.31 (0002030122)</a></td>
-<td><p>Project slam and public vote</p>
-<p>(Winner does not need to write an interoduction)</p></td>
-<td>Prepare a presentation of your project (See <a href="syllabus.html#sec-presentation-guidelines">Presentation Guidelines</a> and <a href="syllabus.html#sec-presentation-evaluation">Presentation Evaluation Criteria</a>)</td>
-<td>4</td>
-<td></td>
+<td><strong>3</strong></td>
+<td><a href="https://online.uni-graz.at/kfu_online/pl/ui/$ctx/!wbTermin.wbEdit?pTerminNr=8700318" title="Detailansicht"><strong>18.03.2025</strong></a> <strong>| 13:30 | <a href="https://online.uni-graz.at/kfu_online/pl/ui/$ctx/wbKalender.wbRessource?pResNr=12603&amp;pDatum=18.03.2025&amp;pOrgNr=&amp;pSachbearbeiter=F" title="Zum Terminkalender von SR 02.31 (0002030122)">SR 02.31 (0002030122)</a></strong></td>
+<td><p><strong>Project slam and public vote</strong></p>
+<p><strong>(Winner does not need to write an interoduction)</strong></p></td>
+<td><strong>Prepare a presentation of your project (See <a href="syllabus.html#sec-presentation-guidelines">Presentation Guidelines</a> and <a href="syllabus.html#sec-presentation-evaluation">Presentation Evaluation Criteria</a>)</strong></td>
+<td><strong>4</strong></td>
 </tr>
 <tr class="odd">
-<td>4</td>
-<td><a href="https://online.uni-graz.at/kfu_online/pl/ui/$ctx/!wbTermin.wbEdit?pTerminNr=8700317" title="Detailansicht">25.03.2025</a> | 13:30 | <a href="https://online.uni-graz.at/kfu_online/pl/ui/$ctx/wbKalender.wbRessource?pResNr=12603&amp;pDatum=25.03.2025&amp;pOrgNr=&amp;pSachbearbeiter=F" title="Zum Terminkalender von SR 02.31 (0002030122)">SR 02.31 (0002030122)</a></td>
-<td><p>Implementation slam and second public vote</p>
-<p>(Winner does not need to write the experiment description)</p></td>
-<td><p>Go through the <a href="https://www.youtube.com/watch?v=GSv60zgQlB8">PsychoPy intro</a>.</p>
-<p>Implement your project in PsychoPy, show it to the class</p></td>
-<td>8</td>
-<td></td>
+<td><strong>4</strong></td>
+<td><a href="https://online.uni-graz.at/kfu_online/pl/ui/$ctx/!wbTermin.wbEdit?pTerminNr=8700317" title="Detailansicht"><strong>25.03.2025</strong></a> <strong>| 13:30 | <a href="https://online.uni-graz.at/kfu_online/pl/ui/$ctx/wbKalender.wbRessource?pResNr=12603&amp;pDatum=25.03.2025&amp;pOrgNr=&amp;pSachbearbeiter=F" title="Zum Terminkalender von SR 02.31 (0002030122)">SR 02.31 (0002030122)</a></strong></td>
+<td><p><strong>Implementation slam and second public vote</strong></p>
+<p><strong>(Winner does not need to write the experiment description)</strong></p></td>
+<td><p><strong>Go through the <a href="https://www.youtube.com/watch?v=GSv60zgQlB8">PsychoPy intro</a>.</strong></p>
+<p><strong>Implement your project in PsychoPy, show it to the class</strong></p></td>
+<td><strong>8</strong></td>
 </tr>
 <tr class="even">
-<td>5</td>
-<td><a href="https://online.uni-graz.at/kfu_online/pl/ui/$ctx/!wbTermin.wbEdit?pTerminNr=8700316" title="Detailansicht">01.04.2025</a> | 13:30 | <a href="https://online.uni-graz.at/kfu_online/pl/ui/$ctx/wbKalender.wbRessource?pResNr=12603&amp;pDatum=01.04.2025&amp;pOrgNr=&amp;pSachbearbeiter=F" title="Zum Terminkalender von SR 02.31 (0002030122)">SR 02.31 (0002030122)</a></td>
-<td>Data management I</td>
-<td>Neurodesk registration</td>
-<td>4</td>
-<td></td>
+<td><strong>5</strong></td>
+<td><a href="https://online.uni-graz.at/kfu_online/pl/ui/$ctx/!wbTermin.wbEdit?pTerminNr=8700316" title="Detailansicht"><strong>01.04.2025</strong></a> <strong>| 13:30 | <a href="https://online.uni-graz.at/kfu_online/pl/ui/$ctx/wbKalender.wbRessource?pResNr=12603&amp;pDatum=01.04.2025&amp;pOrgNr=&amp;pSachbearbeiter=F" title="Zum Terminkalender von SR 02.31 (0002030122)">SR 02.31 (0002030122)</a></strong></td>
+<td><strong>Data management I</strong></td>
+<td><strong>Neurodesk registration</strong></td>
+<td><strong>4</strong></td>
 </tr>
 <tr class="odd">
-<td>6</td>
-<td><a href="https://online.uni-graz.at/kfu_online/pl/ui/$ctx/!wbTermin.wbEdit?pTerminNr=8700315" title="Detailansicht">08.04.2025</a> | 13:30 | <a href="https://online.uni-graz.at/kfu_online/pl/ui/$ctx/wbKalender.wbRessource?pResNr=12603&amp;pDatum=08.04.2025&amp;pOrgNr=&amp;pSachbearbeiter=F" title="Zum Terminkalender von SR 02.31 (0002030122)">SR 02.31 (0002030122)</a></td>
-<td><p>Experiment feedback, data management II;</p>
-<p>Data acquisition in the MRI lab 9.04.2025</p></td>
-<td>Every course participant performs 3 rounds of the experiment and gives feedback</td>
-<td>1</td>
-<td></td>
+<td><strong>6</strong></td>
+<td><a href="https://online.uni-graz.at/kfu_online/pl/ui/$ctx/!wbTermin.wbEdit?pTerminNr=8700315" title="Detailansicht"><strong>08.04.2025</strong></a> <strong>| 13:30 | <a href="https://online.uni-graz.at/kfu_online/pl/ui/$ctx/wbKalender.wbRessource?pResNr=12603&amp;pDatum=08.04.2025&amp;pOrgNr=&amp;pSachbearbeiter=F" title="Zum Terminkalender von SR 02.31 (0002030122)">SR 02.31 (0002030122)</a></strong></td>
+<td><p><strong>Experiment feedback, data management II;</strong></p>
+<p><strong>Data acquisition in the MRI lab 9.04.2025</strong></p></td>
+<td><strong>Every course participant performs 3 rounds of the experiment and gives feedback</strong></td>
+<td><strong>1</strong></td>
 </tr>
 <tr class="even">
 <td>7</td>
 <td><a href="https://online.uni-graz.at/kfu_online/pl/ui/$ctx/!wbTermin.wbEdit?pTerminNr=8700314" title="Detailansicht">29.04.2025</a> | 13:30 | <a href="https://online.uni-graz.at/kfu_online/pl/ui/$ctx/wbKalender.wbRessource?pResNr=12603&amp;pDatum=29.04.2025&amp;pOrgNr=&amp;pSachbearbeiter=F" title="Zum Terminkalender von SR 02.31 (0002030122)">SR 02.31 (0002030122)</a></td>
 <td>Preprocessing</td>
-<td>DCM to NIFTI conversion, BIDS validation</td>
+<td>MRIQC</td>
 <td>0</td>
-<td></td>
 </tr>
 <tr class="odd">
 <td>8</td>
@@ -289,7 +286,6 @@ Table&nbsp;5.1: Course schedule
 <td>Analysis: General linear model</td>
 <td>Preprocessing</td>
 <td>4</td>
-<td></td>
 </tr>
 <tr class="even">
 <td>9</td>
@@ -297,7 +293,6 @@ Table&nbsp;5.1: Course schedule
 <td>Analysis: Other analyses types</td>
 <td>Data analysis</td>
 <td>4</td>
-<td></td>
 </tr>
 <tr class="odd">
 <td>10</td>
@@ -305,7 +300,6 @@ Table&nbsp;5.1: Course schedule
 <td>Result visualization and reporting</td>
 <td>Finish data analysis</td>
 <td>4</td>
-<td></td>
 </tr>
 <tr class="even">
 <td>11</td>
@@ -314,7 +308,6 @@ Table&nbsp;5.1: Course schedule
 <p>(winner does not need to write a results section)</p></td>
 <td>Prepare a poster with images</td>
 <td>4</td>
-<td></td>
 </tr>
 <tr class="odd">
 <td>12</td>
@@ -322,7 +315,6 @@ Table&nbsp;5.1: Course schedule
 <td>Writing an fMRI article</td>
 <td>Report draft: Results section</td>
 <td>4</td>
-<td></td>
 </tr>
 <tr class="even">
 <td>13</td>
@@ -330,7 +322,6 @@ Table&nbsp;5.1: Course schedule
 <td>Final session, course evaluation</td>
 <td>Report draft</td>
 <td>4</td>
-<td></td>
 </tr>
 <tr class="odd">
 <td>14</td>
@@ -338,7 +329,6 @@ Table&nbsp;5.1: Course schedule
 <td>Report deadline</td>
 <td></td>
 <td>4</td>
-<td></td>
 </tr>
 </tbody>
 </table>
