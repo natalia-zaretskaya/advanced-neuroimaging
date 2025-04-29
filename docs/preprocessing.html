@@ -271,10 +271,9 @@ div.csl-indent {
   <li><a href="#fmriprep-1" id="toc-fmriprep-1" class="nav-link" data-scroll-target="#fmriprep-1">fMRIprep</a></li>
   <li><a href="#example-i" id="toc-example-i" class="nav-link" data-scroll-target="#example-i">Example I</a></li>
   <li><a href="#example-ii" id="toc-example-ii" class="nav-link" data-scroll-target="#example-ii">Example II</a></li>
-  <li><a href="#run-fmriprep" id="toc-run-fmriprep" class="nav-link" data-scroll-target="#run-fmriprep">Run fMRIprep</a>
-  <ul class="collapse">
-  <li><a href="#run-fmriprep-as-follows" id="toc-run-fmriprep-as-follows" class="nav-link" data-scroll-target="#run-fmriprep-as-follows">Run fMRIprep as follows</a></li>
-  </ul></li>
+  <li><a href="#run-fmriprep" id="toc-run-fmriprep" class="nav-link" data-scroll-target="#run-fmriprep">Run fMRIprep</a></li>
+  <li><a href="#start-fmriprep-from-neurodesktop" id="toc-start-fmriprep-from-neurodesktop" class="nav-link" data-scroll-target="#start-fmriprep-from-neurodesktop">Start fMRIprep from neurodesktop</a></li>
+  <li><a href="#terminal-window" id="toc-terminal-window" class="nav-link" data-scroll-target="#terminal-window">Terminal window</a></li>
   <li><a href="#references" id="toc-references" class="nav-link" data-scroll-target="#references">References</a></li>
   </ul></li>
   </ul>
@@ -1168,7 +1167,7 @@ file:///home/jovyan/gambling/bids/derivatives/fmriprep/sub-001.html</code></pre>
 </section>
 <section id="example-ii" class="level2 page-columns page-full">
 <h2 class="anchored" data-anchor-id="example-ii">Example II</h2>
-<p><img src="images/clipboard-268630360.png" class="img-fluid" width="505"></p>
+<p><img src="images/clipboard-268630360.png" class="img-fluid" width="678"></p>
 
 <div class="no-row-height column-margin column-container"><div class="margin-aside">
 <p><span class="citation" data-cites="coates2024a">(<a href="#ref-coates2024a" role="doc-biblioref">Coates et al. 2024</a>)</span></p>
@@ -1180,12 +1179,16 @@ file:///home/jovyan/gambling/bids/derivatives/fmriprep/sub-001.html</code></pre>
 <h2 class="anchored" data-anchor-id="run-fmriprep">Run fMRIprep</h2>
 <p>Before running</p>
 <ul>
-<li><p>Apply for a freesurfer license file: <a href="https://surfer.nmr.mgh.harvard.edu/registration.html" class="uri">https://surfer.nmr.mgh.harvard.edu/registration.html</a></p></li>
+<li><p>Apply for a freesurfer license file with your Uni Graz email address: <a href="https://surfer.nmr.mgh.harvard.edu/registration.html" class="uri">https://surfer.nmr.mgh.harvard.edu/registration.html</a></p></li>
 <li><p>Download it and store in /home/jovyan/license.txt (or wherever you like)</p></li>
 </ul>
-<p><img src="images/clipboard-997717132.png" class="img-fluid"></p>
-<section id="run-fmriprep-as-follows" class="level3">
-<h3 class="anchored" data-anchor-id="run-fmriprep-as-follows">Run fMRIprep as follows</h3>
+</section>
+<section id="start-fmriprep-from-neurodesktop" class="level2">
+<h2 class="anchored" data-anchor-id="start-fmriprep-from-neurodesktop">Start fMRIprep from neurodesktop</h2>
+<p><img src="images/clipboard-997717132.png" class="img-fluid" width="378"></p>
+</section>
+<section id="terminal-window" class="level2">
+<h2 class="anchored" data-anchor-id="terminal-window">Terminal window</h2>
 <div class="sourceCode" id="cb14"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb14-1"><a href="#cb14-1" aria-hidden="true" tabindex="-1"></a><span class="co"># create freesurfer subject directory</span></span>
 <span id="cb14-2"><a href="#cb14-2" aria-hidden="true" tabindex="-1"></a><span class="fu">mkdir</span> <span class="at">-p</span> /home/jovyan/gambling/bids/derivatives/fmriprep/sourcedata/freesurfer/</span>
 <span id="cb14-3"><a href="#cb14-3" aria-hidden="true" tabindex="-1"></a></span>
@@ -1197,8 +1200,7 @@ file:///home/jovyan/gambling/bids/derivatives/fmriprep/sub-001.html</code></pre>
 <span id="cb14-9"><a href="#cb14-9" aria-hidden="true" tabindex="-1"></a>participant <span class="dt">\</span></span>
 <span id="cb14-10"><a href="#cb14-10" aria-hidden="true" tabindex="-1"></a>--fs-license-file /home/jovyan/license.txt <span class="dt">\</span></span>
 <span id="cb14-11"><a href="#cb14-11" aria-hidden="true" tabindex="-1"></a>--output-spaces T1w MNI152NLin2009cAsym fsnative fsaverage </span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-<p>After this, we need to wait for some ˜ 3-4 hours, while magic happens.</p>
-</section>
+<p>After this, fMRIprep will run for 4 hours. You do not need to wait for 4 hours! Close neurodesktop and log out. fMRIprep will run in the background. When you come back the next day, everything should be as you left it, with fMRIprep being done. Inspect the html output and submit a screenshot to moodle.</p>
 </section>
 <section id="references" class="level2">
 <h2 class="anchored" data-anchor-id="references">References</h2>

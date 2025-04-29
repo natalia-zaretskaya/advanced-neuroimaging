@@ -126,5 +126,11 @@
   },
   "schedule.qmd": {
     "schedule.html": "889c86f9"
+  },
+  "preprocessing.qmd": {
+    "preprocessing.html": "8e9fdca2"
+  },
+  "restingstate.qmd": {
+    "restingstate.html": "2c84ea7a"
   }
 }

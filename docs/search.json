@@ -1594,7 +1594,27 @@
     "href": "preprocessing.html#run-fmriprep",
     "title": "4  Preprocessing",
     "section": "Run fMRIprep",
-    "text": "Run fMRIprep\nBefore running\n\nApply for a freesurfer license file: https://surfer.nmr.mgh.harvard.edu/registration.html\nDownload it and store in /home/jovyan/license.txt (or wherever you like)\n\n\n\nRun fMRIprep as follows\n# create freesurfer subject directory\nmkdir -p /home/jovyan/gambling/bids/derivatives/fmriprep/sourcedata/freesurfer/\n\n# define the path to the freesurfer subject directory\nSUBJECTS_DIR=/home/jovyan/gambling/bids/derivatives/fmriprep/sourcedata/freesurfer/\n\n# run fMRIprep with 4 output spaces: T1 native, MNI, fsnative, fsaverage\nfmriprep /home/jovyan/gambling/bids/ /home/jovyan/gambling/bids/derivatives/fmriprep/ \\\nparticipant \\\n--fs-license-file /home/jovyan/license.txt \\\n--output-spaces T1w MNI152NLin2009cAsym fsnative fsaverage \nAfter this, we need to wait for some ˜ 3-4 hours, while magic happens.",
+    "text": "Run fMRIprep\nBefore running\n\nApply for a freesurfer license file with your Uni Graz email address: https://surfer.nmr.mgh.harvard.edu/registration.html\nDownload it and store in /home/jovyan/license.txt (or wherever you like)",
+    "crumbs": [
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Preprocessing</span>"
+    ]
+  },
+  {
+    "objectID": "preprocessing.html#start-fmriprep-from-neurodesktop",
+    "href": "preprocessing.html#start-fmriprep-from-neurodesktop",
+    "title": "4  Preprocessing",
+    "section": "Start fMRIprep from neurodesktop",
+    "text": "Start fMRIprep from neurodesktop",
+    "crumbs": [
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Preprocessing</span>"
+    ]
+  },
+  {
+    "objectID": "preprocessing.html#terminal-window",
+    "href": "preprocessing.html#terminal-window",
+    "title": "4  Preprocessing",
+    "section": "Terminal window",
+    "text": "Terminal window\n# create freesurfer subject directory\nmkdir -p /home/jovyan/gambling/bids/derivatives/fmriprep/sourcedata/freesurfer/\n\n# define the path to the freesurfer subject directory\nSUBJECTS_DIR=/home/jovyan/gambling/bids/derivatives/fmriprep/sourcedata/freesurfer/\n\n# run fMRIprep with 4 output spaces: T1 native, MNI, fsnative, fsaverage\nfmriprep /home/jovyan/gambling/bids/ /home/jovyan/gambling/bids/derivatives/fmriprep/ \\\nparticipant \\\n--fs-license-file /home/jovyan/license.txt \\\n--output-spaces T1w MNI152NLin2009cAsym fsnative fsaverage \nAfter this, fMRIprep will run for 4 hours. You do not need to wait for 4 hours! Close neurodesktop and log out. fMRIprep will run in the background. When you come back the next day, everything should be as you left it, with fMRIprep being done. Inspect the html output and submit a screenshot to moodle.",
     "crumbs": [
       "<span class='chapter-number'>4</span>  <span class='chapter-title'>Preprocessing</span>"
     ]

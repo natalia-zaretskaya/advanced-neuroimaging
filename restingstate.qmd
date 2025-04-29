@@ -1,0 +1,155 @@
+# Resting-state fMRI
+
+## Default mode network (DMN)
+
+![](images/clipboard-2878139788.png)
+
+::: aside
+[@raichle2001]
+:::
+
+## Resting state activity
+
+![](images/clipboard-2612449534.png)
+
+::: aside
+[@fox2005a]
+:::
+
+## Reminder: the checkerboard experiment
+
+![](images/clipboard-4003037202.png)
+
+## Resting state fluctuations
+
+![](images/clipboard-944483016.png)
+
+## Network parcellation
+
+::: {layout-ncol="2"}
+![](images/clipboard-700729418.png){width="300"}
+
+![](images/clipboard-3988972975.png){width="300"}
+:::
+
+::: aside
+[@yeo2011]
+:::
+
+::: notes
+Principle component analysis, procedure similar to factor analysis
+:::
+
+## Other parcellation schemes
+
+![](images/clipboard-4155812755.png){width="677"}
+
+::: aside
+[@glasser2016]
+:::
+
+## Typical analysis
+
+-   Preprocessing
+
+-   Extensive denoising
+
+-   Functional "connectivity"
+
+-   Network science characteristics
+
+## Preprocessing
+
+Like in a typical fMRI experiment, see the corresponding chapter
+
+## Denoising using a GLM
+
+![](images/clipboard-3126901319.png)
+
+::: notes
+Typical signals that get regressed out:
+
+-   Motion (relignment parameters)
+
+-   nth order derivatives of the realignment parameters
+
+-   Physiology regressors (respiration and heart beat)
+
+    -   Derivatives of white matter and CSF signals
+
+    -   Derivatives of pre-recorded pulse and respiration
+:::
+
+## Physiology recording
+
+::: {layout-ncol="2"}
+![Oxymeter](images/clipboard-388834013.png)
+
+![Respiration belt](images/clipboard-3611588019.png){width="500"}
+:::
+
+::: aside
+Image credit: siemens
+:::
+
+## Raw data
+
+![](images/clipboard-3857758235.png)
+
+## Regressors
+
+![](images/clipboard-2226118854.png){width="411"}
+
+::: aside
+See also: <https://visualneuroscience.github.io/mri/physiology/>
+:::
+
+## Spine coil respiration sensor
+
+![](images/clipboard-2429435046.png)
+
+## Seed-to-voxel connectivity
+
+![](images/clipboard-1640178898.png)
+
+::: aside
+[@wilding2023]
+:::
+
+## ROI-to-ROI connectivity
+
+![](images/clipboard-1617109543.png)
+
+## Functional connectivity density
+
+![](images/clipboard-3566067346.png){width="198"}
+
+::: aside
+[@tomasi2010]
+:::
+
+## Graph theory
+
+![](images/clipboard-2585109022.png){width="599"}
+
+::: aside
+[@sporns2010] (accessible through UniKat); see also: [@bassett2017]
+:::
+
+::: notes
+Thresholded correlation matrix
+
+ROI pairs that correlate above a certain threshold are considered connected.
+
+The difference between FCD and rich club coefficient is that the FSD is related to the number of connections, and rich club coefficient to a number of connections specifically to other highly connected areas.
+:::
+
+## Software
+
+::: {layout-ncol="2"}
+[![](images/clipboard-4060400972.png)](https://web.conn-toolbox.org/home)
+
+[![](images/clipboard-946510959.png){width="177"}](https://nilearn.github.io/dev/connectivity/index.html)
+:::
+
+## References

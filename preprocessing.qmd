@@ -766,7 +766,7 @@ Here is an example of how it works. Here is a piece of freesrurfer reconstructed
 
 ## Example II
 
-![](images/clipboard-268630360.png){width="505"}
+![](images/clipboard-268630360.png){width="678"}
 
 ::: aside
 [@coates2024a]
@@ -779,13 +779,15 @@ Here is an example of how it works. Here is a piece of freesrurfer reconstructed
 
 Before running
 
--   Apply for a freesurfer license file: <https://surfer.nmr.mgh.harvard.edu/registration.html>
+-   Apply for a freesurfer license file with your Uni Graz email address: <https://surfer.nmr.mgh.harvard.edu/registration.html>
 
 -   Download it and store in /home/jovyan/license.txt (or wherever you like)
 
-![](images/clipboard-997717132.png)
+## Start fMRIprep from neurodesktop
 
-### Run fMRIprep as follows
+![](images/clipboard-997717132.png){width="378"}
+
+## Terminal window
 
 ``` bash
 # create freesurfer subject directory
@@ -801,6 +803,6 @@ participant \
 --output-spaces T1w MNI152NLin2009cAsym fsnative fsaverage 
 ```
 
-After this, we need to wait for some ˜ 3-4 hours, while magic happens.
+After this, fMRIprep will run for 4 hours. You do not need to wait for 4 hours! Close neurodesktop and log out. fMRIprep will run in the background. When you come back the next day, everything should be as you left it, with fMRIprep being done. Inspect the html output and submit a screenshot to moodle.
 
 ## References
