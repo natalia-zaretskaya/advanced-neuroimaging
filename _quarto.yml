@@ -19,6 +19,7 @@ book:
     - paradigm.qmd
     - data_management.qmd
     - preprocessing.qmd
+    - glm.qmd
 
 format:
   html:

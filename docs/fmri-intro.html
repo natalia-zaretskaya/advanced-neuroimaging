@@ -60,7 +60,7 @@ div.csl-indent {
 <link href="site_libs/quarto-html/quarto-syntax-highlighting-2f5df379a58b258e96c21c0638c20c03.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-8da5b4427184b79ecddefad3d342027e.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-626149efe8f5d16e1d391ba177679bf0.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "sidebar",
   "copy-button": false,
@@ -171,6 +171,12 @@ div.csl-indent {
  <span class="menu-text"><span class="chapter-number">4</span>&nbsp; <span class="chapter-title">Preprocessing</span></span></a>
   </div>
 </li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./glm.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">5</span>&nbsp; <span class="chapter-title">General linear model analysis</span></span></a>
+  </div>
+</li>
     </ul>
     </div>
 </nav>
@@ -202,7 +208,7 @@ div.csl-indent {
   <li><a href="#a-typical-experiment" id="toc-a-typical-experiment" class="nav-link" data-scroll-target="#a-typical-experiment">A typical experiment</a></li>
   <li><a href="#d-dataset" id="toc-d-dataset" class="nav-link" data-scroll-target="#d-dataset">4D dataset</a></li>
   <li><a href="#preprocessing" id="toc-preprocessing" class="nav-link" data-scroll-target="#preprocessing">Preprocessing</a></li>
-  <li><a href="#analysis" id="toc-analysis" class="nav-link" data-scroll-target="#analysis">Analysis</a></li>
+  <li><a href="#sec-analysis-steps" id="toc-sec-analysis-steps" class="nav-link" data-scroll-target="#sec-analysis-steps">Analysis steps</a></li>
   <li><a href="#single-subject-first-level-analysis" id="toc-single-subject-first-level-analysis" class="nav-link" data-scroll-target="#single-subject-first-level-analysis">Single-subject (first-level) analysis</a></li>
   <li><a href="#stimulus-function" id="toc-stimulus-function" class="nav-link" data-scroll-target="#stimulus-function">Stimulus function</a></li>
   <li><a href="#side-note-on-terminology" id="toc-side-note-on-terminology" class="nav-link" data-scroll-target="#side-note-on-terminology">Side-note on terminology</a>
@@ -460,8 +466,8 @@ div.csl-indent {
 <p>The data quality of modern scanners is typically good enough to skip this step, if your subject is compliant. But it is nevertheless very much advisable and is ALWAYS performed. We will therefore dedicate a whole session to preprocessing. See <a href="./syllabus.html#tbl-schedule">course schedule</a> for the date.</p>
 </div>
 </section>
-<section id="analysis" class="level2">
-<h2 class="anchored" data-anchor-id="analysis">Analysis</h2>
+<section id="sec-analysis-steps" class="level2">
+<h2 class="anchored" data-anchor-id="sec-analysis-steps">Analysis steps</h2>
 <ul>
 <li><p>Single-subject - first level - fixed effects analysis (FFX)</p></li>
 <li><p>Group - second-level - random effects analysis (RFX)</p></li>

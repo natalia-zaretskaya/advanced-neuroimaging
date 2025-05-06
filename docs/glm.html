@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>2&nbsp; Experimental paradigm – Advanced Neuroimaging</title>
+<title>5&nbsp; General linear model analysis – Advanced Neuroimaging</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -20,7 +20,61 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
-</style>
+/* CSS for syntax highlighting */
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { display: inline-block; text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+  }
+pre.numberSource { margin-left: 3em;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+}
+/* CSS for citations */
+div.csl-bib-body { }
+div.csl-entry {
+  clear: both;
+  margin-bottom: 0em;
+}
+.hanging-indent div.csl-entry {
+  margin-left:2em;
+  text-indent:-2em;
+}
+div.csl-left-margin {
+  min-width:2em;
+  float:left;
+}
+div.csl-right-inline {
+  margin-left:2em;
+  padding-left:1em;
+}
+div.csl-indent {
+  margin-left: 2em;
+}</style>
 
 
 <script src="site_libs/quarto-nav/quarto-nav.js"></script>
@@ -30,8 +84,7 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-search/fuse.min.js"></script>
 <script src="site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
-<link href="./data_management.html" rel="next">
-<link href="./fmri-intro.html" rel="prev">
+<link href="./preprocessing.html" rel="prev">
 <script src="site_libs/quarto-html/quarto.js"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
@@ -72,7 +125,7 @@ ul.task-list li input[type="checkbox"] {
 
 </head>
 
-<body class="nav-sidebar floating">
+<body class="nav-sidebar floating slimcontent">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
@@ -81,7 +134,7 @@ ul.task-list li input[type="checkbox"] {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./paradigm.html"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">Experimental paradigm</span></a></li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./glm.html"><span class="chapter-number">5</span>&nbsp; <span class="chapter-title">General linear model analysis</span></a></li></ol></nav>
         <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
       <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
@@ -135,7 +188,7 @@ ul.task-list li input[type="checkbox"] {
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./paradigm.html" class="sidebar-item-text sidebar-link active">
+  <a href="./paradigm.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">Experimental paradigm</span></span></a>
   </div>
 </li>
@@ -153,7 +206,7 @@ ul.task-list li input[type="checkbox"] {
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./glm.html" class="sidebar-item-text sidebar-link">
+  <a href="./glm.html" class="sidebar-item-text sidebar-link active">
  <span class="menu-text"><span class="chapter-number">5</span>&nbsp; <span class="chapter-title">General linear model analysis</span></span></a>
   </div>
 </li>
@@ -167,19 +220,23 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">Table of contents</h2>
    
   <ul>
-  <li><a href="#runs" id="toc-runs" class="nav-link active" data-scroll-target="#runs">Runs</a></li>
-  <li><a href="#start-screen" id="toc-start-screen" class="nav-link" data-scroll-target="#start-screen">Start screen</a></li>
-  <li><a href="#subject-responses" id="toc-subject-responses" class="nav-link" data-scroll-target="#subject-responses">Subject responses</a></li>
-  <li><a href="#bids-pluginparadigm-2-for-psychopy" id="toc-bids-pluginparadigm-2-for-psychopy" class="nav-link" data-scroll-target="#bids-pluginparadigm-2-for-psychopy">BIDS plugin for PsychoPy</a></li>
+  <li><a href="#analysis-phases" id="toc-analysis-phases" class="nav-link active" data-scroll-target="#analysis-phases">Analysis phases</a></li>
+  <li><a href="#before-analysis" id="toc-before-analysis" class="nav-link" data-scroll-target="#before-analysis">Before analysis</a></li>
+  <li><a href="#software" id="toc-software" class="nav-link" data-scroll-target="#software">Software</a></li>
+  <li><a href="#nilearn" id="toc-nilearn" class="nav-link" data-scroll-target="#nilearn">Nilearn</a></li>
+  <li><a href="#ingredients" id="toc-ingredients" class="nav-link" data-scroll-target="#ingredients">Ingredients</a></li>
+  <li><a href="#install-nilearn" id="toc-install-nilearn" class="nav-link" data-scroll-target="#install-nilearn">Install nilearn</a></li>
+  <li><a href="#run-the-analysis" id="toc-run-the-analysis" class="nav-link" data-scroll-target="#run-the-analysis">Run the analysis</a></li>
+  <li><a href="#references" id="toc-references" class="nav-link" data-scroll-target="#references">References</a></li>
   </ul>
 </nav>
     </div>
 <!-- main -->
-<main class="content" id="quarto-document-content">
+<main class="content page-columns page-full" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">Experimental paradigm</span></h1>
+<h1 class="title"><span class="chapter-number">5</span>&nbsp; <span class="chapter-title">General linear model analysis</span></h1>
 </div>
 
 
@@ -196,42 +253,136 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<p>In PsychoPy</p>
-<section id="runs" class="level2">
-<h2 class="anchored" data-anchor-id="runs">Runs</h2>
+<p>of fMRI data</p>
+<section id="analysis-phases" class="level2 page-columns page-full">
+<h2 class="anchored" data-anchor-id="analysis-phases">Analysis phases</h2>
 <ul>
-<li><p>chunks of 5-10 minute length</p></li>
-<li><p>one run - one start of the PsychoPy script</p></li>
+<li><p>Single-subject - first level - fixed effects analysis (FFX)</p></li>
+<li><p>Group - second-level - random effects analysis (RFX)</p></li>
+</ul>
+<div class="notes">
+<p>This is equivalent to e.g.&nbsp;conducting many trials per subject to measure reaction time, and then compute a subject-specific mean per condition, after which you would perform the actual statistical inference</p>
+<p>Multilevel modelling is also possible (for small datasets), but less frequent.</p>
+</div>
+
+<div class="no-row-height column-margin column-container"><div class="margin-aside">
+<p>For a general overviewo of basic GLM analysis, see <a href="./fmri-intro.html#sec-analysis-steps">Introduction to fMRI</a></p>
+</div></div></section>
+<section id="before-analysis" class="level2">
+<h2 class="anchored" data-anchor-id="before-analysis">Before analysis</h2>
+<ul>
+<li><p>Pick your analysis space</p></li>
+<li><p>Decide whether/how/how much to smooth the data</p></li>
 </ul>
 </section>
-<section id="start-screen" class="level2">
-<h2 class="anchored" data-anchor-id="start-screen">Start screen</h2>
+<section id="software" class="level2">
+<h2 class="anchored" data-anchor-id="software">Software</h2>
+<div>
+
+</div>
+<div class="quarto-layout-panel" data-layout-nrow="2">
+<div class="quarto-layout-row">
+<div class="quarto-layout-cell" style="flex-basis: 50.0%;justify-content: flex-start;">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="images/clipboard-1248183062.png" class="img-fluid figure-img"></p>
+<figcaption>Since 1994 http://www.fil.ion.ucl.ac.uk/spm/</figcaption>
+</figure>
+</div>
+</div>
+<div class="quarto-layout-cell" style="flex-basis: 50.0%;justify-content: flex-start;">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="images/clipboard-1300652131.png" class="img-fluid figure-img"></p>
+<figcaption>Since 1994 http://afni.nimh.nih.gov/afni/</figcaption>
+</figure>
+</div>
+</div>
+</div>
+<div class="quarto-layout-row">
+<div class="quarto-layout-cell" style="flex-basis: 50.0%;justify-content: flex-start;">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="images/clipboard-2202486336.png" class="img-fluid figure-img"></p>
+<figcaption>Since 2000 http://fsl.fmrib.ox.ac.uk/fsl/fslwiki/</figcaption>
+</figure>
+</div>
+</div>
+<div class="quarto-layout-cell" style="flex-basis: 50.0%;justify-content: flex-start;">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="https://freesurfer.net/"><img src="images/fslogosmall.png" class="img-fluid figure-img" alt="Since 1999 https://freesurfer.net/"></a></p>
+<figcaption>Since 1999 https://freesurfer.net/</figcaption>
+</figure>
+</div>
+</div>
+</div>
+</div>
+<div class="notes">
+<p>Preprocessing used to be integrated into the software used for the actual analysis. And there are many software for this. On this slide I just put a few of them. Each of them has a slightly different phylosophy behind it, but all of them do roughly the same thing, so at the end it should not matter much which of them you use.</p>
+<p>One of the oldest ones are:</p>
 <ul>
-<li><p>The script should start by showing a welcome message or instruction reminder</p></li>
-<li><p>It should be waiting for key “5” (scanner “trigger”)</p></li>
-<li><p>This is needed to synchronize the fMRI signal acquisition with your paradigm</p></li>
-<li><p>After the start screen, there should be a period of ca. 10 seconds of nothing happening; this is needed to discard initial artifacts</p></li>
+<li><p>SPM – statistical parameteric mapping from UCL. It is a free MATLAB-based toolbox. However, it depends on the MATLAB licence, and has not been updated for a long time. The new update just came out which spans the gab from 2012 to 2025 <span class="citation" data-cites="tierney2025">(<a href="#ref-tierney2025" role="doc-biblioref">Tierney et al. 2025</a>)</span>.</p></li>
+<li><p>AFNI - from NIH</p></li>
+<li><p>FSL from Oxford – a set of linux tools, also free and independent of MATLAB, which is an advantage, but requires Linux.</p></li>
+<li><p>FreeSurfer/FSFAST form the Martinos center - it is Linux based, and was originally conceived as a tool for structural data analysis, but has an fMRI module</p></li>
+</ul>
+<p>Historical software</p>
+<ul>
+<li>broccolli, that can utilize GPU computing and can process the same dataset n times faster</li>
+</ul>
+<p>With the awareness of open science, and with the trend towards reproducibility and transparency, and with the release of fMRIprep software, the preprocessing got detached from the actual data analysis.</p>
+</div>
+</section>
+<section id="nilearn" class="level2 page-columns page-full">
+<h2 class="anchored" data-anchor-id="nilearn">Nilearn</h2>
+<p><img src="images/clipboard-3381280046.png" class="img-fluid"></p>
+
+<div class="no-row-height column-margin column-container"><div class="margin-aside">
+<p>https://nilearn.github.io/stable/index.html</p>
+</div></div></section>
+<section id="ingredients" class="level2">
+<h2 class="anchored" data-anchor-id="ingredients">Ingredients</h2>
+<ul>
+<li><p>fMRIprep output</p></li>
+<li><p>events files in bids format, located in the same directory as the raw functional data</p>
+<ul>
+<li><p>you can copy them to your folder with the following terminal command</p>
+<div class="sourceCode" id="cb1"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="fu">rsync</span> <span class="at">-a</span> <span class="at">-v</span> /shared/2025_SS_SE_ANI/gambling/tsv_behr_data /home/jovyan/gambling/</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div></li>
+<li><p>A zip archive is also attached to the moodle assigment</p></li>
+</ul></li>
 </ul>
 </section>
-<section id="subject-responses" class="level2">
-<h2 class="anchored" data-anchor-id="subject-responses">Subject responses</h2>
-<p>Subject keys: 1, 2, 3, 4, [], 6, 7, 8, 9</p>
-<p><img src="images/clipboard-4146499127.png" class="img-fluid" style="width:50.0%"><a href="#fn1" class="footnote-ref" id="fnref1" role="doc-noteref"><sup>1</sup></a></p>
+<section id="install-nilearn" class="level2">
+<h2 class="anchored" data-anchor-id="install-nilearn">Install nilearn</h2>
+<p>Open the terminal window</p>
+<p><img src="images/clipboard-1985086323.png" class="img-fluid"></p>
+<p>type:</p>
+<div class="sourceCode" id="cb2"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="ex">pip</span> install nilearn</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<p>and wait until the installation finishes</p>
 </section>
-<section id="bids-pluginparadigm-2-for-psychopy" class="level2">
-<h2 class="anchored" data-anchor-id="bids-pluginparadigm-2-for-psychopy">BIDS plugin<a href="#fn2" class="footnote-ref" id="fnref2" role="doc-noteref"><sup>2</sup></a> for PsychoPy</h2>
-<p>Should be installed and enabled to save events (conditions and button presses) in a comprehensive and standardized manner</p>
-<p><img src="images/clipboard-4271384204.png" class="img-fluid"></p>
-<p>This will also make our data analysis easier</p>
+<section id="run-the-analysis" class="level2">
+<h2 class="anchored" data-anchor-id="run-the-analysis">Run the analysis</h2>
+<ul>
+<li><p>Open the jupyter notebook nilearn_ffix_volume.ipynb</p>
+<ul>
+<li><p>you can copy it with the following terminal command</p>
+<div class="sourceCode" id="cb3"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a><span class="fu">rsync</span> <span class="at">-a</span> <span class="at">-v</span> /shared/2025_SS_SE_ANI/gambling/nilearn_ffx_volume.ipynb /home/jovyan/gambling/</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div></li>
+<li><p>a copy is also attached to the moodle assignment</p></li>
+</ul></li>
+<li><p>try to run the analysis in the MNI space</p></li>
+</ul>
+<p>Feel free to play around with the parameters and visualization options</p>
+</section>
+<section id="references" class="level2">
+<h2 class="anchored" data-anchor-id="references">References</h2>
 
 
-</section>
-<section id="footnotes" class="footnotes footnotes-end-of-document" role="doc-endnotes">
-<hr>
-<ol>
-<li id="fn1"><p>Current Designs <a href="https://www.curdes.com/mainforp/responsedevices/buttonboxes/hhsc-1x4-l.html" class="uri">https://www.curdes.com/mainforp/responsedevices/buttonboxes/hhsc-1x4-l.html</a><a href="#fnref1" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
-<li id="fn2"><p><a href="https://psychopy-bids.readthedocs.io/en/stable/" class="uri">https://psychopy-bids.readthedocs.io/en/stable/</a><a href="#fnref2" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
-</ol>
+<div id="refs" class="references csl-bib-body hanging-indent" data-entry-spacing="0" role="list">
+<div id="ref-tierney2025" class="csl-entry" role="listitem">
+Tierney, Tim M., Nicholas A. Alexander, Nicole Labra Avila, Yael Balbastre, Gareth Barnes, Yulia Bezsudnova, Mikael Brudfors, et al. 2025. <span>“SPM 25: Open Source Neuroimaging Analysis Software.”</span> <a href="https://doi.org/10.48550/ARXIV.2501.12081">https://doi.org/10.48550/ARXIV.2501.12081</a>.
+</div>
+</div>
 </section>
 
 </main> <!-- /main -->
@@ -654,14 +805,11 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 </script>
 <nav class="page-navigation">
   <div class="nav-page nav-page-previous">
-      <a href="./fmri-intro.html" class="pagination-link" aria-label="Introduction to fMRI">
-        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Introduction to fMRI</span></span>
+      <a href="./preprocessing.html" class="pagination-link" aria-label="Preprocessing">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-number">4</span>&nbsp; <span class="chapter-title">Preprocessing</span></span>
       </a>          
   </div>
   <div class="nav-page nav-page-next">
-      <a href="./data_management.html" class="pagination-link" aria-label="Data management">
-        <span class="nav-page-text"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">Data management</span></span> <i class="bi bi-arrow-right-short"></i>
-      </a>
   </div>
 </nav>
 </div> <!-- /content -->

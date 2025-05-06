@@ -246,17 +246,9 @@ Summary of preprocessing steps [@esteban2018]
 The data quality of modern scanners is typically good enough to skip this step, if your subject is compliant. But it is nevertheless very much advisable and is ALWAYS performed. We will therefore dedicate a whole session to preprocessing. See [course schedule](syllabus.qmd#tbl-schedule) for the date.
 :::
 
-## Analysis
+## Analysis steps {#sec-analysis-steps}
 
--   Single-subject - first level - fixed effects analysis (FFX)
-
--   Group - second-level - random effects analysis (RFX)
-
-::: notes
-This is equivalent to e.g. conducting many trials per subject to measure reaction time, and then compute a subject-specific mean per condition, after which you would perform the actual statistical inference
-
-Multilevel modelling is also possible (for small datasets), but less frequent.
-:::
+{{< include "slide-analysis-steps.qmd" >}}
 
 ## Single-subject (first-level) analysis
 

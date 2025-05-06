@@ -17,7 +17,7 @@ The maths behind these steps is oftentimes complicated, and most fMRI 'users' do
 ::: notes
 To help us better understand the preprocessing steps, let’s remind ourselves about a typical fMRI experiment with a flickering checkerboard. In this experiment, we want to find out which brain areas are active when subjects view a flickering checkerboard compared to when they view a gray background. We have shown to every volunteer a checkerboard for e.g. 20 second interleaved with a 20 s rest, and we will measure a whole brain volume every 2 seconds, for e.g. to minutes or so.
 
-Matlab code to generate stimulus, BOLD and shifted BOLDX = \[1 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 1 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 1 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0\]; bf = spm_get_bf; % indicated a tr of 2.5 Y = conv(X,bf.bf); Ye = Y+randn(size(Y)).\*0.2;
+Matlab code to generate stimulus, BOLD and shifted BOLD X = \[1 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 1 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 1 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0\]; bf = spm_get_bf; % indicated a tr of 2.5 Y = conv(X,bf.bf); Ye = Y+randn(size(Y)).\*0.2;
 :::
 
 ## 4D functional dataset
@@ -37,7 +37,7 @@ And, in a functional experiment we usually measure brain activity across the who
 
 ![Since 2000 http://fsl.fmrib.ox.ac.uk/fsl/fslwiki/](images/clipboard-2202486336.png)
 
-[![https://freesurfer.net/](images/fslogosmall.png)](https://freesurfer.net/)
+[![Since 1999 https://freesurfer.net/](images/fslogosmall.png)](https://freesurfer.net/)
 :::
 
 ::: notes
@@ -221,11 +221,17 @@ legend("topleft", legend = columns_to_plot, col = rainbow(length(columns_to_plot
 
 ### Purpose: compensate for the lag in slice acquisition
 
-::: {layout-ncol="2"}
+::::: {layout-ncol="2"}
 ![](images/clipboard-11343229.png) ![](images/clipboard-1984723780.png)
 
+::: {.content-visible when-format="html"}
 ![](images/clipboard-2838093174.png) ![](images/slide_14_img.png)
 :::
+
+::: {.content-visible when-format="pdf"}
+<!-- GIF is skipped in PDF -->
+:::
+:::::
 
 ::: notes
 The next preprocessing step is slice-time correction. What is slice time correction and why do we need it? Remember that typically a functional volume is acquired not all at once, but slice-by-slice, as illustrated here. There are different ways in which the scanner can acquire the slices: it can bie botton-to top (ascending), decending, interleaved. There are also more complex slice acquisition patterns. Remember that the time it takes to acquire one volume is relatively long, in this our example it is 2 seconds. Let’s say a stimulus activates two areas, here and here in the same manner. If we acquire the slices in an asciending manner, we will measure a small signal amplitude in the frist area. By the time we arrive to the second area, the signal amplitude will increase in both areas, so we will measure a highre signal amplitude in the second area.
@@ -781,7 +787,7 @@ Before running
 
 -   Apply for a freesurfer license file with your Uni Graz email address: <https://surfer.nmr.mgh.harvard.edu/registration.html>
 
--   Download it and store in /home/jovyan/license.txt (or wherever you like)
+-   Download it and store in /home/jovyan/license.txt (or wherever you like, but make sure you adapt the path in the fMRIprep command below)
 
 ## Start fMRIprep from neurodesktop
 
@@ -804,5 +810,37 @@ participant \
 ```
 
 After this, fMRIprep will run for 4 hours. You do not need to wait for 4 hours! Close neurodesktop and log out. fMRIprep will run in the background. When you come back the next day, everything should be as you left it, with fMRIprep being done. Inspect the html output and submit a screenshot to moodle.
+
+## Output spaces
+
+````         
+``` {{bash}}
+cd /home/jovyan/gambling/bids/derivatives/fmriprep/sub-001/ses-1/func/
+ls -l *_bold.nii.gz
+```
+````
+
+![](images/clipboard-1755500209.png)
+
+````         
+``` {{bash}}
+cd /home/jovyan/gambling/bids/derivatives/fmriprep/sub-001/ses-1/func/
+ls -l *_bold.func.gii
+```
+````
+
+![](images/clipboard-3143380896.png)
+
+## HTML report
+
+![](images/clipboard-3121317170.png)
+
+```         
+file:///home/jovyan/gambling/bids/derivatives/fmriprep/sub-001.html
+```
+
+## Boilerplate
+
+![](images/clipboard-3388487828.png)
 
 ## References

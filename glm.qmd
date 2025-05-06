@@ -1,0 +1,75 @@
+# General linear model analysis
+
+of fMRI data
+
+## Analysis phases
+
+{{< include "slide-analysis-steps.qmd" >}}
+
+::: aside
+For a general overviewo of basic GLM analysis, see [Introduction to fMRI](fmri-intro.qmd#sec-analysis-steps)
+:::
+
+## Before analysis
+
+-   Pick your analysis space
+
+-   Decide whether/how/how much to smooth the data
+
+## Software
+
+{{< include "slide-software.qmd" >}}
+
+## Nilearn
+
+![](images/clipboard-3381280046.png)
+
+::: aside
+https://nilearn.github.io/stable/index.html
+:::
+
+## Ingredients
+
+-   fMRIprep output
+
+-   events files in bids format, located in the same directory as the raw functional data
+
+    -   you can copy them to your folder with the following terminal command
+
+        ``` bash
+        rsync -a -v /shared/2025_SS_SE_ANI/gambling/tsv_behr_data /home/jovyan/gambling/
+        ```
+
+    -   A zip archive is also attached to the moodle assigment
+
+## Install nilearn
+
+Open the terminal window
+
+![](images/clipboard-1985086323.png)
+
+type:
+
+``` bash
+pip install nilearn
+```
+
+and wait until the installation finishes
+
+## Run the analysis
+
+-   Open the jupyter notebook nilearn_ffix_volume.ipynb
+
+    -   you can copy it with the following terminal command
+
+        ``` bash
+        rsync -a -v /shared/2025_SS_SE_ANI/gambling/nilearn_ffx_volume.ipynb /home/jovyan/gambling/
+        ```
+
+    -   a copy is also attached to the moodle assignment
+
+-   try to run the analysis in the MNI space
+
+Feel free to play around with the parameters and visualization options
+
+## References

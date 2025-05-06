@@ -470,11 +470,11 @@
     ]
   },
   {
-    "objectID": "fmri-intro.html#analysis",
-    "href": "fmri-intro.html#analysis",
+    "objectID": "fmri-intro.html#sec-analysis-steps",
+    "href": "fmri-intro.html#sec-analysis-steps",
     "title": "1  Introduction to fMRI",
-    "section": "Analysis",
-    "text": "Analysis\n\nSingle-subject - first level - fixed effects analysis (FFX)\nGroup - second-level - random effects analysis (RFX)\n\n\nThis is equivalent to e.g. conducting many trials per subject to measure reaction time, and then compute a subject-specific mean per condition, after which you would perform the actual statistical inference\nMultilevel modelling is also possible (for small datasets), but less frequent.",
+    "section": "Analysis steps",
+    "text": "Analysis steps\n\nSingle-subject - first level - fixed effects analysis (FFX)\nGroup - second-level - random effects analysis (RFX)\n\n\nThis is equivalent to e.g. conducting many trials per subject to measure reaction time, and then compute a subject-specific mean per condition, after which you would perform the actual statistical inference\nMultilevel modelling is also possible (for small datasets), but less frequent.",
     "crumbs": [
       "<span class='chapter-number'>1</span>  <span class='chapter-title'>Introduction to fMRI</span>"
     ]
@@ -1194,7 +1194,7 @@
     "href": "preprocessing.html#reminder-a-typical-experiment",
     "title": "4  Preprocessing",
     "section": "",
-    "text": "To help us better understand the preprocessing steps, let’s remind ourselves about a typical fMRI experiment with a flickering checkerboard. In this experiment, we want to find out which brain areas are active when subjects view a flickering checkerboard compared to when they view a gray background. We have shown to every volunteer a checkerboard for e.g. 20 second interleaved with a 20 s rest, and we will measure a whole brain volume every 2 seconds, for e.g. to minutes or so.\nMatlab code to generate stimulus, BOLD and shifted BOLD\u000bX = [1 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 1 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 1 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0]; bf = spm_get_bf; % indicated a tr of 2.5 Y = conv(X,bf.bf); Ye = Y+randn(size(Y)).*0.2;",
+    "text": "To help us better understand the preprocessing steps, let’s remind ourselves about a typical fMRI experiment with a flickering checkerboard. In this experiment, we want to find out which brain areas are active when subjects view a flickering checkerboard compared to when they view a gray background. We have shown to every volunteer a checkerboard for e.g. 20 second interleaved with a 20 s rest, and we will measure a whole brain volume every 2 seconds, for e.g. to minutes or so.\nMatlab code to generate stimulus, BOLD and shifted BOLD X = [1 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 1 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 1 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0]; bf = spm_get_bf; % indicated a tr of 2.5 Y = conv(X,bf.bf); Ye = Y+randn(size(Y)).*0.2;",
     "crumbs": [
       "<span class='chapter-number'>4</span>  <span class='chapter-title'>Preprocessing</span>"
     ]
@@ -1214,7 +1214,7 @@
     "href": "preprocessing.html#major-software",
     "title": "4  Preprocessing",
     "section": "Major software",
-    "text": "Major software\n\n\n\n\n\n\n\n\n\nSince 1994 http://www.fil.ion.ucl.ac.uk/spm/\n\n\n\n\n\n\n\nSince 1994 http://afni.nimh.nih.gov/afni/\n\n\n\n\n\n\n\n\n\nSince 2000 http://fsl.fmrib.ox.ac.uk/fsl/fslwiki/\n\n\n\n\n\n\n\nhttps://freesurfer.net/\n\n\n\n\n\n\nPreprocessing used to be integrated into the software used for the actual analysis. And there are many software for this. On this slide I just put a few of them. Each of them has a slightly different phylosophy behind it, but all of them do roughly the same thing, so at the end it should not matter much which of them you use.\nOne of the oldest ones are:\n\nSPM – statistical parameteric mapping from UCL. It is a free MATLAB-based toolbox. However, it depends on the MATLAB licence, and has not been updated for a long time. The new update just came out which spans the gab from 2012 to 2025 (Tierney et al. 2025).\nAFNI - from NIH\nFSL from Oxford – a set of linux tools, also free and independent of MATLAB, which is an advantage, but requires Linux.\nFreeSurfer/FSFAST form the Martinos center - it is Linux based, and was originally conceived as a tool for structural data analysis, but has an fMRI module\n\nHistorical software\n\nbroccolli, that can utilize GPU computing and can process the same dataset n times faster\n\nWith the awareness of open science, and with the trend towards reproducibility and transparency, and with the release of fMRIprep software, the preprocessing got detached from the actual data analysis.",
+    "text": "Major software\n\n\n\n\n\n\n\n\n\nSince 1994 http://www.fil.ion.ucl.ac.uk/spm/\n\n\n\n\n\n\n\nSince 1994 http://afni.nimh.nih.gov/afni/\n\n\n\n\n\n\n\n\n\nSince 2000 http://fsl.fmrib.ox.ac.uk/fsl/fslwiki/\n\n\n\n\n\n\n\nSince 1999 https://freesurfer.net/\n\n\n\n\n\n\nPreprocessing used to be integrated into the software used for the actual analysis. And there are many software for this. On this slide I just put a few of them. Each of them has a slightly different phylosophy behind it, but all of them do roughly the same thing, so at the end it should not matter much which of them you use.\nOne of the oldest ones are:\n\nSPM – statistical parameteric mapping from UCL. It is a free MATLAB-based toolbox. However, it depends on the MATLAB licence, and has not been updated for a long time. The new update just came out which spans the gab from 2012 to 2025 (Tierney et al. 2025).\nAFNI - from NIH\nFSL from Oxford – a set of linux tools, also free and independent of MATLAB, which is an advantage, but requires Linux.\nFreeSurfer/FSFAST form the Martinos center - it is Linux based, and was originally conceived as a tool for structural data analysis, but has an fMRI module\n\nHistorical software\n\nbroccolli, that can utilize GPU computing and can process the same dataset n times faster\n\nWith the awareness of open science, and with the trend towards reproducibility and transparency, and with the release of fMRIprep software, the preprocessing got detached from the actual data analysis.",
     "crumbs": [
       "<span class='chapter-number'>4</span>  <span class='chapter-title'>Preprocessing</span>"
     ]
@@ -1294,7 +1294,7 @@
     "href": "preprocessing.html#plot-motion-parameters",
     "title": "4  Preprocessing",
     "section": "Plot motion parameters",
-    "text": "Plot motion parameters\n\n\nWarning: package 'ggplot2' was built under R version 4.4.3",
+    "text": "Plot motion parameters",
     "crumbs": [
       "<span class='chapter-number'>4</span>  <span class='chapter-title'>Preprocessing</span>"
     ]
@@ -1304,7 +1304,7 @@
     "href": "preprocessing.html#slice-time-correction",
     "title": "4  Preprocessing",
     "section": "Slice-time correction",
-    "text": "Slice-time correction\n\nPurpose: compensate for the lag in slice acquisition\n\n\n\n\n\n\n \n\n\n \n\n\n\n\nThe next preprocessing step is slice-time correction. What is slice time correction and why do we need it? Remember that typically a functional volume is acquired not all at once, but slice-by-slice, as illustrated here. There are different ways in which the scanner can acquire the slices: it can bie botton-to top (ascending), decending, interleaved. There are also more complex slice acquisition patterns. Remember that the time it takes to acquire one volume is relatively long, in this our example it is 2 seconds. Let’s say a stimulus activates two areas, here and here in the same manner. If we acquire the slices in an asciending manner, we will measure a small signal amplitude in the frist area. By the time we arrive to the second area, the signal amplitude will increase in both areas, so we will measure a highre signal amplitude in the second area.",
+    "text": "Slice-time correction\n\nPurpose: compensate for the lag in slice acquisition\n\n\n\n\n\n\n \n\n\n \n\n\n\n\n\n\n\n\n\nThe next preprocessing step is slice-time correction. What is slice time correction and why do we need it? Remember that typically a functional volume is acquired not all at once, but slice-by-slice, as illustrated here. There are different ways in which the scanner can acquire the slices: it can bie botton-to top (ascending), decending, interleaved. There are also more complex slice acquisition patterns. Remember that the time it takes to acquire one volume is relatively long, in this our example it is 2 seconds. Let’s say a stimulus activates two areas, here and here in the same manner. If we acquire the slices in an asciending manner, we will measure a small signal amplitude in the frist area. By the time we arrive to the second area, the signal amplitude will increase in both areas, so we will measure a highre signal amplitude in the second area.",
     "crumbs": [
       "<span class='chapter-number'>4</span>  <span class='chapter-title'>Preprocessing</span>"
     ]
@@ -1594,7 +1594,7 @@
     "href": "preprocessing.html#run-fmriprep",
     "title": "4  Preprocessing",
     "section": "Run fMRIprep",
-    "text": "Run fMRIprep\nBefore running\n\nApply for a freesurfer license file with your Uni Graz email address: https://surfer.nmr.mgh.harvard.edu/registration.html\nDownload it and store in /home/jovyan/license.txt (or wherever you like)",
+    "text": "Run fMRIprep\nBefore running\n\nApply for a freesurfer license file with your Uni Graz email address: https://surfer.nmr.mgh.harvard.edu/registration.html\nDownload it and store in /home/jovyan/license.txt (or wherever you like, but make sure you adapt the path in the fMRIprep command below)",
     "crumbs": [
       "<span class='chapter-number'>4</span>  <span class='chapter-title'>Preprocessing</span>"
     ]
@@ -1620,6 +1620,36 @@
     ]
   },
   {
+    "objectID": "preprocessing.html#output-spaces",
+    "href": "preprocessing.html#output-spaces",
+    "title": "4  Preprocessing",
+    "section": "Output spaces",
+    "text": "Output spaces\n``` {{bash}}\ncd /home/jovyan/gambling/bids/derivatives/fmriprep/sub-001/ses-1/func/\nls -l *_bold.nii.gz\n```\n\n``` {{bash}}\ncd /home/jovyan/gambling/bids/derivatives/fmriprep/sub-001/ses-1/func/\nls -l *_bold.func.gii\n```",
+    "crumbs": [
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Preprocessing</span>"
+    ]
+  },
+  {
+    "objectID": "preprocessing.html#html-report",
+    "href": "preprocessing.html#html-report",
+    "title": "4  Preprocessing",
+    "section": "HTML report",
+    "text": "HTML report\n\nfile:///home/jovyan/gambling/bids/derivatives/fmriprep/sub-001.html",
+    "crumbs": [
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Preprocessing</span>"
+    ]
+  },
+  {
+    "objectID": "preprocessing.html#boilerplate",
+    "href": "preprocessing.html#boilerplate",
+    "title": "4  Preprocessing",
+    "section": "Boilerplate",
+    "text": "Boilerplate",
+    "crumbs": [
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Preprocessing</span>"
+    ]
+  },
+  {
     "objectID": "preprocessing.html#references",
     "href": "preprocessing.html#references",
     "title": "4  Preprocessing",
@@ -1627,6 +1657,96 @@
     "text": "References\n\n\n\n\nArsenovic, Ana, Anja Ischebeck, and Natalia Zaretskaya. 2022. “Dissociation Between Attention-Dependent and Spatially Specific Illusory Shape Responses Within the Topographic Areas of the Posterior Parietal Cortex.” The Journal of Neuroscience, September. https://doi.org/10.1523/JNEUROSCI.0723-22.2022.\n\n\nAshburner, John, and Karl J Friston. 2005. “Unified Segmentation.” NeuroImage 26 (3): 839–51. https://doi.org/10.1016/j.neuroimage.2005.02.018.\n\n\nCoates, Adam, David Linhardt, Christian Windischberger, Anja Ischebeck, and Natalia Zaretskaya. 2024. “High-Resolution 7T fMRI Reveals the Visual Zone of the Human Claustrum.” Imaging Neuroscience 2 (October): 1–15. https://doi.org/10.1162/imag_a_00327.\n\n\nEsteban, Oscar, Christopher J. Markiewicz, Ross W. Blair, Craig A. Moodie, A. Ilkay Isik, Asier Erramuzpe, James D. Kent, et al. 2018. “fMRIPrep: A Robust Preprocessing Pipeline for Functional MRI.” Nature Methods 16 (1): 111–16. https://doi.org/10.1038/s41592-018-0235-4.\n\n\nGreve, Douglas N., and Bruce Fischl. 2009. “Accurate and Robust Brain Image Alignment Using Boundary-Based Registration.” NeuroImage 48 (1): 63–72. https://doi.org/10.1016/j.neuroimage.2009.06.060.\n\n\nStelzer, Johannes, Gabriele Lohmann, Karsten Mueller, Tilo Buschmann, and Robert Turner. 2014. “Deficient Approaches to Human Neuroimaging.” Frontiers in Human Neuroscience 8 (July). https://doi.org/10.3389/fnhum.2014.00462.\n\n\nTierney, Tim M., Nicholas A. Alexander, Nicole Labra Avila, Yael Balbastre, Gareth Barnes, Yulia Bezsudnova, Mikael Brudfors, et al. 2025. “SPM 25: Open Source Neuroimaging Analysis Software.” https://doi.org/10.48550/ARXIV.2501.12081.",
     "crumbs": [
       "<span class='chapter-number'>4</span>  <span class='chapter-title'>Preprocessing</span>"
+    ]
+  },
+  {
+    "objectID": "glm.html",
+    "href": "glm.html",
+    "title": "5  General linear model analysis",
+    "section": "",
+    "text": "Analysis phases\nof fMRI data",
+    "crumbs": [
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>General linear model analysis</span>"
+    ]
+  },
+  {
+    "objectID": "glm.html#analysis-phases",
+    "href": "glm.html#analysis-phases",
+    "title": "5  General linear model analysis",
+    "section": "",
+    "text": "Single-subject - first level - fixed effects analysis (FFX)\nGroup - second-level - random effects analysis (RFX)\n\n\nThis is equivalent to e.g. conducting many trials per subject to measure reaction time, and then compute a subject-specific mean per condition, after which you would perform the actual statistical inference\nMultilevel modelling is also possible (for small datasets), but less frequent.\n\n\n\nFor a general overviewo of basic GLM analysis, see Introduction to fMRI",
+    "crumbs": [
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>General linear model analysis</span>"
+    ]
+  },
+  {
+    "objectID": "glm.html#before-analysis",
+    "href": "glm.html#before-analysis",
+    "title": "5  General linear model analysis",
+    "section": "Before analysis",
+    "text": "Before analysis\n\nPick your analysis space\nDecide whether/how/how much to smooth the data",
+    "crumbs": [
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>General linear model analysis</span>"
+    ]
+  },
+  {
+    "objectID": "glm.html#software",
+    "href": "glm.html#software",
+    "title": "5  General linear model analysis",
+    "section": "Software",
+    "text": "Software\n\n\n\n\n\n\n\n\n\nSince 1994 http://www.fil.ion.ucl.ac.uk/spm/\n\n\n\n\n\n\n\nSince 1994 http://afni.nimh.nih.gov/afni/\n\n\n\n\n\n\n\n\n\nSince 2000 http://fsl.fmrib.ox.ac.uk/fsl/fslwiki/\n\n\n\n\n\n\n\nSince 1999 https://freesurfer.net/\n\n\n\n\n\n\nPreprocessing used to be integrated into the software used for the actual analysis. And there are many software for this. On this slide I just put a few of them. Each of them has a slightly different phylosophy behind it, but all of them do roughly the same thing, so at the end it should not matter much which of them you use.\nOne of the oldest ones are:\n\nSPM – statistical parameteric mapping from UCL. It is a free MATLAB-based toolbox. However, it depends on the MATLAB licence, and has not been updated for a long time. The new update just came out which spans the gab from 2012 to 2025 (Tierney et al. 2025).\nAFNI - from NIH\nFSL from Oxford – a set of linux tools, also free and independent of MATLAB, which is an advantage, but requires Linux.\nFreeSurfer/FSFAST form the Martinos center - it is Linux based, and was originally conceived as a tool for structural data analysis, but has an fMRI module\n\nHistorical software\n\nbroccolli, that can utilize GPU computing and can process the same dataset n times faster\n\nWith the awareness of open science, and with the trend towards reproducibility and transparency, and with the release of fMRIprep software, the preprocessing got detached from the actual data analysis.",
+    "crumbs": [
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>General linear model analysis</span>"
+    ]
+  },
+  {
+    "objectID": "glm.html#nilearn",
+    "href": "glm.html#nilearn",
+    "title": "5  General linear model analysis",
+    "section": "Nilearn",
+    "text": "Nilearn\n\n\n\nhttps://nilearn.github.io/stable/index.html",
+    "crumbs": [
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>General linear model analysis</span>"
+    ]
+  },
+  {
+    "objectID": "glm.html#ingredients",
+    "href": "glm.html#ingredients",
+    "title": "5  General linear model analysis",
+    "section": "Ingredients",
+    "text": "Ingredients\n\nfMRIprep output\nevents files in bids format, located in the same directory as the raw functional data\n\nyou can copy them to your folder with the following terminal command\nrsync -a -v /shared/2025_SS_SE_ANI/gambling/tsv_behr_data /home/jovyan/gambling/\nA zip archive is also attached to the moodle assigment",
+    "crumbs": [
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>General linear model analysis</span>"
+    ]
+  },
+  {
+    "objectID": "glm.html#install-nilearn",
+    "href": "glm.html#install-nilearn",
+    "title": "5  General linear model analysis",
+    "section": "Install nilearn",
+    "text": "Install nilearn\nOpen the terminal window\n\ntype:\npip install nilearn\nand wait until the installation finishes",
+    "crumbs": [
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>General linear model analysis</span>"
+    ]
+  },
+  {
+    "objectID": "glm.html#run-the-analysis",
+    "href": "glm.html#run-the-analysis",
+    "title": "5  General linear model analysis",
+    "section": "Run the analysis",
+    "text": "Run the analysis\n\nOpen the jupyter notebook nilearn_ffix_volume.ipynb\n\nyou can copy it with the following terminal command\nrsync -a -v /shared/2025_SS_SE_ANI/gambling/nilearn_ffx_volume.ipynb /home/jovyan/gambling/\na copy is also attached to the moodle assignment\n\ntry to run the analysis in the MNI space\n\nFeel free to play around with the parameters and visualization options",
+    "crumbs": [
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>General linear model analysis</span>"
+    ]
+  },
+  {
+    "objectID": "glm.html#references",
+    "href": "glm.html#references",
+    "title": "5  General linear model analysis",
+    "section": "References",
+    "text": "References\n\n\n\n\nTierney, Tim M., Nicholas A. Alexander, Nicole Labra Avila, Yael Balbastre, Gareth Barnes, Yulia Bezsudnova, Mikael Brudfors, et al. 2025. “SPM 25: Open Source Neuroimaging Analysis Software.” https://doi.org/10.48550/ARXIV.2501.12081.",
+    "crumbs": [
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>General linear model analysis</span>"
     ]
   }
 ]

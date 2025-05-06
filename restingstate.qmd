@@ -83,9 +83,9 @@ Typical signals that get regressed out:
 ## Physiology recording
 
 ::: {layout-ncol="2"}
-![Oxymeter](images/clipboard-388834013.png)
+![Oxymeter](images/clipboard-388834013.png){width="450"}
 
-![Respiration belt](images/clipboard-3611588019.png){width="500"}
+![Respiration belt](images/clipboard-3611588019.png){width="450"}
 :::
 
 ::: aside
@@ -151,5 +151,7 @@ The difference between FCD and rich club coefficient is that the FSD is related 
 
 [![](images/clipboard-946510959.png){width="177"}](https://nilearn.github.io/dev/connectivity/index.html)
 :::
+
+.
 
 ## References
