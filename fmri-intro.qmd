@@ -382,6 +382,7 @@ A linear combination of beta estimates
 
 ![](images/clipboard-1995917989.png)
 
+
 ## Region-of-interest (ROI) analysis
 
 ![](images/clipboard-2858615543.png)
@@ -412,58 +413,6 @@ NextBrain parcellation containing 333 anatomical structures [@casamitjana2024]
 
 ::: notes
 This is the state-of-the-art for anatomically-based ROI definition based on deep learning
-:::
-
-## Multivariate pattern analysis
-
-![](images/clipboard-3955080845.png)
-
-Question: Is the voxel response *pattern* different in condition A and B?
-
-::: notes
-Remember that an image is 4d and consists of little 3d cubes called voxels, with the 4th dimension being time. A classical analysis is done over time for every voxel in the brain independently. In a multivariate analysis we first perform a univariate analysis and then look at response patterns of multiple voxels at a time.
-
-In this example, both coca cola and pepsi activate the same 6 voxels in the visual cortex. But the red ones are activated more by cola then by pepsi, and the blue ones the other way around. If you just look at the average response over 6 voxels, you will not see a difference.
-:::
-
-## Searchlight analysis
-
-![](images/clipboard-137996085.png)
-
-::: notes
-MVPA can be done for a region of interest, or for the entire brain. In the latter case, the brain is subdivided into multiple ROIs, and the relevant analysis is performed for each of them. This procedure is called "searchlight". In this case, MCC is as relevant as it is in a univariate analysis.
-:::
-
-## First MVPA paper
-
-![](images/clipboard-1666315153.png)
-
-::: aside
-Representation similarity analysis [@haxby2001]
-:::
-
-## Machine learning
-
-::::: columns
-::: {.column width="50%"}
-![](images/clipboard-3573273781.png)
-:::
-
-::: {.column width="50%"}
-![](images/clipboard-2352405043.png)
-:::
-:::::
-
-::: aside
-First MVPA papers, both appeared in 2005 [@haynes2005; @kamitani2005]
-:::
-
-## SVM classifier
-
-![](images/clipboard-845253526.png)
-
-::: aside
-Toy example for 2D feature space. Further reading in e.g. Cohen et al. [-@cohen2017]
 :::
 
 ## References {.smaller}

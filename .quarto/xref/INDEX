@@ -128,9 +128,17 @@
     "schedule.html": "889c86f9"
   },
   "preprocessing.qmd": {
-    "preprocessing.html": "8e9fdca2"
+    "preprocessing.html": "8e9fdca2",
+    "preprocessing.tex": "ffeff154"
   },
   "restingstate.qmd": {
-    "restingstate.html": "2c84ea7a"
+    "restingstate.html": "2c84ea7a",
+    "restingstate.tex": "1071a090"
+  },
+  "glm.qmd": {
+    "glm.html": "fc6e1c4f"
+  },
+  "mcc.qmd": {
+    "mcc.html": "207ccd5b"
   }
 }

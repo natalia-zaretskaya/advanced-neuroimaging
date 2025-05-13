@@ -20,6 +20,7 @@ book:
     - data_management.qmd
     - preprocessing.qmd
     - glm.qmd
+    - mcc.qmd
 
 format:
   html:

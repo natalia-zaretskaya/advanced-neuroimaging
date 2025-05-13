@@ -177,6 +177,12 @@ div.csl-indent {
  <span class="menu-text"><span class="chapter-number">5</span>&nbsp; <span class="chapter-title">General linear model analysis</span></span></a>
   </div>
 </li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./mcc.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">6</span>&nbsp; <span class="chapter-title">Multiple comparison correction</span></span></a>
+  </div>
+</li>
     </ul>
     </div>
 </nav>
@@ -232,11 +238,6 @@ div.csl-indent {
   <li><a href="#group-analysis" id="toc-group-analysis" class="nav-link" data-scroll-target="#group-analysis">Group analysis</a></li>
   <li><a href="#region-of-interest-roi-analysis" id="toc-region-of-interest-roi-analysis" class="nav-link" data-scroll-target="#region-of-interest-roi-analysis">Region-of-interest (ROI) analysis</a></li>
   <li><a href="#subcortical-rois" id="toc-subcortical-rois" class="nav-link" data-scroll-target="#subcortical-rois">Subcortical ROIs</a></li>
-  <li><a href="#multivariate-pattern-analysis" id="toc-multivariate-pattern-analysis" class="nav-link" data-scroll-target="#multivariate-pattern-analysis">Multivariate pattern analysis</a></li>
-  <li><a href="#searchlight-analysis" id="toc-searchlight-analysis" class="nav-link" data-scroll-target="#searchlight-analysis">Searchlight analysis</a></li>
-  <li><a href="#first-mvpa-paper" id="toc-first-mvpa-paper" class="nav-link" data-scroll-target="#first-mvpa-paper">First MVPA paper</a></li>
-  <li><a href="#machine-learning" id="toc-machine-learning" class="nav-link" data-scroll-target="#machine-learning">Machine learning</a></li>
-  <li><a href="#svm-classifier" id="toc-svm-classifier" class="nav-link" data-scroll-target="#svm-classifier">SVM classifier</a></li>
   <li><a href="#references" id="toc-references" class="nav-link" data-scroll-target="#references">References</a></li>
   </ul>
 </nav>
@@ -621,49 +622,6 @@ div.csl-indent {
 <p>This is the state-of-the-art for anatomically-based ROI definition based on deep learning</p>
 </div>
 </section>
-<section id="multivariate-pattern-analysis" class="level2">
-<h2 class="anchored" data-anchor-id="multivariate-pattern-analysis">Multivariate pattern analysis</h2>
-<p><img src="images/clipboard-3955080845.png" class="img-fluid"></p>
-<p>Question: Is the voxel response <em>pattern</em> different in condition A and B?</p>
-<div class="notes">
-<p>Remember that an image is 4d and consists of little 3d cubes called voxels, with the 4th dimension being time. A classical analysis is done over time for every voxel in the brain independently. In a multivariate analysis we first perform a univariate analysis and then look at response patterns of multiple voxels at a time.</p>
-<p>In this example, both coca cola and pepsi activate the same 6 voxels in the visual cortex. But the red ones are activated more by cola then by pepsi, and the blue ones the other way around. If you just look at the average response over 6 voxels, you will not see a difference.</p>
-</div>
-</section>
-<section id="searchlight-analysis" class="level2">
-<h2 class="anchored" data-anchor-id="searchlight-analysis">Searchlight analysis</h2>
-<p><img src="images/clipboard-137996085.png" class="img-fluid"></p>
-<div class="notes">
-<p>MVPA can be done for a region of interest, or for the entire brain. In the latter case, the brain is subdivided into multiple ROIs, and the relevant analysis is performed for each of them. This procedure is called “searchlight”. In this case, MCC is as relevant as it is in a univariate analysis.</p>
-</div>
-</section>
-<section id="first-mvpa-paper" class="level2 page-columns page-full">
-<h2 class="anchored" data-anchor-id="first-mvpa-paper">First MVPA paper</h2>
-<p><img src="images/clipboard-1666315153.png" class="img-fluid"></p>
-
-<div class="no-row-height column-margin column-container"><div class="margin-aside">
-<p>Representation similarity analysis <span class="citation" data-cites="haxby2001">(<a href="#ref-haxby2001" role="doc-biblioref">Haxby et al. 2001</a>)</span></p>
-</div></div></section>
-<section id="machine-learning" class="level2 page-columns page-full">
-<h2 class="anchored" data-anchor-id="machine-learning">Machine learning</h2>
-<div class="columns">
-<div class="column" style="width:50%;">
-<p><img src="images/clipboard-3573273781.png" class="img-fluid"></p>
-</div><div class="column" style="width:50%;">
-<p><img src="images/clipboard-2352405043.png" class="img-fluid"></p>
-</div>
-</div>
-
-<div class="no-row-height column-margin column-container"><div class="margin-aside">
-<p>First MVPA papers, both appeared in 2005 <span class="citation" data-cites="haynes2005 kamitani2005">(<a href="#ref-haynes2005" role="doc-biblioref">Haynes and Rees 2005</a>; <a href="#ref-kamitani2005" role="doc-biblioref">Kamitani and Tong 2005</a>)</span></p>
-</div></div></section>
-<section id="svm-classifier" class="level2 page-columns page-full">
-<h2 class="anchored" data-anchor-id="svm-classifier">SVM classifier</h2>
-<p><img src="images/clipboard-845253526.png" class="img-fluid"></p>
-
-<div class="no-row-height column-margin column-container"><div class="margin-aside">
-<p>Toy example for 2D feature space. Further reading in e.g.&nbsp;Cohen et al. <span class="citation" data-cites="cohen2017">(<a href="#ref-cohen2017" role="doc-biblioref">2017</a>)</span></p>
-</div></div></section>
 <section id="references" class="level2 smaller">
 <h2 class="smaller anchored" data-anchor-id="references">References</h2>
 
@@ -678,26 +636,14 @@ Casamitjana, Adrià, Matteo Mancini, Eleanor Robinson, Loïc Peter, Roberto Annu
 <div id="ref-coates2024" class="csl-entry" role="listitem">
 Coates, Adam, David Linhardt, Christian Windischberger, Anja Ischebeck, and Natalia Zaretskaya. 2024. <span>“High-Resolution 7T fMRI Reveals the Visual Zone of the Human Claustrum.”</span> <em>Imaging Neuroscience</em> 2: 1–15. <a href="https://doi.org/10.1162/imag_a_00327">https://doi.org/10.1162/imag_a_00327</a>.
 </div>
-<div id="ref-cohen2017" class="csl-entry" role="listitem">
-Cohen, Jonathan D, Nathaniel Daw, Barbara Engelhardt, Uri Hasson, Kai Li, Yael Niv, Kenneth A Norman, et al. 2017. <span>“Computational Approaches to fMRI Analysis.”</span> <em>Nature Neuroscience</em> 20 (3): 304–13. <a href="https://doi.org/10.1038/nn.4499">https://doi.org/10.1038/nn.4499</a>.
-</div>
 <div id="ref-esteban2018" class="csl-entry" role="listitem">
 Esteban, Oscar, Christopher J. Markiewicz, Ross W. Blair, Craig A. Moodie, A. Ilkay Isik, Asier Erramuzpe, James D. Kent, et al. 2018. <span>“fMRIPrep: A Robust Preprocessing Pipeline for Functional MRI.”</span> <em>Nature Methods</em> 16 (1): 111–16. <a href="https://doi.org/10.1038/s41592-018-0235-4">https://doi.org/10.1038/s41592-018-0235-4</a>.
 </div>
 <div id="ref-glasser2016" class="csl-entry" role="listitem">
 Glasser, Matthew F., Timothy S. Coalson, Emma C. Robinson, Carl D. Hacker, John Harwell, Essa Yacoub, Kamil Ugurbil, et al. 2016. <span>“A Multi-Modal Parcellation of Human Cerebral Cortex.”</span> <em>Nature</em> 536 (7615): 171–78. <a href="https://doi.org/10.1038/nature18933">https://doi.org/10.1038/nature18933</a>.
 </div>
-<div id="ref-haxby2001" class="csl-entry" role="listitem">
-Haxby, J V, M I Gobbini, M L Furey, A Ishai, J L Schouten, and P Pietrini. 2001. <span>“Distributed and Overlapping Representations of Faces and Objects in Ventral Temporal Cortex.”</span> <em>Science (New York, N.Y.)</em> 293 (5539): 2425–30. <a href="https://doi.org/10.1126/science.1063736">https://doi.org/10.1126/science.1063736</a>.
-</div>
-<div id="ref-haynes2005" class="csl-entry" role="listitem">
-Haynes, John-Dylan, and Geraint Rees. 2005. <span>“Predicting the Orientation of Invisible Stimuli from Activity in Human Primary Visual Cortex.”</span> <em>Nature Neuroscience</em> 8 (5): 686–91. <a href="https://doi.org/10.1038/nn1445">https://doi.org/10.1038/nn1445</a>.
-</div>
 <div id="ref-interpre2009" class="csl-entry" role="listitem">
 <span>“Interpreting the BOLD Response.”</span> 2009. In, 400–424. Cambridge University Press. <a href="https://doi.org/10.1017/cbo9780511605505.020">https://doi.org/10.1017/cbo9780511605505.020</a>.
-</div>
-<div id="ref-kamitani2005" class="csl-entry" role="listitem">
-Kamitani, Yukiyasu, and Frank Tong. 2005. <span>“Decoding the Visual and Subjective Contents of the Human Brain.”</span> <em>Nature Neuroscience</em> 8 (5): 679–85. <a href="https://doi.org/10.1038/nn1444">https://doi.org/10.1038/nn1444</a>.
 </div>
 <div id="ref-lindquist2008" class="csl-entry" role="listitem">
 Lindquist, Martin A. 2008. <span>“The Statistical Analysis of fMRI Data.”</span> <em>Statistical Science</em> 23 (4). <a href="https://doi.org/10.1214/09-sts282">https://doi.org/10.1214/09-sts282</a>.
