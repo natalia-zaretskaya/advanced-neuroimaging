@@ -1,0 +1,259 @@
+# Course Syllabus {.unnumbered}
+
+PSY.842 Advanced neuroimaging methods
+
+![](images/claus_7TCOR_activity_website.png){width="400"}
+
+Citation from UGOnline:
+
+::: {style="font-size: 50%;"}
+*This practice-oriented seminar provides an introduction into the modern methods of MRI-based neuroimaging for cognitive neuroscience.\
+It will take students through all stages of a functional MRI study:\
+- planning and programming an experiment,\
+- acquiring the data\
+- data preprocessing\
+- data analysis and interpretation\
+In addition to theoretical input, the course will have a strong practical component. Students will first present their project ideas in class. After this, the class will select the best project, which will be implemented into a computer program. Together with the lecturer we will conduct an fMRI experiment with one volunteer. The students will get access to a server, and each person will go through all stages of data preprocessing and analysis.\
+Open science practices in the field of neuroimaging will also be introduced.*
+:::
+
+# General information
+
+## Course instructor
+
+::::: columns
+::: {.column width="50%"}
+### Natalia Zaretskaya
+
+📧 [natalia.zaretskaya\@uni-graz.at](mailto:natalia.zaretskaya@uni-graz.at?subject=602.004%20Selected%20Studies%20in%20General%20Psychology)
+
+🏛️ Universitätsplatz 2, 8010 Graz Room 2-DG-0040 / [Zoom](https://uni-graz.zoom.us/j/9974524640?pwd=R1dmMEVldEduYW1leEp3WXo0d1ErZz09)
+
+### Office hours
+
+Tuesdays, 10:00-11:30 (please make an appointment)
+
+You can also just talk with me after class.
+:::
+
+::: {.column width="50%"}
+### Group leader of the "Visual Neuroscience Lab"
+
+![<https://neurovision.uni-graz.at/en/>](images/clipboard-890498128.png){width="405"}
+:::
+:::::
+
+## Other courses
+
+SS 2026
+
+-   BSc SE "Neural Mechanisms of Consciousness"
+
+-   MSc SE "Advanced Neuroimaging Methods"
+
+-   PhD SE "How to plan, conduct, analyze and write up an fMRI study"
+
+WS 2026
+
+-   BSc VL "General Psychology I: Perception and Attention"
+
+-   BSc KS "Selected Studies in General Psychology"
+
+## Research interests
+
+![For details, see <https://neurovision.uni-graz.at/en/research-directions/>](images/clipboard-1154889361.png)
+
+## Organisatory aspects
+
+-   Let’s be “per du” (Natalia)
+
+-   Course language is English, but I speak German
+
+-   Let's be less formal (please interrupt and ask questions!)
+
+-   Course materials on Moodle: <https://moodle.uni-graz.at>
+
+## Content of the course
+
+### “Hard” knowledge
+
+-   Basics of performing an fMRI experiment
+-   Modern practices in fMRI data analysis
+-   Open science practices in Neuroimaging
+
+### “Soft” skills
+
+-   Scientific presentations
+-   Scientific writing
+-   Critical thinking
+
+## Teaching goals
+
+Upon successful completion of this course, you will be able to ...
+
+-   Understand the possibilities and limitations of functional MRI
+
+-   Be able to plan, conduct, analyze and interpret fMRI experiments in practice
+
+-   Know and apply open science practices in the field of neuroimaging
+
+## Possible workload for 4 ECTS
+
+::: {style="font-size: 70%;"}
+| **Activity** | **Hours per week** | **Total hours** | **Cumulative sum** |
+|------------------|------------------|------------------|------------------|
+| Classroom | 14 x 1.5 hours | 21 | 21 |
+| Individual/group work | 14 x 4 | 56 | 77 |
+| Report writing |  | 23 hours ⁓ 3 full work days! | 100 |
+| **Total** |  | 100 |  |
+
+: Example workload distribution according to 4 ECTS (100 hours) {#tbl-ects}
+:::
+
+## Course requirements
+
+-   Active participation in class (not graded)
+
+    -   Attendance (maximum 2 absences are tolerated)
+    -   Contribution to class work/discussions
+    -   Homework submissions (see the [Course Schedule Table](#tbl-schedule))
+
+-   25%: Project concept presentation (individual or group)
+
+-   25%: Result visualization presentation (individual or group)
+
+-   50 %: Final report (individual)
+
+    -   After the deadline the grade decreases by 1 point per 24 hours
+
+-   Course feedback confirmation
+
+    -   Submission of an [UGOnline](https://online.uni-graz.at) screenshot to [Moodle](https://moodle.uni-graz.at) before semester end
+
+## Evaluation criteria {#sec-presentation-evaluation}
+
+-   Project presentation
+
+    -   Scientific merit
+    -   Feasibility
+
+-   Visualization presentation
+
+    -   Clarity in conveying the message
+    -   Scientific correctness
+
+-   Report
+
+    -   Formal correctness (see guidelines below)
+    -   Understanding of all stages of course work
+
+## Presentation guidelines {#sec-presentation-guidelines}
+
+![](images/classroom-1297780_1280.png){width="300"}
+
+-   Duration 5 minutes maximum
+
+-   Aspects to address
+
+    -   General relevance of the topic
+    -   1-2 articles on the topic
+    -   Specific research question
+    -   Why is fMRI necessary?
+    -   Specific experimental conditions...?
+
+## Report guidelines
+
+![](images/classroom-1297781_1280.png){width="300"}
+
+-   Introduction: maximum 500 words
+
+-   Methods: max 1000 words
+
+    -   Participant
+    -   Experimental paradigm
+    -   Data acquisition
+    -   Data analysis
+
+-   Results: maximum 500 words
+
+-   Discussion: maximum 500 words
+
+-   References
+
+## Course feedback
+
+::::: columns
+::: {.column width="50%"}
+### During the course: via Moodle
+
+![](images/clipboard-3969589456.png)
+:::
+
+::: {.column width="50%"}
+### At the end of the course
+
+Submission of an [UGOnline](https://online.uni-graz.at) screenshot to [Moodle](https://moodle.uni-graz.at) before semester end
+
+![](images/clipboard-3410048076.png)
+:::
+:::::
+
+## Course schedule
+
+{{< include schedule.qmd >}}
+
+## Recommended reading
+
+Will be announced as we go along
+
+## AI usage in general
+
+![[@kosmyna2025]](images/clipboard-3349732845.png)
+
+::: notes
+ChatGPT, CoPilot & similar tools are **not prohibited** in this course. These technologies may be helpful for structuring a poster, generating ideas, or revising texts. However, when using AI tools, always adhere to the **principles of good academic practice**. You, as a student, remain fully responsible for the accuracy and correctness of all submitted content generated with such tools. Verbatim use of AI-generated text passages must be clearly marked – just like traditional quotations – by citing the AI system used and specifying the nature of the interaction (see "[Orientation Guidelines for the Use of Text-Generating AI Systems at the University of Graz](https://static.uni-graz.at/fileadmin/_files/_project_sites/_lehren-und-lernen-mit-ki/AI_Orientation_Guidelines_230901.pdf)", pp. 1–2).
+
+Submissions that are primarily or entirely generated by AI systems are not permitted. When using generative AI, you must ensure that your prompts and inputs do not violate any third-party rights, including copyright, personality rights, or data protection regulations. In this course, I advocate for a critical and reflective approach to AI technologies. Understanding their limitations is just as important as exploring their potential. Key weaknesses of AI tools include:
+
+\- *Bias (e.g., sexism, racism, etc.)*
+
+\- *Lack of scientific accuracy*
+
+\- *Hallucinations (fabricated content)*
+
+\- *And most importantly: letting AI generate your work can hinder your own thinking, reflection, the development of your own perspective, and a critical academic mindset.\
+*
+
+Further information is available on the [Teaching & Learning with AI website of the University of Graz](https://lehren-und-lernen-mit-ki.uni-graz.at/en/for-students/).
+:::
+
+## AI usage (official) {#sec-ai-uni}
+
+*The use of generative AI is generally possible in this course. Please note, however, that you as a student bear full responsibility for the accuracy of the generated content.*
+
+*An academic integrity statement is required for each submitted paper, the verbatim copying of AI-generated text passages must be marked - analogous to conventional citations - by stating the AI system and the specification of the interaction (see “[Orientation guidelines for dealing with text-generating AI systems at the University of Graz](https://static.uni-graz.at/fileadmin/_files/_project_sites/_digitalelehre/Orientierungsrahmen/KI-Orientierungsrahmen_230901.pdf)”, p. 1-2).*
+
+*It is only prohibited to submit work that was created predominantly or even exclusively using generative AI.*
+
+*When using generative AI, please ensure that your submissions do not violate the rights of third parties, including copyright, personal rights, and data protection regulations.*
+
+## AI usage (this course) {#sec-ai-course}
+
+AI usage is conditional on full disclosure:
+
+-   250 words maximum attachment to the report with a description of which AI tools were used and how exactly were they applied
+
+-   You bare responsibility for the correctness and authorship of the written text
+
+-   I keep the right to invite you and ask questions about the content
+
+::: {.content-visible when-format="revealjs"}
+## Time for questions
+
+![](images/classroom-1297782_640.png){width="300"}
+
+You can also ask questions in [Moodle](https://moodle.uni-graz.at/) forum
+:::
+
+## References
+

@@ -1,0 +1,692 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Advanced Neuroimaging",
+    "section": "",
+    "text": "Welcome!\n\n\n\n(c) Adam Coates\n\n\n\n\nCourse schedule {#tbl-schedule tbl-colwidths=“[10,20,30,30,10]”} (subject to changes)\n\n\nSession #\nDate and time\nSpecific topic\nTODO for this class\nEstimated workload (h)\n\n\n1\n03.03.2026\nOrganization and introduction to fMRI\nnothing\n0\n\n\n2\n10.03.2026\nfMRI Paradigm\nInstall PsychoPy, go through the tutorial\n4\n\n\n3\n17.03.2026\nProject slam and public vote\n(Winner does not need to write an introduction)\nPrepare a presentation of your project (See Presentation Guidelines and Presentation Evaluation Criteria)\n4\n\n\n\n24.03.2026\nno class\n\n\n\n\n4\n14.04.2026\nImplementation slam and second public vote\n(Winner does not need to write the experiment description)\nImplement your project in PsychoPy, show it to the class\n8\n\n\n5\n21.04.2026\nData management I\nNeurodesk registration\n4\n\n\n6\n28.04.2026\nData management II\nExperiment feedback\nEvery course participant performs 3 rounds of the experiment and gives feedback\n1\n\n\n7\n05.05.2026\nPreprocessing\nRun MRIQC\n1\n\n\n8\n12.05.2026\nAnalysis: General linear model\nRun preprocessing\n4\n\n\n9\n19.05.2026\nResult visualization and reporting\nVolume space analysis\n4\n\n\n10\n02.06.2026\nAnalysis: Other analyses types\nSurface space analysis\n4\n\n\n11\n09.06.2026\nResult presentation slam, public vote\n(winner does not need to write a results section)\nPrepare a poster with images\n8\n\n\n12\n16.06.2026\nWriting an fMRI article\nRead an example fMRI article\n2\n\n\n13\n23.06.2026\nFinal session (study examples), course evaluation\nReport draft (voluntary)\n8\n\n\n14\nTBA\nData acquisition in the MRI lab\n\n\n\n\n\nTBA\nReport deadline\n\n23",
+    "crumbs": [
+      "Welcome!"
+    ]
+  },
+  {
+    "objectID": "syllabus.html",
+    "href": "syllabus.html",
+    "title": "Course Syllabus",
+    "section": "",
+    "text": "General information\nPSY.842 Advanced neuroimaging methods\nCitation from UGOnline:",
+    "crumbs": [
+      "Course Syllabus"
+    ]
+  },
+  {
+    "objectID": "syllabus.html#course-instructor",
+    "href": "syllabus.html#course-instructor",
+    "title": "Course Syllabus",
+    "section": "Course instructor",
+    "text": "Course instructor\n\n\n\nNatalia Zaretskaya\n📧 natalia.zaretskaya@uni-graz.at\n🏛️ Universitätsplatz 2, 8010 Graz Room 2-DG-0040 / Zoom\n\n\nOffice hours\nTuesdays, 10:00-11:30 (please make an appointment)\nYou can also just talk with me after class.\n\n\n\nGroup leader of the “Visual Neuroscience Lab”\n\n\n\nhttps://neurovision.uni-graz.at/en/",
+    "crumbs": [
+      "Course Syllabus"
+    ]
+  },
+  {
+    "objectID": "syllabus.html#other-courses",
+    "href": "syllabus.html#other-courses",
+    "title": "Course Syllabus",
+    "section": "Other courses",
+    "text": "Other courses\nSS 2026\n\nBSc SE “Neural Mechanisms of Consciousness”\nMSc SE “Advanced Neuroimaging Methods”\nPhD SE “How to plan, conduct, analyze and write up an fMRI study”\n\nWS 2026\n\nBSc VL “General Psychology I: Perception and Attention”\nBSc KS “Selected Studies in General Psychology”",
+    "crumbs": [
+      "Course Syllabus"
+    ]
+  },
+  {
+    "objectID": "syllabus.html#research-interests",
+    "href": "syllabus.html#research-interests",
+    "title": "Course Syllabus",
+    "section": "Research interests",
+    "text": "Research interests\n\n\n\nFor details, see https://neurovision.uni-graz.at/en/research-directions/",
+    "crumbs": [
+      "Course Syllabus"
+    ]
+  },
+  {
+    "objectID": "syllabus.html#organisatory-aspects",
+    "href": "syllabus.html#organisatory-aspects",
+    "title": "Course Syllabus",
+    "section": "Organisatory aspects",
+    "text": "Organisatory aspects\n\nLet’s be “per du” (Natalia)\nCourse language is English, but I speak German\nLet’s be less formal (please interrupt and ask questions!)\nCourse materials on Moodle: https://moodle.uni-graz.at",
+    "crumbs": [
+      "Course Syllabus"
+    ]
+  },
+  {
+    "objectID": "syllabus.html#content-of-the-course",
+    "href": "syllabus.html#content-of-the-course",
+    "title": "Course Syllabus",
+    "section": "Content of the course",
+    "text": "Content of the course\n\n“Hard” knowledge\n\nBasics of performing an fMRI experiment\nModern practices in fMRI data analysis\nOpen science practices in Neuroimaging\n\n\n\n“Soft” skills\n\nScientific presentations\nScientific writing\nCritical thinking",
+    "crumbs": [
+      "Course Syllabus"
+    ]
+  },
+  {
+    "objectID": "syllabus.html#teaching-goals",
+    "href": "syllabus.html#teaching-goals",
+    "title": "Course Syllabus",
+    "section": "Teaching goals",
+    "text": "Teaching goals\nUpon successful completion of this course, you will be able to …\n\nUnderstand the possibilities and limitations of functional MRI\nBe able to plan, conduct, analyze and interpret fMRI experiments in practice\nKnow and apply open science practices in the field of neuroimaging",
+    "crumbs": [
+      "Course Syllabus"
+    ]
+  },
+  {
+    "objectID": "syllabus.html#possible-workload-for-4-ects",
+    "href": "syllabus.html#possible-workload-for-4-ects",
+    "title": "Course Syllabus",
+    "section": "Possible workload for 4 ECTS",
+    "text": "Possible workload for 4 ECTS\n\n\n\n\nTable 1.1: Example workload distribution according to 4 ECTS (100 hours)\n\n\n\n\n\n\n\n\n\n\n\nActivity\nHours per week\nTotal hours\nCumulative sum\n\n\n\n\nClassroom\n14 x 1.5 hours\n21\n21\n\n\nIndividual/group work\n14 x 4\n56\n77\n\n\nReport writing\n\n23 hours ⁓ 3 full work days!\n100\n\n\nTotal\n\n100",
+    "crumbs": [
+      "Course Syllabus"
+    ]
+  },
+  {
+    "objectID": "syllabus.html#course-requirements",
+    "href": "syllabus.html#course-requirements",
+    "title": "Course Syllabus",
+    "section": "Course requirements",
+    "text": "Course requirements\n\nActive participation in class (not graded)\n\nAttendance (maximum 2 absences are tolerated)\nContribution to class work/discussions\nHomework submissions (see the Course Schedule Table)\n\n25%: Project concept presentation (individual or group)\n25%: Result visualization presentation (individual or group)\n50 %: Final report (individual)\n\nAfter the deadline the grade decreases by 1 point per 24 hours\n\nCourse feedback confirmation\n\nSubmission of an UGOnline screenshot to Moodle before semester end",
+    "crumbs": [
+      "Course Syllabus"
+    ]
+  },
+  {
+    "objectID": "syllabus.html#sec-presentation-evaluation",
+    "href": "syllabus.html#sec-presentation-evaluation",
+    "title": "Course Syllabus",
+    "section": "Evaluation criteria",
+    "text": "Evaluation criteria\n\nProject presentation\n\nScientific merit\nFeasibility\n\nVisualization presentation\n\nClarity in conveying the message\nScientific correctness\n\nReport\n\nFormal correctness (see guidelines below)\nUnderstanding of all stages of course work",
+    "crumbs": [
+      "Course Syllabus"
+    ]
+  },
+  {
+    "objectID": "syllabus.html#sec-presentation-guidelines",
+    "href": "syllabus.html#sec-presentation-guidelines",
+    "title": "Course Syllabus",
+    "section": "Presentation guidelines",
+    "text": "Presentation guidelines\n\n\nDuration 5 minutes maximum\nAspects to address\n\nGeneral relevance of the topic\n1-2 articles on the topic\nSpecific research question\nWhy is fMRI necessary?\nSpecific experimental conditions…?",
+    "crumbs": [
+      "Course Syllabus"
+    ]
+  },
+  {
+    "objectID": "syllabus.html#report-guidelines",
+    "href": "syllabus.html#report-guidelines",
+    "title": "Course Syllabus",
+    "section": "Report guidelines",
+    "text": "Report guidelines\n\n\nIntroduction: maximum 500 words\nMethods: max 1000 words\n\nParticipant\nExperimental paradigm\nData acquisition\nData analysis\n\nResults: maximum 500 words\nDiscussion: maximum 500 words\nReferences",
+    "crumbs": [
+      "Course Syllabus"
+    ]
+  },
+  {
+    "objectID": "syllabus.html#course-feedback",
+    "href": "syllabus.html#course-feedback",
+    "title": "Course Syllabus",
+    "section": "Course feedback",
+    "text": "Course feedback\n\n\n\nDuring the course: via Moodle\n\n\n\n\nAt the end of the course\nSubmission of an UGOnline screenshot to Moodle before semester end",
+    "crumbs": [
+      "Course Syllabus"
+    ]
+  },
+  {
+    "objectID": "syllabus.html#course-schedule",
+    "href": "syllabus.html#course-schedule",
+    "title": "Course Syllabus",
+    "section": "Course schedule",
+    "text": "Course schedule\n\n\nCourse schedule {#tbl-schedule tbl-colwidths=“[10,20,30,30,10]”} (subject to changes)\n\n\nSession #\nDate and time\nSpecific topic\nTODO for this class\nEstimated workload (h)\n\n\n1\n03.03.2026\nOrganization and introduction to fMRI\nnothing\n0\n\n\n2\n10.03.2026\nfMRI Paradigm\nInstall PsychoPy, go through the tutorial\n4\n\n\n3\n17.03.2026\nProject slam and public vote\n(Winner does not need to write an introduction)\nPrepare a presentation of your project (See Presentation Guidelines and Presentation Evaluation Criteria)\n4\n\n\n\n24.03.2026\nno class\n\n\n\n\n4\n14.04.2026\nImplementation slam and second public vote\n(Winner does not need to write the experiment description)\nImplement your project in PsychoPy, show it to the class\n8\n\n\n5\n21.04.2026\nData management I\nNeurodesk registration\n4\n\n\n6\n28.04.2026\nData management II\nExperiment feedback\nEvery course participant performs 3 rounds of the experiment and gives feedback\n1\n\n\n7\n05.05.2026\nPreprocessing\nRun MRIQC\n1\n\n\n8\n12.05.2026\nAnalysis: General linear model\nRun preprocessing\n4\n\n\n9\n19.05.2026\nResult visualization and reporting\nVolume space analysis\n4\n\n\n10\n02.06.2026\nAnalysis: Other analyses types\nSurface space analysis\n4\n\n\n11\n09.06.2026\nResult presentation slam, public vote\n(winner does not need to write a results section)\nPrepare a poster with images\n8\n\n\n12\n16.06.2026\nWriting an fMRI article\nRead an example fMRI article\n2\n\n\n13\n23.06.2026\nFinal session (study examples), course evaluation\nReport draft (voluntary)\n8\n\n\n14\nTBA\nData acquisition in the MRI lab\n\n\n\n\n\nTBA\nReport deadline\n\n23",
+    "crumbs": [
+      "Course Syllabus"
+    ]
+  },
+  {
+    "objectID": "syllabus.html#recommended-reading",
+    "href": "syllabus.html#recommended-reading",
+    "title": "Course Syllabus",
+    "section": "Recommended reading",
+    "text": "Recommended reading\nWill be announced as we go along",
+    "crumbs": [
+      "Course Syllabus"
+    ]
+  },
+  {
+    "objectID": "syllabus.html#ai-usage-in-general",
+    "href": "syllabus.html#ai-usage-in-general",
+    "title": "Course Syllabus",
+    "section": "AI usage in general",
+    "text": "AI usage in general\n\n\n\n(Kosmyna et al. 2025)\n\n\n\nChatGPT, CoPilot & similar tools are not prohibited in this course. These technologies may be helpful for structuring a poster, generating ideas, or revising texts. However, when using AI tools, always adhere to the principles of good academic practice. You, as a student, remain fully responsible for the accuracy and correctness of all submitted content generated with such tools. Verbatim use of AI-generated text passages must be clearly marked – just like traditional quotations – by citing the AI system used and specifying the nature of the interaction (see “Orientation Guidelines for the Use of Text-Generating AI Systems at the University of Graz”, pp. 1–2).\nSubmissions that are primarily or entirely generated by AI systems are not permitted. When using generative AI, you must ensure that your prompts and inputs do not violate any third-party rights, including copyright, personality rights, or data protection regulations. In this course, I advocate for a critical and reflective approach to AI technologies. Understanding their limitations is just as important as exploring their potential. Key weaknesses of AI tools include:\n- Bias (e.g., sexism, racism, etc.)\n- Lack of scientific accuracy\n- Hallucinations (fabricated content)\n- And most importantly: letting AI generate your work can hinder your own thinking, reflection, the development of your own perspective, and a critical academic mindset.\n\nFurther information is available on the Teaching & Learning with AI website of the University of Graz.",
+    "crumbs": [
+      "Course Syllabus"
+    ]
+  },
+  {
+    "objectID": "syllabus.html#sec-ai-uni",
+    "href": "syllabus.html#sec-ai-uni",
+    "title": "Course Syllabus",
+    "section": "AI usage (official)",
+    "text": "AI usage (official)\nThe use of generative AI is generally possible in this course. Please note, however, that you as a student bear full responsibility for the accuracy of the generated content.\nAn academic integrity statement is required for each submitted paper, the verbatim copying of AI-generated text passages must be marked - analogous to conventional citations - by stating the AI system and the specification of the interaction (see “Orientation guidelines for dealing with text-generating AI systems at the University of Graz”, p. 1-2).\nIt is only prohibited to submit work that was created predominantly or even exclusively using generative AI.\nWhen using generative AI, please ensure that your submissions do not violate the rights of third parties, including copyright, personal rights, and data protection regulations.",
+    "crumbs": [
+      "Course Syllabus"
+    ]
+  },
+  {
+    "objectID": "syllabus.html#sec-ai-course",
+    "href": "syllabus.html#sec-ai-course",
+    "title": "Course Syllabus",
+    "section": "AI usage (this course)",
+    "text": "AI usage (this course)\nAI usage is conditional on full disclosure:\n\n250 words maximum attachment to the report with a description of which AI tools were used and how exactly were they applied\nYou bare responsibility for the correctness and authorship of the written text\nI keep the right to invite you and ask questions about the content",
+    "crumbs": [
+      "Course Syllabus"
+    ]
+  },
+  {
+    "objectID": "syllabus.html#references",
+    "href": "syllabus.html#references",
+    "title": "Course Syllabus",
+    "section": "References",
+    "text": "References\n\n\n\n\nKosmyna, Nataliya, Eugene Hauptmann, Ye Tong Yuan, Jessica Situ, Xian-Hao Liao, Ashly Vivian Beresnitzky, Iris Braunstein, and Pattie Maes. 2025. “Your Brain on ChatGPT: Accumulation of Cognitive Debt When Using an AI Assistant for Essay Writing Task.” https://doi.org/10.48550/ARXIV.2506.08872.",
+    "crumbs": [
+      "Course Syllabus"
+    ]
+  },
+  {
+    "objectID": "overview.html",
+    "href": "overview.html",
+    "title": "Course overview",
+    "section": "",
+    "text": "Stages of an fMRI study",
+    "crumbs": [
+      "Course overview"
+    ]
+  },
+  {
+    "objectID": "overview.html#stages-of-an-fmri-study",
+    "href": "overview.html#stages-of-an-fmri-study",
+    "title": "Course overview",
+    "section": "",
+    "text": "Idea/research question\nExperimental implementation\nData acquisition\nData analysis\nPaper writing",
+    "crumbs": [
+      "Course overview"
+    ]
+  },
+  {
+    "objectID": "overview.html#implementation",
+    "href": "overview.html#implementation",
+    "title": "Course overview",
+    "section": "Implementation",
+    "text": "Implementation\n\nhttps://www.psychopy.org/",
+    "crumbs": [
+      "Course overview"
+    ]
+  },
+  {
+    "objectID": "overview.html#data-acquisition",
+    "href": "overview.html#data-acquisition",
+    "title": "Course overview",
+    "section": "Data acquisition",
+    "text": "Data acquisition\n\nhttps://mri-lab.uni-graz.at/en/\nKopernikusgasse 24 (Graz University of Technology - “Neue Technik”)",
+    "crumbs": [
+      "Course overview"
+    ]
+  },
+  {
+    "objectID": "overview.html#data-analysis",
+    "href": "overview.html#data-analysis",
+    "title": "Course overview",
+    "section": "Data analysis",
+    "text": "Data analysis\n\nhttps://www.neurodesk.org/",
+    "crumbs": [
+      "Course overview"
+    ]
+  },
+  {
+    "objectID": "overview.html#neurodesk-access-on-visual-neuroscience-server",
+    "href": "overview.html#neurodesk-access-on-visual-neuroscience-server",
+    "title": "Course overview",
+    "section": "Neurodesk access on Visual Neuroscience Server",
+    "text": "Neurodesk access on Visual Neuroscience Server\n\nUniversitätsplatz 2, Top floor\nhttps://psychologie.uni-graz.at/en/\nInstructions:\nhttps://visualneuroscience.github.io/neurodesk/neurodesktop.html",
+    "crumbs": [
+      "Course overview"
+    ]
+  },
+  {
+    "objectID": "overview.html#neurodesktop",
+    "href": "overview.html#neurodesktop",
+    "title": "Course overview",
+    "section": "Neurodesktop",
+    "text": "Neurodesktop",
+    "crumbs": [
+      "Course overview"
+    ]
+  },
+  {
+    "objectID": "fmri-intro.html",
+    "href": "fmri-intro.html",
+    "title": "1  Introduction to fMRI",
+    "section": "",
+    "text": "fMRI study examples",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Introduction to fMRI</span>"
+    ]
+  },
+  {
+    "objectID": "fmri-intro.html#fmri-study-examples",
+    "href": "fmri-intro.html#fmri-study-examples",
+    "title": "1  Introduction to fMRI",
+    "section": "",
+    "text": "Many crazy studies have been performed with fMRI. Not all of the research questions really make sense!",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Introduction to fMRI</span>"
+    ]
+  },
+  {
+    "objectID": "fmri-intro.html#fmri-in-comparison",
+    "href": "fmri-intro.html#fmri-in-comparison",
+    "title": "1  Introduction to fMRI",
+    "section": "fMRI in comparison",
+    "text": "fMRI in comparison\n\n\n\nSource: Gazzaniga 5th edition, Figure 3.45",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Introduction to fMRI</span>"
+    ]
+  },
+  {
+    "objectID": "fmri-intro.html#mri-scanner-3-tesla",
+    "href": "fmri-intro.html#mri-scanner-3-tesla",
+    "title": "1  Introduction to fMRI",
+    "section": "MRI scanner: 3 Tesla",
+    "text": "MRI scanner: 3 Tesla\n\n\n\nhttps://mri-lab.uni-graz.at/",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Introduction to fMRI</span>"
+    ]
+  },
+  {
+    "objectID": "fmri-intro.html#mri-scanner-7-tesla",
+    "href": "fmri-intro.html#mri-scanner-7-tesla",
+    "title": "1  Introduction to fMRI",
+    "section": "MRI scanner: 7 Tesla",
+    "text": "MRI scanner: 7 Tesla\n\n\n\nImage source: Medical University of Vienna",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Introduction to fMRI</span>"
+    ]
+  },
+  {
+    "objectID": "fmri-intro.html#mri-scanner-9.4-tesla",
+    "href": "fmri-intro.html#mri-scanner-9.4-tesla",
+    "title": "1  Introduction to fMRI",
+    "section": "MRI scanner: 9.4 Tesla",
+    "text": "MRI scanner: 9.4 Tesla\n\n\n\nImage source: Max-Planck Institute for Biological Cybernetics, Tübingen",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Introduction to fMRI</span>"
+    ]
+  },
+  {
+    "objectID": "fmri-intro.html#types-of-mri-contrasts",
+    "href": "fmri-intro.html#types-of-mri-contrasts",
+    "title": "1  Introduction to fMRI",
+    "section": "Types of MRI contrasts",
+    "text": "Types of MRI contrasts\n\n\n\nImage source: https://en.wikipedia.org/wiki/Magnetic_resonance_imaging",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Introduction to fMRI</span>"
+    ]
+  },
+  {
+    "objectID": "fmri-intro.html#t1w-in-cognitive-neuroscience",
+    "href": "fmri-intro.html#t1w-in-cognitive-neuroscience",
+    "title": "1  Introduction to fMRI",
+    "section": "T1w in cognitive neuroscience",
+    "text": "T1w in cognitive neuroscience\n\n\n\nFull Segmentation of a T1-weighted scan (Zaretskaya et al. 2018)\n\n\nDisplaying activity on a high-resolution anatomical scan\nQuantitative morphometry\n\nAging\nNeurodegeneration\nPlasticity",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Introduction to fMRI</span>"
+    ]
+  },
+  {
+    "objectID": "fmri-intro.html#the-principle-of-fmri",
+    "href": "fmri-intro.html#the-principle-of-fmri",
+    "title": "1  Introduction to fMRI",
+    "section": "The principle of fMRI",
+    "text": "The principle of fMRI\n\n\n\nImage source: https://www.nature.com/scitable/blog/brain-metrics/what_does_fmri_measure\n\nHemodynamic changes: - increase in blood flow - increase in blood volume - increase in tissue CMRO_2",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Introduction to fMRI</span>"
+    ]
+  },
+  {
+    "objectID": "fmri-intro.html#hemodynamic-response",
+    "href": "fmri-intro.html#hemodynamic-response",
+    "title": "1  Introduction to fMRI",
+    "section": "Hemodynamic response",
+    "text": "Hemodynamic response\n\n\n\nSource: Visual Neuroscience Lab",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Introduction to fMRI</span>"
+    ]
+  },
+  {
+    "objectID": "fmri-intro.html#bold-signal",
+    "href": "fmri-intro.html#bold-signal",
+    "title": "1  Introduction to fMRI",
+    "section": "BOLD signal",
+    "text": "BOLD signal\nblood-oxygen-level-dependent signal\n\n\n\nHemodynamics leading to the BOLD signal (“Interpreting the BOLD Response” 2009)",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Introduction to fMRI</span>"
+    ]
+  },
+  {
+    "objectID": "fmri-intro.html#t2-weighted-contrast",
+    "href": "fmri-intro.html#t2-weighted-contrast",
+    "title": "1  Introduction to fMRI",
+    "section": "T2*-weighted contrast",
+    "text": "T2*-weighted contrast",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Introduction to fMRI</span>"
+    ]
+  },
+  {
+    "objectID": "fmri-intro.html#hemodynamic-response-function",
+    "href": "fmri-intro.html#hemodynamic-response-function",
+    "title": "1  Introduction to fMRI",
+    "section": "Hemodynamic response function",
+    "text": "Hemodynamic response function\n\n\nThis curve describes the measured signal in response to a brief stimulus.\nThe response is heavily delayed, and has a relatively complex temporal structure, described by the so called hemodynamic response function (HRF).\nAfter just a brief stimulus that lasts less than a second, the response lasts for seconds. It has a delayed rise phase, a peak, and a subsequent undershoot. The fact that the response is so slow is the main constraint of the temporal resolution of fMRI. It constrains the kind of questions you can ask in your experiment and also puts some constraints on your experimental design.",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Introduction to fMRI</span>"
+    ]
+  },
+  {
+    "objectID": "fmri-intro.html#neural-activity-and-bold",
+    "href": "fmri-intro.html#neural-activity-and-bold",
+    "title": "1  Introduction to fMRI",
+    "section": "Neural activity and BOLD",
+    "text": "Neural activity and BOLD\n\n\n\nBOLD signal correlates better with LFP than with MUA (Logothetis et al. 2001)\n\nLFP = Local Field Potentials (dendritic currents)\nMUA = Multiunit Activity (action potentials)\nSDF = Spike-density function (action potentials)",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Introduction to fMRI</span>"
+    ]
+  },
+  {
+    "objectID": "fmri-intro.html#image-acquisition",
+    "href": "fmri-intro.html#image-acquisition",
+    "title": "1  Introduction to fMRI",
+    "section": "Image acquisition",
+    "text": "Image acquisition\n\n\nThe functional volume is usually acquired slice-by-slice; this is why when you are acquiring the data you see an image like this on the monitor. A functional sequence is characterized by the in-plane matrix size and resolution, as well as by the slice thickness.",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Introduction to fMRI</span>"
+    ]
+  },
+  {
+    "objectID": "fmri-intro.html#experimental-design",
+    "href": "fmri-intro.html#experimental-design",
+    "title": "1  Introduction to fMRI",
+    "section": "Experimental design",
+    "text": "Experimental design\n\n\nIn contrast to e.g. fNIRS, the BOLD-fMRI does not measure the deoxyhemoglobin concentration directly. It is a measure that is weighted by the deoxyhemoglobin concentration, but depends on many other factors like scanner, sequence, participant, and brain area.\nThis is why any measure of fMRI experiment has to contain at least two conditions, a baseline, and condition of interest. The activation is always computed relative to some baseline. For instance a checkerboard vs gray background, finger tapping versus rest; faces versus houses, etc. And a typical analysis will compare the BOLD signal during condition of interest with rest.",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Introduction to fMRI</span>"
+    ]
+  },
+  {
+    "objectID": "fmri-intro.html#first-fmri-experiment",
+    "href": "fmri-intro.html#first-fmri-experiment",
+    "title": "1  Introduction to fMRI",
+    "section": "First fMRI experiment",
+    "text": "First fMRI experiment\n\n\n\nBrain images and statistical analysis (Belliveau et al. 1991)\n\nThe first experiment was not a BOLD, but a blood volume signal measurement.",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Introduction to fMRI</span>"
+    ]
+  },
+  {
+    "objectID": "fmri-intro.html#first-fmri-experiment-1",
+    "href": "fmri-intro.html#first-fmri-experiment-1",
+    "title": "1  Introduction to fMRI",
+    "section": "First fMRI experiment",
+    "text": "First fMRI experiment\n\n\n\nCover of the science magazine where the paper was published (Belliveau et al. 1991)\n\nThis rendering was produced specifically for the cover",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Introduction to fMRI</span>"
+    ]
+  },
+  {
+    "objectID": "fmri-intro.html#the-truly-first-fmri-experiment",
+    "href": "fmri-intro.html#the-truly-first-fmri-experiment",
+    "title": "1  Introduction to fMRI",
+    "section": "The truly first fMRI experiment",
+    "text": "The truly first fMRI experiment\n\n\n\nExperimental setup of Angelo Mosso (Sandrone et al. 2013)",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Introduction to fMRI</span>"
+    ]
+  },
+  {
+    "objectID": "fmri-intro.html#a-typical-experiment",
+    "href": "fmri-intro.html#a-typical-experiment",
+    "title": "1  Introduction to fMRI",
+    "section": "A typical experiment",
+    "text": "A typical experiment\n\n\nTo help us better understand the analysis steps, let’s use an example. Let’s say we have conducted a classical experiment in the visual system, a flickering checkerboard. In this experiment, we want to find out which brain areas are active when subjects view a flickering checkerboard compared to when they view a gray background. We have shown to every volunteer a checkerboard for e.g. 20 second interleaved with a 20 s rest, and we will measure a whole brain volume every 2 seconds, for e.g. to minutes or so.\nMatlab code to generate stimulus, BOLD and shifted BOLD X = [1 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 1 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 1 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0]; bf = spm_get_bf; % indicated a tr of 2.5 Y = conv(X,bf.bf); Ye = Y+randn(size(Y)).*0.2;",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Introduction to fMRI</span>"
+    ]
+  },
+  {
+    "objectID": "fmri-intro.html#d-dataset",
+    "href": "fmri-intro.html#d-dataset",
+    "title": "1  Introduction to fMRI",
+    "section": "4D dataset",
+    "text": "4D dataset\n\n\nIn a functional experiment we usually measure brain activity across the whole volume over extended periods of time, so it is comfortable to think about each functional dataset that we acquire as a 4D dataset, which consists of 3D brain volumes and time as a 4th dimension. This is how the data is typically stored.\nA further important parameter is the repetition time (TR). It is the time passes between the acquisition times of two adjacent volumes.",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Introduction to fMRI</span>"
+    ]
+  },
+  {
+    "objectID": "fmri-intro.html#preprocessing",
+    "href": "fmri-intro.html#preprocessing",
+    "title": "1  Introduction to fMRI",
+    "section": "Preprocessing",
+    "text": "Preprocessing\n\n\n\nSummary of preprocessing steps (Esteban et al. 2018)\n\nThe data quality of modern scanners is typically good enough to skip this step, if your subject is compliant. But it is nevertheless very much advisable and is ALWAYS performed. We will therefore dedicate a whole session to preprocessing. See course schedule for the date.",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Introduction to fMRI</span>"
+    ]
+  },
+  {
+    "objectID": "fmri-intro.html#sec-analysis-steps",
+    "href": "fmri-intro.html#sec-analysis-steps",
+    "title": "1  Introduction to fMRI",
+    "section": "Analysis steps",
+    "text": "Analysis steps\n\nSingle-subject - first level - fixed effects analysis (FFX)\nGroup - second-level - random effects analysis (RFX)\n\n\nThis is equivalent to e.g. conducting many trials per subject to measure reaction time, and then compute a subject-specific mean per condition, after which you would perform the actual statistical inference\nMultilevel modelling is also possible (for small datasets), but less frequent.",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Introduction to fMRI</span>"
+    ]
+  },
+  {
+    "objectID": "fmri-intro.html#single-subject-first-level-analysis",
+    "href": "fmri-intro.html#single-subject-first-level-analysis",
+    "title": "1  Introduction to fMRI",
+    "section": "Single-subject (first-level) analysis",
+    "text": "Single-subject (first-level) analysis\nUnivariate/voxel-wise analysis\n\nQuestion: Which areas are activated by the flickering checkerboard?\n\nRemember that an image is 4d and consists of little 3D cubes called voxels, with the 4th dimension being time. A classical analysis is done over time for every voxel in the brain independently.",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Introduction to fMRI</span>"
+    ]
+  },
+  {
+    "objectID": "fmri-intro.html#stimulus-function",
+    "href": "fmri-intro.html#stimulus-function",
+    "title": "1  Introduction to fMRI",
+    "section": "Stimulus function",
+    "text": "Stimulus function\n\n\nLet’s recall our checkerboard experiment where participants viewed either a checkerboard or a gray screen. Let’s also create a function, called “stimulus function”, which is one where the checkerboard was on, and zero where the checkerboard was off",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Introduction to fMRI</span>"
+    ]
+  },
+  {
+    "objectID": "fmri-intro.html#side-note-on-terminology",
+    "href": "fmri-intro.html#side-note-on-terminology",
+    "title": "1  Introduction to fMRI",
+    "section": "Side-note on terminology",
+    "text": "Side-note on terminology\n\nTrial\nContinuous presentation of 1 experimental condition, usually 1-20 seconds\n\n\nRun\nBlock of trials separated by interruption of a scanner acquisition, usually 5-10 minutes\n\n\nSession\nBlock of runs, separated by subject going out of the scanner and going in again, usually at least one day",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Introduction to fMRI</span>"
+    ]
+  },
+  {
+    "objectID": "fmri-intro.html#voxel-time-course",
+    "href": "fmri-intro.html#voxel-time-course",
+    "title": "1  Introduction to fMRI",
+    "section": "Voxel time course",
+    "text": "Voxel time course\n\n\nLet’s now look at the time course of a voxel in the visual cortex. You see that it is noisy and delayed, but it kind of follows the stimulus.",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Introduction to fMRI</span>"
+    ]
+  },
+  {
+    "objectID": "fmri-intro.html#simplest-analysis-temporal-alignment",
+    "href": "fmri-intro.html#simplest-analysis-temporal-alignment",
+    "title": "1  Introduction to fMRI",
+    "section": "Simplest analysis: temporal alignment",
+    "text": "Simplest analysis: temporal alignment\n\n\nThe simplest analysis would be to realign the BOLD time course with the stimulus time course",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Introduction to fMRI</span>"
+    ]
+  },
+  {
+    "objectID": "fmri-intro.html#simplest-analysis-statistical-inference",
+    "href": "fmri-intro.html#simplest-analysis-statistical-inference",
+    "title": "1  Introduction to fMRI",
+    "section": "Simplest analysis: statistical inference",
+    "text": "Simplest analysis: statistical inference\n\n\nThen label each value according to when it was acquired, stimulus or baseline Collect two types of data points into two big piles and do a statistical comparison via a t-test",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Introduction to fMRI</span>"
+    ]
+  },
+  {
+    "objectID": "fmri-intro.html#simplest-analysis-statistical-map",
+    "href": "fmri-intro.html#simplest-analysis-statistical-map",
+    "title": "1  Introduction to fMRI",
+    "section": "Simplest analysis: statistical map",
+    "text": "Simplest analysis: statistical map\n\n\nIf you do it for every voxel, you can get a new volume, which consists of t-statistics",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Introduction to fMRI</span>"
+    ]
+  },
+  {
+    "objectID": "fmri-intro.html#general-linear-model-glm",
+    "href": "fmri-intro.html#general-linear-model-glm",
+    "title": "1  Introduction to fMRI",
+    "section": "General Linear Model (GLM)",
+    "text": "General Linear Model (GLM)\nMultiple regression with ingredients:\n\nPredictor(s): stimulus function convolved with the HRF (see Buidling regressors)\nNuissance regressors",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Introduction to fMRI</span>"
+    ]
+  },
+  {
+    "objectID": "fmri-intro.html#buidling-regressors",
+    "href": "fmri-intro.html#buidling-regressors",
+    "title": "1  Introduction to fMRI",
+    "section": "Buidling regressors",
+    "text": "Buidling regressors\n\n\n\nSome convolution examples can be found here (Lindquist 2008)",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Introduction to fMRI</span>"
+    ]
+  },
+  {
+    "objectID": "fmri-intro.html#general-linear-model",
+    "href": "fmri-intro.html#general-linear-model",
+    "title": "1  Introduction to fMRI",
+    "section": "General linear model",
+    "text": "General linear model",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Introduction to fMRI</span>"
+    ]
+  },
+  {
+    "objectID": "fmri-intro.html#statistical-inference-in-whole-brain-analysis",
+    "href": "fmri-intro.html#statistical-inference-in-whole-brain-analysis",
+    "title": "1  Introduction to fMRI",
+    "section": "Statistical inference in whole-brain analysis",
+    "text": "Statistical inference in whole-brain analysis\n\n\nHow do we get from beta estimates to making statistical inference? As in a typical regression, beta estimate divided by its standard error is a t-statistic with a t-distribution. So to know whether an activation in one voxel is significant is relatively straightforward.\nIf we had just one voxel, we would have computed the t-statistic, and then depending on the degrees of freedom determined if it exceeds the critical value. However, we are doing the same statistical test for MANY voxels. SO the probability that we find a significant voxel simply by chance increases. This is the multiple comparison problem that is encountered anywhere in statistics. In fMRI it is particularly prominent, because the number if singe tests is enormous. There are several ways and philosophies for dealing with it, I won’t go into details right now. The important thing is that any voxel-wise analysis MUST deal with this problem in some way.",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Introduction to fMRI</span>"
+    ]
+  },
+  {
+    "objectID": "fmri-intro.html#two-conditions",
+    "href": "fmri-intro.html#two-conditions",
+    "title": "1  Introduction to fMRI",
+    "section": "Two conditions",
+    "text": "Two conditions",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Introduction to fMRI</span>"
+    ]
+  },
+  {
+    "objectID": "fmri-intro.html#general-linear-model-with-two-conditions",
+    "href": "fmri-intro.html#general-linear-model-with-two-conditions",
+    "title": "1  Introduction to fMRI",
+    "section": "General linear model with two conditions",
+    "text": "General linear model with two conditions",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Introduction to fMRI</span>"
+    ]
+  },
+  {
+    "objectID": "fmri-intro.html#contrast",
+    "href": "fmri-intro.html#contrast",
+    "title": "1  Introduction to fMRI",
+    "section": "Contrast",
+    "text": "Contrast\nA linear combination of beta estimates",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Introduction to fMRI</span>"
+    ]
+  },
+  {
+    "objectID": "fmri-intro.html#glm-advantages",
+    "href": "fmri-intro.html#glm-advantages",
+    "title": "1  Introduction to fMRI",
+    "section": "GLM advantages",
+    "text": "GLM advantages\n\n\n\n\n\nComplex experimental designs\nDiscounting uninteresting effects/confounds\nHRF shape estimation",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Introduction to fMRI</span>"
+    ]
+  },
+  {
+    "objectID": "fmri-intro.html#group-analysis",
+    "href": "fmri-intro.html#group-analysis",
+    "title": "1  Introduction to fMRI",
+    "section": "Group analysis",
+    "text": "Group analysis",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Introduction to fMRI</span>"
+    ]
+  },
+  {
+    "objectID": "fmri-intro.html#region-of-interest-roi-analysis",
+    "href": "fmri-intro.html#region-of-interest-roi-analysis",
+    "title": "1  Introduction to fMRI",
+    "section": "Region-of-interest (ROI) analysis",
+    "text": "Region-of-interest (ROI) analysis\n\nQuestion: Does the primary visual cortex respond to flickering checkerboards?\n\n\nHCP cortical parcellation (“Glasser atlas”) (Glasser et al. 2016)\n\nROI analysis is a way to deal with multiple comparison problem. But it requires an a priory and independent definition of an ROI.\nThere are two ways to define ROIs:\n\nFrom an anatomical scan\nFrom an additional (separate) functional experiment",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Introduction to fMRI</span>"
+    ]
+  },
+  {
+    "objectID": "fmri-intro.html#subcortical-rois",
+    "href": "fmri-intro.html#subcortical-rois",
+    "title": "1  Introduction to fMRI",
+    "section": "Subcortical ROIs",
+    "text": "Subcortical ROIs\n\n\n\nNextBrain parcellation containing 333 anatomical structures (Casamitjana et al. 2024)\n\nThis is the state-of-the-art for anatomically-based ROI definition based on deep learning",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Introduction to fMRI</span>"
+    ]
+  },
+  {
+    "objectID": "fmri-intro.html#references",
+    "href": "fmri-intro.html#references",
+    "title": "1  Introduction to fMRI",
+    "section": "References",
+    "text": "References\n\n\n\n\nBelliveau, J. W., D. N. Kennedy, R. C. McKinstry, B. R. Buchbinder, R. M. Weisskoff, M. S. Cohen, J. M. Vevea, T. J. Brady, and B. R. Rosen. 1991. “Functional Mapping of the Human Visual Cortex by Magnetic Resonance Imaging.” Science 254 (5032): 716–19. https://doi.org/10.1126/science.1948051.\n\n\nCasamitjana, Adrià, Matteo Mancini, Eleanor Robinson, Loïc Peter, Roberto Annunziata, Juri Althonayan, Shauna Crampsie, et al. 2024. “A Next-Generation, Histological Atlas of the Human Brain and Its Application to Automated Brain MRI Segmentation.” http://dx.doi.org/10.1101/2024.02.05.579016.\n\n\nCoates, Adam, David Linhardt, Christian Windischberger, Anja Ischebeck, and Natalia Zaretskaya. 2024. “High-Resolution 7T fMRI Reveals the Visual Zone of the Human Claustrum.” Imaging Neuroscience 2: 1–15. https://doi.org/10.1162/imag_a_00327.\n\n\nEsteban, Oscar, Christopher J. Markiewicz, Ross W. Blair, Craig A. Moodie, A. Ilkay Isik, Asier Erramuzpe, James D. Kent, et al. 2018. “fMRIPrep: A Robust Preprocessing Pipeline for Functional MRI.” Nature Methods 16 (1): 111–16. https://doi.org/10.1038/s41592-018-0235-4.\n\n\nGlasser, Matthew F., Timothy S. Coalson, Emma C. Robinson, Carl D. Hacker, John Harwell, Essa Yacoub, Kamil Ugurbil, et al. 2016. “A Multi-Modal Parcellation of Human Cerebral Cortex.” Nature 536 (7615): 171–78. https://doi.org/10.1038/nature18933.\n\n\n“Interpreting the BOLD Response.” 2009. In, 400–424. Cambridge University Press. https://doi.org/10.1017/cbo9780511605505.020.\n\n\nLindquist, Martin A. 2008. “The Statistical Analysis of fMRI Data.” Statistical Science 23 (4). https://doi.org/10.1214/09-sts282.\n\n\nLogothetis, Nikos K., Jon Pauls, Mark Augath, Torsten Trinath, and Axel Oeltermann. 2001. “Neurophysiological Investigation of the Basis of the fMRI Signal.” Nature 412 (6843): 150–57. https://doi.org/10.1038/35084005.\n\n\nSandrone, Stefano, Marco Bacigaluppi, Marco R. Galloni, Stefano F. Cappa, Andrea Moro, Marco Catani, Massimo Filippi, Martin M. Monti, Daniela Perani, and Gianvito Martino. 2013. “Weighing Brain Activity with the Balance: Angelo Mosso’s Original Manuscripts Come to Light.” Brain 137 (2): 621–33. https://doi.org/10.1093/brain/awt091.\n\n\nZaretskaya, Natalia, Bruce Fischl, Martin Reuter, Ville Renvall, and Jonathan R Polimeni. 2018. “Advantages of Cortical Surface Reconstruction Using Submillimeter 7 t MEMPRAGE.” NeuroImage 165 (January): 11–26. https://doi.org/10.1016/j.neuroimage.2017.09.060.",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Introduction to fMRI</span>"
+    ]
+  }
+]

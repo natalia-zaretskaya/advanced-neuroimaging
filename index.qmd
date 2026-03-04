@@ -1,0 +1,5 @@
+# Welcome! {.unnumbered}
+
+![(c) Adam Coates](images/claus_7TCOR_activity_website.png){width="100"}
+
+{{< include schedule.qmd >}}

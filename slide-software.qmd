@@ -1,0 +1,29 @@
+::: {layout-nrow="2"}
+![Since 1994 http://www.fil.ion.ucl.ac.uk/spm/](images/clipboard-1248183062.png)
+
+![Since 1994 http://afni.nimh.nih.gov/afni/](images/clipboard-1300652131.png)
+
+![Since 2000 http://fsl.fmrib.ox.ac.uk/fsl/fslwiki/](images/clipboard-2202486336.png)
+
+[![Since 1999 https://freesurfer.net/](images/fslogosmall.png)](https://freesurfer.net/)
+:::
+
+::: notes
+Preprocessing used to be integrated into the software used for the actual analysis. And there are many software for this. On this slide I just put a few of them. Each of them has a slightly different phylosophy behind it, but all of them do roughly the same thing, so at the end it should not matter much which of them you use.
+
+One of the oldest ones are:
+
+-   SPM – statistical parameteric mapping from UCL. It is a free MATLAB-based toolbox. However, it depends on the MATLAB licence, and has not been updated for a long time. The new update just came out which spans the gab from 2012 to 2025 [@tierney2025].
+
+-   AFNI - from NIH
+
+-   FSL from Oxford – a set of linux tools, also free and independent of MATLAB, which is an advantage, but requires Linux.
+
+-   FreeSurfer/FSFAST form the Martinos center - it is Linux based, and was originally conceived as a tool for structural data analysis, but has an fMRI module
+
+Historical software
+
+-   broccolli, that can utilize GPU computing and can process the same dataset n times faster
+
+With the awareness of open science, and with the trend towards reproducibility and transparency, and with the release of fMRIprep software, the preprocessing got detached from the actual data analysis.
+:::
