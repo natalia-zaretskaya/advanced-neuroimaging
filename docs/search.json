@@ -304,7 +304,7 @@
     "href": "fmri-intro.html#mri-scanner-3-tesla",
     "title": "1  Introduction to fMRI",
     "section": "MRI scanner: 3 Tesla",
-    "text": "MRI scanner: 3 Tesla\n\n\n\nhttps://mri-lab.uni-graz.at/",
+    "text": "MRI scanner: 3 Tesla\n\n\n\nSource: https://mri-lab.uni-graz.at/",
     "crumbs": [
       "<span class='chapter-number'>1</span>  <span class='chapter-title'>Introduction to fMRI</span>"
     ]
@@ -344,7 +344,7 @@
     "href": "fmri-intro.html#t1w-in-cognitive-neuroscience",
     "title": "1  Introduction to fMRI",
     "section": "T1w in cognitive neuroscience",
-    "text": "T1w in cognitive neuroscience\n\n\n\nFull Segmentation of a T1-weighted scan (Zaretskaya et al. 2018)\n\n\nDisplaying activity on a high-resolution anatomical scan\nQuantitative morphometry\n\nAging\nNeurodegeneration\nPlasticity",
+    "text": "T1w in cognitive neuroscience\n\n\n\nFull segmentation of a T1-weighted scan (Zaretskaya et al. 2018)\n\n\n\n\nDisplaying activity on a high-resolution anatomical scan\nQuantitative morphometry\n\nAging\nNeurodegeneration\nPlasticity",
     "crumbs": [
       "<span class='chapter-number'>1</span>  <span class='chapter-title'>Introduction to fMRI</span>"
     ]
@@ -354,7 +354,7 @@
     "href": "fmri-intro.html#the-principle-of-fmri",
     "title": "1  Introduction to fMRI",
     "section": "The principle of fMRI",
-    "text": "The principle of fMRI\n\n\n\nImage source: https://www.nature.com/scitable/blog/brain-metrics/what_does_fmri_measure\n\nHemodynamic changes: - increase in blood flow - increase in blood volume - increase in tissue CMRO_2",
+    "text": "The principle of fMRI\n\n\n\nImage source: https://www.nature.com/scitable/blog/brain-metrics/what_does_fmri_measure\n\n\n\nHemodynamic changes: - increase in blood flow - increase in blood volume - increase in tissue CMRO_2",
     "crumbs": [
       "<span class='chapter-number'>1</span>  <span class='chapter-title'>Introduction to fMRI</span>"
     ]
@@ -384,7 +384,7 @@
     "href": "fmri-intro.html#t2-weighted-contrast",
     "title": "1  Introduction to fMRI",
     "section": "T2*-weighted contrast",
-    "text": "T2*-weighted contrast",
+    "text": "T2*-weighted contrast\n\n\n\nSource: Visual Neuroscience Lab",
     "crumbs": [
       "<span class='chapter-number'>1</span>  <span class='chapter-title'>Introduction to fMRI</span>"
     ]
@@ -404,7 +404,7 @@
     "href": "fmri-intro.html#neural-activity-and-bold",
     "title": "1  Introduction to fMRI",
     "section": "Neural activity and BOLD",
-    "text": "Neural activity and BOLD\n\n\n\nBOLD signal correlates better with LFP than with MUA (Logothetis et al. 2001)\n\nLFP = Local Field Potentials (dendritic currents)\nMUA = Multiunit Activity (action potentials)\nSDF = Spike-density function (action potentials)",
+    "text": "Neural activity and BOLD\n\n\n\nBOLD signal correlates better with LFP than with MUA (Logothetis et al. 2001)\n\n\n\nLFP = Local Field Potentials (dendritic currents)\nMUA = Multiunit Activity (action potentials)\nSDF = Spike-density function (action potentials)",
     "crumbs": [
       "<span class='chapter-number'>1</span>  <span class='chapter-title'>Introduction to fMRI</span>"
     ]
@@ -434,7 +434,7 @@
     "href": "fmri-intro.html#first-fmri-experiment",
     "title": "1  Introduction to fMRI",
     "section": "First fMRI experiment",
-    "text": "First fMRI experiment\n\n\n\nBrain images and statistical analysis (Belliveau et al. 1991)\n\nThe first experiment was not a BOLD, but a blood volume signal measurement.",
+    "text": "First fMRI experiment\n\n\n\nBrain images and statistical analysis (Belliveau et al. 1991)\n\n\n\nThe first experiment was not a BOLD, but a blood volume signal measurement.",
     "crumbs": [
       "<span class='chapter-number'>1</span>  <span class='chapter-title'>Introduction to fMRI</span>"
     ]
@@ -444,7 +444,7 @@
     "href": "fmri-intro.html#first-fmri-experiment-1",
     "title": "1  Introduction to fMRI",
     "section": "First fMRI experiment",
-    "text": "First fMRI experiment\n\n\n\nCover of the science magazine where the paper was published (Belliveau et al. 1991)\n\nThis rendering was produced specifically for the cover",
+    "text": "First fMRI experiment\n\n\n\nCover of the science magazine where the paper was published (Belliveau et al. 1991)\n\n\n\nThis rendering was produced specifically for the cover",
     "crumbs": [
       "<span class='chapter-number'>1</span>  <span class='chapter-title'>Introduction to fMRI</span>"
     ]
@@ -484,7 +484,7 @@
     "href": "fmri-intro.html#preprocessing",
     "title": "1  Introduction to fMRI",
     "section": "Preprocessing",
-    "text": "Preprocessing\n\n\n\nSummary of preprocessing steps (Esteban et al. 2018)\n\nThe data quality of modern scanners is typically good enough to skip this step, if your subject is compliant. But it is nevertheless very much advisable and is ALWAYS performed. We will therefore dedicate a whole session to preprocessing. See course schedule for the date.",
+    "text": "Preprocessing\n\n\n\nSummary of preprocessing steps (Esteban et al. 2018)\n\n\n\nThe data quality of modern scanners is typically good enough to skip this step, if your subject is compliant. But it is nevertheless very much advisable and is ALWAYS performed. We will therefore dedicate a whole session to preprocessing. See course schedule for the date.",
     "crumbs": [
       "<span class='chapter-number'>1</span>  <span class='chapter-title'>Introduction to fMRI</span>"
     ]
@@ -664,7 +664,7 @@
     "href": "fmri-intro.html#region-of-interest-roi-analysis",
     "title": "1  Introduction to fMRI",
     "section": "Region-of-interest (ROI) analysis",
-    "text": "Region-of-interest (ROI) analysis\n\nQuestion: Does the primary visual cortex respond to flickering checkerboards?\n\n\nHCP cortical parcellation (“Glasser atlas”) (Glasser et al. 2016)\n\nROI analysis is a way to deal with multiple comparison problem. But it requires an a priory and independent definition of an ROI.\nThere are two ways to define ROIs:\n\nFrom an anatomical scan\nFrom an additional (separate) functional experiment",
+    "text": "Region-of-interest (ROI) analysis\n\n\n\nHCP cortical parcellation (“Glasser atlas”) (Glasser et al. 2016)\n\n\nQuestion: Does the primary visual cortex respond to flickering checkerboards?\n\nROI analysis is a way to deal with multiple comparison problem. But it requires an a priory and independent definition of an ROI.\nThere are two ways to define ROIs:\n\nFrom an anatomical scan\nFrom an additional (separate) functional experiment",
     "crumbs": [
       "<span class='chapter-number'>1</span>  <span class='chapter-title'>Introduction to fMRI</span>"
     ]
@@ -674,7 +674,7 @@
     "href": "fmri-intro.html#subcortical-rois",
     "title": "1  Introduction to fMRI",
     "section": "Subcortical ROIs",
-    "text": "Subcortical ROIs\n\n\n\nNextBrain parcellation containing 333 anatomical structures (Casamitjana et al. 2024)\n\nThis is the state-of-the-art for anatomically-based ROI definition based on deep learning",
+    "text": "Subcortical ROIs\n\n\n\nNextBrain parcellation containing 333 anatomical structures (Casamitjana et al. 2024)\n\n\n\nThis is the state-of-the-art for anatomically-based ROI definition based on deep learning",
     "crumbs": [
       "<span class='chapter-number'>1</span>  <span class='chapter-title'>Introduction to fMRI</span>"
     ]
@@ -877,6 +877,136 @@
     "text": "References\n\n\n\n\nBrooks, Joseph L. 2012. “Counterbalancing for Serial Order Carryover Effects in Experimental Condition Orders.” Psychological Methods 17 (4): 600–614. https://doi.org/10.1037/a0029310.\n\n\nBuračas, Giedrius T., and Geoffrey M. Boynton. 2002. “Efficient Design of Event-Related fMRI Experiments Using M-Sequences.” NeuroImage 16 (3): 801–13. https://doi.org/10.1006/nimg.2002.1116.\n\n\nDale, Anders M. 1999. “Optimal Experimental Design for Event-Related fMRI.” Human Brain Mapping 8 (2-3): 109–14. https://doi.org/10.1002/(sici)1097-0193(1999)8:2/3&lt;109::aid-hbm7&gt;3.0.co;2-w.\n\n\nWager, Tor D., and Thomas E. Nichols. 2003. “Optimization of Experimental Design in fMRI: A General Framework Using a Genetic Algorithm.” NeuroImage 18 (2): 293–309. https://doi.org/10.1016/s1053-8119(02)00046-0.",
     "crumbs": [
       "<span class='chapter-number'>3</span>  <span class='chapter-title'>Experimental paradigm</span>"
+    ]
+  },
+  {
+    "objectID": "planning.html",
+    "href": "planning.html",
+    "title": "2  Planning an fMRI study",
+    "section": "",
+    "text": "In this section: experimenter’s decisions",
+    "crumbs": [
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Planning an fMRI study</span>"
+    ]
+  },
+  {
+    "objectID": "planning.html#in-this-section-experimenters-decisions",
+    "href": "planning.html#in-this-section-experimenters-decisions",
+    "title": "2  Planning an fMRI study",
+    "section": "",
+    "text": "Whole-brain or ROI analysis (or both)\nUnivariate or multivariate analysis\nBlocked or event-related design",
+    "crumbs": [
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Planning an fMRI study</span>"
+    ]
+  },
+  {
+    "objectID": "planning.html#analysis-steps",
+    "href": "planning.html#analysis-steps",
+    "title": "2  Planning an fMRI study",
+    "section": "Analysis steps",
+    "text": "Analysis steps\n\nSingle-subject - first level - fixed effects analysis (FFX)\nGroup - second-level - random effects analysis (RFX)\n\n\nThis is equivalent to e.g. conducting many trials per subject to measure reaction time, and then compute a subject-specific mean per condition, after which you would perform the actual statistical inference\nMultilevel modelling is also possible (for small datasets), but less frequent.\n\n\nNo matter what you do, your analysis will boil down to these stages.",
+    "crumbs": [
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Planning an fMRI study</span>"
+    ]
+  },
+  {
+    "objectID": "planning.html#research-questions",
+    "href": "planning.html#research-questions",
+    "title": "2  Planning an fMRI study",
+    "section": "Research questions",
+    "text": "Research questions",
+    "crumbs": [
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Planning an fMRI study</span>"
+    ]
+  },
+  {
+    "objectID": "planning.html#whole-brain-or-roi-analysis",
+    "href": "planning.html#whole-brain-or-roi-analysis",
+    "title": "2  Planning an fMRI study",
+    "section": "Whole-brain or ROI analysis?",
+    "text": "Whole-brain or ROI analysis?\n\n\n\nExploratory: Neural correlates of illusory shapes\n\n\n\n(Larsson et al. 1999)\n\n\n\n\n\n\nHypothesis-driven: Are illusory shapes represented in the dorsal visual stream?\n\n\n\n(Arsenovic, Ischebeck, and Zaretskaya 2022)",
+    "crumbs": [
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Planning an fMRI study</span>"
+    ]
+  },
+  {
+    "objectID": "planning.html#defining-rois",
+    "href": "planning.html#defining-rois",
+    "title": "2  Planning an fMRI study",
+    "section": "Defining ROIs",
+    "text": "Defining ROIs\n\nFunctional localizer scan\nAnatomical scan segmentation\nAtlas in standard space",
+    "crumbs": [
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Planning an fMRI study</span>"
+    ]
+  },
+  {
+    "objectID": "planning.html#functional-localizer-scan",
+    "href": "planning.html#functional-localizer-scan",
+    "title": "2  Planning an fMRI study",
+    "section": "Functional localizer scan",
+    "text": "Functional localizer scan\n\n\n\n\n\nGoenitzer et al., unpublished\n\n\n\n\n\n\nGoenitzer et al., unpublished",
+    "crumbs": [
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Planning an fMRI study</span>"
+    ]
+  },
+  {
+    "objectID": "planning.html#cortical-atlas",
+    "href": "planning.html#cortical-atlas",
+    "title": "2  Planning an fMRI study",
+    "section": "Cortical atlas",
+    "text": "Cortical atlas\n\n\n\nHCP cortical parcellation (“Glasser atlas”) (Glasser et al. 2016)\n\n\n\nROI analysis is a way to deal with multiple comparison problem. But it requires an a priory and independent definition of an ROI.\nThere are two ways to define ROIs:\n\nFrom an anatomical scan\nFrom an additional (separate) functional experiment",
+    "crumbs": [
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Planning an fMRI study</span>"
+    ]
+  },
+  {
+    "objectID": "planning.html#subcortical-rois",
+    "href": "planning.html#subcortical-rois",
+    "title": "2  Planning an fMRI study",
+    "section": "Subcortical ROIs",
+    "text": "Subcortical ROIs\n\n\n\nNextBrain parcellation containing 333 anatomical structures (Casamitjana et al. 2024)\n\n\n\nThis is the state-of-the-art for anatomically-based ROI definition based on deep learning",
+    "crumbs": [
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Planning an fMRI study</span>"
+    ]
+  },
+  {
+    "objectID": "planning.html#univariate-or-mutlivariate",
+    "href": "planning.html#univariate-or-mutlivariate",
+    "title": "2  Planning an fMRI study",
+    "section": "Univariate or mutlivariate?",
+    "text": "Univariate or mutlivariate?\n\n\n\n(Murphy, Gray, and Cook 2016)\n\n\n\nUnivariate: Does FFA respond to composite face illusion?\n\n\n\n(Foster et al. 2021)\n\n\n\n\nMultivariate: Is early visual cortex representation reflects the composite face illusion?\n\n\n\nGoenitzer et al., unpublished",
+    "crumbs": [
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Planning an fMRI study</span>"
+    ]
+  },
+  {
+    "objectID": "planning.html#design-blocked-or-event-related",
+    "href": "planning.html#design-blocked-or-event-related",
+    "title": "2  Planning an fMRI study",
+    "section": "Design: Blocked or event-related",
+    "text": "Design: Blocked or event-related\n\nTerminology reminder\n\nTrial\nContinuous presentation of 1 experimental condition, usually 1-20 seconds\n\n\nRun\nBlock of trials separated by interruption of a scanner acquisition, usually 5-10 minutes\n\n\nSession\nBlock of runs, separated by subject going out of the scanner and going in again, usually at least one day",
+    "crumbs": [
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Planning an fMRI study</span>"
+    ]
+  },
+  {
+    "objectID": "planning.html#references",
+    "href": "planning.html#references",
+    "title": "2  Planning an fMRI study",
+    "section": "References",
+    "text": "References\n\n\n\n\nArsenovic, Ana, Anja Ischebeck, and Natalia Zaretskaya. 2022. “Dissociation Between Attention-Dependent and Spatially Specific Illusory Shape Responses Within the Topographic Areas of the Posterior Parietal Cortex.” The Journal of Neuroscience, September. https://doi.org/10.1523/JNEUROSCI.0723-22.2022.\n\n\nCasamitjana, Adrià, Matteo Mancini, Eleanor Robinson, Loïc Peter, Roberto Annunziata, Juri Althonayan, Shauna Crampsie, et al. 2024. “A Next-Generation, Histological Atlas of the Human Brain and Its Application to Automated Brain MRI Segmentation.” http://dx.doi.org/10.1101/2024.02.05.579016.\n\n\nCoates, Adam, David Linhardt, Christian Windischberger, Anja Ischebeck, and Natalia Zaretskaya. 2024. “High-Resolution 7T fMRI Reveals the Visual Zone of the Human Claustrum.” Imaging Neuroscience 2: 1–15. https://doi.org/10.1162/imag_a_00327.\n\n\nFoster, Celia, Isabelle Bülthoff, Andreas Bartels, and Mintao Zhao. 2021. “Investigating Holistic Face Processing Within and Outside of Face-Responsive Brain Regions.” NeuroImage 226 (February): 117565. https://doi.org/10.1016/j.neuroimage.2020.117565.\n\n\nGlasser, Matthew F., Timothy S. Coalson, Emma C. Robinson, Carl D. Hacker, John Harwell, Essa Yacoub, Kamil Ugurbil, et al. 2016. “A Multi-Modal Parcellation of Human Cerebral Cortex.” Nature 536 (7615): 171–78. https://doi.org/10.1038/nature18933.\n\n\nLarsson, Jonas, Katrin Amunts, Balázs Gulyás, Aleksandar Malikovic, Karl Zilles, and Per E. Roland. 1999. “Neuronal Correlates of Real and Illusory Contour Perception: Functional Anatomy with PET.” European Journal of Neuroscience 11 (11): 4024–36. https://doi.org/10.1046/j.1460-9568.1999.00805.x.\n\n\nMurphy, Jennifer, Katie L. H. Gray, and Richard Cook. 2016. “The Composite Face Illusion.” Psychonomic Bulletin & Review 24 (2): 245–61. https://doi.org/10.3758/s13423-016-1131-5.",
+    "crumbs": [
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Planning an fMRI study</span>"
+    ]
+  },
+  {
+    "objectID": "fmri-intro.html#types-of-mri-contrasts-at-3t",
+    "href": "fmri-intro.html#types-of-mri-contrasts-at-3t",
+    "title": "1  Introduction to fMRI",
+    "section": "Types of MRI contrasts at 3T",
+    "text": "Types of MRI contrasts at 3T\n\n\n\nImage source: https://en.wikipedia.org/wiki/Magnetic_resonance_imaging",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Introduction to fMRI</span>"
     ]
   }
 ]
