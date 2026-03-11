@@ -18,6 +18,8 @@
 
 <https://www.psychopy.org/>
 
+See also the Youtube tutorials: <https://www.youtube.com/playlist?list=PLFB5A1BE51964D587>
+
 ## Data acquisition
 
 ![](images/clipboard-3490487988.png)

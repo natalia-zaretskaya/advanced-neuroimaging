@@ -1,12 +1,53 @@
 # Experimental paradigm
 
-In PsychoPy
+for fMRI
+
+![](images/clipboard-1206136637.png)
+
+## In this section
+
+-   Technical aspects of an fMRI experiment
+
+-   Software
+
+-   Implementation details
+
+## Software
+
+::::: columns
+::: {.column width="50%"}
+![](images/clipboard-1610561421.png)
+:::
+
+::: {.column width="50%"}
+![](images/no_background_purple_text.png)
+:::
+:::::
+
+| Feature                                  | PsychoPy | Psychtoolbox          |
+|-----------------------------------|------------------|-------------------|
+| GUI                                      | limited  | no                    |
+| Mac/Windows                              | yes      | if payed              |
+| Linux                                    | (no)     | yes                   |
+| Degree of hardware control and precision | less     | more                  |
+| Advanced functionality                   | no       | yes                   |
+| Timing accuracy                          | less     | more                  |
+| Version compativility                    | no       | yes                   |
+| Standalone                               | yes      | no (MATLAB or Octave) |
 
 ## Runs
 
 -   chunks of 5-10 minute length
 
--   one run - one start of the PsychoPy script
+-   ideally containing all experimental conditions (there are exceptions)
+
+-   one run - one start of the experimental script
+
+-   one paradigm run corresponds to one fMRI time series file
+
+-   Typically repeated multiple times to fill about 1 hour of scanning
+
+![](images/clipboard-531340901.png)
 
 ## Start screen
 
@@ -16,22 +57,161 @@ In PsychoPy
 
 -   This is needed to synchronize the fMRI signal acquisition with your paradigm
 
--   After the start screen, there should be a period of ca. 10 seconds of nothing happening; this is needed to discard initial artifacts
+## T1 equilibration wait time
+
+-   After the start screen, there should be a period of 5 - 10 seconds of nothing happening; this is needed to discard initial scanner artifacts
+
+![](images/clipboard-531340901.png)
+
+![<https://mriquestions.com/dummy-cycles.html>](images/clipboard-3547174130.png)
+
+::: notes
+This is more of a historical practice that remains from old times.
+
+Back in the day, people even waited a certain amount of volumes before starting the paradigm. This led to misalignment of fMRI and paradigm timings, and to analysis errors.
+
+Modern Siemens scanners discard initial volumes automatically without saving them, so you don't need to care about it. Furthermore, preprocessing software runs additional tests to detect nonsteady state volumes. These volumes (if detected), can be added as niussance regressors to the analysis.
+:::
+
+## Behind the scenes
+
+![](images/clipboard-3511422279.png)
+
+## Video presentation
+
+::::: columns
+::: {.column width="50%"}
+### Monitor
+
+![<https://www.nordicneurolab.com/products/inroomviewing-device>](images/clipboard-3497395551.png)
+:::
+
+::: {.column width="50%"}
+### (VR) Goggles
+
+![<https://www.nordicneurolab.com/products/visualsystem-hd>](images/clipboard-1245508447.png)
+:::
+:::::
+
+## Audio
+
+Problem: continuous scanner noise
+
+Solution: High-quality auditory presentation or acquisition interruption
+
+### Ear phones
+
+### Head phones
 
 ## Subject responses
 
-Subject keys: 1, 2, 3, 4, \[\], 6, 7, 8, 9
+### Subject keys
 
-![](images/clipboard-4146499127.png){width="50%"}[^paradigm-1]
+1, 2, 3, 4, \[\], 6, 7, 8, 9
 
-[^paradigm-1]: Current Designs <https://www.curdes.com/mainforp/responsedevices/buttonboxes/hhsc-1x4-l.html>
+![Current Designs <https://www.curdes.com/mainforp/responsedevices/buttonboxes/hhsc-1x4-l.html>](images/clipboard-4146499127.png){width="50%"}
 
-## BIDS plugin[^paradigm-2] for PsychoPy
+### Joystick
 
-[^paradigm-2]: <https://psychopy-bids.readthedocs.io/en/stable/>
+## Vigilance check
+
+<video autoplay loop muted playsinline style="max-width:100%;">
+
+<source src="images/paradigm_example_betti.mp4" type="video/mp4">
+
+</video>
+
+::: {.content-visible when-format="pdf"}
+![](images/clipboard-309690007.png){width="80%"}
+:::
+
+::: notes
+-   If the subject does not have a task, it is important to make sure they are still paying attention to the paradigm and not falling asleep.
+-   This can be done by introducing a fixation task
+-   For example, the fixation point can change color or shape, and the subject has to press a button when they notice it.
+-   In any case, it is useful to give subjects feedback on their performance!
+:::
+
+## Paradigm events
+
+::: notes
+Throughout the experimental run, we save all important information that happened, such as: - Which condition was presented at which time - Which button was pressed at which time
+
+It is generally encouraged to save as much information as possible, as it can be useful for later analysis and troubleshooting. This is especially important for complex paradigms with many conditions and/or response options. Better save to much than too little!
+:::
+
+## Carryover effects
+
+::::: columns
+::: {.column width="30%"}
+![](images/clipboard-1982590237.png)
+
+![](images/clipboard-3514936037.png){.fragment}
+:::
+
+::: {.column .fragment width="70%"}
+![](images/clipboard-1757293618.png)
+:::
+:::::
+
+[@brooks2012a]; code available at <https://supp.apa.org/psycarticles/supplemental/a0029310/MET-Brooks20100184-R-S1.pdf>
+
+## Event-related design efficiency
+
+-   Minimize predictability
+
+-   Avoid order effects
+
+-   Enhance effect size of interest
+
+Relevant papers: [@wager2003; @dale1999; @buracas2002]
+
+## Software
+
+:::::: columns
+::: {.column .fragment width="33%"}
+Optseq2
+
+![<https://surfer.nmr.mgh.harvard.edu/optseq/>](images/clipboard-897387581.png)
+:::
+
+::: {.column .fragment width="33%"}
+Optimize-x
+
+![<https://www.bobspunt.com/easy-optimize-x/>](images/clipboard-832370802.png)
+:::
+
+::: {.column .fragment width="33%"}
+Neuropower/neurodesign ![<https://github.com/neuropower/neurodesign>](images/clipboard-3740472661.png)
+:::
+::::::
+
+## Neurodesign advantages
+
+![](images/clipboard-1582015909.png)
+
+-   Python code
+
+-   Optimization of multiple aspects simultaneously
+
+-   Less requirements on experiment timings
+
+## On neurodesk
+
+![](images/clipboard-905701164.png)
+
+## BIDS plugin for PsychoPy
 
 Should be installed and enabled to save events (conditions and button presses) in a comprehensive and standardized manner
 
-![](images/clipboard-4271384204.png)
+![<https://psychopy-bids.readthedocs.io/en/stable/>](images/clipboard-4271384204.png)
 
 This will also make our data analysis easier
+
+A warning on BIDS event:
+
+-   do not rely on BIDS events exclusively; save as much information as possible on your experimental design
+
+-   check the timing of your paradigm to make sure there are no unexpected delays
+
+## References

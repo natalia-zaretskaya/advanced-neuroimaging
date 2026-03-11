@@ -1,10 +1,6 @@
 # Introduction to fMRI
 
-![](images/claus_7TCOR_activity_website.png)
-
-::: aside
-Visual activity in the human claustrum [@coates2024]
-:::
+![Visual activity in the human claustrum [@coates2024]](images/claus_7TCOR_activity_website.png)
 
 ::: notes
 fMRI is a method that allows to non-invasively measure brain activity.
@@ -20,63 +16,39 @@ Many crazy studies have been performed with fMRI. Not all of the research questi
 
 ## fMRI in comparison
 
-![](images/clipboard-2571024653.png)
-
-::: aside
-Source: Gazzaniga 5th edition, Figure 3.45
-:::
-
-::: notes
-:::
+![Source: Gazzaniga 5th edition, Figure 3.45](images/clipboard-2571024653.png)
 
 ## MRI scanner: 3 Tesla
 
-![](images/B2EFA5A5-4C48-420B-B1D7-6B4D7314DE12.JPG)
-
-::: aside
-<https://mri-lab.uni-graz.at/>
-:::
+![Source: <https://mri-lab.uni-graz.at/>](images/B2EFA5A5-4C48-420B-B1D7-6B4D7314DE12.JPG)
 
 ::: notes
 :::
 
 ## MRI scanner: 7 Tesla
 
-![](images/clipboard-2316814449.png)
-
-::: aside
-Image source: Medical University of Vienna
-:::
+![Image source: Medical University of Vienna](images/clipboard-2316814449.png)
 
 ::: notes
 :::
 
 ## MRI scanner: 9.4 Tesla
 
-![](images/20121211_MRT_MaxPlanck.jpg)
-
-::: aside
-Image source: Max-Planck Institute for Biological Cybernetics, Tübingen
-:::
+![Image source: Max-Planck Institute for Biological Cybernetics, Tübingen](images/20121211_MRT_MaxPlanck.jpg)
 
 ::: notes
 :::
 
-## Types of MRI contrasts
+## Types of MRI contrasts at 3T
 
-![](images/clipboard-4250173212.png)
+![Image source: <https://en.wikipedia.org/wiki/Magnetic_resonance_imaging>](images/clipboard-4250173212.png)
 
-::: aside
-Image source: <https://en.wikipedia.org/wiki/Magnetic_resonance_imaging>
+::: notes
 :::
 
 ## T1w in cognitive neuroscience
 
-![](images/clipboard-69158076.png)
-
-::: aside
-Full Segmentation of a T1-weighted scan [@zaretskaya2018]
-:::
+![Full segmentation of a T1-weighted scan [@zaretskaya2018]](images/clipboard-69158076.png)
 
 ::: notes
 -   Displaying activity on a high-resolution anatomical scan
@@ -92,11 +64,7 @@ Full Segmentation of a T1-weighted scan [@zaretskaya2018]
 
 ## The principle of fMRI
 
-![](images/clipboard-1690626376.png)
-
-::: aside
-Image source: <https://www.nature.com/scitable/blog/brain-metrics/what_does_fmri_measure>
-:::
+![Image source: <https://www.nature.com/scitable/blog/brain-metrics/what_does_fmri_measure>](images/clipboard-1690626376.png)
 
 ::: notes
 Hemodynamic changes: - increase in blood flow - increase in blood volume - increase in tissue CMRO_2
@@ -105,15 +73,11 @@ Hemodynamic changes: - increase in blood flow - increase in blood volume - incre
 ## Hemodynamic response
 
 ::: {.content-visible unless-format="pdf"}
-![](images/ezgif.com-add-text-2.gif)
+![Source: Visual Neuroscience Lab](images/ezgif.com-add-text-2.gif)
 :::
 
 ::: {.content-visible when-format="pdf"}
-![](images/ezgif.com-add-text-2.png)
-:::
-
-::: aside
-Source: Visual Neuroscience Lab
+![Source: Visual Neuroscience Lab](images/ezgif.com-add-text-2.png)
 :::
 
 ::: notes
@@ -123,18 +87,14 @@ Source: Visual Neuroscience Lab
 
 blood-oxygen-level-dependent signal
 
-![](images/clipboard-1557735976.png)
-
-::: aside
-Hemodynamics leading to the BOLD signal [@interpre2009]
-:::
+![Hemodynamics leading to the BOLD signal [@interpre2009]](images/clipboard-1557735976.png)
 
 ::: notes
 :::
 
 ## T2\*-weighted contrast
 
-![](images/clipboard-1399733517.png)
+![Source: Visual Neuroscience Lab](images/clipboard-1399733517.png)
 
 ## Hemodynamic response function
 
@@ -150,11 +110,7 @@ After just a brief stimulus that lasts less than a second, the response lasts fo
 
 ## Neural activity and BOLD
 
-![](images/clipboard-2104563483.png)
-
-::: aside
-BOLD signal correlates better with LFP than with MUA [@logothetis2001a]
-:::
+![BOLD signal correlates better with LFP than with MUA [@logothetis2001a]](images/clipboard-2104563483.png)
 
 ::: notes
 LFP = Local Field Potentials (dendritic currents)
@@ -184,11 +140,7 @@ This is why any measure of fMRI experiment has to contain at least two condition
 
 ## First fMRI experiment
 
-![](images/clipboard-2455011416.png)
-
-::: aside
-Brain images and statistical analysis [@belliveau1991]
-:::
+![Brain images and statistical analysis [@belliveau1991]](images/clipboard-2455011416.png)
 
 ::: notes
 The first experiment was not a BOLD, but a blood volume signal measurement.
@@ -196,11 +148,7 @@ The first experiment was not a BOLD, but a blood volume signal measurement.
 
 ## First fMRI experiment
 
-![](images/clipboard-460283216.png)
-
-::: aside
-Cover of the science magazine where the paper was published [@belliveau1991]
-:::
+![Cover of the science magazine where the paper was published [@belliveau1991]](images/clipboard-460283216.png)
 
 ::: notes
 This rendering was produced specifically for the cover
@@ -208,11 +156,7 @@ This rendering was produced specifically for the cover
 
 ## The truly first fMRI experiment
 
-![](images/clipboard-2371383352.png)
-
-::: aside
-Experimental setup of Angelo Mosso [@sandrone2013]
-:::
+![Experimental setup of Angelo Mosso [@sandrone2013]](images/clipboard-2371383352.png)
 
 ## A typical experiment
 
@@ -236,11 +180,7 @@ A further important parameter is the repetition time (TR). It is the time passes
 
 ## Preprocessing
 
-![](images/clipboard-3600520399.png)
-
-::: aside
-Summary of preprocessing steps [@esteban2018]
-:::
+![Summary of preprocessing steps [@esteban2018]](images/clipboard-3600520399.png)
 
 ::: notes
 The data quality of modern scanners is typically good enough to skip this step, if your subject is compliant. But it is nevertheless very much advisable and is ALWAYS performed. We will therefore dedicate a whole session to preprocessing. See [course schedule](syllabus.qmd#tbl-schedule) for the date.
@@ -328,11 +268,7 @@ Multiple regression with ingredients:
 
 ## Buidling regressors
 
-![](images/clipboard-4230244420.png)
-
-::: aside
-Some convolution examples can be found here [@lindquist2008]
-:::
+![Some convolution examples can be found here [@lindquist2008]](images/clipboard-4230244420.png)
 
 ## General linear model
 
@@ -384,13 +320,9 @@ A linear combination of beta estimates
 
 ## Region-of-interest (ROI) analysis
 
-![](images/clipboard-2858615543.png)
+![HCP cortical parcellation ("Glasser atlas") [@glasser2016]](images/clipboard-2858615543.png)
 
 Question: Does the primary visual cortex respond to flickering checkerboards?
-
-::: aside
-HCP cortical parcellation ("Glasser atlas") [@glasser2016]
-:::
 
 ::: notes
 ROI analysis is a way to deal with multiple comparison problem. But it requires an a priory and independent definition of an ROI.
@@ -404,11 +336,7 @@ There are two ways to define ROIs:
 
 ## Subcortical ROIs
 
-![](images/next_brain_coronal.png)
-
-::: aside
-NextBrain parcellation containing 333 anatomical structures [@casamitjana2024]
-:::
+![NextBrain parcellation containing 333 anatomical structures [@casamitjana2024]](images/next_brain_coronal.png)
 
 ::: notes
 This is the state-of-the-art for anatomically-based ROI definition based on deep learning

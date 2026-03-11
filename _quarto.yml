@@ -1,6 +1,6 @@
 # todo: insert HRF as code
 # try using aside as class instead of html 
-# NOTE: set to book for website
+# NOTE: set to "book" for website or "default" for rendering individual documents
 project:
   type: book
   output-dir: docs
@@ -16,6 +16,8 @@ book:
     - syllabus.qmd
     - overview.qmd
     - fmri-intro.qmd
+    - planning.qmd
+    - paradigm.qmd
 
 format:
   html:

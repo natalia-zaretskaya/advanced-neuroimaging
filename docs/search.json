@@ -224,7 +224,7 @@
     "href": "overview.html#implementation",
     "title": "Course overview",
     "section": "Implementation",
-    "text": "Implementation\n\nhttps://www.psychopy.org/",
+    "text": "Implementation\n\nhttps://www.psychopy.org/\nSee also the Youtube tutorials: https://www.youtube.com/playlist?list=PLFB5A1BE51964D587",
     "crumbs": [
       "Course overview"
     ]
@@ -687,6 +687,196 @@
     "text": "References\n\n\n\n\nBelliveau, J. W., D. N. Kennedy, R. C. McKinstry, B. R. Buchbinder, R. M. Weisskoff, M. S. Cohen, J. M. Vevea, T. J. Brady, and B. R. Rosen. 1991. “Functional Mapping of the Human Visual Cortex by Magnetic Resonance Imaging.” Science 254 (5032): 716–19. https://doi.org/10.1126/science.1948051.\n\n\nCasamitjana, Adrià, Matteo Mancini, Eleanor Robinson, Loïc Peter, Roberto Annunziata, Juri Althonayan, Shauna Crampsie, et al. 2024. “A Next-Generation, Histological Atlas of the Human Brain and Its Application to Automated Brain MRI Segmentation.” http://dx.doi.org/10.1101/2024.02.05.579016.\n\n\nCoates, Adam, David Linhardt, Christian Windischberger, Anja Ischebeck, and Natalia Zaretskaya. 2024. “High-Resolution 7T fMRI Reveals the Visual Zone of the Human Claustrum.” Imaging Neuroscience 2: 1–15. https://doi.org/10.1162/imag_a_00327.\n\n\nEsteban, Oscar, Christopher J. Markiewicz, Ross W. Blair, Craig A. Moodie, A. Ilkay Isik, Asier Erramuzpe, James D. Kent, et al. 2018. “fMRIPrep: A Robust Preprocessing Pipeline for Functional MRI.” Nature Methods 16 (1): 111–16. https://doi.org/10.1038/s41592-018-0235-4.\n\n\nGlasser, Matthew F., Timothy S. Coalson, Emma C. Robinson, Carl D. Hacker, John Harwell, Essa Yacoub, Kamil Ugurbil, et al. 2016. “A Multi-Modal Parcellation of Human Cerebral Cortex.” Nature 536 (7615): 171–78. https://doi.org/10.1038/nature18933.\n\n\n“Interpreting the BOLD Response.” 2009. In, 400–424. Cambridge University Press. https://doi.org/10.1017/cbo9780511605505.020.\n\n\nLindquist, Martin A. 2008. “The Statistical Analysis of fMRI Data.” Statistical Science 23 (4). https://doi.org/10.1214/09-sts282.\n\n\nLogothetis, Nikos K., Jon Pauls, Mark Augath, Torsten Trinath, and Axel Oeltermann. 2001. “Neurophysiological Investigation of the Basis of the fMRI Signal.” Nature 412 (6843): 150–57. https://doi.org/10.1038/35084005.\n\n\nSandrone, Stefano, Marco Bacigaluppi, Marco R. Galloni, Stefano F. Cappa, Andrea Moro, Marco Catani, Massimo Filippi, Martin M. Monti, Daniela Perani, and Gianvito Martino. 2013. “Weighing Brain Activity with the Balance: Angelo Mosso’s Original Manuscripts Come to Light.” Brain 137 (2): 621–33. https://doi.org/10.1093/brain/awt091.\n\n\nZaretskaya, Natalia, Bruce Fischl, Martin Reuter, Ville Renvall, and Jonathan R Polimeni. 2018. “Advantages of Cortical Surface Reconstruction Using Submillimeter 7 t MEMPRAGE.” NeuroImage 165 (January): 11–26. https://doi.org/10.1016/j.neuroimage.2017.09.060.",
     "crumbs": [
       "<span class='chapter-number'>1</span>  <span class='chapter-title'>Introduction to fMRI</span>"
+    ]
+  },
+  {
+    "objectID": "paradigm.html",
+    "href": "paradigm.html",
+    "title": "3  Experimental paradigm",
+    "section": "",
+    "text": "In this section\nfor fMRI",
+    "crumbs": [
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Experimental paradigm</span>"
+    ]
+  },
+  {
+    "objectID": "paradigm.html#in-this-section",
+    "href": "paradigm.html#in-this-section",
+    "title": "3  Experimental paradigm",
+    "section": "",
+    "text": "Technical aspects of an fMRI experiment\nSoftware\nImplementation details",
+    "crumbs": [
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Experimental paradigm</span>"
+    ]
+  },
+  {
+    "objectID": "paradigm.html#software",
+    "href": "paradigm.html#software",
+    "title": "3  Experimental paradigm",
+    "section": "Software",
+    "text": "Software\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nFeature\nPsychoPy\nPsychtoolbox\n\n\n\n\nGUI\nlimited\nno\n\n\nMac/Windows\nyes\nif payed\n\n\nLinux\n(no)\nyes\n\n\nDegree of hardware control and precision\nless\nmore\n\n\nAdvanced functionality\nno\nyes\n\n\nTiming accuracy\nless\nmore\n\n\nVersion compativility\nno\nyes\n\n\nStandalone\nyes\nno (MATLAB or Octave)",
+    "crumbs": [
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Experimental paradigm</span>"
+    ]
+  },
+  {
+    "objectID": "paradigm.html#runs",
+    "href": "paradigm.html#runs",
+    "title": "3  Experimental paradigm",
+    "section": "Runs",
+    "text": "Runs\n\nchunks of 5-10 minute length\nideally containing all experimental conditions (there are exceptions)\none run - one start of the experimental script\none paradigm run corresponds to one fMRI time series file\nTypically repeated multiple times to fill about 1 hour of scanning",
+    "crumbs": [
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Experimental paradigm</span>"
+    ]
+  },
+  {
+    "objectID": "paradigm.html#start-screen",
+    "href": "paradigm.html#start-screen",
+    "title": "3  Experimental paradigm",
+    "section": "Start screen",
+    "text": "Start screen\n\nThe script should start by showing a welcome message or instruction reminder\nIt should be waiting for key “5” (scanner “trigger”)\nThis is needed to synchronize the fMRI signal acquisition with your paradigm",
+    "crumbs": [
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Experimental paradigm</span>"
+    ]
+  },
+  {
+    "objectID": "paradigm.html#t1-equilibration-wait-time",
+    "href": "paradigm.html#t1-equilibration-wait-time",
+    "title": "3  Experimental paradigm",
+    "section": "T1 equilibration wait time",
+    "text": "T1 equilibration wait time\n\nAfter the start screen, there should be a period of 5 - 10 seconds of nothing happening; this is needed to discard initial scanner artifacts\n\n\n\n\n\nhttps://mriquestions.com/dummy-cycles.html\n\n\n\nThis is more of a historical practice that remains from old times.\nBack in the day, people even waited a certain amount of volumes before starting the paradigm. This led to misalignment of fMRI and paradigm timings, and to analysis errors.\nModern Siemens scanners discard initial volumes automatically without saving them, so you don’t need to care about it. Furthermore, preprocessing software runs additional tests to detect nonsteady state volumes. These volumes (if detected), can be added as niussance regressors to the analysis.",
+    "crumbs": [
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Experimental paradigm</span>"
+    ]
+  },
+  {
+    "objectID": "paradigm.html#behind-the-scenes",
+    "href": "paradigm.html#behind-the-scenes",
+    "title": "3  Experimental paradigm",
+    "section": "Behind the scenes",
+    "text": "Behind the scenes",
+    "crumbs": [
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Experimental paradigm</span>"
+    ]
+  },
+  {
+    "objectID": "paradigm.html#video-presentation",
+    "href": "paradigm.html#video-presentation",
+    "title": "3  Experimental paradigm",
+    "section": "Video presentation",
+    "text": "Video presentation\n\n\n\nMonitor\n\n\n\nhttps://www.nordicneurolab.com/products/inroomviewing-device\n\n\n\n\n\n(VR) Goggles\n\n\n\nhttps://www.nordicneurolab.com/products/visualsystem-hd",
+    "crumbs": [
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Experimental paradigm</span>"
+    ]
+  },
+  {
+    "objectID": "paradigm.html#audio",
+    "href": "paradigm.html#audio",
+    "title": "3  Experimental paradigm",
+    "section": "Audio",
+    "text": "Audio\nProblem: continuous scanner noise\nSolution: High-quality auditory presentation or acquisition interruption\n\nEar phones\n\n\nHead phones",
+    "crumbs": [
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Experimental paradigm</span>"
+    ]
+  },
+  {
+    "objectID": "paradigm.html#subject-responses",
+    "href": "paradigm.html#subject-responses",
+    "title": "3  Experimental paradigm",
+    "section": "Subject responses",
+    "text": "Subject responses\n\nSubject keys\n1, 2, 3, 4, [], 6, 7, 8, 9\n\n\n\nCurrent Designs https://www.curdes.com/mainforp/responsedevices/buttonboxes/hhsc-1x4-l.html\n\n\n\n\nJoystick",
+    "crumbs": [
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Experimental paradigm</span>"
+    ]
+  },
+  {
+    "objectID": "paradigm.html#vigilance-check",
+    "href": "paradigm.html#vigilance-check",
+    "title": "3  Experimental paradigm",
+    "section": "Vigilance check",
+    "text": "Vigilance check\n\n\n\n\n\nIf the subject does not have a task, it is important to make sure they are still paying attention to the paradigm and not falling asleep.\nThis can be done by introducing a fixation task\nFor example, the fixation point can change color or shape, and the subject has to press a button when they notice it.\nIn any case, it is useful to give subjects feedback on their performance!",
+    "crumbs": [
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Experimental paradigm</span>"
+    ]
+  },
+  {
+    "objectID": "paradigm.html#paradigm-events",
+    "href": "paradigm.html#paradigm-events",
+    "title": "3  Experimental paradigm",
+    "section": "Paradigm events",
+    "text": "Paradigm events\n\nThroughout the experimental run, we save all important information that happened, such as: - Which condition was presented at which time - Which button was pressed at which time\nIt is generally encouraged to save as much information as possible, as it can be useful for later analysis and troubleshooting. This is especially important for complex paradigms with many conditions and/or response options. Better save to much than too little!",
+    "crumbs": [
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Experimental paradigm</span>"
+    ]
+  },
+  {
+    "objectID": "paradigm.html#carryover-effects",
+    "href": "paradigm.html#carryover-effects",
+    "title": "3  Experimental paradigm",
+    "section": "Carryover effects",
+    "text": "Carryover effects\n\n\n\n\n\n\n\n\n(Brooks 2012); code available at https://supp.apa.org/psycarticles/supplemental/a0029310/MET-Brooks20100184-R-S1.pdf",
+    "crumbs": [
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Experimental paradigm</span>"
+    ]
+  },
+  {
+    "objectID": "paradigm.html#event-related-design-efficiency",
+    "href": "paradigm.html#event-related-design-efficiency",
+    "title": "3  Experimental paradigm",
+    "section": "Event-related design efficiency",
+    "text": "Event-related design efficiency\n\nMinimize predictability\nAvoid order effects\nEnhance effect size of interest\n\nRelevant papers: (Wager and Nichols 2003; Dale 1999; Buračas and Boynton 2002)",
+    "crumbs": [
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Experimental paradigm</span>"
+    ]
+  },
+  {
+    "objectID": "paradigm.html#software-1",
+    "href": "paradigm.html#software-1",
+    "title": "3  Experimental paradigm",
+    "section": "Software",
+    "text": "Software\n\n\nOptseq2\n\n\n\nhttps://surfer.nmr.mgh.harvard.edu/optseq/\n\n\n\nOptimize-x\n\n\n\nhttps://www.bobspunt.com/easy-optimize-x/\n\n\n\nNeuropower/neurodesign",
+    "crumbs": [
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Experimental paradigm</span>"
+    ]
+  },
+  {
+    "objectID": "paradigm.html#neurodesign-advantages",
+    "href": "paradigm.html#neurodesign-advantages",
+    "title": "3  Experimental paradigm",
+    "section": "Neurodesign advantages",
+    "text": "Neurodesign advantages\n\n\nPython code\nOptimization of multiple aspects simultaneously\nLess requirements on experiment timings",
+    "crumbs": [
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Experimental paradigm</span>"
+    ]
+  },
+  {
+    "objectID": "paradigm.html#on-neurodesk",
+    "href": "paradigm.html#on-neurodesk",
+    "title": "3  Experimental paradigm",
+    "section": "On neurodesk",
+    "text": "On neurodesk",
+    "crumbs": [
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Experimental paradigm</span>"
+    ]
+  },
+  {
+    "objectID": "paradigm.html#bids-plugin-for-psychopy",
+    "href": "paradigm.html#bids-plugin-for-psychopy",
+    "title": "3  Experimental paradigm",
+    "section": "BIDS plugin for PsychoPy",
+    "text": "BIDS plugin for PsychoPy\nShould be installed and enabled to save events (conditions and button presses) in a comprehensive and standardized manner\n\n\n\nhttps://psychopy-bids.readthedocs.io/en/stable/\n\n\nThis will also make our data analysis easier\nA warning on BIDS event:\n\ndo not rely on BIDS events exclusively; save as much information as possible on your experimental design\ncheck the timing of your paradigm to make sure there are no unexpected delays",
+    "crumbs": [
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Experimental paradigm</span>"
+    ]
+  },
+  {
+    "objectID": "paradigm.html#references",
+    "href": "paradigm.html#references",
+    "title": "3  Experimental paradigm",
+    "section": "References",
+    "text": "References\n\n\n\n\nBrooks, Joseph L. 2012. “Counterbalancing for Serial Order Carryover Effects in Experimental Condition Orders.” Psychological Methods 17 (4): 600–614. https://doi.org/10.1037/a0029310.\n\n\nBuračas, Giedrius T., and Geoffrey M. Boynton. 2002. “Efficient Design of Event-Related fMRI Experiments Using M-Sequences.” NeuroImage 16 (3): 801–13. https://doi.org/10.1006/nimg.2002.1116.\n\n\nDale, Anders M. 1999. “Optimal Experimental Design for Event-Related fMRI.” Human Brain Mapping 8 (2-3): 109–14. https://doi.org/10.1002/(sici)1097-0193(1999)8:2/3&lt;109::aid-hbm7&gt;3.0.co;2-w.\n\n\nWager, Tor D., and Thomas E. Nichols. 2003. “Optimization of Experimental Design in fMRI: A General Framework Using a Genetic Algorithm.” NeuroImage 18 (2): 293–309. https://doi.org/10.1016/s1053-8119(02)00046-0.",
+    "crumbs": [
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Experimental paradigm</span>"
     ]
   }
 ]
