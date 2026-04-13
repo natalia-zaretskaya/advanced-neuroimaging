@@ -54,7 +54,7 @@ Open psychopy and press "Get more" on the right side. Alternatively you can open
 On the university computers, bids plugin is available through software center.
 :::
 
-# Experiment adjustment[^data_management-1]
+# Experiment adjustment example from 2025[^data_management-1]
 
 [^data_management-1]: valid for PsychoPy v2024.2.4
 
@@ -132,7 +132,11 @@ Note: right now we are not taking the win probability into account, but we know 
 
 -   Each trial type appears the same number of times
 
--   Carryover counterbalancing - each condition is equally likely to be preceded by each other condition [@brooks2012]
+-   Paradigm scheduling control
+
+    -   Carryover counterbalancing - each condition is equally likely to be preceded by each other condition [@brooks2012] for block designs
+
+    -   using neurodesign (see /shared/scripts/neurodesign.ipynb on neurodesk) event generation for event-related designs
 
 ## Events of interest in a trial
 
@@ -207,7 +211,7 @@ Here I added two other bids events that may or may not be useful, just in case: 
 It is important to add the bidsExport routine at the end of the experiment.
 
 1.  For fMRI, the data type should be "func"
-2.  Choose. your favourite license
+2.  Choose your favourite license
 3.  Tick the box "Add Run Nubmers" - this should attach run numbers to the file names in bids format for every new run. I did not get it to work properly on mac (it was always run 1, overwriting the previous file). But supposedly it works on windows and linux.
 
 ## Complete BIDS dataset
@@ -223,6 +227,8 @@ This is how a complete dataset for fmri analysis should look like. You should ha
 # 2. DICOM to BIDS
 
 ## Neurodesk
+
+See [Neurodesktop access – Visual Neuroscience Lab](https://visualneuroscience.github.io/neurodesk/neurodesktop.html)
 
 ![](images/clipboard-3392567157.png)
 
@@ -253,17 +259,10 @@ This is how a complete dataset for fmri analysis should look like. You should ha
 sourceFolder=/home/jovyan/completion2/dcm
 sortedFolder=/home/jovyan/completion2/dcm_sorted
 
-# check the output of the source folder
+# check the content of the source folder
 ls -l $sourceFolder
 
-# make the target directory with subdirectories
-mkdir -p $sortedFolder
-
-# change to the script folder
-cd /home/jovyan/dicomsort/
-
-# run the script
-./DICOMsort.sh $sourceFolder $sortedFolder
+dcm2niix -o $sortedFolder -r y $sourceFolder
 
 # check the output of the target folder
 ls -l $sortedFolder
@@ -324,7 +323,7 @@ Now you can view the nifti files with any suitable software
 
 ## MRIQC
 
-MRIQC [@esteban2017]is a tool used for quality assurance of bids-valid datasets. It is a bids app, meaning that it works on bids-conform data.
+MRIQC [@esteban2017] is a tool used for quality assurance of bids-valid datasets. It is a bids app, meaning that it works on bids-conform data.
 
 ![](images/clipboard-1260990723.png)
 
@@ -401,5 +400,15 @@ For functional data, in addition to spatial noise (middle) and average image ove
 ::: notes
 Carpet plot shows signal fluctuations over time (x-axis) for each voxel (y-axis). Note how there are some patterns initially and at the end. There should be no clear pattern during the experiment, this speaks for good signal quality.
 :::
+
+## See also
+
+[MRI-Studies: General Information – Visual Neuroscience Lab](https://visualneuroscience.github.io/mri/MRI-Studies_general/mri-studies_general-information.html)
+
+[Neurodesktop access – Visual Neuroscience Lab](https://visualneuroscience.github.io/neurodesk/neurodesktop.html)
+
+[MRI: from DICOMs to GLM – Visual Neuroscience Lab](https://visualneuroscience.github.io/dicom_to_glm.html)
+
+[01 - DICOM to BIDS – Visual Neuroscience Lab](https://visualneuroscience.github.io/dicom_to_glm/DICOMtoBIDS.html)
 
 ## References
