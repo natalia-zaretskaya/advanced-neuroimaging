@@ -18,6 +18,7 @@ book:
     - fmri-intro.qmd
     - planning.qmd
     - paradigm.qmd
+    - data-management.qmd
 
 format:
   html:
