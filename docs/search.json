@@ -1418,5 +1418,35 @@
     "crumbs": [
       "<span class='chapter-number'>4</span>  <span class='chapter-title'>Data management</span>"
     ]
+  },
+  {
+    "objectID": "paradigm.html#add-run-number-to-the-menu",
+    "href": "paradigm.html#add-run-number-to-the-menu",
+    "title": "3  Experimental paradigm",
+    "section": "Add run number to the menu",
+    "text": "Add run number to the menu\n\n\nThis is done in the experiment settings menu",
+    "crumbs": [
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Experimental paradigm</span>"
+    ]
+  },
+  {
+    "objectID": "paradigm.html#generate-condition-files",
+    "href": "paradigm.html#generate-condition-files",
+    "title": "3  Experimental paradigm",
+    "section": "Generate condition files",
+    "text": "Generate condition files\n\nThere should be one file per subject and per run\nUse BIDS-Style naming convention, e.g.\n\nsub-01_ses-01_task-gambling_run-01_conditions.csv\nsub-01_ses-01_task-gambling_run-02_conditions.csv\nsub-01_ses-01_task-gambling_run-03_conditions.csv\nsub-01_ses-01_task-gambling_run-04_conditions.csv\nsub-01_ses-01_task-gambling_run-05_conditions.csv\nsub-01_ses-01_task-gambling_run-06_conditions.csv\n\n\n\nThe files should contain your trial loop information based on your paradigm schedule based on either the carryover counterbalancing or the neurodesign schedule (see above).",
+    "crumbs": [
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Experimental paradigm</span>"
+    ]
+  },
+  {
+    "objectID": "paradigm.html#change-the-properties-of-the-trial-loop",
+    "href": "paradigm.html#change-the-properties-of-the-trial-loop",
+    "title": "3  Experimental paradigm",
+    "section": "Change the properties of the trial loop",
+    "text": "Change the properties of the trial loop\n\n\nSwitch the loop type to “sequential”\nInstead of the file name in the “Conditions” field, add a variable that describes the name of the correct file depending on the subject id, session id and run number\nFor example, the following code describes a files located in the folder according the following structure: codnitions/sub-001/ses-01/sub-01_ses-01_task-gambling_run-01_conditions.csv (relative to psychopy project folder) and will load the corresponding files depending on the subject id and run number\n\n$f\"conditions/sub-{int(expInfo['participant']):03d}/ses-{int(expInfo['session']):02d}/sub-{int(expInfo['participant']):03d}_ses-{int(expInfo['session']):02d}_task-gambling_run-{int(expInfo['run']):02d}_conditions.xlsx\"\nf\"conditions/sub-{int(expInfo['participant']):03d}/\"\nf\"ses-{int(expInfo['session']):02d}/\"\nf\"sub-{int(expInfo['participant']):03d}_\"\nf\"ses-{int(expInfo['session']):02d}_\"\nf\"task-gambling_run-{int(expInfo['run']):02d}_conditions.xlsx\"\n\n\n\n\n\n\nImportant\n\n\n\nMind the file separators! In the example above, we use “/” as a file separator, which works on Linux and MacOS. If you are using Windows, you should use “\" instead. However, in Python strings, the backslash is an escape character, so you need to use double backslashes”\\” to represent a single backslash in the file path.",
+    "crumbs": [
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Experimental paradigm</span>"
+    ]
   }
 ]

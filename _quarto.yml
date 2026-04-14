@@ -39,6 +39,7 @@ format:
 #    number-sections: false
   pdf:
     documentclass: report
+    code-overflow: wrap
 
 quarto:
   crossref: true
