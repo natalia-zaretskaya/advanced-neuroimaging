@@ -1,0 +1,72 @@
+16.2310 	INFO 	Loaded monitor calibration from ['2022_08_24 20:43']
+16.4245 	WARNING 	User requested fullscreen with size [1024  768], but screen is actually [1920, 1080]. Using actual size
+16.7377 	INFO 	Using renderer 'Intel(R) Iris(TM) Plus Graphics OpenGL Engine' for graphics
+16.7378 	INFO 	OpenGL version supported by driver is 2..
+16.8019 	EXP 	Created window1 = Window(allowGUI=False, allowStencil=False, autoLog=True, backendConf=UNKNOWN, backgroundFit=<method-wrapper '__getattribute__' of attributeSetter object at 0x141e4a8c0>, backgroundImage=<method-wrapper '__getattribute__' of attributeSetter object at 0x141e4a920>, bitsMode=UNKNOWN, blendMode='avg', bpc=(8, 8, 8), color=array([1, 1, 1]), colorSpace='rgb', depthBits=8, fullscr=True, gamma=None, gammaErrorPolicy='raise', infoMsg=UNKNOWN, lms=UNKNOWN, monitor=<psychopy.monitors.calibTools.Monitor object at 0x1426de500>, multiSample=False, name='window1', numSamples=2, pos=[np.float64(0.0), np.float64(0.0)], screen=0, size=array([1920, 1080]), stencilBits=0, stereo=False, title='PsychoPy', units='height', useFBO=True, useRetina=False, viewOri=0.0, viewPos=None, viewScale=None, waitBlanking=True, winType='pyglet')
+16.8019 	EXP 	window1: backgroundImage = ''
+16.8020 	EXP 	window1: backgroundFit = 'none'
+17.2391 	EXP 	window1: Attempting to measure frame rate of screen (0) ...
+17.2391 	EXP 	window1: recordFrameIntervals = False
+17.5358 	EXP 	window1: recordFrameIntervals = True
+17.6585 	WARNING 	t of last frame was 22.59ms (=1/44)
+17.6918 	WARNING 	t of last frame was 21.41ms (=1/46)
+17.8253 	WARNING 	t of last frame was 22.74ms (=1/43)
+17.8496 	WARNING 	t of last frame was 24.31ms (=1/41)
+18.7336 	WARNING 	Multiple dropped frames have occurred - I'll stop bothering you about them!
+19.2708 	EXP 	window1: recordFrameIntervals = False
+19.2708 	EXP 	Screen (0) actual frame rate measured at 59.51Hz
+21.4199 	INFO 	keyboard.Keyboard is using ptb backend.
+21.4200 	EXP 	lobule9: status = STARTED
+21.5252 	EXP 	Created start_indicator = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([-1., -1., -1.]), colorSpace='rgb', contrast=1.0, depth=0.0, draggable=False, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=np.float64(0.1), italic=False, languageStyle='LTR', name='start_indicator', opacity=1, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='Please wait, the experiment is starting…', units='height', win=Window(...), wrapWidth=1)
+21.7526 	INFO 	Loaded psychtoolbox audio version 3.0.19.696976787
+22.0114 	INFO 	Created stream for speaker device: MacBook Air Speakers (3.0)
+22.0546 	EXP 	audio_trial: sampleRate = 48000
+22.0547 	EXP 	audio_trial: channels = None
+22.0826 	EXP 	Sound audio_trial set volume 1.000
+22.0887 	EXP 	Created text_4 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([-1., -1., -1.]), colorSpace='rgb', contrast=1.0, depth=-1.0, draggable=False, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=np.float64(0.05), italic=False, languageStyle='LTR', name='text_4', opacity=1, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='+', units='height', win=Window(...), wrapWidth=1)
+22.0896 	EXP 	Created question_trial = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([-1., -1., -1.]), colorSpace='rgb', contrast=1.0, depth=0.0, draggable=False, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='question_trial', opacity=1, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='', units='height', win=Window(...), wrapWidth=1)
+22.0920 	EXP 	Created text_3 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([-1., -1., -1.]), colorSpace='rgb', contrast=1.0, depth=0.0, draggable=False, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=np.float64(0.05), italic=False, languageStyle='LTR', name='text_3', opacity=1, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='+', units='height', win=Window(...), wrapWidth=1)
+22.1050 	EXP 	Created Goodbye_text = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([-1., -1., -1.]), colorSpace='rgb', contrast=1.0, depth=0.0, draggable=False, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=np.float64(0.05), italic=False, languageStyle='LTR', name='Goodbye_text', opacity=1, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='This run is over, thank you!', units='height', win=Window(...), wrapWidth=1)
+0.0465 	INFO 	Keyboard events cleared
+0.0463 	EXP 	start_indicator: autoDraw = True
+2.8728 	EXP 	Device response: <KeyPress from None: t=2.8436932529999694, value=5, duration=None>
+2.8947 	EXP 	Imported conditions.xlsx as conditions, 40 conditions, 5 params
+2.8956 	EXP 	New trial (rep=0, index=0): <Trial 0 (0 in rep 0) data={'file': 'audios/incoh2.mp3', 'question_text': 'Was the story about a woman? Press the left arrow key for no, or the right arrow key for yes.', 'iti': 2, 'response': 2, 'condition_type': 'inc', 'thisN': 0, 'thisTrialN': 0, 'thisRepN': 0}>
+2.8987 	EXP 	audio_trial: sampleRate = 44100
+3.0269 	INFO 	Resampled audio from 44100Hz to 48000Hz using method 'default'.
+3.0374 	EXP 	Sound audio_trial reached end of file
+3.0453 	EXP 	Playing sound audio_trial on speaker MacBook Air Speakers
+3.0384 	EXP 	Device response: <KeyPress from None: t=2.8436932529999694, value=5, duration=0.09713162100001682>
+3.0471 	DATA 	Keypress: 5
+3.0694 	EXP 	start_indicator: autoDraw = False
+3.0694 	EXP 	text_4: autoDraw = True
+9.0307 	EXP 	Sound audio_trial reached end of file
+9.0455 	EXP 	Sound audio_trial reached end of file
+9.0952 	EXP 	text_4: autoDraw = False
+9.0952 	EXP 	text_4: autoDraw = False
+9.0952 	EXP 	question_trial: height = np.float64(0.05)
+9.0952 	EXP 	question_trial: height = np.float64(0.05)
+9.0952 	EXP 	question_trial: height = np.float64(0.05)
+9.0952 	EXP 	question_trial: text = 'Was the story about a woman? Press the left arrow key for no, or the right arrow key for yes.'
+9.8810 	INFO 	Keyboard events cleared
+9.8807 	EXP 	question_trial: autoDraw = True
+12.8956 	EXP 	question_trial: autoDraw = False
+12.8956 	EXP 	text_3: autoDraw = True
+14.8619 	EXP 	New trial (rep=0, index=1): <Trial 1 (1 in rep 0) data={'file': 'audios/coh18.mp3', 'question_text': 'Was the story about a woman? Press the left arrow key for no, or the right arrow key for yes.', 'iti': 2, 'response': 2, 'condition_type': 'coh', 'thisN': 1, 'thisTrialN': 1, 'thisRepN': 0}>
+14.8636 	EXP 	audio_trial: sampleRate = 44100
+14.9810 	INFO 	Resampled audio from 44100Hz to 48000Hz using method 'default'.
+14.9856 	EXP 	Sound audio_trial reached end of file
+14.9948 	EXP 	Playing sound audio_trial on speaker MacBook Air Speakers
+15.0088 	EXP 	text_3: autoDraw = False
+15.0088 	EXP 	text_3: autoDraw = False
+15.0088 	EXP 	text_4: autoDraw = True
+16.6315 	DATA 	Keypress: escape
+16.6360 	EXP 	Device response: <KeyPress from None: t=16.598585164000042, value=escape, duration=None>
+16.7291 	EXP 	Device response: <KeyPress from None: t=16.598585164000042, value=escape, duration=0.11784858199996506>
+16.7292 	EXP 	lobule9: status = STOPPED
+16.7324 	EXP 	Sound audio_trial stopped
+16.7445 	EXP 	text_4: autoDraw = False
+16.7446 	EXP 	lobule9: status = STOPPED
+16.7483 	INFO 	saved data to '/Users/natalia/Nextcloud/current_teaching/2026_SS_SE_ANI/experiments/lobule9/data/001_lobule9_2026-04-28_14h38.19.291.csv'
+16.7501 	INFO 	saved data to /Users/natalia/Nextcloud/current_teaching/2026_SS_SE_ANI/experiments/lobule9/data/001_lobule9_2026-04-28_14h38.19.291.psydat
+17.4110 	INFO 	Stopping keyboard key buffers.

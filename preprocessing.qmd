@@ -62,11 +62,7 @@ With the awareness of open science, and with the trend towards reproducibility a
 
 ## fMRIprep
 
-![](images/clipboard-3600520399.png){width="529"}
-
-::: aside
-Image source [@esteban2018]
-:::
+![Image source [@esteban2018]](images/clipboard-3600520399.png)
 
 ::: notes
 fMRIprep has evolved to combine best practices in fmri preprocessing and also to unify and standardize analysis steps. It is currently dominating the field and is the state-of-the-art way to do preprocessing.
@@ -87,7 +83,7 @@ All the steps we will talk about are implemented in fMRIprep.
 ![](images/clipboard-25296982.png)
 
 ``` bash
-# gambling: view the before and after images by typing
+# gambling example: view the before and after images by typing
 ml freesurfer
 freeview \
 /home/jovyan/gambling/bids/sub-001/ses-1/anat/sub-001_ses-1_acq-mprage_T1w.nii.gz \
@@ -103,7 +99,7 @@ Varying intensities across the image will confuse subsequent steps.
 ![](images/clipboard-1083312615.png)
 
 ``` bash
-# gambling: view the reconstructed surfaces by typing
+# gambling example: view the reconstructed surfaces by typing
 ml freesurfer
 freeview \
 /home/jovyan/gambling/bids/derivatives/fmriprep/sourcedata/freesurfer/sub-001/mri/orig.mgz \
@@ -128,7 +124,7 @@ Will be discussed in the [section on functional data](#sec-normalization)
 :::
 
 ``` bash
-# gambling: compare before and after my typing
+# gambling example: compare before and after my typing
 ml freesurfer
 freeview \
 /home/jovyan/gambling/bids/sub-001/ses-1/func/sub-001_ses-1_task-gambling_acq-Fs2_run-1_bold.nii.gz \
@@ -150,7 +146,7 @@ Here are the examples of functional and anatomical data before and after preproc
 ![](images/clipboard-2403738611.png)
 
 ```         
-# gambling
+# gambling example
 file:///home/jovyan/gambling/bids/derivatives/mriqc/sub-001/figures/sub-001_ses-1_task-gambling_acq-Fs2_run-1_desc-carpet_bold.svg
 ```
 
@@ -173,7 +169,7 @@ But non-steady-state artifacts are actually the reason why I asked to include a 
 ![](images/clipboard-4060992596.png)
 
 ::: notes
-One of the first preprocessign steps is motion correction. Why do we need motion correction? During the fMRI experiment the subject is supposed to lay still inside the scanner, and they usually do so. However, even your best volunteer won’t be perfect. And in fMRI, even a few millimeters screw up your experiment. Here is an example. Let’s say we are measuring a voxel located on the left hemisphere, and the subject suddenly moved. As a result, the same voxel will be now recording activity from the empty space between the hemispheres, or even form the opposite hemisphere.
+One of the first preprocessing steps is motion correction. Why do we need motion correction? During the fMRI experiment the subject is supposed to lay still inside the scanner, and they usually do so. However, even your best volunteer won’t be perfect. And in fMRI, even a few millimeters screw up your experiment. Here is an example. Let’s say we are measuring a voxel located on the left hemisphere, and the subject suddenly moved. As a result, the same voxel will be now recording activity from the empty space between the hemispheres, or even form the opposite hemisphere.
 :::
 
 ## Motion correction
@@ -188,11 +184,14 @@ Usually, motion is much smaller, but we still want to correct it. How do we do t
 
 ## Plot motion parameters
 
+### gambling example
+
 ```{r}
-#| echo: false
+#| echo: true
 #| fig-align: center
 
 # server path to example file: /home/jovyan/gambling/bids/derivatives/fmriprep/sub-001/ses-1/func/sub-001_ses-1_task-gambling_acq-Fs2_run-1_desc-confounds_timeseries.tsv
+
 # Load necessary library
 library(ggplot2)
 
@@ -252,11 +251,16 @@ Mostly relevant for event-related designs or timing comparisons Can be substitut
 ![](images/clipboard-531438222.png)
 
 ::: notes
+There is always a discussion about what to do first, motion correction or slice time correction.
+
+In this example a subject moved by one slice down during scan acquisition. Slice time correction relies on signals from neighboring volumes to interpolate the missing data. If slice time correction is done here first, signal from the wrong slice with zero values will be used for interpolation -\> suboptimal. If motion correction is done first, the realigned slices will not correspond to the actual time points when they were acquired.
+
+Different software packages have different philosophies. SPM: slice time correction first. fMRIprep: slice time correction first. FreeSurfer FSFAST: motion correction first. There are algorithms capable of performing both steps simultaneously. The best solution is a motionless subject!
 :::
 
 ## Simultaneous multislice (SMS)/multiband (MB) acquisitions
 
-![](images/clipboard-4224634755.png)
+![left: no SMS/multiband; right: SMS/multiband factor 2](images/clipboard-4224634755.png)
 
 ::: notes
 :::
@@ -265,17 +269,13 @@ Mostly relevant for event-related designs or timing comparisons Can be substitut
 
 ::::: columns
 ::: {.column width="50%"}
-![](images/clipboard-2292545657.png)
+![Image source: https://mriquestions.com/susceptibility-artifact.html](images/clipboard-2292545657.png)
 :::
 
-::: {.column width="50%"}
-![](images/clipboard-4144129888.png)
+::: {.column .fragment width="50%"}
+![Image source: https://mriquestions.com/susceptibility-artifact.html](images/clipboard-4144129888.png)
 :::
 :::::
-
-::: aside
-Image source: https://mriquestions.com/susceptibility-artifact.html
-:::
 
 ::: notes
 :::
@@ -293,7 +293,7 @@ Image source: https://mriquestions.com/susceptibility-artifact.html
 :::
 
 ``` bash
-# gambling: to view these images, type in the terminal:
+# gambling example: to view these images, type in the terminal:
 ml freesurfer
 freeview \
 /home/jovyan/gambling/bids/sub-001/ses-1/func/sub-001_ses-1_task-gambling_acq-Fs2_run-1_bold.nii.gz \
@@ -313,6 +313,7 @@ freeview \
 :::
 
 ```         
+# gambling example:
 file:///home/jovyan/gambling/bids/derivatives/fmriprep/sub-001.html
 ```
 
@@ -329,7 +330,7 @@ Here you can see how e.g. the copmpressed inferior frontal lobe regions get unwa
 :::
 
 ``` bash
-# gambling: 
+# gambling example: 
 ml freesurfer
 freeview '
 /home/jovyan/gambling/bids/sub-001/ses-1/anat/sub-001_ses-1_acq-mprage_T1w.nii.gz \
@@ -344,7 +345,7 @@ Purpose #2: mapping to standard space (normalization)
 
 ## Mutual information maximization
 
-![](images/clipboard-2185521072.png){width="454"}
+![](images/clipboard-2185521072.png)
 
 ```{python}
 #| eval: false
@@ -477,11 +478,7 @@ plt.show()
 
 ## Boundary-based registration
 
-![](images/clipboard-3073663984.png){width="524"}
-
-::: aside
-[@greve2009]
-:::
+![[@greve2009]](images/clipboard-3073663984.png){width="524"}
 
 ::: notes
 Currently considered best for its purpose and is implemented in fMRIprep. Requires surface reconstruction of the anatomical scan.
@@ -490,13 +487,13 @@ Currently considered best for its purpose and is implemented in fMRIprep. Requir
 ## Coregistration result
 
 ::: r-stack
-![](images/sub-001_ses-1_task-gambling_acq-Fs2_run-2_desc-coreg_bold_T1w.png){.fragment width="1677"}
+![](images/sub-001_ses-1_task-gambling_acq-Fs2_run-2_desc-coreg_bold_T1w.png){.fragment}
 
-![](images/sub-001_ses-1_task-gambling_acq-Fs2_run-2_desc-coreg_bold_epi.png){.fragment width="1677"}
+![](images/sub-001_ses-1_task-gambling_acq-Fs2_run-2_desc-coreg_bold_epi.png){.fragment}
 :::
 
 ```         
-# gambling:
+# gambling example:
 file:///home/jovyan/gambling/bids/derivatives/fmriprep/sub-001.html
 ```
 
@@ -553,13 +550,7 @@ Normalization is also needed for a unified coordinate system. You will see that 
 
 ## MNI tamplate
 
-![mni_icbm152_t1_tal_nlin_asym_09c](images/clipboard-1564359472.png)
-
-::: aside
-Image source:
-
-<https://www.bic.mni.mcgill.ca/ServicesAtlases/ICBM152NLin2009>
-:::
+![mni_icbm152_t1_tal_nlin_asym_09c; Image source: <https://www.bic.mni.mcgill.ca/ServicesAtlases/ICBM152NLin2009>](images/clipboard-1564359472.png)
 
 ::: notes
 Further reading: <https://imaging.mrc-cbu.cam.ac.uk/imaging/MniTalairach>
@@ -581,7 +572,7 @@ To match each of them to the template, it is not enough to coregister them as we
 
 ## Nonlinear transform
 
-![](images/clipboard-1848593852.png)
+![Image source: [Ashburner, Friston, Penny, Human Brain Function (2nd edition, Chaper 4)](https://www.fil.ion.ucl.ac.uk/spm/doc/books/hbf2/pdfs/Ch4.pdf)](images/clipboard-1848593852.png)
 
 ::: notes
 So some software packages use a nonlinear warping algorithm to align brains. There you have to estimate a 3D deformation field and then nonlinearly warp each brain onto a template. They are called non-linear, because different parts of the volume are scaled differently.
@@ -599,11 +590,7 @@ The mapping to common space is usually done via an anatomical scan. First, each 
 
 ### Unified segmentation
 
-![](images/clipboard-2796471972.png){width="404"}
-
-::: aside
-[@ashburner2005]
-:::
+![[@ashburner2005]](images/clipboard-2796471972.png){width="404"}
 
 ::: notes
 Unified segmentation is still the best algorithm. It performs bias correction, tissue segmentation and normalization in one step.
@@ -616,7 +603,7 @@ Unified segmentation is still the best algorithm. It performs bias correction, t
 ::: notes
 Fsaverage: 40 subjects; Align 39 subjects to 1; create an atlas; align 40 subjects to an atlas; re-create atlas; align 40 subject to the atlas; re-create atlas.
 
-Using knolwdge from freesurfer recon, each voxel together with it’s time course is maped to one of the 3 atlas spaces: either the left cortical hemisphere, the right hemisphere or the subcrotical structures like the basal ganglia, amygldala, brainstem, etc. And the atlas spaces in this case are fsaverage. After this, the spatial smoothing is done either in 2D or in 3D depending on whether it is a surface space or a volume subcortical space, and voxels that do not belong to the space is being basked out.
+Using knowledge from freesurfer recon, each voxel together with it’s time course is mapped to one of the 3 atlas spaces: either the left cortical hemisphere, the right hemisphere or the subcrotical structures like the basal ganglia, amygldala, brainstem, etc. And the atlas spaces in this case are fsaverage. After this, the spatial smoothing is done either in 2D or in 3D depending on whether it is a surface space or a volume subcortical space, and voxels that do not belong to the space is being basked out.
 :::
 
 ## Spatial smoothing
@@ -628,7 +615,7 @@ Using knolwdge from freesurfer recon, each voxel together with it’s time cours
 :::
 
 ::: notes
-Finally, each volume is typically smoothed with a gaussian to increase the signal and supress noise. The amount of smoothing is usally expressed by the shape of the gaussian, which, in turn, is described by it’s full withd at half maximum. Here are the examples of the original volume, the smoothed volume at 5 fwhm and 10 fwhm. You can see that the signal increase happens at the expense of the spatial resolution.
+Finally, each volume is typically smoothed with a gaussian to increase the signal and suppress noise. The amount of smoothing is usually expressed by the shape of the gaussian, which, in turn, is described by it’s full width at half maximum. Here are the examples of the original volume, the smoothed volume at 5 fwhm and 10 fwhm. You can see that the signal increase happens at the expense of the spatial resolution.
 :::
 
 ## Full width at half maximum
@@ -700,9 +687,7 @@ FMRIprep does not smooth the data
 
 ## Critique
 
-![](images/clipboard-747002276.png)
-
-[@stelzer2014]
+![[@stelzer2014]](images/clipboard-747002276.png)
 
 ::: notes
 Volume smoothing has been heavily criticized by some influential people in the field. It has even been called “deficient approaches to human neuroimaging”. Because it does not only degrade the resolution, but also decreases the effect size. But it is still being done in many cases – it all depends on the questions you are asking
@@ -710,11 +695,7 @@ Volume smoothing has been heavily criticized by some influential people in the f
 
 ## Surface-based smoothing
 
-![](images/clipboard-1388558210.png){width="362"}
-
-::: aside
-slide courtesy of Doug Greve
-:::
+![slide courtesy of Doug Greve](images/clipboard-1388558210.png){width="362"}
 
 ::: notes
 5 mm apart in 3D
@@ -727,10 +708,12 @@ Averaging with other functional areas
 
 One important feature is that fsfast allows surface-based processing, and therefore overcomes some of the difficulties caused by smoothing.
 
-Here is an example of how it works. Here is a piece of freesrurfer reconstructed cortical surface with yellow a white matter surface and red the the gray matter surface. The two points, on opposite banks of the sulcus, are only 5 mm apart in the volume, however, they are very far from each other on the surface. So these two points can be two completely different functional areas. However, if you smooth on the volume, as shown here, you will mix them together. Surface smoothing routines use the information from the freesurfer’s surface reconstruction and smoothe the data along the cortical surface. This allows to take advantage of smoothing procedure without mixing these two areas together.
+Here is an example of how it works. Here is a piece of FreeSurfer reconstructed cortical surface with yellow a white matter surface and red the the gray matter surface. The two points, on opposite banks of the sulcus, are only 5 mm apart in the volume, however, they are very far from each other on the surface. So these two points can be two completely different functional areas. However, if you smooth on the volume, as shown here, you will mix them together. Surface smoothing routines use the information from the FreeSurfer’s surface reconstruction and smoothe the data along the cortical surface. This allows to take advantage of smoothing procedure without mixing these two areas together.
 :::
 
-## fMRIprep
+# fMRIprep
+
+## Pros and Cons
 
 ::::: columns
 ::: {.column width="50%"}
@@ -749,8 +732,8 @@ Here is an example of how it works. Here is a piece of freesrurfer reconstructed
 
 -   Difficult/impossible to use for custom acquisitions
 -   Difficult/impossible to manually intervene
--   May not be worth it with few subjects are being processed
--   Requires a Linux environment and corresponding knowledge
+-   May not be worth it when few subjects are being processed
+-   Requires a Linux environment and corresponding knowledge (or Neurodesk!)
 -   Need integration with the software you will use for your analysis
 -   Hard to explain what you did (black box)
 :::
@@ -761,22 +744,14 @@ Here is an example of how it works. Here is a piece of freesrurfer reconstructed
 
 ## Example I
 
-![](images/clipboard-4082303266.png)
-
-::: aside
-[@arsenovic2022]
-:::
+![[@arsenovic2022]](images/clipboard-4082303266.png)
 
 ::: notes
 :::
 
 ## Example II
 
-![](images/clipboard-268630360.png){width="678"}
-
-::: aside
-[@coates2024a]
-:::
+![[@coates2024a]](images/clipboard-268630360.png)
 
 ::: notes
 :::
@@ -796,6 +771,8 @@ Before running
 ## Terminal window
 
 ``` bash
+# gambling example: 
+
 # create freesurfer subject directory
 mkdir -p /home/jovyan/gambling/bids/derivatives/fmriprep/sourcedata/freesurfer/
 
@@ -813,21 +790,19 @@ After this, fMRIprep will run for 4 hours. You do not need to wait for 4 hours! 
 
 ## Output spaces
 
-````         
-``` {{bash}}
+``` bash
+# gambling example:
 cd /home/jovyan/gambling/bids/derivatives/fmriprep/sub-001/ses-1/func/
 ls -l *_bold.nii.gz
 ```
-````
 
 ![](images/clipboard-1755500209.png)
 
-````         
-``` {{bash}}
+``` bash
+# gambling example:
 cd /home/jovyan/gambling/bids/derivatives/fmriprep/sub-001/ses-1/func/
 ls -l *_bold.func.gii
 ```
-````
 
 ![](images/clipboard-3143380896.png)
 
@@ -836,11 +811,12 @@ ls -l *_bold.func.gii
 ![](images/clipboard-3121317170.png)
 
 ```         
+# gambling example:
 file:///home/jovyan/gambling/bids/derivatives/fmriprep/sub-001.html
 ```
 
 ## Boilerplate
 
-![](images/clipboard-3388487828.png)
+![at the end of html report](images/clipboard-3388487828.png)
 
 ## References

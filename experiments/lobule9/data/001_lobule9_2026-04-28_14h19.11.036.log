@@ -1,0 +1,22 @@
+16.6739 	INFO 	Loaded monitor calibration from ['2022_08_24 20:43']
+16.8867 	WARNING 	User requested fullscreen with size [1024  768], but screen is actually [1920, 1080]. Using actual size
+17.2371 	INFO 	Using renderer 'Intel(R) Iris(TM) Plus Graphics OpenGL Engine' for graphics
+17.2372 	INFO 	OpenGL version supported by driver is 2..
+17.3574 	EXP 	Created window1 = Window(allowGUI=False, allowStencil=False, autoLog=True, backendConf=UNKNOWN, backgroundFit=<method-wrapper '__getattribute__' of attributeSetter object at 0x144aee8c0>, backgroundImage=<method-wrapper '__getattribute__' of attributeSetter object at 0x144aee920>, bitsMode=UNKNOWN, blendMode='avg', bpc=(8, 8, 8), color=array([1, 1, 1]), colorSpace='rgb', depthBits=8, fullscr=True, gamma=None, gammaErrorPolicy='raise', infoMsg=UNKNOWN, lms=UNKNOWN, monitor=<psychopy.monitors.calibTools.Monitor object at 0x1450b9960>, multiSample=False, name='window1', numSamples=2, pos=[np.float64(0.0), np.float64(0.0)], screen=0, size=array([1920, 1080]), stencilBits=0, stereo=False, title='PsychoPy', units='height', useFBO=True, useRetina=False, viewOri=0.0, viewPos=None, viewScale=None, waitBlanking=True, winType='pyglet')
+17.3575 	EXP 	window1: backgroundImage = ''
+17.3575 	EXP 	window1: backgroundFit = 'none'
+17.9717 	EXP 	window1: Attempting to measure frame rate of screen (0) ...
+17.9717 	EXP 	window1: recordFrameIntervals = False
+18.3998 	EXP 	window1: recordFrameIntervals = True
+19.2196 	WARNING 	t of last frame was 20.63ms (=1/48)
+19.2437 	WARNING 	t of last frame was 24.14ms (=1/41)
+19.2677 	WARNING 	t of last frame was 24.02ms (=1/41)
+19.5164 	WARNING 	t of last frame was 33.32ms (=1/30)
+20.0983 	EXP 	window1: recordFrameIntervals = False
+20.0984 	EXP 	Screen (0) actual frame rate measured at 60.02Hz
+22.1402 	INFO 	keyboard.Keyboard is using ptb backend.
+22.1403 	EXP 	lobule9: status = STARTED
+22.2883 	EXP 	Created start_indicator = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([-1., -1., -1.]), colorSpace='rgb', contrast=1.0, depth=0.0, draggable=False, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=np.float64(0.1), italic=False, languageStyle='LTR', name='start_indicator', opacity=1, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='Please wait, the experiment is starting…', units='height', win=Window(...), wrapWidth=1)
+22.9792 	INFO 	saved data to /Users/natalia/Nextcloud/current_teaching/2026_SS_SE_ANI/experiments/lobule9/data/001_lobule9_2026-04-28_14h19.11.036.psydat
+22.9801 	INFO 	saved data to '/Users/natalia/Nextcloud/current_teaching/2026_SS_SE_ANI/experiments/lobule9/data/001_lobule9_2026-04-28_14h19.11.036.csv'
+22.9821 	INFO 	Stopping keyboard key buffers.

@@ -1,0 +1,5 @@
+marker,item,audiofile,audio_dur,condition
+41,stim/Items/Job_Pic.JPG,stim/Items/gain_1_high.mp3,33.3,gain_high
+42,stim/Items/Lotto_Pic.JPG,stim/Items/gain_2_low.mp3,31.3,gain_low
+43,stim/Items/Seminar_Pic.JPG,stim/Items/gain_3_low.mp3,28.3,gain_low
+44,stim/Items/Social_Media_Pic.JPG,stim/Items/gain_4_high.mp3,34.3,gain_high

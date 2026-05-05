@@ -1,0 +1,141 @@
+16.7517 	INFO 	Loaded monitor calibration from ['2022_08_24 20:43']
+16.9605 	WARNING 	User requested fullscreen with size [1024  768], but screen is actually [1920, 1080]. Using actual size
+17.2349 	INFO 	Using renderer 'Intel(R) Iris(TM) Plus Graphics OpenGL Engine' for graphics
+17.2349 	INFO 	OpenGL version supported by driver is 2..
+17.3170 	EXP 	Created window1 = Window(allowGUI=False, allowStencil=False, autoLog=True, backendConf=UNKNOWN, backgroundFit=<method-wrapper '__getattribute__' of attributeSetter object at 0x14f888040>, backgroundImage=<method-wrapper '__getattribute__' of attributeSetter object at 0x14f88a980>, bitsMode=UNKNOWN, blendMode='avg', bpc=(8, 8, 8), color=array([0, 0, 0]), colorSpace='rgb', depthBits=8, fullscr=True, gamma=None, gammaErrorPolicy='raise', infoMsg=UNKNOWN, lms=UNKNOWN, monitor=<psychopy.monitors.calibTools.Monitor object at 0x150061060>, multiSample=False, name='window1', numSamples=2, pos=[np.float64(0.0), np.float64(0.0)], screen=0, size=array([1920, 1080]), stencilBits=0, stereo=False, title='PsychoPy', units='height', useFBO=True, useRetina=False, viewOri=0.0, viewPos=None, viewScale=None, waitBlanking=True, winType='pyglet')
+17.3171 	EXP 	window1: backgroundImage = ''
+17.3171 	EXP 	window1: backgroundFit = 'none'
+17.7290 	EXP 	window1: Attempting to measure frame rate of screen (0) ...
+17.7290 	EXP 	window1: recordFrameIntervals = False
+17.9765 	EXP 	window1: recordFrameIntervals = True
+18.5783 	WARNING 	t of last frame was 52.31ms (=1/19)
+18.6092 	WARNING 	t of last frame was 30.83ms (=1/32)
+18.9148 	WARNING 	t of last frame was 39.11ms (=1/25)
+19.6061 	WARNING 	t of last frame was 47.82ms (=1/20)
+19.6570 	WARNING 	Multiple dropped frames have occurred - I'll stop bothering you about them!
+19.7918 	EXP 	window1: recordFrameIntervals = False
+19.7919 	EXP 	Screen (0) actual frame rate measured at 60.09Hz
+22.0156 	INFO 	keyboard.Keyboard is using ptb backend.
+22.0156 	EXP 	mct: status = STARTED
+22.1129 	EXP 	Created wait_text = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, draggable=False, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=np.float64(0.05), italic=False, languageStyle='LTR', name='wait_text', opacity=1, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text=str(...), units='height', win=Window(...), wrapWidth=1)
+22.1175 	EXP 	Created t_fix = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, draggable=False, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=np.float64(0.05), italic=False, languageStyle='LTR', name='t_fix', opacity=1, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='+', units='height', win=Window(...), wrapWidth=1)
+22.1473 	EXP 	Created t_img = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-1.0, draggable=False, flipHoriz=np.False_, flipVert=np.False_, image='default.png', interpolate=True, mask=None, maskParams=None, name='t_img', opacity=1, ori=0.0, pos=array([0., 0.]), size=array([0.5, 0.5]), texRes=128.0, units='height', win=Window(...))
+22.3531 	INFO 	Loaded psychtoolbox audio version 3.0.19.696976787
+22.5829 	INFO 	Created stream for speaker device: MacBook Air Speakers (2.0)
+22.6194 	EXP 	t_audio: sampleRate = 48000
+22.6195 	EXP 	t_audio: channels = None
+22.6433 	EXP 	Sound t_audio set volume 1.000
+22.6494 	EXP 	Created t_FZ = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, draggable=False, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=np.float64(0.05), italic=False, languageStyle='LTR', name='t_FZ', opacity=1, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='?', units='height', win=Window(...), wrapWidth=1)
+22.6528 	EXP 	Created text = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([-1.        ,  0.00392157, -1.        ]), colorSpace='rgb', contrast=1.0, depth=-1.0, draggable=False, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=np.float64(0.05), italic=False, languageStyle='LTR', name='text', opacity=1, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='?', units='height', win=Window(...), wrapWidth=1)
+22.6615 	INFO 	Using audio device #1 (MacBook Air Microphone) for audio capture. Full spec: AudioDeviceInfo(deviceIndex=1, deviceName='MacBook Air Microphone', hostAPIName='Core Audio', outputChannels=0, outputLatency=(0.01, 0.1), inputChannels=1, inputLatency=(0.034520833333333334, 0.043854166666666666), defaultSampleRate=48000, audioLib='ptb')
+0.0464 	INFO 	Keyboard events cleared
+0.0463 	EXP 	wait_text: autoDraw = True
+35.4366 	EXP 	Device response: <KeyPress from None: t=35.39102817899948, value=5, duration=None>
+35.4372 	EXP 	Device response: <KeyPress from None: t=35.39102817899948, value=5, duration=0.020011071000226366>
+35.4497 	EXP 	Imported stim/sub-001/ses-01/sub-001_ses-01_MCT_run-02_conditions.csv as conditions, 4 conditions, 4 params
+35.4502 	EXP 	New trial (rep=0, index=0): <Trial 0 (0 in rep 0) data={'marker': np.int64(45), 'item': 'stim/Items/Kaffee_Pic.JPG', 'audiofile': 'stim/Items/group_1_in.mp3', 'audio_dur': np.float64(31.3), 'thisN': 0, 'thisTrialN': 0, 'thisRepN': 0}>
+35.5252 	EXP 	t_audio: sampleRate = 24000
+35.6823 	INFO 	Resampled audio from 24000Hz to 48000Hz using method 'default'.
+35.7317 	DATA 	Keypress: 5
+35.7473 	EXP 	wait_text: autoDraw = False
+35.7473 	EXP 	t_img: image = 'stim/Items/Kaffee_Pic.JPG'
+35.7473 	EXP 	t_fix: autoDraw = True
+37.3965 	EXP 	Device response: <KeyPress from None: t=37.390934596999614, value=5, duration=None>
+37.4034 	DATA 	Keypress: 5
+37.4132 	EXP 	Device response: <KeyPress from None: t=37.390934596999614, value=5, duration=0.02003998899999715>
+39.3948 	EXP 	Device response: <KeyPress from None: t=39.390961860999596, value=5, duration=None>
+39.3974 	DATA 	Keypress: 5
+39.4282 	EXP 	Device response: <KeyPress from None: t=39.390961860999596, value=5, duration=0.019981929000095988>
+41.3936 	EXP 	Device response: <KeyPress from None: t=41.39095414699932, value=5, duration=None>
+41.3981 	DATA 	Keypress: 5
+41.4271 	EXP 	Device response: <KeyPress from None: t=41.39095414699932, value=5, duration=0.020072541999979876>
+43.3973 	DATA 	Keypress: 5
+43.4085 	EXP 	Device response: <KeyPress from None: t=43.39099346799958, value=5, duration=None>
+43.4252 	EXP 	Device response: <KeyPress from None: t=43.39099346799958, value=5, duration=0.020011145999887958>
+45.3985 	DATA 	Keypress: 5
+45.4059 	EXP 	Device response: <KeyPress from None: t=45.39097357499941, value=5, duration=None>
+45.4228 	EXP 	Device response: <KeyPress from None: t=45.39097357499941, value=5, duration=0.019961304000389646>
+47.4056 	DATA 	Keypress: 5
+47.4096 	EXP 	Device response: <KeyPress from None: t=47.39107017099923, value=5, duration=None>
+47.4200 	EXP 	Device response: <KeyPress from None: t=47.39107017099923, value=5, duration=0.019898724000086077>
+49.3982 	DATA 	Keypress: 5
+49.4022 	EXP 	Device response: <KeyPress from None: t=49.390974413999174, value=5, duration=None>
+49.4182 	EXP 	Device response: <KeyPress from None: t=49.390974413999174, value=5, duration=0.019976105000750977>
+51.3975 	DATA 	Keypress: 5
+51.4020 	EXP 	Device response: <KeyPress from None: t=51.3909215449994, value=5, duration=None>
+51.4167 	EXP 	Device response: <KeyPress from None: t=51.3909215449994, value=5, duration=0.020007117000204744>
+53.3975 	EXP 	Device response: <KeyPress from None: t=53.39095671999985, value=5, duration=None>
+53.4002 	DATA 	Keypress: 5
+53.4142 	EXP 	Device response: <KeyPress from None: t=53.39095671999985, value=5, duration=0.019963984999776585>
+55.3965 	EXP 	Device response: <KeyPress from None: t=55.39094504499917, value=5, duration=None>
+55.3994 	DATA 	Keypress: 5
+55.4133 	EXP 	Device response: <KeyPress from None: t=55.39094504499917, value=5, duration=0.02002501700007997>
+57.3938 	EXP 	Device response: <KeyPress from None: t=57.391005225999834, value=5, duration=None>
+57.3982 	DATA 	Keypress: 5
+57.4272 	EXP 	Device response: <KeyPress from None: t=57.391005225999834, value=5, duration=0.02002752899988991>
+59.3985 	DATA 	Keypress: 5
+59.4087 	EXP 	Device response: <KeyPress from None: t=59.39094497499991, value=5, duration=None>
+59.4253 	EXP 	Device response: <KeyPress from None: t=59.39094497499991, value=5, duration=0.02001561699944432>
+61.3983 	DATA 	Keypress: 5
+61.4068 	EXP 	Device response: <KeyPress from None: t=61.39097035699979, value=5, duration=None>
+61.4235 	EXP 	Device response: <KeyPress from None: t=61.39097035699979, value=5, duration=0.020040254999912577>
+63.3975 	DATA 	Keypress: 5
+63.4054 	EXP 	Device response: <KeyPress from None: t=63.3909254629998, value=5, duration=None>
+63.4220 	EXP 	Device response: <KeyPress from None: t=63.3909254629998, value=5, duration=0.020000810000055935>
+65.3982 	DATA 	Keypress: 5
+65.4048 	EXP 	Device response: <KeyPress from None: t=65.39098394499979, value=5, duration=None>
+65.4204 	EXP 	Sound t_audio reached end of file
+65.4367 	EXP 	Playing sound t_audio on speaker MacBook Air Speakers
+65.4215 	EXP 	Device response: <KeyPress from None: t=65.39098394499979, value=5, duration=0.01998165299937682>
+65.7546 	EXP 	t_fix: autoDraw = False
+65.7546 	EXP 	t_img: autoDraw = True
+67.3973 	DATA 	Keypress: 5
+67.4029 	EXP 	Device response: <KeyPress from None: t=67.39099198299937, value=5, duration=None>
+67.4197 	EXP 	Device response: <KeyPress from None: t=67.39099198299937, value=5, duration=0.019996615999843925>
+69.3983 	DATA 	Keypress: 5
+69.4031 	EXP 	Device response: <KeyPress from None: t=69.39099339399945, value=5, duration=None>
+69.4163 	EXP 	Device response: <KeyPress from None: t=69.39099339399945, value=5, duration=0.019978096000158985>
+71.3974 	EXP 	Device response: <KeyPress from None: t=71.3909733419996, value=5, duration=None>
+71.3998 	DATA 	Keypress: 5
+71.4143 	EXP 	Device response: <KeyPress from None: t=71.3909733419996, value=5, duration=0.020016305999888573>
+73.3956 	EXP 	Device response: <KeyPress from None: t=73.39101182299964, value=5, duration=None>
+73.3981 	DATA 	Keypress: 5
+73.4126 	EXP 	Device response: <KeyPress from None: t=73.39101182299964, value=5, duration=0.02013241199983895>
+75.3937 	EXP 	Device response: <KeyPress from None: t=75.39099718899979, value=5, duration=None>
+75.3994 	DATA 	Keypress: 5
+75.4274 	EXP 	Device response: <KeyPress from None: t=75.39099718899979, value=5, duration=0.0200158179995924>
+77.4011 	DATA 	Keypress: 5
+77.4087 	EXP 	Device response: <KeyPress from None: t=77.39104055899952, value=5, duration=None>
+77.4254 	EXP 	Device response: <KeyPress from None: t=77.39104055899952, value=5, duration=0.019985283000096388>
+79.3980 	DATA 	Keypress: 5
+79.4067 	EXP 	Device response: <KeyPress from None: t=79.39096948399947, value=5, duration=None>
+79.4234 	EXP 	Device response: <KeyPress from None: t=79.39096948399947, value=5, duration=0.020008174999929906>
+81.3974 	DATA 	Keypress: 5
+81.4048 	EXP 	Device response: <KeyPress from None: t=81.39094320599997, value=5, duration=None>
+81.4215 	EXP 	Device response: <KeyPress from None: t=81.39094320599997, value=5, duration=0.020013051999740128>
+83.3993 	DATA 	Keypress: 5
+83.4039 	EXP 	Device response: <KeyPress from None: t=83.39095268999972, value=5, duration=None>
+83.4206 	EXP 	Device response: <KeyPress from None: t=83.39095268999972, value=5, duration=0.020001058999696397>
+85.3987 	DATA 	Keypress: 5
+85.4027 	EXP 	Device response: <KeyPress from None: t=85.39095853399976, value=5, duration=None>
+85.4179 	EXP 	Device response: <KeyPress from None: t=85.39095853399976, value=5, duration=0.01998689599986392>
+87.3996 	EXP 	Device response: <KeyPress from None: t=87.39097610799945, value=5, duration=None>
+87.4023 	DATA 	Keypress: 5
+87.4169 	EXP 	Device response: <KeyPress from None: t=87.39097610799945, value=5, duration=0.020000121000521176>
+89.3978 	EXP 	Device response: <KeyPress from None: t=89.39097519499956, value=5, duration=None>
+89.4003 	DATA 	Keypress: 5
+89.4145 	EXP 	Device response: <KeyPress from None: t=89.39097519499956, value=5, duration=0.019038458000068204>
+91.3967 	EXP 	Device response: <KeyPress from None: t=91.39001571399967, value=5, duration=None>
+91.3998 	DATA 	Keypress: 5
+91.4129 	EXP 	Device response: <KeyPress from None: t=91.39001571399967, value=5, duration=0.019994307999695593>
+93.3938 	EXP 	Device response: <KeyPress from None: t=93.3909641679993, value=5, duration=None>
+93.4000 	DATA 	Keypress: 5
+93.4270 	EXP 	Device response: <KeyPress from None: t=93.3909641679993, value=5, duration=0.019025592000616598>
+95.3917 	EXP 	Device response: <KeyPress from None: t=95.3900346749997, value=5, duration=None>
+95.3975 	DATA 	Keypress: 5
+95.4292 	EXP 	Device response: <KeyPress from None: t=95.3900346749997, value=5, duration=0.02001503599967691>
+96.7271 	EXP 	Sound t_audio stopped
+97.4181 	INFO 	saved data to /Users/natalia/Nextcloud/current_teaching/2026_SS_SE_ANI/experiments/mct/data/001_mct_2026-04-28_13h13.21.424.psydat
+97.4188 	INFO 	saved data to '/Users/natalia/Nextcloud/current_teaching/2026_SS_SE_ANI/experiments/mct/data/001_mct_2026-04-28_13h13.21.424.csv'
+97.4189 	INFO 	Saving 0 audio clips with tag unfinished
+97.4201 	INFO 	Stopping keyboard key buffers.

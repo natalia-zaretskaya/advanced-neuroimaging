@@ -1,0 +1,58 @@
+18.6455 	INFO 	Loaded monitor calibration from ['2022_08_24 20:43']
+18.8391 	WARNING 	User requested fullscreen with size [1024  768], but screen is actually [1920, 1080]. Using actual size
+19.2070 	INFO 	Using renderer 'Intel(R) Iris(TM) Plus Graphics OpenGL Engine' for graphics
+19.2071 	INFO 	OpenGL version supported by driver is 2..
+19.3224 	EXP 	Created window1 = Window(allowGUI=False, allowStencil=False, autoLog=True, backendConf=UNKNOWN, backgroundFit=<method-wrapper '__getattribute__' of attributeSetter object at 0x143010310>, backgroundImage=<method-wrapper '__getattribute__' of attributeSetter object at 0x1430102b0>, bitsMode=UNKNOWN, blendMode='avg', bpc=(8, 8, 8), color=array([0, 0, 0]), colorSpace='rgb', depthBits=8, fullscr=True, gamma=None, gammaErrorPolicy='raise', infoMsg=UNKNOWN, lms=UNKNOWN, monitor=<psychopy.monitors.calibTools.Monitor object at 0x14376cfa0>, multiSample=False, name='window1', numSamples=2, pos=[np.float64(0.0), np.float64(0.0)], screen=0, size=array([1920, 1080]), stencilBits=0, stereo=False, title='PsychoPy', units='height', useFBO=True, useRetina=False, viewOri=0.0, viewPos=None, viewScale=None, waitBlanking=True, winType='pyglet')
+19.3224 	EXP 	window1: backgroundImage = ''
+19.3225 	EXP 	window1: backgroundFit = 'none'
+20.0147 	EXP 	window1: Attempting to measure frame rate of screen (0) ...
+20.0148 	EXP 	window1: recordFrameIntervals = False
+20.4646 	EXP 	window1: recordFrameIntervals = True
+20.8247 	WARNING 	t of last frame was 66.41ms (=1/15)
+20.8579 	WARNING 	t of last frame was 33.25ms (=1/30)
+21.1001 	WARNING 	t of last frame was 109.01ms (=1/9)
+21.1242 	WARNING 	t of last frame was 24.08ms (=1/41)
+21.4396 	WARNING 	Multiple dropped frames have occurred - I'll stop bothering you about them!
+22.3904 	EXP 	window1: recordFrameIntervals = False
+22.3905 	EXP 	Screen (0) actual frame rate measured at 60.00Hz
+24.4515 	INFO 	keyboard.Keyboard is using ptb backend.
+24.4516 	EXP 	mct: status = STARTED
+24.5828 	EXP 	Created wait_text = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, draggable=False, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=np.float64(0.05), italic=False, languageStyle='LTR', name='wait_text', opacity=1, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text=str(...), units='height', win=Window(...), wrapWidth=1)
+24.5870 	EXP 	Created t_fix = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, draggable=False, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=np.float64(0.05), italic=False, languageStyle='LTR', name='t_fix', opacity=1, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='+', units='height', win=Window(...), wrapWidth=1)
+24.6163 	EXP 	Created t_img = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-1.0, draggable=False, flipHoriz=np.False_, flipVert=np.False_, image='default.png', interpolate=True, mask=None, maskParams=None, name='t_img', opacity=1, ori=0.0, pos=array([0., 0.]), size=array([0.5, 0.5]), texRes=128.0, units='height', win=Window(...))
+24.8275 	INFO 	Loaded psychtoolbox audio version 3.0.19.696976787
+25.0947 	INFO 	Created stream for speaker device: MacBook Air Speakers (2.0)
+25.1419 	EXP 	t_audio: sampleRate = 48000
+25.1419 	EXP 	t_audio: channels = None
+25.1748 	EXP 	Sound t_audio set volume 1.000
+25.1805 	EXP 	Created t_FZ = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, draggable=False, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=np.float64(0.05), italic=False, languageStyle='LTR', name='t_FZ', opacity=1, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='?', units='height', win=Window(...), wrapWidth=1)
+25.1839 	EXP 	Created text = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([-1.        ,  0.00392157, -1.        ]), colorSpace='rgb', contrast=1.0, depth=-1.0, draggable=False, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=np.float64(0.05), italic=False, languageStyle='LTR', name='text', opacity=1, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='?', units='height', win=Window(...), wrapWidth=1)
+25.1916 	INFO 	Using audio device #1 (MacBook Air Microphone) for audio capture. Full spec: AudioDeviceInfo(deviceIndex=1, deviceName='MacBook Air Microphone', hostAPIName='Core Audio', outputChannels=0, outputLatency=(0.01, 0.1), inputChannels=1, inputLatency=(0.034520833333333334, 0.043854166666666666), defaultSampleRate=48000, audioLib='ptb')
+0.0560 	INFO 	Keyboard events cleared
+0.0559 	EXP 	wait_text: autoDraw = True
+1.4304 	EXP 	Device response: <KeyPress from None: t=1.3838145209992945, value=5, duration=None>
+1.4403 	EXP 	Imported stim/sub-001/ses-01/sub-001_ses-01_MCT_run-02_conditions.csv as conditions, 4 conditions, 4 params
+1.4408 	EXP 	New trial (rep=0, index=0): <Trial 0 (0 in rep 0) data={'marker': np.int64(45), 'item': 'stim/Items/Kaffee_Pic.JPG', 'audiofile': 'stim/Items/group_1_in.mp3', 'audio_dur': np.float64(31.3), 'thisN': 0, 'thisTrialN': 0, 'thisRepN': 0}>
+1.5111 	EXP 	t_audio: sampleRate = 24000
+1.7011 	INFO 	Resampled audio from 24000Hz to 48000Hz using method 'default'.
+1.7513 	EXP 	Device response: <KeyPress from None: t=1.3838145209992945, value=5, duration=0.07763997400070366>
+1.7580 	DATA 	Keypress: 5
+1.7712 	EXP 	wait_text: autoDraw = False
+1.7712 	EXP 	t_img: image = 'stim/Items/Kaffee_Pic.JPG'
+1.7712 	EXP 	t_fix: autoDraw = True
+31.4269 	EXP 	Sound t_audio reached end of file
+31.4432 	EXP 	Playing sound t_audio on speaker MacBook Air Speakers
+31.8483 	EXP 	t_fix: autoDraw = False
+31.8483 	EXP 	t_img: autoDraw = True
+39.1877 	EXP 	Device response: <KeyPress from None: t=39.18335968699921, value=escape, duration=None>
+39.2356 	DATA 	Keypress: escape
+39.3970 	EXP 	Device response: <KeyPress from None: t=39.18335968699921, value=escape, duration=0.14237905500067427>
+39.3971 	EXP 	mct: status = STOPPED
+39.4007 	EXP 	Sound t_audio stopped
+39.4200 	EXP 	t_img: autoDraw = False
+39.4202 	EXP 	mct: status = STOPPED
+39.4203 	INFO 	Saving 0 audio clips with tag unfinished
+39.4239 	INFO 	saved data to '/Users/natalia/Nextcloud/current_teaching/2026_SS_SE_ANI/experiments/mct/data/001_mct_2026-04-28_13h18.26.406.csv'
+39.4250 	INFO 	saved data to /Users/natalia/Nextcloud/current_teaching/2026_SS_SE_ANI/experiments/mct/data/001_mct_2026-04-28_13h18.26.406.psydat
+41.8876 	INFO 	Saving 0 audio clips with tag unfinished
+41.8917 	INFO 	Stopping keyboard key buffers.

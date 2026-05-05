@@ -19,6 +19,7 @@ book:
     - planning.qmd
     - paradigm.qmd
     - data-management.qmd
+    - preprocessing.qmd
 
 format:
   html:
@@ -27,12 +28,16 @@ format:
     code-fold: true
   revealjs:
     theme: [clean.scss]
+    auto-stretch: false
     incremental: true
     scrollable: true
     slide-number: true
     chalkboard: true
     code-fold: true
-    height: 1000
+#    footer: "Natlaia Zaretskaya - Neuroimaging 2026"
+    width: 1600          # slide width in px
+    height: 900          # slide height in px
+    margin: 0.05         # reduce margins (default 0.05 = 5%)
 #  typst: 
 #    toc: false
 #    columns: 1
