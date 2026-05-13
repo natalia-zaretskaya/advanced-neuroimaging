@@ -319,6 +319,10 @@ Once you are happy, run bidscoiner to do the actual conversion
 
 Now you can view the nifti files with any suitable software
 
+## Validation
+
+![](images/clipboard-4281112599.png)
+
 # 3. Quality assurance
 
 ## MRIQC

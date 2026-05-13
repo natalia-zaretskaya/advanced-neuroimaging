@@ -2,10 +2,10 @@
 
 -   Group - second-level - random effects analysis (RFX)
 
-::: notes
+-   (also mixed effects analysis is possible, but relatively rare due to large matrix size)
 
+::: notes
 This is equivalent to e.g. conducting many trials per subject to measure reaction time, and then compute a subject-specific mean per condition, after which you would perform the actual statistical inference
 
 Multilevel modelling is also possible (for small datasets), but less frequent.
-
 :::
