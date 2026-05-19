@@ -1918,5 +1918,135 @@
     "crumbs": [
       "<span class='chapter-number'>5</span>  <span class='chapter-title'>Preprocessing</span>"
     ]
+  },
+  {
+    "objectID": "visualization-and-reporting.html",
+    "href": "visualization-and-reporting.html",
+    "title": "7  Visualization and reporting",
+    "section": "",
+    "text": "ROI analysis\nSee also: Planning",
+    "crumbs": [
+      "<span class='chapter-number'>7</span>  <span class='chapter-title'>Visualization and reporting</span>"
+    ]
+  },
+  {
+    "objectID": "visualization-and-reporting.html#example",
+    "href": "visualization-and-reporting.html#example",
+    "title": "7  Visualization and reporting",
+    "section": "Example",
+    "text": "Example\n\n\n\n\n\n(Faber et al. 2022)\n\n\n\n\n\n\n(Faber et al. 2022)",
+    "crumbs": [
+      "<span class='chapter-number'>7</span>  <span class='chapter-title'>Visualization and reporting</span>"
+    ]
+  },
+  {
+    "objectID": "visualization-and-reporting.html#run-the-segmentation",
+    "href": "visualization-and-reporting.html#run-the-segmentation",
+    "title": "7  Visualization and reporting",
+    "section": "Run the segmentation",
+    "text": "Run the segmentation\nDeep-MI/FastSurfer: PyTorch implementation of FastSurferCNN\n\n\n\n(Henschel et al. 2020)\n\n\n# create the directory\nmkdir /home/jovyan/2026_ANI/lobule9_bids_correct/derivatives/fastsurfer\n\n# run the fastsurfer as a singularity container\nsingularity exec --nv \\\n                 --no-mount home,cwd -e \\\n                 -B $HOME/2026_ANI/lobule9_bids_correct:$HOME/my_mri_data \\\n                 -B $HOME/2026_ANI/lobule9_bids_correct/derivatives/fastsurfer:$HOME/my_fastsurfer_analysis \\\n                 -B $HOME/license.txt:$HOME/my_fs_license.txt \\\n                 /shared/singularity/fastsurfer-gpu.sif \\\n                   /fastsurfer/run_fastsurfer.sh \\\n                     --fs_license $HOME/my_fs_license.txt \\\n                     --t1 $HOME/my_mri_data/sub-001/ses-1/anat/sub-001_ses-1_acq-mprage_T1w.nii.gz \\\n                     --sid sub-001 --sd $HOME/my_fastsurfer_analysis \\\n                     --3T \\\n                     --threads 4 \\\n                     --seg_only",
+    "crumbs": [
+      "<span class='chapter-number'>7</span>  <span class='chapter-title'>Visualization and reporting</span>"
+    ]
+  },
+  {
+    "objectID": "visualization-and-reporting.html#view-output",
+    "href": "visualization-and-reporting.html#view-output",
+    "title": "7  Visualization and reporting",
+    "section": "View output",
+    "text": "View output\n\n\n\n\n\nright-click and open the file with freeview\n\n\n\n\n\n\nset the color map to “Lookup Table”",
+    "crumbs": [
+      "<span class='chapter-number'>7</span>  <span class='chapter-title'>Visualization and reporting</span>"
+    ]
+  },
+  {
+    "objectID": "visualization-and-reporting.html#reminder-group-analysis",
+    "href": "visualization-and-reporting.html#reminder-group-analysis",
+    "title": "7  Visualization and reporting",
+    "section": "Reminder: group analysis",
+    "text": "Reminder: group analysis",
+    "crumbs": [
+      "<span class='chapter-number'>7</span>  <span class='chapter-title'>Visualization and reporting</span>"
+    ]
+  },
+  {
+    "objectID": "visualization-and-reporting.html#family-wise-error-rate",
+    "href": "visualization-and-reporting.html#family-wise-error-rate",
+    "title": "7  Visualization and reporting",
+    "section": "Family-wise error rate",
+    "text": "Family-wise error rate\n\n\n\nImage credit: unknown\n\n\n\nIf the data is not smoothed, equivalent to Bonferroni correction",
+    "crumbs": [
+      "<span class='chapter-number'>7</span>  <span class='chapter-title'>Visualization and reporting</span>"
+    ]
+  },
+  {
+    "objectID": "visualization-and-reporting.html#other-correction-types",
+    "href": "visualization-and-reporting.html#other-correction-types",
+    "title": "7  Visualization and reporting",
+    "section": "Other correction types",
+    "text": "Other correction types\n\n- Cluster threshold\n\n\n- False discovery rate\n\n\n- Cluster-level inference",
+    "crumbs": [
+      "<span class='chapter-number'>7</span>  <span class='chapter-title'>Visualization and reporting</span>"
+    ]
+  },
+  {
+    "objectID": "visualization-and-reporting.html#uncorrected",
+    "href": "visualization-and-reporting.html#uncorrected",
+    "title": "7  Visualization and reporting",
+    "section": "Uncorrected",
+    "text": "Uncorrected\n\n\n# interactive plot (you can browse the activations)\nfrom nilearn import plotting\n\n# Use subject's anatomy as background\nbg_img = '/home/jovyan/gambling/bids/derivatives/fmriprep/sub-001/ses-1/anat/sub-001_ses-1_acq-mprage_desc-preproc_T1w.nii.gz'\nplotting.view_img(zmap, threshold=1.96, vmax=10, \n    bg_img=bg_img,\n    cut_coords=[0, 0, 0],\n    width_view=600,\n    title=contrast_string)",
+    "crumbs": [
+      "<span class='chapter-number'>7</span>  <span class='chapter-title'>Visualization and reporting</span>"
+    ]
+  },
+  {
+    "objectID": "visualization-and-reporting.html#cluster-thresholded",
+    "href": "visualization-and-reporting.html#cluster-thresholded",
+    "title": "7  Visualization and reporting",
+    "section": "Cluster-thresholded",
+    "text": "Cluster-thresholded\n\n\nfrom nilearn.glm import threshold_stats_img\n\n# note: fpr with alpha=0.05 is the same as uncorrected z&gt;=1.96 (p&lt;0.05)\nthresholded_map1, threshold1 = threshold_stats_img(\n    zmap,\n    alpha=0.05,\n    height_control=\"fpr\",\n    cluster_threshold = 100,\n    two_sided=True,\n)\n\n# Use subject's anatomy as background\nbg_img = '/home/jovyan/gambling/bids/derivatives/fmriprep/sub-001/ses-1/anat/sub-001_ses-1_acq-mprage_desc-preproc_T1w.nii.gz'\nplotting.view_img(thresholded_map1, threshold=threshold1, vmax=10, \n    bg_img=bg_img,\n    cut_coords=[0, 0, 0],\n    width_view=600,\n    title=contrast_string)",
+    "crumbs": [
+      "<span class='chapter-number'>7</span>  <span class='chapter-title'>Visualization and reporting</span>"
+    ]
+  },
+  {
+    "objectID": "visualization-and-reporting.html#fdr-thresholded",
+    "href": "visualization-and-reporting.html#fdr-thresholded",
+    "title": "7  Visualization and reporting",
+    "section": "FDR-thresholded",
+    "text": "FDR-thresholded\n\n\nfrom nilearn.glm import threshold_stats_img\n\nthresholded_map1, threshold1 = threshold_stats_img(\n    zmap,\n    alpha=0.05,\n    height_control=\"fdr\",\n    two_sided=True,\n)\n\n# Use subject's anatomy as background\nbg_img = '/home/jovyan/gambling/bids/derivatives/fmriprep/sub-001/ses-1/anat/sub-001_ses-1_acq-mprage_desc-preproc_T1w.nii.gz'\nplotting.view_img(thresholded_map1, threshold=threshold1, vmax=10, \n    bg_img=bg_img,\n    cut_coords=[0, 0, 0],\n    width_view=600,\n    title=contrast_string)",
+    "crumbs": [
+      "<span class='chapter-number'>7</span>  <span class='chapter-title'>Visualization and reporting</span>"
+    ]
+  },
+  {
+    "objectID": "visualization-and-reporting.html#fwe-thresholded",
+    "href": "visualization-and-reporting.html#fwe-thresholded",
+    "title": "7  Visualization and reporting",
+    "section": "FWE-thresholded",
+    "text": "FWE-thresholded\n\n\nfrom nilearn.glm import threshold_stats_img\n\nthresholded_map1, threshold1 = threshold_stats_img(\n    zmap,\n    alpha=0.05,\n    height_control=\"bonferroni\",\n    two_sided=True,\n)\n\n# Use subject's anatomy as background\nbg_img = '/home/jovyan/gambling/bids/derivatives/fmriprep/sub-001/ses-1/anat/sub-001_ses-1_acq-mprage_desc-preproc_T1w.nii.gz'\nplotting.view_img(thresholded_map1, threshold=threshold1, vmax=10, \n    bg_img=bg_img,\n    cut_coords=[0, 0, 0],\n    width_view=600,\n    title=contrast_string)",
+    "crumbs": [
+      "<span class='chapter-number'>7</span>  <span class='chapter-title'>Visualization and reporting</span>"
+    ]
+  },
+  {
+    "objectID": "visualization-and-reporting.html#non-parametric-inference",
+    "href": "visualization-and-reporting.html#non-parametric-inference",
+    "title": "7  Visualization and reporting",
+    "section": "Non-parametric inference",
+    "text": "Non-parametric inference\n\nPermutation-based inference\n\n\n\n\n\n\n\n\n\n(Nichols and Holmes 2001)\n\nAn example difference between conditions A and B. The labels of each trial are permuted and each time a test statistic (in this example mean difference) is computed. The empirical likelihood to observe a specific value is derived.\nFor the multiple comparison case, we use the same logic, but instead of single voxel we consider the maximum of each statistical map.",
+    "crumbs": [
+      "<span class='chapter-number'>7</span>  <span class='chapter-title'>Visualization and reporting</span>"
+    ]
+  },
+  {
+    "objectID": "visualization-and-reporting.html#references",
+    "href": "visualization-and-reporting.html#references",
+    "title": "7  Visualization and reporting",
+    "section": "References",
+    "text": "References\n\n\n\n\nFaber, Jennifer, David Kügler, Emad Bahrami, Lea-Sophie Heinz, Dagmar Timmann, Thomas M. Ernst, Katerina Deike-Hofmann, et al. 2022. “CerebNet: A Fast and Reliable Deep-Learning Pipeline for Detailed Cerebellum Sub-Segmentation.” NeuroImage 264 (December): 119703. https://doi.org/10.1016/j.neuroimage.2022.119703.\n\n\nHenschel, Leonie, Sailesh Conjeti, Santiago Estrada, Kersten Diers, Bruce Fischl, and Martin Reuter. 2020. “FastSurfer - A Fast and Accurate Deep Learning Based Neuroimaging Pipeline.” NeuroImage 219 (October): 117012. https://doi.org/10.1016/j.neuroimage.2020.117012.\n\n\nNichols, Thomas E., and Andrew P. Holmes. 2001. “Nonparametric Permutation Tests for Functional Neuroimaging: A Primer with Examples.” Human Brain Mapping 15 (1): 1–25. https://doi.org/10.1002/hbm.1058.",
+    "crumbs": [
+      "<span class='chapter-number'>7</span>  <span class='chapter-title'>Visualization and reporting</span>"
+    ]
   }
 ]

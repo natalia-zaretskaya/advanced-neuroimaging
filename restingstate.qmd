@@ -50,13 +50,13 @@ Principle component analysis, procedure similar to factor analysis
 
 ## Typical analysis
 
--   Preprocessing
+- Preprocessing
 
--   Extensive denoising
+- Extensive denoising
 
--   Functional "connectivity"
+- Functional "connectivity"
 
--   Network science characteristics
+- Network science characteristics
 
 ## Preprocessing
 
@@ -69,15 +69,15 @@ Like in a typical fMRI experiment, see the corresponding chapter
 ::: notes
 Typical signals that get regressed out:
 
--   Motion (relignment parameters)
+- Motion (relignment parameters)
 
--   nth order derivatives of the realignment parameters
+- nth order derivatives of the realignment parameters
 
--   Physiology regressors (respiration and heart beat)
+- Physiology regressors (respiration and heart beat)
 
-    -   Derivatives of white matter and CSF signals
+  - Derivatives of white matter and CSF signals
 
-    -   Derivatives of pre-recorded pulse and respiration
+  - Derivatives of pre-recorded pulse and respiration
 :::
 
 ## Physiology recording
@@ -89,7 +89,7 @@ Typical signals that get regressed out:
 :::
 
 ::: aside
-Image credit: siemens
+Image credit: Siemens
 :::
 
 ## Raw data

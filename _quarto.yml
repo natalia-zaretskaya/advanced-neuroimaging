@@ -21,6 +21,7 @@ book:
     - data-management.qmd
     - preprocessing.qmd
     - glm.qmd
+    - visualization-and-reporting.qmd
 
 format:
   html:
