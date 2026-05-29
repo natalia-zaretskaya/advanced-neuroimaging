@@ -210,4 +210,22 @@ For the multiple comparison case, we use the same logic, but instead of single v
 
 # Result reporting
 
+## Whole-brain analysis
+
+-   P-value threshold, MC correction method
+
+-   All clusters with
+
+    -   size
+
+    -   peak statistic value
+
+    -   MNI coordinates
+
+    -   anatomical area (see [atlasreader](https://github.com/miykael/atlasreader) and the associated notebook)
+
+## Region-of-interest analysis
+
+-   MCC for the number of areas examined
+
 ## References

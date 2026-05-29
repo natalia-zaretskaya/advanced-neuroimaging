@@ -2048,5 +2048,25 @@
     "crumbs": [
       "<span class='chapter-number'>7</span>  <span class='chapter-title'>Visualization and reporting</span>"
     ]
+  },
+  {
+    "objectID": "visualization-and-reporting.html#whole-brain-analysis",
+    "href": "visualization-and-reporting.html#whole-brain-analysis",
+    "title": "7  Visualization and reporting",
+    "section": "Whole-brain analysis",
+    "text": "Whole-brain analysis\n\nP-value threshold, MC correction method\nAll clusters with\n\nsize\npeak statistic value\nMNI coordinates\nanatomical area (see atlasreader and the associated notebook)",
+    "crumbs": [
+      "<span class='chapter-number'>7</span>  <span class='chapter-title'>Visualization and reporting</span>"
+    ]
+  },
+  {
+    "objectID": "visualization-and-reporting.html#region-of-interest-analysis",
+    "href": "visualization-and-reporting.html#region-of-interest-analysis",
+    "title": "7  Visualization and reporting",
+    "section": "Region-of-interest analysis",
+    "text": "Region-of-interest analysis\n\nMCC for the number of areas examined",
+    "crumbs": [
+      "<span class='chapter-number'>7</span>  <span class='chapter-title'>Visualization and reporting</span>"
+    ]
   }
 ]
