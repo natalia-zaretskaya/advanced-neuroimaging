@@ -2,19 +2,11 @@
 
 ## Default mode network (DMN)
 
-![](images/clipboard-2878139788.png)
-
-::: aside
-[@raichle2001]
-:::
+![[@raichle2001]](images/clipboard-2878139788.png)
 
 ## Resting state activity
 
-![](images/clipboard-2612449534.png)
-
-::: aside
-[@fox2005a]
-:::
+![[@fox2005a]](images/clipboard-2612449534.png)
 
 ## Reminder: the checkerboard experiment
 
@@ -24,30 +16,6 @@
 
 ![](images/clipboard-944483016.png)
 
-## Network parcellation
-
-::: {layout-ncol="2"}
-![](images/clipboard-700729418.png){width="300"}
-
-![](images/clipboard-3988972975.png){width="300"}
-:::
-
-::: aside
-[@yeo2011]
-:::
-
-::: notes
-Principle component analysis, procedure similar to factor analysis
-:::
-
-## Other parcellation schemes
-
-![](images/clipboard-4155812755.png){width="677"}
-
-::: aside
-[@glasser2016]
-:::
-
 ## Typical analysis
 
 - Preprocessing
@@ -56,7 +24,11 @@ Principle component analysis, procedure similar to factor analysis
 
 - Functional "connectivity"
 
-- Network science characteristics
+- Other measures
+
+  - Network science characteristics
+
+  - Functional connectivity density
 
 ## Preprocessing
 
@@ -83,13 +55,9 @@ Typical signals that get regressed out:
 ## Physiology recording
 
 ::: {layout-ncol="2"}
-![Oxymeter](images/clipboard-388834013.png){width="450"}
+![Oxymeter; Image credit: Siemens](images/clipboard-388834013.png){width="450"}
 
-![Respiration belt](images/clipboard-3611588019.png){width="450"}
-:::
-
-::: aside
-Image credit: Siemens
+![Respiration belt; Image credit: Siemens](images/clipboard-3611588019.png){width="450"}
 :::
 
 ## Raw data
@@ -98,43 +66,57 @@ Image credit: Siemens
 
 ## Regressors
 
-![](images/clipboard-2226118854.png){width="411"}
-
-::: aside
-See also: <https://visualneuroscience.github.io/mri/physiology/>
-:::
+![See also: <https://visualneuroscience.github.io/mri/physiology/>](images/clipboard-2226118854.png){width="411"}
 
 ## Spine coil respiration sensor
 
-![](images/clipboard-2429435046.png)
+![[@wilding2024]](images/clipboard-2429435046.png)
 
 ## Seed-to-voxel connectivity
 
-![](images/clipboard-1640178898.png)
-
-::: aside
-[@wilding2023]
-:::
+![[@wilding2023]](images/clipboard-1640178898.png)
 
 ## ROI-to-ROI connectivity
 
 ![](images/clipboard-1617109543.png)
 
-## Functional connectivity density
+## Parcellation schemes
 
-![](images/clipboard-3566067346.png){width="198"}
+![[@glasser2016]](images/clipboard-4155812755.png){width="677"}
 
-::: aside
-[@tomasi2010]
+## Independent component analysis
+
+### Network parcellation
+
+:::::: columns
+::: {.column width="45%"}
+![[@yeo2011]](images/clipboard-1114633871.png)
+:::
+
+::: {.column width="45%"}
+![[@yeo2011]](images/clipboard-2058688517.png)
+:::
+
+::: {.column width="10%"}
+![](images/clipboard-2060528805.png)
+:::
+::::::
+
+::: notes
+Independent component analysis, procedure similar to factor analysis
+:::
+
+## Functional connectivity density mapping
+
+![[@tomasi2010]](images/clipboard-1696910081.png){width="339"}
+
+::: notes
+lFCD: within a local viscinity of a voxel gFCD: global, i.e. across the whole brain
 :::
 
 ## Graph theory
 
-![](images/clipboard-2585109022.png){width="599"}
-
-::: aside
-[@sporns2010] (accessible through UniKat); see also: [@bassett2017]
-:::
+![[@sporns2010] (accessible through UniKat); see also: [@bassett2017]](images/clipboard-2585109022.png){width="599"}
 
 ::: notes
 Thresholded correlation matrix
@@ -151,7 +133,5 @@ The difference between FCD and rich club coefficient is that the FSD is related 
 
 [![](images/clipboard-946510959.png){width="177"}](https://nilearn.github.io/dev/connectivity/index.html)
 :::
-
-.
 
 ## References

@@ -4,7 +4,7 @@
     "href": "index.html",
     "title": "Advanced Neuroimaging",
     "section": "",
-    "text": "Welcome!\n\n\n\n(c) Adam Coates\n\n\n\n\nCourse schedule {#tbl-schedule tbl-colwidths=“[10,20,30,30,10]”} (subject to changes)\n\n\nSession #\nDate and time\nSpecific topic\nTODO for this class\nEstimated workload (h)\n\n\n1\n03.03.2026\nOrganization and introduction to fMRI\nnothing\n0\n\n\n2\n10.03.2026\nfMRI Paradigm\nInstall PsychoPy, go through the tutorial\n4\n\n\n3\n17.03.2026\nProject slam and public vote\n(Winner does not need to write an introduction)\nPrepare a presentation of your project (See Presentation Guidelines and Presentation Evaluation Criteria)\n4\n\n\n\n24.03.2026\nno class\n\n\n\n\n4\n14.04.2026\nImplementation slam and second public vote\n(Winner does not need to write the experiment description)\nImplement your project in PsychoPy, show it to the class\n8\n\n\n5\n21.04.2026\nExperiment feedback\nData management I: (BIDS, Neurodesk)\nEvery course participant performs 3 rounds of the experiment and gives feedback\n1\n\n\n6\n28.04.2026\nMRI LAB 14:30-17:00\nNeurodesk registration/Intro\n4\n\n\n7\n05.05.2026\nPreprocessing\nRun dcm2niix and MRIQC\n1\n\n\n8\n12.05.2026\nAnalysis: General linear model\nRun preprocessing\n4\n\n\n9\n19.05.2026\nResult visualization and reporting\nVolume space analysis\n4\n\n\n10\n02.06.2026\nAnalysis: Other analyses types\nSurface space analysis\n4\n\n\n11\n09.06.2026\nResult presentation slam, public vote\n(winner does not need to write a results section)\nPrepare a poster with images\n8\n\n\n12\n16.06.2026\nWriting an fMRI article\nRead an example fMRI article\n2\n\n\n13\n23.06.2026\nFinal session (study examples), course evaluation\nReport draft (voluntary)\n8\n\n\n\nTBA\nReport deadline\n\n23",
+    "text": "Welcome!\n\n\n\n(c) Adam Coates\n\n\n\n\nCourse schedule {#tbl-schedule tbl-colwidths=“[10,20,30,30,10]”} (subject to changes)\n\n\nSession #\nDate and time\nSpecific topic\nTODO for this class\nEstimated workload (h)\n\n\n1\n03.03.2026\nOrganization and introduction to fMRI\nnothing\n0\n\n\n2\n10.03.2026\nfMRI Paradigm\nInstall PsychoPy, go through the tutorial\n4\n\n\n3\n17.03.2026\nProject slam and public vote\n(Winner does not need to write an introduction)\nPrepare a presentation of your project (See Presentation Guidelines and Presentation Evaluation Criteria)\n4\n\n\n\n24.03.2026\nno class\n\n\n\n\n4\n14.04.2026\nImplementation slam and second public vote\n(Winner does not need to write the experiment description)\nImplement your project in PsychoPy, show it to the class\n8\n\n\n5\n21.04.2026\nExperiment feedback\nData management I: (BIDS, Neurodesk)\nEvery course participant performs 3 rounds of the experiment and gives feedback\n1\n\n\n6\n28.04.2026\nMRI LAB 14:30-17:00\nNeurodesk registration/Intro\n4\n\n\n7\n05.05.2026\nPreprocessing\nRun dcm2niix and MRIQC\n1\n\n\n8\n12.05.2026\nAnalysis: General linear model\nRun preprocessing\n4\n\n\n9\n19.05.2026\nResult visualization and reporting\nSurface-space analysis\nVolume space analysis\n4\n\n\n10\n02.06.2026\nAnalysis: Other analyses types\nSurface space analysis\n4\n\n\n11\n09.06.2026\nResult presentation slam, public vote\n(winner does not need to write a results section)\nPrepare a poster with images\n8\n\n\n12\n16.06.2026\nWriting an fMRI article\nRead an example fMRI article\n2\n\n\n13\n23.06.2026\nFinal session (study examples), course evaluation\nReport draft (voluntary)\n8\n\n\n\nTBA\nReport deadline\n\n23",
     "crumbs": [
       "Welcome!"
     ]
@@ -144,7 +144,7 @@
     "href": "syllabus.html#course-schedule",
     "title": "Course Syllabus",
     "section": "Course schedule",
-    "text": "Course schedule\n\n\nCourse schedule {#tbl-schedule tbl-colwidths=“[10,20,30,30,10]”} (subject to changes)\n\n\nSession #\nDate and time\nSpecific topic\nTODO for this class\nEstimated workload (h)\n\n\n1\n03.03.2026\nOrganization and introduction to fMRI\nnothing\n0\n\n\n2\n10.03.2026\nfMRI Paradigm\nInstall PsychoPy, go through the tutorial\n4\n\n\n3\n17.03.2026\nProject slam and public vote\n(Winner does not need to write an introduction)\nPrepare a presentation of your project (See Presentation Guidelines and Presentation Evaluation Criteria)\n4\n\n\n\n24.03.2026\nno class\n\n\n\n\n4\n14.04.2026\nImplementation slam and second public vote\n(Winner does not need to write the experiment description)\nImplement your project in PsychoPy, show it to the class\n8\n\n\n5\n21.04.2026\nExperiment feedback\nData management I: (BIDS, Neurodesk)\nEvery course participant performs 3 rounds of the experiment and gives feedback\n1\n\n\n6\n28.04.2026\nMRI LAB 14:30-17:00\nNeurodesk registration/Intro\n4\n\n\n7\n05.05.2026\nPreprocessing\nRun dcm2niix and MRIQC\n1\n\n\n8\n12.05.2026\nAnalysis: General linear model\nRun preprocessing\n4\n\n\n9\n19.05.2026\nResult visualization and reporting\nVolume space analysis\n4\n\n\n10\n02.06.2026\nAnalysis: Other analyses types\nSurface space analysis\n4\n\n\n11\n09.06.2026\nResult presentation slam, public vote\n(winner does not need to write a results section)\nPrepare a poster with images\n8\n\n\n12\n16.06.2026\nWriting an fMRI article\nRead an example fMRI article\n2\n\n\n13\n23.06.2026\nFinal session (study examples), course evaluation\nReport draft (voluntary)\n8\n\n\n\nTBA\nReport deadline\n\n23",
+    "text": "Course schedule\n\n\nCourse schedule {#tbl-schedule tbl-colwidths=“[10,20,30,30,10]”} (subject to changes)\n\n\nSession #\nDate and time\nSpecific topic\nTODO for this class\nEstimated workload (h)\n\n\n1\n03.03.2026\nOrganization and introduction to fMRI\nnothing\n0\n\n\n2\n10.03.2026\nfMRI Paradigm\nInstall PsychoPy, go through the tutorial\n4\n\n\n3\n17.03.2026\nProject slam and public vote\n(Winner does not need to write an introduction)\nPrepare a presentation of your project (See Presentation Guidelines and Presentation Evaluation Criteria)\n4\n\n\n\n24.03.2026\nno class\n\n\n\n\n4\n14.04.2026\nImplementation slam and second public vote\n(Winner does not need to write the experiment description)\nImplement your project in PsychoPy, show it to the class\n8\n\n\n5\n21.04.2026\nExperiment feedback\nData management I: (BIDS, Neurodesk)\nEvery course participant performs 3 rounds of the experiment and gives feedback\n1\n\n\n6\n28.04.2026\nMRI LAB 14:30-17:00\nNeurodesk registration/Intro\n4\n\n\n7\n05.05.2026\nPreprocessing\nRun dcm2niix and MRIQC\n1\n\n\n8\n12.05.2026\nAnalysis: General linear model\nRun preprocessing\n4\n\n\n9\n19.05.2026\nResult visualization and reporting\nSurface-space analysis\nVolume space analysis\n4\n\n\n10\n02.06.2026\nAnalysis: Other analyses types\nSurface space analysis\n4\n\n\n11\n09.06.2026\nResult presentation slam, public vote\n(winner does not need to write a results section)\nPrepare a poster with images\n8\n\n\n12\n16.06.2026\nWriting an fMRI article\nRead an example fMRI article\n2\n\n\n13\n23.06.2026\nFinal session (study examples), course evaluation\nReport draft (voluntary)\n8\n\n\n\nTBA\nReport deadline\n\n23",
     "crumbs": [
       "Course Syllabus"
     ]
@@ -194,7 +194,7 @@
     "href": "syllabus.html#references",
     "title": "Course Syllabus",
     "section": "References",
-    "text": "References\n\n\n\n\nKosmyna, Nataliya, Eugene Hauptmann, Ye Tong Yuan, Jessica Situ, Xian-Hao Liao, Ashly Vivian Beresnitzky, Iris Braunstein, and Pattie Maes. 2025. “Your Brain on ChatGPT: Accumulation of Cognitive Debt When Using an AI Assistant for Essay Writing Task.” https://doi.org/10.48550/ARXIV.2506.08872.",
+    "text": "References\n\n\n\n\nKosmyna, Nataliya, Eugene Hauptmann, Ye Tong Yuan, et al. 2025. Your Brain on ChatGPT: Accumulation of Cognitive Debt When Using an AI Assistant for Essay Writing Task. https://doi.org/10.48550/ARXIV.2506.08872.",
     "crumbs": [
       "Course Syllabus"
     ]
@@ -374,7 +374,7 @@
     "href": "fmri-intro.html#bold-signal",
     "title": "1  Introduction to fMRI",
     "section": "BOLD signal",
-    "text": "BOLD signal\nblood-oxygen-level-dependent signal\n\n\n\nHemodynamics leading to the BOLD signal (“Interpreting the BOLD Response” 2009)",
+    "text": "BOLD signal\nblood-oxygen-level-dependent signal\n\n\n\nHemodynamics leading to the BOLD signal (Interpreting the BOLD Response 2009)",
     "crumbs": [
       "<span class='chapter-number'>1</span>  <span class='chapter-title'>Introduction to fMRI</span>"
     ]
@@ -494,7 +494,7 @@
     "href": "fmri-intro.html#sec-analysis-steps",
     "title": "1  Introduction to fMRI",
     "section": "Analysis steps",
-    "text": "Analysis steps\n\nSingle-subject - first level - fixed effects analysis (FFX)\nGroup - second-level - random effects analysis (RFX)\n\n\nThis is equivalent to e.g. conducting many trials per subject to measure reaction time, and then compute a subject-specific mean per condition, after which you would perform the actual statistical inference\nMultilevel modelling is also possible (for small datasets), but less frequent.",
+    "text": "Analysis steps\n\nSingle-subject - first level - fixed effects analysis (FFX)\nGroup - second-level - random effects analysis (RFX)\n(also mixed effects analysis is possible, but relatively rare due to large matrix size)\n\n\nThis is equivalent to e.g. conducting many trials per subject to measure reaction time, and then compute a subject-specific mean per condition, after which you would perform the actual statistical inference\nMultilevel modelling is also possible (for small datasets), but less frequent.",
     "crumbs": [
       "<span class='chapter-number'>1</span>  <span class='chapter-title'>Introduction to fMRI</span>"
     ]
@@ -684,7 +684,7 @@
     "href": "fmri-intro.html#references",
     "title": "1  Introduction to fMRI",
     "section": "References",
-    "text": "References\n\n\n\n\nBelliveau, J. W., D. N. Kennedy, R. C. McKinstry, B. R. Buchbinder, R. M. Weisskoff, M. S. Cohen, J. M. Vevea, T. J. Brady, and B. R. Rosen. 1991. “Functional Mapping of the Human Visual Cortex by Magnetic Resonance Imaging.” Science 254 (5032): 716–19. https://doi.org/10.1126/science.1948051.\n\n\nCasamitjana, Adrià, Matteo Mancini, Eleanor Robinson, Loïc Peter, Roberto Annunziata, Juri Althonayan, Shauna Crampsie, et al. 2024. “A Next-Generation, Histological Atlas of the Human Brain and Its Application to Automated Brain MRI Segmentation.” http://dx.doi.org/10.1101/2024.02.05.579016.\n\n\nCoates, Adam, David Linhardt, Christian Windischberger, Anja Ischebeck, and Natalia Zaretskaya. 2024. “High-Resolution 7T fMRI Reveals the Visual Zone of the Human Claustrum.” Imaging Neuroscience 2: 1–15. https://doi.org/10.1162/imag_a_00327.\n\n\nEsteban, Oscar, Christopher J. Markiewicz, Ross W. Blair, Craig A. Moodie, A. Ilkay Isik, Asier Erramuzpe, James D. Kent, et al. 2018. “fMRIPrep: A Robust Preprocessing Pipeline for Functional MRI.” Nature Methods 16 (1): 111–16. https://doi.org/10.1038/s41592-018-0235-4.\n\n\nGlasser, Matthew F., Timothy S. Coalson, Emma C. Robinson, Carl D. Hacker, John Harwell, Essa Yacoub, Kamil Ugurbil, et al. 2016. “A Multi-Modal Parcellation of Human Cerebral Cortex.” Nature 536 (7615): 171–78. https://doi.org/10.1038/nature18933.\n\n\n“Interpreting the BOLD Response.” 2009. In, 400–424. Cambridge University Press. https://doi.org/10.1017/cbo9780511605505.020.\n\n\nLindquist, Martin A. 2008. “The Statistical Analysis of fMRI Data.” Statistical Science 23 (4). https://doi.org/10.1214/09-sts282.\n\n\nLogothetis, Nikos K., Jon Pauls, Mark Augath, Torsten Trinath, and Axel Oeltermann. 2001. “Neurophysiological Investigation of the Basis of the fMRI Signal.” Nature 412 (6843): 150–57. https://doi.org/10.1038/35084005.\n\n\nSandrone, Stefano, Marco Bacigaluppi, Marco R. Galloni, Stefano F. Cappa, Andrea Moro, Marco Catani, Massimo Filippi, Martin M. Monti, Daniela Perani, and Gianvito Martino. 2013. “Weighing Brain Activity with the Balance: Angelo Mosso’s Original Manuscripts Come to Light.” Brain 137 (2): 621–33. https://doi.org/10.1093/brain/awt091.\n\n\nZaretskaya, Natalia, Bruce Fischl, Martin Reuter, Ville Renvall, and Jonathan R Polimeni. 2018. “Advantages of Cortical Surface Reconstruction Using Submillimeter 7 t MEMPRAGE.” NeuroImage 165 (January): 11–26. https://doi.org/10.1016/j.neuroimage.2017.09.060.",
+    "text": "References\n\n\n\n\nBelliveau, J. W., D. N. Kennedy, R. C. McKinstry, et al. 1991. “Functional Mapping of the Human Visual Cortex by Magnetic Resonance Imaging.” Science 254 (5032): 716–19. https://doi.org/10.1126/science.1948051.\n\n\nCasamitjana, Adrià, Matteo Mancini, Eleanor Robinson, et al. 2024. A Next-Generation, Histological Atlas of the Human Brain and Its Application to Automated Brain MRI Segmentation. http://dx.doi.org/10.1101/2024.02.05.579016.\n\n\nCoates, Adam, David Linhardt, Christian Windischberger, Anja Ischebeck, and Natalia Zaretskaya. 2024. “High-Resolution 7T fMRI Reveals the Visual Zone of the Human Claustrum.” Imaging Neuroscience 2: 1–15. https://doi.org/10.1162/imag_a_00327.\n\n\nEsteban, Oscar, Christopher J. Markiewicz, Ross W. Blair, et al. 2018. “fMRIPrep: A Robust Preprocessing Pipeline for Functional MRI.” Nature Methods 16 (1): 111–16. https://doi.org/10.1038/s41592-018-0235-4.\n\n\nGlasser, Matthew F., Timothy S. Coalson, Emma C. Robinson, et al. 2016. “A Multi-Modal Parcellation of Human Cerebral Cortex.” Nature 536 (7615): 171–78. https://doi.org/10.1038/nature18933.\n\n\nInterpreting the BOLD Response. 2009. Cambridge University Press. https://doi.org/10.1017/cbo9780511605505.020.\n\n\nLindquist, Martin A. 2008. “The Statistical Analysis of fMRI Data.” Statistical Science 23 (4). https://doi.org/10.1214/09-sts282.\n\n\nLogothetis, Nikos K., Jon Pauls, Mark Augath, Torsten Trinath, and Axel Oeltermann. 2001. “Neurophysiological Investigation of the Basis of the fMRI Signal.” Nature 412 (6843): 150–57. https://doi.org/10.1038/35084005.\n\n\nSandrone, Stefano, Marco Bacigaluppi, Marco R. Galloni, et al. 2013. “Weighing Brain Activity with the Balance: Angelo Mosso’s Original Manuscripts Come to Light.” Brain 137 (2): 621–33. https://doi.org/10.1093/brain/awt091.\n\n\nZaretskaya, Natalia, Bruce Fischl, Martin Reuter, Ville Renvall, and Jonathan R Polimeni. 2018. “Advantages of Cortical Surface Reconstruction Using Submillimeter 7 t MEMPRAGE.” NeuroImage 165 (January): 11–26. https://doi.org/10.1016/j.neuroimage.2017.09.060.",
     "crumbs": [
       "<span class='chapter-number'>1</span>  <span class='chapter-title'>Introduction to fMRI</span>"
     ]
@@ -714,7 +714,7 @@
     "href": "planning.html#analysis-steps",
     "title": "2  Planning an fMRI study",
     "section": "Analysis steps",
-    "text": "Analysis steps\n\nSingle-subject - first level - fixed effects analysis (FFX)\nGroup - second-level - random effects analysis (RFX)\n\n\nThis is equivalent to e.g. conducting many trials per subject to measure reaction time, and then compute a subject-specific mean per condition, after which you would perform the actual statistical inference\nMultilevel modelling is also possible (for small datasets), but less frequent.\n\n\nNo matter what you do, your analysis will boil down to these stages.",
+    "text": "Analysis steps\n\nSingle-subject - first level - fixed effects analysis (FFX)\nGroup - second-level - random effects analysis (RFX)\n(also mixed effects analysis is possible, but relatively rare due to large matrix size)\n\n\nThis is equivalent to e.g. conducting many trials per subject to measure reaction time, and then compute a subject-specific mean per condition, after which you would perform the actual statistical inference\nMultilevel modelling is also possible (for small datasets), but less frequent.\n\n\nNo matter what you do, your analysis will boil down to these stages.",
     "crumbs": [
       "<span class='chapter-number'>2</span>  <span class='chapter-title'>Planning an fMRI study</span>"
     ]
@@ -734,7 +734,7 @@
     "href": "planning.html#whole-brain-or-roi-analysis",
     "title": "2  Planning an fMRI study",
     "section": "Whole-brain or ROI analysis?",
-    "text": "Whole-brain or ROI analysis?\n\n\n\nExploratory: Neural correlates of illusory shapes\n\n\n\n(Larsson et al. 1999)\n\n\n\n\n\n\nHypothesis-driven: Are illusory shapes represented in the dorsal visual stream?\n\n\n\n(Arsenovic, Ischebeck, and Zaretskaya 2022)",
+    "text": "Whole-brain or ROI analysis?\n\n\n\nExploratory: Neural correlates of illusory shapes\n\n\n\n(Larsson et al. 1999)\n\n\n\n\n\n\nHypothesis-driven: Are illusory shapes represented in the dorsal visual stream?\n\n\n\n(Arsenovic et al. 2022)",
     "crumbs": [
       "<span class='chapter-number'>2</span>  <span class='chapter-title'>Planning an fMRI study</span>"
     ]
@@ -784,7 +784,7 @@
     "href": "planning.html#univariate-or-mutlivariate",
     "title": "2  Planning an fMRI study",
     "section": "Univariate or mutlivariate?",
-    "text": "Univariate or mutlivariate?\n\n\n\n(Murphy, Gray, and Cook 2016)\n\n\n\nUnivariate: Does FFA respond to composite face illusion?\n\n\n\n(Foster et al. 2021)\n\n\n\n\nMultivariate: Is early visual cortex representation reflects the composite face illusion?\n\n\n\nGoenitzer et al., unpublished",
+    "text": "Univariate or mutlivariate?\n\n\n\n(Murphy et al. 2016)\n\n\n\nUnivariate: Does FFA respond to composite face illusion?\n\n\n\n(Foster et al. 2021)\n\n\n\n\nMultivariate: Is early visual cortex representation reflects the composite face illusion?\n\n\n\nGoenitzer et al., unpublished",
     "crumbs": [
       "<span class='chapter-number'>2</span>  <span class='chapter-title'>Planning an fMRI study</span>"
     ]
@@ -804,7 +804,7 @@
     "href": "planning.html#references",
     "title": "2  Planning an fMRI study",
     "section": "References",
-    "text": "References\n\n\n\n\nArsenovic, Ana, Anja Ischebeck, and Natalia Zaretskaya. 2022. “Dissociation Between Attention-Dependent and Spatially Specific Illusory Shape Responses Within the Topographic Areas of the Posterior Parietal Cortex.” The Journal of Neuroscience, September. https://doi.org/10.1523/JNEUROSCI.0723-22.2022.\n\n\nCasamitjana, Adrià, Matteo Mancini, Eleanor Robinson, Loïc Peter, Roberto Annunziata, Juri Althonayan, Shauna Crampsie, et al. 2024. “A Next-Generation, Histological Atlas of the Human Brain and Its Application to Automated Brain MRI Segmentation.” http://dx.doi.org/10.1101/2024.02.05.579016.\n\n\nCoates, Adam, David Linhardt, Christian Windischberger, Anja Ischebeck, and Natalia Zaretskaya. 2024. “High-Resolution 7T fMRI Reveals the Visual Zone of the Human Claustrum.” Imaging Neuroscience 2: 1–15. https://doi.org/10.1162/imag_a_00327.\n\n\nFoster, Celia, Isabelle Bülthoff, Andreas Bartels, and Mintao Zhao. 2021. “Investigating Holistic Face Processing Within and Outside of Face-Responsive Brain Regions.” NeuroImage 226 (February): 117565. https://doi.org/10.1016/j.neuroimage.2020.117565.\n\n\nGlasser, Matthew F., Timothy S. Coalson, Emma C. Robinson, Carl D. Hacker, John Harwell, Essa Yacoub, Kamil Ugurbil, et al. 2016. “A Multi-Modal Parcellation of Human Cerebral Cortex.” Nature 536 (7615): 171–78. https://doi.org/10.1038/nature18933.\n\n\nLarsson, Jonas, Katrin Amunts, Balázs Gulyás, Aleksandar Malikovic, Karl Zilles, and Per E. Roland. 1999. “Neuronal Correlates of Real and Illusory Contour Perception: Functional Anatomy with PET.” European Journal of Neuroscience 11 (11): 4024–36. https://doi.org/10.1046/j.1460-9568.1999.00805.x.\n\n\nMurphy, Jennifer, Katie L. H. Gray, and Richard Cook. 2016. “The Composite Face Illusion.” Psychonomic Bulletin & Review 24 (2): 245–61. https://doi.org/10.3758/s13423-016-1131-5.",
+    "text": "References\n\n\n\n\nArsenovic, Ana, Anja Ischebeck, and Natalia Zaretskaya. 2022. “Dissociation Between Attention-Dependent and Spatially Specific Illusory Shape Responses Within the Topographic Areas of the Posterior Parietal Cortex.” The Journal of Neuroscience, ahead of print, September 23. https://doi.org/10.1523/JNEUROSCI.0723-22.2022.\n\n\nCasamitjana, Adrià, Matteo Mancini, Eleanor Robinson, et al. 2024. A Next-Generation, Histological Atlas of the Human Brain and Its Application to Automated Brain MRI Segmentation. http://dx.doi.org/10.1101/2024.02.05.579016.\n\n\nCoates, Adam, David Linhardt, Christian Windischberger, Anja Ischebeck, and Natalia Zaretskaya. 2024. “High-Resolution 7T fMRI Reveals the Visual Zone of the Human Claustrum.” Imaging Neuroscience 2: 1–15. https://doi.org/10.1162/imag_a_00327.\n\n\nFoster, Celia, Isabelle Bülthoff, Andreas Bartels, and Mintao Zhao. 2021. “Investigating Holistic Face Processing Within and Outside of Face-Responsive Brain Regions.” NeuroImage 226 (February): 117565. https://doi.org/10.1016/j.neuroimage.2020.117565.\n\n\nGlasser, Matthew F., Timothy S. Coalson, Emma C. Robinson, et al. 2016. “A Multi-Modal Parcellation of Human Cerebral Cortex.” Nature 536 (7615): 171–78. https://doi.org/10.1038/nature18933.\n\n\nLarsson, Jonas, Katrin Amunts, Balázs Gulyás, Aleksandar Malikovic, Karl Zilles, and Per E. Roland. 1999. “Neuronal Correlates of Real and Illusory Contour Perception: Functional Anatomy with PET.” European Journal of Neuroscience 11 (11): 4024–36. https://doi.org/10.1046/j.1460-9568.1999.00805.x.\n\n\nMurphy, Jennifer, Katie L. H. Gray, and Richard Cook. 2016. “The Composite Face Illusion.” Psychonomic Bulletin & Review 24 (2): 245–61. https://doi.org/10.3758/s13423-016-1131-5.",
     "crumbs": [
       "<span class='chapter-number'>2</span>  <span class='chapter-title'>Planning an fMRI study</span>"
     ]
@@ -1024,7 +1024,7 @@
     "href": "paradigm.html#references",
     "title": "3  Experimental paradigm",
     "section": "References",
-    "text": "References\n\n\n\n\nBrooks, Joseph L. 2012. “Counterbalancing for Serial Order Carryover Effects in Experimental Condition Orders.” Psychological Methods 17 (4): 600–614. https://doi.org/10.1037/a0029310.\n\n\nBuračas, Giedrius T., and Geoffrey M. Boynton. 2002. “Efficient Design of Event-Related fMRI Experiments Using M-Sequences.” NeuroImage 16 (3): 801–13. https://doi.org/10.1006/nimg.2002.1116.\n\n\nDale, Anders M. 1999. “Optimal Experimental Design for Event-Related fMRI.” Human Brain Mapping 8 (2-3): 109–14. https://doi.org/10.1002/(sici)1097-0193(1999)8:2/3&lt;109::aid-hbm7&gt;3.0.co;2-w.\n\n\nWager, Tor D., and Thomas E. Nichols. 2003. “Optimization of Experimental Design in fMRI: A General Framework Using a Genetic Algorithm.” NeuroImage 18 (2): 293–309. https://doi.org/10.1016/s1053-8119(02)00046-0.",
+    "text": "References\n\n\n\n\nBrooks, Joseph L. 2012. “Counterbalancing for Serial Order Carryover Effects in Experimental Condition Orders.” Psychological Methods 17 (4): 600–614. https://doi.org/10.1037/a0029310.\n\n\nBuračas, Giedrius T., and Geoffrey M. Boynton. 2002. “Efficient Design of Event-Related fMRI Experiments Using m-Sequences.” NeuroImage 16 (3): 801–13. https://doi.org/10.1006/nimg.2002.1116.\n\n\nDale, Anders M. 1999. “Optimal Experimental Design for Event-Related fMRI.” Human Brain Mapping 8 (2-3): 109–14. https://doi.org/10.1002/(sici)1097-0193(1999)8:2/3&lt;109::aid-hbm7&gt;3.0.co;2-w.\n\n\nWager, Tor D., and Thomas E. Nichols. 2003. “Optimization of Experimental Design in fMRI: A General Framework Using a Genetic Algorithm.” NeuroImage 18 (2): 293–309. https://doi.org/10.1016/s1053-8119(02)00046-0.",
     "crumbs": [
       "<span class='chapter-number'>3</span>  <span class='chapter-title'>Experimental paradigm</span>"
     ]
@@ -1360,6 +1360,16 @@
     ]
   },
   {
+    "objectID": "data-management.html#validation",
+    "href": "data-management.html#validation",
+    "title": "4  Data management",
+    "section": "Validation",
+    "text": "Validation",
+    "crumbs": [
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Data management</span>"
+    ]
+  },
+  {
     "objectID": "data-management.html#mriqc",
     "href": "data-management.html#mriqc",
     "title": "4  Data management",
@@ -1424,7 +1434,7 @@
     "href": "data-management.html#references",
     "title": "4  Data management",
     "section": "References",
-    "text": "References\n\n\n\n\nBrooks, Joseph L. 2012. “Counterbalancing for Serial Order Carryover Effects in Experimental Condition Orders.” Psychological Methods 17 (4): 600–614. https://doi.org/10.1037/a0029310.\n\n\nEsteban, Oscar, Daniel Birman, Marie Schaer, Oluwasanmi O. Koyejo, Russell A. Poldrack, and Krzysztof J. Gorgolewski. 2017. “MRIQC: Advancing the Automatic Prediction of Image Quality in MRI from Unseen Sites.” Edited by Boris C Bernhardt. PLOS ONE 12 (9): e0184661. https://doi.org/10.1371/journal.pone.0184661.\n\n\nJuavinett, Ashley L. 2022. “The Next Generation of Neuroscientists Needs to Learn How to Code, and We Need New Ways to Teach Them.” Neuron 110 (4): 576–78. https://doi.org/10.1016/j.neuron.2021.12.001.",
+    "text": "References\n\n\n\n\nBrooks, Joseph L. 2012. “Counterbalancing for Serial Order Carryover Effects in Experimental Condition Orders.” Psychological Methods 17 (4): 600–614. https://doi.org/10.1037/a0029310.\n\n\nEsteban, Oscar, Daniel Birman, Marie Schaer, Oluwasanmi O. Koyejo, Russell A. Poldrack, and Krzysztof J. Gorgolewski. 2017. “MRIQC: Advancing the Automatic Prediction of Image Quality in MRI from Unseen Sites.” PLOS ONE 12 (9): e0184661. https://doi.org/10.1371/journal.pone.0184661.\n\n\nJuavinett, Ashley L. 2022. “The Next Generation of Neuroscientists Needs to Learn How to Code, and We Need New Ways to Teach Them.” Neuron 110 (4): 576–78. https://doi.org/10.1016/j.neuron.2021.12.001.",
     "crumbs": [
       "<span class='chapter-number'>4</span>  <span class='chapter-title'>Data management</span>"
     ]
@@ -1474,7 +1484,7 @@
     "href": "preprocessing.html#major-software",
     "title": "5  Preprocessing",
     "section": "Major software",
-    "text": "Major software\n\n\n\n\n\n\n\n\n\nSince 1994 http://www.fil.ion.ucl.ac.uk/spm/\n\n\n\n\n\n\n\nSince 1994 http://afni.nimh.nih.gov/afni/\n\n\n\n\n\n\n\n\n\nSince 2000 http://fsl.fmrib.ox.ac.uk/fsl/fslwiki/\n\n\n\n\n\n\n\nSince 1999 https://freesurfer.net/\n\n\n\n\n\n\nPreprocessing used to be integrated into the software used for the actual analysis. And there are many software for this. On this slide I just put a few of them. Each of them has a slightly different phylosophy behind it, but all of them do roughly the same thing, so at the end it should not matter much which of them you use.\nOne of the oldest ones are:\n\nSPM – statistical parameteric mapping from UCL. It is a free MATLAB-based toolbox. However, it depends on the MATLAB licence, and has not been updated for a long time. The new update just came out which spans the gab from 2012 to 2025 (Tierney et al. 2025).\nAFNI - from NIH\nFSL from Oxford – a set of linux tools, also free and independent of MATLAB, which is an advantage, but requires Linux.\nFreeSurfer/FSFAST form the Martinos center - it is Linux based, and was originally conceived as a tool for structural data analysis, but has an fMRI module\n\nHistorical software\n\nbroccolli, that can utilize GPU computing and can process the same dataset n times faster\n\nWith the awareness of open science, and with the trend towards reproducibility and transparency, and with the release of fMRIprep software, the preprocessing got detached from the actual data analysis.",
+    "text": "Major software\n\n\n\n\n\n\nSince 1994 http://www.fil.ion.ucl.ac.uk/spm/\n\n\n\n\n\n\n\nSince 1994 http://afni.nimh.nih.gov/afni/\n\n\n\n\n\n\n\n\n\nSince 2000 http://fsl.fmrib.ox.ac.uk/fsl/fslwiki/\n\n\n\n\n\n\n\nSince 1999 https://freesurfer.net/\n\n\n\n\n\n\nPreprocessing used to be integrated into the software used for the actual analysis. And there are many software for this. On this slide I just put a few of them. Each of them has a slightly different phylosophy behind it, but all of them do roughly the same thing, so at the end it should not matter much which of them you use.\nOne of the oldest ones are:\n\nSPM – statistical parameteric mapping from UCL. It is a free MATLAB-based toolbox. However, it depends on the MATLAB licence, and has not been updated for a long time. The new update just came out which spans the gab from 2012 to 2025 (Tierney et al. 2025).\nAFNI - from NIH\nFSL from Oxford – a set of linux tools, also free and independent of MATLAB, which is an advantage, but requires Linux.\nFreeSurfer/FSFAST form the Martinos center - it is Linux based, and was originally conceived as a tool for structural data analysis, but has an fMRI module\n\nHistorical software\n\nbroccolli, that can utilize GPU computing and can process the same dataset n times faster\n\nWith the awareness of open science, and with the trend towards reproducibility and transparency, and with the release of fMRIprep software, the preprocessing got detached from the actual data analysis.",
     "crumbs": [
       "<span class='chapter-number'>5</span>  <span class='chapter-title'>Preprocessing</span>"
     ]
@@ -1564,7 +1574,7 @@
     "href": "preprocessing.html#slice-time-correction",
     "title": "5  Preprocessing",
     "section": "Slice-time correction",
-    "text": "Slice-time correction\n\nPurpose: compensate for the lag in slice acquisition\n\n\n\n\n\n\n \n\n\n \n\n\n\n\n\n\n\n\n\nThe next preprocessing step is slice-time correction. What is slice time correction and why do we need it? Remember that typically a functional volume is acquired not all at once, but slice-by-slice, as illustrated here. There are different ways in which the scanner can acquire the slices: it can bie botton-to top (ascending), decending, interleaved. There are also more complex slice acquisition patterns. Remember that the time it takes to acquire one volume is relatively long, in this our example it is 2 seconds. Let’s say a stimulus activates two areas, here and here in the same manner. If we acquire the slices in an asciending manner, we will measure a small signal amplitude in the frist area. By the time we arrive to the second area, the signal amplitude will increase in both areas, so we will measure a highre signal amplitude in the second area.",
+    "text": "Slice-time correction\n\nPurpose: compensate for the lag in slice acquisition\n\n\n\n \n\n\n \n\n\n\n\n\n\n\n\n\nThe next preprocessing step is slice-time correction. What is slice time correction and why do we need it? Remember that typically a functional volume is acquired not all at once, but slice-by-slice, as illustrated here. There are different ways in which the scanner can acquire the slices: it can bie botton-to top (ascending), decending, interleaved. There are also more complex slice acquisition patterns. Remember that the time it takes to acquire one volume is relatively long, in this our example it is 2 seconds. Let’s say a stimulus activates two areas, here and here in the same manner. If we acquire the slices in an asciending manner, we will measure a small signal amplitude in the frist area. By the time we arrive to the second area, the signal amplitude will increase in both areas, so we will measure a highre signal amplitude in the second area.",
     "crumbs": [
       "<span class='chapter-number'>5</span>  <span class='chapter-title'>Preprocessing</span>"
     ]
@@ -1624,7 +1634,7 @@
     "href": "preprocessing.html#reverse-pe-polarity",
     "title": "5  Preprocessing",
     "section": "Reverse PE polarity",
-    "text": "Reverse PE polarity\n\n\n\n\nA&gt;P vs. P&gt;A\n\n\n\n\n\n.\n\n\n\n# gambling example: to view these images, type in the terminal:\nml freesurfer\nfreeview \\\n/home/jovyan/gambling/bids/sub-001/ses-1/func/sub-001_ses-1_task-gambling_acq-Fs2_run-1_bold.nii.gz \\\n/home/jovyan/gambling/bids/sub-001/ses-1/fmap/sub-001_ses-1_acq-Fs2_dir-PA_epi.nii.gz \\\n-ras 3 61 28",
+    "text": "Reverse PE polarity\n\n\n\n\n\nA&gt;P vs. P&gt;A\n\n\n\n\n\n\n\n.\n\n\n\n\n# gambling example: to view these images, type in the terminal:\nml freesurfer\nfreeview \\\n/home/jovyan/gambling/bids/sub-001/ses-1/func/sub-001_ses-1_task-gambling_acq-Fs2_run-1_bold.nii.gz \\\n/home/jovyan/gambling/bids/sub-001/ses-1/fmap/sub-001_ses-1_acq-Fs2_dir-PA_epi.nii.gz \\\n-ras 3 61 28",
     "crumbs": [
       "<span class='chapter-number'>5</span>  <span class='chapter-title'>Preprocessing</span>"
     ]
@@ -1644,7 +1654,7 @@
     "href": "preprocessing.html#co-registration",
     "title": "5  Preprocessing",
     "section": "Co-registration",
-    "text": "Co-registration\n\n\n\n\n2.5 mm iso T2*w vs. 1 mm iso T1w\n\n\n\n\n\n2.5 mm iso T2*w vs. 1 mm iso T1w\n\n\n\n# gambling example: \nml freesurfer\nfreeview '\n/home/jovyan/gambling/bids/sub-001/ses-1/anat/sub-001_ses-1_acq-mprage_T1w.nii.gz \\\n/home/jovyan/gambling/bids/sub-001/ses-1/func/sub-001_ses-1_task-gambling_acq-Fs2_run-1_bold.nii.gz\n\nPurpose #1: view individual activation on a high quality anatomical image\nPurpose #2: mapping to standard space (normalization)",
+    "text": "Co-registration\n\n\n\n\n\n2.5 mm iso T2*w vs. 1 mm iso T1w\n\n\n\n\n\n\n\n2.5 mm iso T2*w vs. 1 mm iso T1w\n\n\n\n\n# gambling example: \nml freesurfer\nfreeview '\n/home/jovyan/gambling/bids/sub-001/ses-1/anat/sub-001_ses-1_acq-mprage_T1w.nii.gz \\\n/home/jovyan/gambling/bids/sub-001/ses-1/func/sub-001_ses-1_task-gambling_acq-Fs2_run-1_bold.nii.gz\n\nPurpose #1: view individual activation on a high quality anatomical image\nPurpose #2: mapping to standard space (normalization)",
     "crumbs": [
       "<span class='chapter-number'>5</span>  <span class='chapter-title'>Preprocessing</span>"
     ]
@@ -1684,7 +1694,7 @@
     "href": "preprocessing.html#corgistration-before-vs.-after",
     "title": "5  Preprocessing",
     "section": "Corgistration before vs. after",
-    "text": "Corgistration before vs. after\n\n\n\n\nstruct -&gt; raw struct -&gt; coreg\n\n\n\n\n\nstruct -&gt; raw struct -&gt; coreg\n\n\n\n\n\nstruct -&gt; raw struct -&gt; coreg\n\n\n\n\n\nstruct -&gt; raw struct -&gt; coreg\n\n\n\n# gambling:\nml freesurfer\nfreeview \\\n/home/jovyan/gambling/bids/sub-001/ses-1/anat/sub-001_ses-1_acq-mprage_T1w.nii.gz \\\n/home/jovyan/gambling/bids/sub-001/ses-1/func/sub-001_ses-1_task-gambling_acq-Fs2_run-1_bold.nii.gz \\\n/home/jovyan/gambling/bids/derivatives/fmriprep/sub-001/ses-1/func/sub-001_ses-1_task-gambling_acq-Fs2_run-1_space-T1w_desc-preproc_bold.nii.gz",
+    "text": "Corgistration before vs. after\n\n\n\n\n\nstruct -&gt; raw struct -&gt; coreg\n\n\n\n\n\n\n\nstruct -&gt; raw struct -&gt; coreg\n\n\n\n\n\n\n\nstruct -&gt; raw struct -&gt; coreg\n\n\n\n\n\n\n\nstruct -&gt; raw struct -&gt; coreg\n\n\n\n\n# gambling:\nml freesurfer\nfreeview \\\n/home/jovyan/gambling/bids/sub-001/ses-1/anat/sub-001_ses-1_acq-mprage_T1w.nii.gz \\\n/home/jovyan/gambling/bids/sub-001/ses-1/func/sub-001_ses-1_task-gambling_acq-Fs2_run-1_bold.nii.gz \\\n/home/jovyan/gambling/bids/derivatives/fmriprep/sub-001/ses-1/func/sub-001_ses-1_task-gambling_acq-Fs2_run-1_space-T1w_desc-preproc_bold.nii.gz",
     "crumbs": [
       "<span class='chapter-number'>5</span>  <span class='chapter-title'>Preprocessing</span>"
     ]
@@ -1694,7 +1704,7 @@
     "href": "preprocessing.html#sec-normalization",
     "title": "5  Preprocessing",
     "section": "Normalization to template space",
-    "text": "Normalization to template space\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nImage source: https://publicdomainreview.org/collection/phrenology-diagrams-from-vaught-s-practical-character-reader-1902/\n\nFinally, if you are preforming a group study, you also need to map each individual subject into some common space. This is not a trivial task. As head shpaes of people are different, there brain shapes are also different. Here I tried to draw the approximate shape if each of these guy’s brains, and some hypothetical template brain.\nNormalization is needed to compensate for individual differences in brain shape for the group analysis.",
+    "text": "Normalization to template space\n\n\n\n\n\n\n\n\n\n\n\n\nImage source: https://publicdomainreview.org/collection/phrenology-diagrams-from-vaught-s-practical-character-reader-1902/\n\nFinally, if you are preforming a group study, you also need to map each individual subject into some common space. This is not a trivial task. As head shpaes of people are different, there brain shapes are also different. Here I tried to draw the approximate shape if each of these guy’s brains, and some hypothetical template brain.\nNormalization is needed to compensate for individual differences in brain shape for the group analysis.",
     "crumbs": [
       "<span class='chapter-number'>5</span>  <span class='chapter-title'>Preprocessing</span>"
     ]
@@ -1724,7 +1734,7 @@
     "href": "preprocessing.html#mapping-to-template",
     "title": "5  Preprocessing",
     "section": "Mapping to template",
-    "text": "Mapping to template\n\n\n\n\n\n\n\n\n\nrigid body\n\n\n\n\n\n\n\naffine\n\n\n\n\n\n\n\nnonlinear (“warp”)\n\n\n\n\n\n\nTo match each of them to the template, it is not enough to coregister them as we did for motion correction, because obviously they are of different sizes. We can add 6 more paraeters to the transform, which compensates does scaling and shearing, to better align them. However, there will still be places wehere they do not align perfectly, because one guy one has a bigger frontal lobe, and gy to a bigger parietal lobe",
+    "text": "Mapping to template\n\n\n\n\n\n\nrigid body\n\n\n\n\n\n\n\naffine\n\n\n\n\n\n\n\nnonlinear (“warp”)\n\n\n\n\n\n\nTo match each of them to the template, it is not enough to coregister them as we did for motion correction, because obviously they are of different sizes. We can add 6 more paraeters to the transform, which compensates does scaling and shearing, to better align them. However, there will still be places wehere they do not align perfectly, because one guy one has a bigger frontal lobe, and gy to a bigger parietal lobe",
     "crumbs": [
       "<span class='chapter-number'>5</span>  <span class='chapter-title'>Preprocessing</span>"
     ]
@@ -1774,7 +1784,7 @@
     "href": "preprocessing.html#spatial-smoothing",
     "title": "5  Preprocessing",
     "section": "Spatial smoothing",
-    "text": "Spatial smoothing\n\n\n\n\n\n\n\n\n\noriginal\n\n\n\n\n\n\n\nsmoothed\n\n\n\n\n\n\nFinally, each volume is typically smoothed with a gaussian to increase the signal and suppress noise. The amount of smoothing is usually expressed by the shape of the gaussian, which, in turn, is described by it’s full width at half maximum. Here are the examples of the original volume, the smoothed volume at 5 fwhm and 10 fwhm. You can see that the signal increase happens at the expense of the spatial resolution.",
+    "text": "Spatial smoothing\n\n\n\n\n\n\noriginal\n\n\n\n\n\n\n\nsmoothed\n\n\n\n\n\n\nFinally, each volume is typically smoothed with a gaussian to increase the signal and suppress noise. The amount of smoothing is usually expressed by the shape of the gaussian, which, in turn, is described by it’s full width at half maximum. Here are the examples of the original volume, the smoothed volume at 5 fwhm and 10 fwhm. You can see that the signal increase happens at the expense of the spatial resolution.",
     "crumbs": [
       "<span class='chapter-number'>5</span>  <span class='chapter-title'>Preprocessing</span>"
     ]
@@ -1794,7 +1804,7 @@
     "href": "preprocessing.html#spatial-smoothing-1",
     "title": "5  Preprocessing",
     "section": "Spatial smoothing",
-    "text": "Spatial smoothing\n\n\n\n\n\n\n\n\n\noriginal\n\n\n\n\n\n\n\n5 mm FWHM\n\n\n\n\n\n\n\n10 mm FWHM\n\n\n\n\n\n\nPurpose1: increase the signal and suppress the noise\nPurpose2: even better compensate for inter-individual differences\nFMRIprep does not smooth the data",
+    "text": "Spatial smoothing\n\n\n\n\n\n\noriginal\n\n\n\n\n\n\n\n5 mm FWHM\n\n\n\n\n\n\n\n10 mm FWHM\n\n\n\n\n\n\nPurpose1: increase the signal and suppress the noise\nPurpose2: even better compensate for inter-individual differences\nFMRIprep does not smooth the data",
     "crumbs": [
       "<span class='chapter-number'>5</span>  <span class='chapter-title'>Preprocessing</span>"
     ]
@@ -1834,7 +1844,7 @@
     "href": "preprocessing.html#example-i",
     "title": "5  Preprocessing",
     "section": "Example I",
-    "text": "Example I\n\n\n\n(Arsenovic, Ischebeck, and Zaretskaya 2022)",
+    "text": "Example I\n\n\n\n(Arsenovic et al. 2022)",
     "crumbs": [
       "<span class='chapter-number'>5</span>  <span class='chapter-title'>Preprocessing</span>"
     ]
@@ -1914,7 +1924,7 @@
     "href": "preprocessing.html#references",
     "title": "5  Preprocessing",
     "section": "References",
-    "text": "References\n\n\n\n\nArsenovic, Ana, Anja Ischebeck, and Natalia Zaretskaya. 2022. “Dissociation Between Attention-Dependent and Spatially Specific Illusory Shape Responses Within the Topographic Areas of the Posterior Parietal Cortex.” The Journal of Neuroscience, September. https://doi.org/10.1523/JNEUROSCI.0723-22.2022.\n\n\nAshburner, John, and Karl J Friston. 2005. “Unified Segmentation.” NeuroImage 26 (3): 839–51. https://doi.org/10.1016/j.neuroimage.2005.02.018.\n\n\nCoates, Adam, David Linhardt, Christian Windischberger, Anja Ischebeck, and Natalia Zaretskaya. 2024. “High-Resolution 7T fMRI Reveals the Visual Zone of the Human Claustrum.” Imaging Neuroscience 2 (October): 1–15. https://doi.org/10.1162/imag_a_00327.\n\n\nEsteban, Oscar, Christopher J. Markiewicz, Ross W. Blair, Craig A. Moodie, A. Ilkay Isik, Asier Erramuzpe, James D. Kent, et al. 2018. “fMRIPrep: A Robust Preprocessing Pipeline for Functional MRI.” Nature Methods 16 (1): 111–16. https://doi.org/10.1038/s41592-018-0235-4.\n\n\nGreve, Douglas N., and Bruce Fischl. 2009. “Accurate and Robust Brain Image Alignment Using Boundary-Based Registration.” NeuroImage 48 (1): 63–72. https://doi.org/10.1016/j.neuroimage.2009.06.060.\n\n\nStelzer, Johannes, Gabriele Lohmann, Karsten Mueller, Tilo Buschmann, and Robert Turner. 2014. “Deficient Approaches to Human Neuroimaging.” Frontiers in Human Neuroscience 8 (July). https://doi.org/10.3389/fnhum.2014.00462.\n\n\nTierney, Tim M., Nicholas A. Alexander, Nicole Labra Avila, Yael Balbastre, Gareth Barnes, Yulia Bezsudnova, Mikael Brudfors, et al. 2025. “SPM 25: Open Source Neuroimaging Analysis Software.” https://doi.org/10.48550/ARXIV.2501.12081.",
+    "text": "References\n\n\n\n\nArsenovic, Ana, Anja Ischebeck, and Natalia Zaretskaya. 2022. “Dissociation Between Attention-Dependent and Spatially Specific Illusory Shape Responses Within the Topographic Areas of the Posterior Parietal Cortex.” The Journal of Neuroscience, ahead of print, September 23. https://doi.org/10.1523/JNEUROSCI.0723-22.2022.\n\n\nAshburner, John, and Karl J Friston. 2005. “Unified Segmentation.” NeuroImage 26 (3): 839–51. https://doi.org/10.1016/j.neuroimage.2005.02.018.\n\n\nCoates, Adam, David Linhardt, Christian Windischberger, Anja Ischebeck, and Natalia Zaretskaya. 2024. “High-Resolution 7T fMRI Reveals the Visual Zone of the Human Claustrum.” Imaging Neuroscience 2 (October): 1–15. https://doi.org/10.1162/imag_a_00327.\n\n\nEsteban, Oscar, Christopher J. Markiewicz, Ross W. Blair, et al. 2018. “fMRIPrep: A Robust Preprocessing Pipeline for Functional MRI.” Nature Methods 16 (1): 111–16. https://doi.org/10.1038/s41592-018-0235-4.\n\n\nGreve, Douglas N., and Bruce Fischl. 2009. “Accurate and Robust Brain Image Alignment Using Boundary-Based Registration.” NeuroImage 48 (1): 63–72. https://doi.org/10.1016/j.neuroimage.2009.06.060.\n\n\nStelzer, Johannes, Gabriele Lohmann, Karsten Mueller, Tilo Buschmann, and Robert Turner. 2014. “Deficient Approaches to Human Neuroimaging.” Frontiers in Human Neuroscience 8 (July). https://doi.org/10.3389/fnhum.2014.00462.\n\n\nTierney, Tim M., Nicholas A. Alexander, Nicole Labra Avila, et al. 2025. SPM 25: Open Source Neuroimaging Analysis Software. https://doi.org/10.48550/ARXIV.2501.12081.",
     "crumbs": [
       "<span class='chapter-number'>5</span>  <span class='chapter-title'>Preprocessing</span>"
     ]
@@ -2040,16 +2050,6 @@
     ]
   },
   {
-    "objectID": "visualization-and-reporting.html#references",
-    "href": "visualization-and-reporting.html#references",
-    "title": "7  Visualization and reporting",
-    "section": "References",
-    "text": "References\n\n\n\n\nFaber, Jennifer, David Kügler, Emad Bahrami, Lea-Sophie Heinz, Dagmar Timmann, Thomas M. Ernst, Katerina Deike-Hofmann, et al. 2022. “CerebNet: A Fast and Reliable Deep-Learning Pipeline for Detailed Cerebellum Sub-Segmentation.” NeuroImage 264 (December): 119703. https://doi.org/10.1016/j.neuroimage.2022.119703.\n\n\nHenschel, Leonie, Sailesh Conjeti, Santiago Estrada, Kersten Diers, Bruce Fischl, and Martin Reuter. 2020. “FastSurfer - A Fast and Accurate Deep Learning Based Neuroimaging Pipeline.” NeuroImage 219 (October): 117012. https://doi.org/10.1016/j.neuroimage.2020.117012.\n\n\nNichols, Thomas E., and Andrew P. Holmes. 2001. “Nonparametric Permutation Tests for Functional Neuroimaging: A Primer with Examples.” Human Brain Mapping 15 (1): 1–25. https://doi.org/10.1002/hbm.1058.",
-    "crumbs": [
-      "<span class='chapter-number'>7</span>  <span class='chapter-title'>Visualization and reporting</span>"
-    ]
-  },
-  {
     "objectID": "visualization-and-reporting.html#whole-brain-analysis",
     "href": "visualization-and-reporting.html#whole-brain-analysis",
     "title": "7  Visualization and reporting",
@@ -2067,6 +2067,86 @@
     "text": "Region-of-interest analysis\n\nMCC for the number of areas examined",
     "crumbs": [
       "<span class='chapter-number'>7</span>  <span class='chapter-title'>Visualization and reporting</span>"
+    ]
+  },
+  {
+    "objectID": "visualization-and-reporting.html#references",
+    "href": "visualization-and-reporting.html#references",
+    "title": "7  Visualization and reporting",
+    "section": "References",
+    "text": "References\n\n\n\n\nFaber, Jennifer, David Kügler, Emad Bahrami, et al. 2022. “CerebNet: A Fast and Reliable Deep-Learning Pipeline for Detailed Cerebellum Sub-Segmentation.” NeuroImage 264 (December): 119703. https://doi.org/10.1016/j.neuroimage.2022.119703.\n\n\nHenschel, Leonie, Sailesh Conjeti, Santiago Estrada, Kersten Diers, Bruce Fischl, and Martin Reuter. 2020. “FastSurfer - a Fast and Accurate Deep Learning Based Neuroimaging Pipeline.” NeuroImage 219 (October): 117012. https://doi.org/10.1016/j.neuroimage.2020.117012.\n\n\nNichols, Thomas E., and Andrew P. Holmes. 2001. “Nonparametric Permutation Tests for Functional Neuroimaging: A Primer with Examples.” Human Brain Mapping 15 (1): 1–25. https://doi.org/10.1002/hbm.1058.",
+    "crumbs": [
+      "<span class='chapter-number'>7</span>  <span class='chapter-title'>Visualization and reporting</span>"
+    ]
+  },
+  {
+    "objectID": "roi.html",
+    "href": "roi.html",
+    "title": "8  ROI analysis",
+    "section": "",
+    "text": "Some guidelines\nin nilearn\nhttps://visualneuroscience.github.io/dicom_to_glm/roi_analysis.html\nNote that the code provided there is rather complex and usually the number of ROIs, contrasts and conditions will be much smaller",
+    "crumbs": [
+      "<span class='chapter-number'>8</span>  <span class='chapter-title'>ROI analysis</span>"
+    ]
+  },
+  {
+    "objectID": "roi.html#generate-contrast-estimate-maps-from-the-glm",
+    "href": "roi.html#generate-contrast-estimate-maps-from-the-glm",
+    "title": "8  ROI analysis",
+    "section": "Generate contrast estimate maps from the GLM",
+    "text": "Generate contrast estimate maps from the GLM\n# compute and write out contrast maps that will be used in the ROI analysis\n# Note: we are using effect_size maps instead of z-stat\n\ncontrast_string_coh = \"coh_audio\"\n# compute the contrast \ncon_coh = models[0].compute_contrast(contrast_string_coh, output_type=\"effect_size\")\ncon_coh.to_filename('contrasts/sub-001_contrast-coherent_statmap-effectsize.nii.gz')\n\ncontrast_string_inc = \"inc_audio\"\n# compute the contrast \ncon_inc = models[0].compute_contrast(contrast_string_inc, output_type=\"effect_size\")\ncon_inc.to_filename('contrasts/sub-001_contrast-incoherent_statmap-effectsize.nii.gz')",
+    "crumbs": [
+      "<span class='chapter-number'>8</span>  <span class='chapter-title'>ROI analysis</span>"
+    ]
+  },
+  {
+    "objectID": "roi.html#subject-loop",
+    "href": "roi.html#subject-loop",
+    "title": "8  ROI analysis",
+    "section": "Subject loop",
+    "text": "Subject loop\nfrom nilearn.maskers import NiftiLabelsMasker\nresults_rois = []\n\nfor sub in subs:\n    labels_file = f\"/home/jovyan/2026_ANI/lobule9_bids_correct/derivatives/fastsurfer/sub-{sub}/mri/cerebellum.CerebNet.nii.gz\"\n    masker=NiftiLabelsMasker(labels_img=labels_file, labels=label_names, standardize=False)\n    for contrast in contrast_names:\n        print(f\"Extracting contrast: {contrast} for subject: {sub}\")\n        label_values = masker.fit_transform(f\"/home/jovyan/2026_ANI/glm/contrasts/sub-{sub}_contrast-{contrast}_statmap-effectsize.nii.gz\")\n        \n        # Convert masker values to long format\n        for label_idx, value in enumerate(label_values):  # Assuming masker_values is 2D with shape (1, n_labels)\n            results_rois.append({\n                \"subject_id\": sub,\n                \"contrast\": contrast,\n                \"label_idx\": label_idx,\n                \"label_name\": label_names[label_idx],\n                \"value\": value\n            })",
+    "crumbs": [
+      "<span class='chapter-number'>8</span>  <span class='chapter-title'>ROI analysis</span>"
+    ]
+  },
+  {
+    "objectID": "roi.html#save-as-csv",
+    "href": "roi.html#save-as-csv",
+    "title": "8  ROI analysis",
+    "section": "Save as csv",
+    "text": "Save as csv\nimport os\nimport pandas as pd\n# Save results_main as a CSV file\noutput_dir = \"/home/jovyan/2026_ANI/glm\"\nos.makedirs(output_dir, exist_ok=True)\ndf_main = pd.DataFrame(results_rois)\n&lt;!-- df_main.to_csv(f\"{output_dir}/results_roi.csv\", index=False) --&gt;\nprint(f\"Results saved to {output_dir}/results_roi.csv\")",
+    "crumbs": [
+      "<span class='chapter-number'>8</span>  <span class='chapter-title'>ROI analysis</span>"
+    ]
+  },
+  {
+    "objectID": "roi.html#plot",
+    "href": "roi.html#plot",
+    "title": "8  ROI analysis",
+    "section": "Plot",
+    "text": "Plot\n\n\n\nhttps://seaborn.pydata.org/",
+    "crumbs": [
+      "<span class='chapter-number'>8</span>  <span class='chapter-title'>ROI analysis</span>"
+    ]
+  },
+  {
+    "objectID": "roi.html#result",
+    "href": "roi.html#result",
+    "title": "8  ROI analysis",
+    "section": "Result",
+    "text": "Result",
+    "crumbs": [
+      "<span class='chapter-number'>8</span>  <span class='chapter-title'>ROI analysis</span>"
+    ]
+  },
+  {
+    "objectID": "roi.html#references",
+    "href": "roi.html#references",
+    "title": "8  ROI analysis",
+    "section": "References",
+    "text": "References",
+    "crumbs": [
+      "<span class='chapter-number'>8</span>  <span class='chapter-title'>ROI analysis</span>"
     ]
   }
 ]

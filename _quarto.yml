@@ -22,6 +22,9 @@ book:
     - preprocessing.qmd
     - glm.qmd
     - visualization-and-reporting.qmd
+    - roi.qmd
+    - restingstate.qmd
+    - mvpa.qmd
 
 format:
   html:
